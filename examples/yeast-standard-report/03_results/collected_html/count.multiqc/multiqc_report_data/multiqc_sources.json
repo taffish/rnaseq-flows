@@ -1,0 +1,30 @@
+{
+    "featureCounts": {
+        "all_sections": {
+            "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+            "WT_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary"
+        }
+    }
+}

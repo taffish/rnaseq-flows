@@ -1,0 +1,27 @@
+{
+  "flow": "rnaseq-report-flow",
+  "version": "0.1.0-r4",
+  "project_name": "RNA-seq project",
+  "started_at": "2026-05-28T02:51:15Z",
+  "finished_at": "2026-05-28T02:51:17Z",
+  "provided_modules": 8,
+  "collected_files": 136,
+  "collected_tables": 56,
+  "collected_plots": 28,
+  "collected_html_reports": 52,
+  "plot_groups": 14,
+  "html_report_links": 52,
+  "outputs": {
+    "report": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/rnaseq_report.html",
+    "interpretation_guide": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/report_interpretation.html",
+    "project_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/project_summary.tsv",
+    "key_metrics": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/key_metrics.tsv",
+    "collected_files": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/collected_files.tsv",
+    "plot_files": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/plot_files.tsv",
+    "plot_gallery": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/plot_gallery.tsv",
+    "html_reports": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/html_reports.tsv",
+    "tool_links": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/tool_links.tsv",
+    "versions": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/versions.tsv",
+    "methods": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/report/04_reports/methods.txt"
+  }
+}

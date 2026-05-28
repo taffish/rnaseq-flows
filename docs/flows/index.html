@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flow Manuals | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../../assets/css/site.css">
+  <link rel="icon" href="../../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../../index.html"><img class="brand-logo" src="../../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="../../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="../quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="../../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <a href="../../examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="section-head">
+      <p class="eyebrow"><span data-lang="en">Flow Manuals</span><span data-lang="zh">流程手册</span></p>
+      <h1 data-lang="en">Use each RNA-seq flow alone or as part of the route</h1>
+      <h1 data-lang="zh">单独使用或串联使用每个 RNA-seq 流程</h1>
+      <p data-lang="en">These manuals explain how each flow is used, how its inputs are prepared, which parameters matter, and how its outputs connect to the next flow.</p>
+      <p data-lang="zh">这些手册说明每个流程如何使用、输入如何准备、关键参数如何选择，以及输出如何接到下一个流程。</p>
+    </div>
+    <div class="manual-grid">
+      <article class="manual-card"><h3><a href="rnaseq-standard-flow.html">rnaseq-standard-flow</a></h3><p data-lang="en">End-to-end umbrella route from FASTQ/reference inputs to the final report.</p><p data-lang="zh">从 FASTQ 和参考输入到最终报告的一站式总流程。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-index-flow.html">rnaseq-index-flow</a></h3><p data-lang="en">Reference preparation, transcript extraction, and index construction.</p><p data-lang="zh">参考整理、转录本提取和索引构建。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-expression-flow.html">rnaseq-expression-flow</a></h3><p data-lang="en">FASTQ QC, Salmon quantification, tximport, and expression matrices.</p><p data-lang="zh">FASTQ 质控、Salmon 定量、tximport 和表达矩阵。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-de-flow.html">rnaseq-de-flow</a></h3><p data-lang="en">DESeq2 differential expression and publication-ready diagnostic plots.</p><p data-lang="zh">DESeq2 差异表达和统一风格诊断图。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-enrichment-flow.html">rnaseq-enrichment-flow</a></h3><p data-lang="en">Offline GMT-based ORA/GSEA enrichment and pathway-level summaries.</p><p data-lang="zh">基于离线 GMT 的 ORA/GSEA 富集和通路层面摘要。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-alignment-flow.html">rnaseq-alignment-flow</a></h3><p data-lang="en">Optional HISAT2 genome alignment and sorted BAM delivery.</p><p data-lang="zh">可选 HISAT2 基因组比对和排序 BAM 输出。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-count-flow.html">rnaseq-count-flow</a></h3><p data-lang="en">featureCounts gene count matrix from alignment BAM files.</p><p data-lang="zh">从比对 BAM 生成 featureCounts 基因计数矩阵。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-alignment-qc-flow.html">rnaseq-alignment-qc-flow</a></h3><p data-lang="en">SAMtools, RSeQC, Qualimap, and MultiQC alignment-level QC.</p><p data-lang="zh">SAMtools、RSeQC、Qualimap 和 MultiQC 比对层面质控。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-report-flow.html">rnaseq-report-flow</a></h3><p data-lang="en">Static bilingual report collection, links, provenance, and interpretation guide.</p><p data-lang="zh">静态双语报告收集、链接、溯源和解读指南。</p></article>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="../../flows/index.html"><span data-lang="en">Flow map</span><span data-lang="zh">流程地图</span></a></span></div></footer>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

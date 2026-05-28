@@ -1,0 +1,122 @@
+{
+    "WT_12": {
+        "Sense": "44.72",
+        "Antisense": "42.08",
+        "Undetermined": "13.200000000000001"
+    },
+    "WT_11": {
+        "Sense": "44.13",
+        "Antisense": "42.79",
+        "Undetermined": "13.07"
+    },
+    "WT_10": {
+        "Sense": "44.269999999999996",
+        "Antisense": "42.54",
+        "Undetermined": "13.19"
+    },
+    "WT_09": {
+        "Sense": "44.16",
+        "Antisense": "42.08",
+        "Undetermined": "13.76"
+    },
+    "WT_08": {
+        "Sense": "44.7",
+        "Antisense": "41.89",
+        "Undetermined": "13.41"
+    },
+    "WT_07": {
+        "Sense": "44.54",
+        "Antisense": "42.36",
+        "Undetermined": "13.100000000000001"
+    },
+    "WT_06": {
+        "Sense": "44.78",
+        "Antisense": "42.059999999999995",
+        "Undetermined": "13.16"
+    },
+    "WT_05": {
+        "Sense": "45.16",
+        "Antisense": "42.55",
+        "Undetermined": "12.29"
+    },
+    "WT_04": {
+        "Sense": "44.37",
+        "Antisense": "42.3",
+        "Undetermined": "13.320000000000002"
+    },
+    "WT_03": {
+        "Sense": "43.8",
+        "Antisense": "43.28",
+        "Undetermined": "12.920000000000002"
+    },
+    "WT_02": {
+        "Sense": "44.61",
+        "Antisense": "42.13",
+        "Undetermined": "13.26"
+    },
+    "WT_01": {
+        "Sense": "44.529999999999994",
+        "Antisense": "42.17",
+        "Undetermined": "13.3"
+    },
+    "SNF2KO_12": {
+        "Sense": "44.11",
+        "Antisense": "41.99",
+        "Undetermined": "13.900000000000002"
+    },
+    "SNF2KO_11": {
+        "Sense": "44.25",
+        "Antisense": "41.78",
+        "Undetermined": "13.969999999999999"
+    },
+    "SNF2KO_10": {
+        "Sense": "44.55",
+        "Antisense": "42.0",
+        "Undetermined": "13.450000000000001"
+    },
+    "SNF2KO_09": {
+        "Sense": "44.86",
+        "Antisense": "41.97",
+        "Undetermined": "13.170000000000002"
+    },
+    "SNF2KO_08": {
+        "Sense": "44.879999999999995",
+        "Antisense": "42.16",
+        "Undetermined": "12.959999999999999"
+    },
+    "SNF2KO_07": {
+        "Sense": "44.46",
+        "Antisense": "41.92",
+        "Undetermined": "13.62"
+    },
+    "SNF2KO_06": {
+        "Sense": "44.59",
+        "Antisense": "41.88",
+        "Undetermined": "13.530000000000001"
+    },
+    "SNF2KO_05": {
+        "Sense": "44.36",
+        "Antisense": "42.28",
+        "Undetermined": "13.36"
+    },
+    "SNF2KO_04": {
+        "Sense": "44.57",
+        "Antisense": "42.54",
+        "Undetermined": "12.889999999999999"
+    },
+    "SNF2KO_03": {
+        "Sense": "44.769999999999996",
+        "Antisense": "41.81",
+        "Undetermined": "13.420000000000002"
+    },
+    "SNF2KO_02": {
+        "Sense": "44.49",
+        "Antisense": "41.97",
+        "Undetermined": "13.530000000000001"
+    },
+    "SNF2KO_01": {
+        "Sense": "44.58",
+        "Antisense": "42.120000000000005",
+        "Undetermined": "13.3"
+    }
+}

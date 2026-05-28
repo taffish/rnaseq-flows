@@ -1,0 +1,98 @@
+{
+    "WT_12": {
+        "Unique Reads": "388134.0",
+        "Duplicate Reads": "111866.0"
+    },
+    "WT_11": {
+        "Unique Reads": "355475.0",
+        "Duplicate Reads": "144525.0"
+    },
+    "WT_10": {
+        "Unique Reads": "376811.0",
+        "Duplicate Reads": "123189.0"
+    },
+    "WT_09": {
+        "Unique Reads": "352944.0",
+        "Duplicate Reads": "147056.0"
+    },
+    "WT_08": {
+        "Unique Reads": "373535.0",
+        "Duplicate Reads": "126465.0"
+    },
+    "WT_07": {
+        "Unique Reads": "385639.0",
+        "Duplicate Reads": "114361.0"
+    },
+    "WT_06": {
+        "Unique Reads": "394580.0",
+        "Duplicate Reads": "105420.0"
+    },
+    "WT_05": {
+        "Unique Reads": "392527.0",
+        "Duplicate Reads": "107473.0"
+    },
+    "WT_04": {
+        "Unique Reads": "394681.0",
+        "Duplicate Reads": "105319.0"
+    },
+    "WT_03": {
+        "Unique Reads": "380595.0",
+        "Duplicate Reads": "119405.0"
+    },
+    "WT_02": {
+        "Unique Reads": "387180.0",
+        "Duplicate Reads": "112820.0"
+    },
+    "WT_01": {
+        "Unique Reads": "379477.0",
+        "Duplicate Reads": "120523.0"
+    },
+    "SNF2KO_12": {
+        "Unique Reads": "404975.0",
+        "Duplicate Reads": "95025.0"
+    },
+    "SNF2KO_11": {
+        "Unique Reads": "393826.0",
+        "Duplicate Reads": "106174.0"
+    },
+    "SNF2KO_10": {
+        "Unique Reads": "383298.0",
+        "Duplicate Reads": "116702.0"
+    },
+    "SNF2KO_09": {
+        "Unique Reads": "393868.0",
+        "Duplicate Reads": "106132.0"
+    },
+    "SNF2KO_08": {
+        "Unique Reads": "391175.0",
+        "Duplicate Reads": "108825.0"
+    },
+    "SNF2KO_07": {
+        "Unique Reads": "401491.0",
+        "Duplicate Reads": "98509.0"
+    },
+    "SNF2KO_06": {
+        "Unique Reads": "403282.0",
+        "Duplicate Reads": "96718.0"
+    },
+    "SNF2KO_05": {
+        "Unique Reads": "404014.0",
+        "Duplicate Reads": "95986.0"
+    },
+    "SNF2KO_04": {
+        "Unique Reads": "375774.0",
+        "Duplicate Reads": "124226.0"
+    },
+    "SNF2KO_03": {
+        "Unique Reads": "396144.0",
+        "Duplicate Reads": "103856.0"
+    },
+    "SNF2KO_02": {
+        "Unique Reads": "385298.0",
+        "Duplicate Reads": "114702.0"
+    },
+    "SNF2KO_01": {
+        "Unique Reads": "408088.0",
+        "Duplicate Reads": "91912.0"
+    }
+}

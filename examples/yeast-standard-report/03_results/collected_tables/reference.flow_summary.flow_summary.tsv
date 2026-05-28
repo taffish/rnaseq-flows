@@ -1,0 +1,7 @@
+key	value
+outdir	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference
+transcripts	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/transcripts/transcripts.fa
+tx2gene	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/tx2gene.tsv
+hisat2_index_prefix	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/hisat2_index/genome
+reference_summary	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/reference_summary.tsv
+genome_index	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/genome_index.tsv

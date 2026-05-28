@@ -1,0 +1,14 @@
+metric	value
+flow	rnaseq-de-flow
+version	0.1.0-r2
+samples	24
+input_genes	7099
+tested_genes	5780
+significant_genes	366
+up_genes	134
+down_genes	232
+padj_cutoff	0.05
+lfc_cutoff	1
+fit_type	parametric
+lfc_shrink	none
+contrast	condition:snf2_KO:WT

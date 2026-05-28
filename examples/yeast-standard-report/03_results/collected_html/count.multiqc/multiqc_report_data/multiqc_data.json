@@ -1,0 +1,2689 @@
+{
+    "report_multiqc_command": "/usr/local/bin/multiqc /home/kyhan/test/rna-seq/yeast-standard-out/03_results/count --outdir /home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports --filename multiqc_report.html --data-format json --force --quiet",
+    "report_data_sources": {
+        "featureCounts": {
+            "all_sections": {
+                "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary"
+            }
+        }
+    },
+    "report_general_stats_data": {
+        "featurecounts": {
+            "SNF2KO_01": {
+                "Total": 557736,
+                "Assigned": 357226,
+                "Unassigned_Unmapped": 13811,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 97939,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 4373,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84387,
+                "percent_assigned": 64.04929931006784
+            },
+            "SNF2KO_02": {
+                "Total": 594305,
+                "Assigned": 324036,
+                "Unassigned_Unmapped": 16592,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 169483,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3564,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 80630,
+                "percent_assigned": 54.523519068491765
+            },
+            "SNF2KO_03": {
+                "Total": 555912,
+                "Assigned": 355820,
+                "Unassigned_Unmapped": 16279,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 95940,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3549,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84324,
+                "percent_assigned": 64.00653340816532
+            },
+            "SNF2KO_04": {
+                "Total": 631071,
+                "Assigned": 307279,
+                "Unassigned_Unmapped": 8850,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 240457,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3465,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 71020,
+                "percent_assigned": 48.69166860781117
+            },
+            "SNF2KO_05": {
+                "Total": 565834,
+                "Assigned": 349345,
+                "Unassigned_Unmapped": 17156,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 114206,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3813,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 81314,
+                "percent_assigned": 61.73983889267877
+            },
+            "SNF2KO_06": {
+                "Total": 559710,
+                "Assigned": 350435,
+                "Unassigned_Unmapped": 17484,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 103019,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3908,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84864,
+                "percent_assigned": 62.61010165978811
+            },
+            "SNF2KO_07": {
+                "Total": 560907,
+                "Assigned": 348792,
+                "Unassigned_Unmapped": 18113,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 103508,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 4032,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 86462,
+                "percent_assigned": 62.18357053843151
+            },
+            "SNF2KO_08": {
+                "Total": 579640,
+                "Assigned": 335479,
+                "Unassigned_Unmapped": 18747,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 140851,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3573,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 80990,
+                "percent_assigned": 57.87713063280657
+            },
+            "SNF2KO_09": {
+                "Total": 560300,
+                "Assigned": 351956,
+                "Unassigned_Unmapped": 16151,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 103627,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3510,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85056,
+                "percent_assigned": 62.81563448152775
+            },
+            "SNF2KO_10": {
+                "Total": 558666,
+                "Assigned": 351466,
+                "Unassigned_Unmapped": 16148,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 101156,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3159,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 86737,
+                "percent_assigned": 62.911650252565934
+            },
+            "SNF2KO_11": {
+                "Total": 559407,
+                "Assigned": 349699,
+                "Unassigned_Unmapped": 19663,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 101584,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3372,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85089,
+                "percent_assigned": 62.51244621536735
+            },
+            "SNF2KO_12": {
+                "Total": 555021,
+                "Assigned": 356967,
+                "Unassigned_Unmapped": 15111,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 93965,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3750,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85228,
+                "percent_assigned": 64.31594480208857
+            },
+            "WT_01": {
+                "Total": 579033,
+                "Assigned": 340049,
+                "Unassigned_Unmapped": 18093,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 133511,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2090,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85290,
+                "percent_assigned": 58.72705009904444
+            },
+            "WT_02": {
+                "Total": 584388,
+                "Assigned": 336952,
+                "Unassigned_Unmapped": 15070,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 144412,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2915,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85039,
+                "percent_assigned": 57.65895261367447
+            },
+            "WT_03": {
+                "Total": 580274,
+                "Assigned": 335188,
+                "Unassigned_Unmapped": 20297,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 138625,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2303,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 83861,
+                "percent_assigned": 57.76374609236326
+            },
+            "WT_04": {
+                "Total": 578606,
+                "Assigned": 344945,
+                "Unassigned_Unmapped": 14186,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 132498,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2807,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84170,
+                "percent_assigned": 59.61656118325769
+            },
+            "WT_05": {
+                "Total": 582800,
+                "Assigned": 341878,
+                "Unassigned_Unmapped": 15492,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 139442,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3233,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 82755,
+                "percent_assigned": 58.66129032258065
+            },
+            "WT_06": {
+                "Total": 572362,
+                "Assigned": 350133,
+                "Unassigned_Unmapped": 12518,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 121594,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3228,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84889,
+                "percent_assigned": 61.17334833549397
+            },
+            "WT_07": {
+                "Total": 577991,
+                "Assigned": 341958,
+                "Unassigned_Unmapped": 15004,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 132274,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2863,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85892,
+                "percent_assigned": 59.16320496339908
+            },
+            "WT_08": {
+                "Total": 583896,
+                "Assigned": 332950,
+                "Unassigned_Unmapped": 15366,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 142936,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2590,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 90054,
+                "percent_assigned": 57.022140929206564
+            },
+            "WT_09": {
+                "Total": 580331,
+                "Assigned": 333643,
+                "Unassigned_Unmapped": 13761,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 138350,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 1751,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 92826,
+                "percent_assigned": 57.49184517111786
+            },
+            "WT_10": {
+                "Total": 611990,
+                "Assigned": 316373,
+                "Unassigned_Unmapped": 17407,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 195767,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2418,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 80025,
+                "percent_assigned": 51.69577934279972
+            },
+            "WT_11": {
+                "Total": 598925,
+                "Assigned": 325432,
+                "Unassigned_Unmapped": 15131,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 171698,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 1762,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84902,
+                "percent_assigned": 54.33601870017114
+            },
+            "WT_12": {
+                "Total": 581258,
+                "Assigned": 337204,
+                "Unassigned_Unmapped": 17352,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 138605,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2646,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85451,
+                "percent_assigned": 58.01279294220467
+            }
+        }
+    },
+    "report_general_stats_headers": {
+        "featurecounts": {
+            "Assigned": {
+                "title": "Assigned",
+                "description": "Assigned reads (millions)",
+                "scale": "PuBu",
+                "shared_key": "read_count",
+                "hidden": true,
+                "namespace": "featureCounts",
+                "clean_rid": "featurecounts-Assigned",
+                "rid": "featurecounts-Assigned",
+                "modify": null,
+                "min": 0,
+                "suffix": " M",
+                "placement": 1000
+            },
+            "percent_assigned": {
+                "title": "Assigned",
+                "description": "% Assigned reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn",
+                "namespace": "featureCounts",
+                "clean_rid": "featurecounts-percent_assigned",
+                "rid": "featurecounts-percent_assigned",
+                "placement": 1000
+            }
+        }
+    },
+    "report_creation_date": "2026-05-28, 10:50 CST",
+    "report_plot_data": {
+        "featureCounts_assignment_plot": {
+            "id": "featureCounts_assignment_plot",
+            "anchor": "featureCounts_assignment_plot",
+            "plot_type": "bar plot",
+            "layout": {
+                "autosize": true,
+                "height": 620,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "white",
+                    "font": {
+                        "color": "rgba(60,60,60,1)"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": true,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "color": "rgba(60,60,60,1)",
+                            "family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
+                        },
+                        "legend": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)"
+                            }
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(80, 80, 80, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(100, 100, 100, 0.5)"
+                        },
+                        "paper_bgcolor": "rgba(0,0,0,0)",
+                        "plot_bgcolor": "rgba(0,0,0,0)",
+                        "title": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)",
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "featureCounts: Assignments",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "featureCounts_assignment_plot",
+                    "label": "1",
+                    "uid": "featureCounts_assignment_plot",
+                    "dconfig": {
+                        "title": "featureCounts: Assignments",
+                        "subtitle": "24 bars"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "featureCounts: Assignments<br><sup>24 bars</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.2f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": 0,
+                                "maxallowed": 631071.0
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 24,
+                    "cats": [
+                        {
+                            "name": "Assigned",
+                            "color": "rgba(124,181,236,1)",
+                            "data": [
+                                337204.0,
+                                325432.0,
+                                316373.0,
+                                333643.0,
+                                332950.0,
+                                341958.0,
+                                350133.0,
+                                341878.0,
+                                344945.0,
+                                335188.0,
+                                336952.0,
+                                340049.0,
+                                356967.0,
+                                349699.0,
+                                351466.0,
+                                351956.0,
+                                335479.0,
+                                348792.0,
+                                350435.0,
+                                349345.0,
+                                307279.0,
+                                355820.0,
+                                324036.0,
+                                357226.0
+                            ],
+                            "data_pct": [
+                                58.01279294220467,
+                                54.33601870017114,
+                                51.69577934279972,
+                                57.49184517111786,
+                                57.022140929206564,
+                                59.16320496339908,
+                                61.17334833549397,
+                                58.66129032258065,
+                                59.61656118325769,
+                                57.76374609236326,
+                                57.65895261367447,
+                                58.72705009904444,
+                                64.31594480208857,
+                                62.51244621536735,
+                                62.911650252565934,
+                                62.81563448152775,
+                                57.87713063280657,
+                                62.18357053843151,
+                                62.61010165978811,
+                                61.73983889267877,
+                                48.69166860781117,
+                                64.00653340816532,
+                                54.523519068491765,
+                                64.04929931006784
+                            ]
+                        },
+                        {
+                            "name": "Unassigned: Unmapped",
+                            "color": "rgba(67,67,72,1)",
+                            "data": [
+                                17352.0,
+                                15131.0,
+                                17407.0,
+                                13761.0,
+                                15366.0,
+                                15004.0,
+                                12518.0,
+                                15492.0,
+                                14186.0,
+                                20297.0,
+                                15070.0,
+                                18093.0,
+                                15111.0,
+                                19663.0,
+                                16148.0,
+                                16151.0,
+                                18747.0,
+                                18113.0,
+                                17484.0,
+                                17156.0,
+                                8850.0,
+                                16279.0,
+                                16592.0,
+                                13811.0
+                            ],
+                            "data_pct": [
+                                2.9852492352793423,
+                                2.5263597278457235,
+                                2.8443275216915307,
+                                2.3712329687712703,
+                                2.6316330305396853,
+                                2.595888171269103,
+                                2.187077409052313,
+                                2.6582017844886754,
+                                2.451754734655361,
+                                3.4978303353243465,
+                                2.578766162207301,
+                                3.124692375045982,
+                                2.7225996854173085,
+                                3.5149721043891122,
+                                2.890456909853114,
+                                2.882562912725326,
+                                3.2342488441101374,
+                                3.229234079802891,
+                                3.123760518840114,
+                                3.0319846456734663,
+                                1.4023778623958318,
+                                2.9283411763012848,
+                                2.791832476590303,
+                                2.4762611701593586
+                            ]
+                        },
+                        {
+                            "name": "Unassigned: Multi Mapping",
+                            "color": "rgba(244,91,91,1)",
+                            "data": [
+                                138605.0,
+                                171698.0,
+                                195767.0,
+                                138350.0,
+                                142936.0,
+                                132274.0,
+                                121594.0,
+                                139442.0,
+                                132498.0,
+                                138625.0,
+                                144412.0,
+                                133511.0,
+                                93965.0,
+                                101584.0,
+                                101156.0,
+                                103627.0,
+                                140851.0,
+                                103508.0,
+                                103019.0,
+                                114206.0,
+                                240457.0,
+                                95940.0,
+                                169483.0,
+                                97939.0
+                            ],
+                            "data_pct": [
+                                23.84569330658675,
+                                28.66769628918479,
+                                31.98859458487884,
+                                23.83984312401026,
+                                24.479701864715633,
+                                22.88513142938212,
+                                21.244247521673344,
+                                23.926218256691833,
+                                22.899520571857188,
+                                23.889576303608294,
+                                24.71166416832652,
+                                23.057580483323058,
+                                16.929990036413038,
+                                18.15922932676924,
+                                18.1067041846112,
+                                18.494913439228984,
+                                24.29973776826996,
+                                18.453683052627262,
+                                18.405781565453537,
+                                20.18365810467381,
+                                38.103002673233284,
+                                17.258127185597722,
+                                28.51784857943312,
+                                17.56010011905274
+                            ]
+                        },
+                        {
+                            "name": "Unassigned: No Features",
+                            "color": "rgba(67,67,72,1)",
+                            "data": [
+                                2646.0,
+                                1762.0,
+                                2418.0,
+                                1751.0,
+                                2590.0,
+                                2863.0,
+                                3228.0,
+                                3233.0,
+                                2807.0,
+                                2303.0,
+                                2915.0,
+                                2090.0,
+                                3750.0,
+                                3372.0,
+                                3159.0,
+                                3510.0,
+                                3573.0,
+                                4032.0,
+                                3908.0,
+                                3813.0,
+                                3465.0,
+                                3549.0,
+                                3564.0,
+                                4373.0
+                            ],
+                            "data_pct": [
+                                0.45521954106438106,
+                                0.29419376382685647,
+                                0.3951044951714897,
+                                0.30172436075274284,
+                                0.4435721429843671,
+                                0.4953364325742097,
+                                0.5639787407270224,
+                                0.5547357584076871,
+                                0.4851315057223742,
+                                0.3968814732350579,
+                                0.4988124328357187,
+                                0.3609466127146467,
+                                0.675650110536358,
+                                0.6027811593347956,
+                                0.5654541353867965,
+                                0.6264501160092808,
+                                0.6164170864674625,
+                                0.7188357428236767,
+                                0.6982187204087831,
+                                0.6738725491928728,
+                                0.5490665868024358,
+                                0.638410395889997,
+                                0.5996920773003761,
+                                0.7840627106731499
+                            ]
+                        },
+                        {
+                            "name": "Unassigned: Ambiguity",
+                            "color": "rgba(247,163,92,1)",
+                            "data": [
+                                85451.0,
+                                84902.0,
+                                80025.0,
+                                92826.0,
+                                90054.0,
+                                85892.0,
+                                84889.0,
+                                82755.0,
+                                84170.0,
+                                83861.0,
+                                85039.0,
+                                85290.0,
+                                85228.0,
+                                85089.0,
+                                86737.0,
+                                85056.0,
+                                80990.0,
+                                86462.0,
+                                84864.0,
+                                81314.0,
+                                71020.0,
+                                84324.0,
+                                80630.0,
+                                84387.0
+                            ],
+                            "data_pct": [
+                                14.701044974864864,
+                                14.17573151897149,
+                                13.076194055458423,
+                                15.995354375347862,
+                                15.422952032553741,
+                                14.860439003375486,
+                                14.831347993053349,
+                                14.199553877831159,
+                                14.547032004507384,
+                                14.451965795469038,
+                                14.55180462295598,
+                                14.729730429871873,
+                                15.355815365544728,
+                                15.210571194139508,
+                                15.525734517582956,
+                                15.180439050508657,
+                                13.97246566834587,
+                                15.414676586314666,
+                                15.16213753550946,
+                                14.370645807781079,
+                                11.253884269757286,
+                                15.168587834045677,
+                                13.567107798184432,
+                                15.130276690046903
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "WT_12",
+                        "WT_11",
+                        "WT_10",
+                        "WT_09",
+                        "WT_08",
+                        "WT_07",
+                        "WT_06",
+                        "WT_05",
+                        "WT_04",
+                        "WT_03",
+                        "WT_02",
+                        "WT_01",
+                        "SNF2KO_12",
+                        "SNF2KO_11",
+                        "SNF2KO_10",
+                        "SNF2KO_09",
+                        "SNF2KO_08",
+                        "SNF2KO_07",
+                        "SNF2KO_06",
+                        "SNF2KO_05",
+                        "SNF2KO_04",
+                        "SNF2KO_03",
+                        "SNF2KO_02",
+                        "SNF2KO_01"
+                    ],
+                    "cats_clustered": null,
+                    "samples_clustered": null,
+                    "group_labels": null,
+                    "offset_groups": null
+                }
+            ],
+            "pconfig": {
+                "id": "featureCounts_assignment_plot",
+                "title": "featureCounts: Assignments",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "flat_if_very_large": true,
+                "stacking": "relative",
+                "hide_empty": null,
+                "hide_zero_cats": true,
+                "sort_samples": true,
+                "cluster_samples": false,
+                "cluster_method": "complete",
+                "cluster_switch_clustered_active": true,
+                "use_legend": null,
+                "suffix": null,
+                "lab_format": null,
+                "sample_groups": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "sort_switch_sorted_active": false,
+            "cluster_switch_clustered_active": true
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "anchor": "general_stats_table",
+            "plot_type": "violin plot",
+            "layout": {
+                "autosize": true,
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": false,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "color": "rgba(60,60,60,1)",
+                            "family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
+                        },
+                        "legend": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)"
+                            }
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(80, 80, 80, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(100, 100, 100, 0.5)"
+                        },
+                        "paper_bgcolor": "rgba(0,0,0,0)",
+                        "plot_bgcolor": "rgba(0,0,0,0)",
+                        "title": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)",
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "tickfont": {
+                        "size": 9,
+                        "color": "rgba(0,0,0,0.5)"
+                    },
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "tickfont": {
+                        "size": 9,
+                        "color": "rgba(0,0,0,0.5)"
+                    },
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "plot_id": "general_stats_table",
+                    "label": "1",
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": "",
+                        "title": "General Statistics",
+                        "subtitle": "24 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "General Statistics<br><sup>24 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": ""
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "#999999",
+                        "line": {
+                            "width": 0
+                        },
+                        "opacity": 1,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 24,
+                    "metrics": [
+                        "featurecounts-Assigned",
+                        "featurecounts-percent_assigned"
+                    ],
+                    "header_by_metric": {
+                        "featurecounts-Assigned": {
+                            "title": "Assigned",
+                            "description": "Assigned reads (millions)",
+                            "suffix": " M",
+                            "dmin": 0.0,
+                            "dmax": 0.357226,
+                            "hidden": true,
+                            "xaxis": {
+                                "ticksuffix": " M",
+                                "tickvals": null,
+                                "range": [
+                                    -0.00178613,
+                                    0.35902106065
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "featureCounts",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        },
+                        "featurecounts-percent_assigned": {
+                            "title": "Assigned",
+                            "description": "% Assigned reads",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "featureCounts",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_value_by_sample_by_metric": {
+                        "featurecounts-Assigned": {
+                            "SNF2KO_01": 0.357226,
+                            "SNF2KO_02": 0.324036,
+                            "SNF2KO_03": 0.35581999999999997,
+                            "SNF2KO_04": 0.30727899999999997,
+                            "SNF2KO_05": 0.34934499999999996,
+                            "SNF2KO_06": 0.350435,
+                            "SNF2KO_07": 0.348792,
+                            "SNF2KO_08": 0.33547899999999997,
+                            "SNF2KO_09": 0.351956,
+                            "SNF2KO_10": 0.351466,
+                            "SNF2KO_11": 0.349699,
+                            "SNF2KO_12": 0.356967,
+                            "WT_01": 0.340049,
+                            "WT_02": 0.336952,
+                            "WT_03": 0.335188,
+                            "WT_04": 0.344945,
+                            "WT_05": 0.34187799999999996,
+                            "WT_06": 0.35013299999999997,
+                            "WT_07": 0.341958,
+                            "WT_08": 0.33294999999999997,
+                            "WT_09": 0.33364299999999997,
+                            "WT_10": 0.31637299999999996,
+                            "WT_11": 0.325432,
+                            "WT_12": 0.337204
+                        },
+                        "featurecounts-percent_assigned": {
+                            "SNF2KO_01": 64.04929931006784,
+                            "SNF2KO_02": 54.523519068491765,
+                            "SNF2KO_03": 64.00653340816532,
+                            "SNF2KO_04": 48.69166860781117,
+                            "SNF2KO_05": 61.73983889267877,
+                            "SNF2KO_06": 62.61010165978811,
+                            "SNF2KO_07": 62.18357053843151,
+                            "SNF2KO_08": 57.87713063280657,
+                            "SNF2KO_09": 62.81563448152775,
+                            "SNF2KO_10": 62.911650252565934,
+                            "SNF2KO_11": 62.51244621536735,
+                            "SNF2KO_12": 64.31594480208857,
+                            "WT_01": 58.72705009904444,
+                            "WT_02": 57.65895261367447,
+                            "WT_03": 57.76374609236326,
+                            "WT_04": 59.61656118325769,
+                            "WT_05": 58.66129032258065,
+                            "WT_06": 61.17334833549397,
+                            "WT_07": 59.16320496339908,
+                            "WT_08": 57.022140929206564,
+                            "WT_09": 57.49184517111786,
+                            "WT_10": 51.69577934279972,
+                            "WT_11": 54.33601870017114,
+                            "WT_12": 58.01279294220467
+                        }
+                    },
+                    "scatter_value_by_sample_by_metric": {
+                        "featurecounts-Assigned": {},
+                        "featurecounts-percent_assigned": {}
+                    },
+                    "all_samples": [
+                        "SNF2KO_01",
+                        "SNF2KO_02",
+                        "SNF2KO_03",
+                        "SNF2KO_04",
+                        "SNF2KO_05",
+                        "SNF2KO_06",
+                        "SNF2KO_07",
+                        "SNF2KO_08",
+                        "SNF2KO_09",
+                        "SNF2KO_10",
+                        "SNF2KO_11",
+                        "SNF2KO_12",
+                        "WT_01",
+                        "WT_02",
+                        "WT_03",
+                        "WT_04",
+                        "WT_05",
+                        "WT_06",
+                        "WT_07",
+                        "WT_08",
+                        "WT_09",
+                        "WT_10",
+                        "WT_11",
+                        "WT_12"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6",
+                            "opacity": 1
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white",
+                            "font": {
+                                "color": "rgba(60,60,60,1)"
+                            }
+                        }
+                    },
+                    "dt": {
+                        "id": "general_stats_table",
+                        "anchor": "general_stats_table_table",
+                        "pconfig": {
+                            "id": "general_stats_table",
+                            "title": "General Statistics",
+                            "subtitle": null,
+                            "anchor": null,
+                            "table_title": null,
+                            "height": null,
+                            "width": null,
+                            "square": false,
+                            "logswitch": false,
+                            "logswitch_active": false,
+                            "logswitch_label": "Log10",
+                            "cpswitch": true,
+                            "cpswitch_c_active": true,
+                            "cpswitch_counts_label": "Counts",
+                            "cpswitch_percent_label": "Percentages",
+                            "xLog": null,
+                            "yLog": null,
+                            "xlog": false,
+                            "ylog": false,
+                            "data_labels": [],
+                            "xTitle": null,
+                            "yTitle": null,
+                            "xlab": null,
+                            "ylab": null,
+                            "xsuffix": null,
+                            "ysuffix": null,
+                            "tt_suffix": null,
+                            "xLabFormat": null,
+                            "yLabFormat": null,
+                            "xLabelFormat": null,
+                            "yLabelFormat": null,
+                            "xlab_format": null,
+                            "ylab_format": null,
+                            "tt_label": null,
+                            "xDecimals": null,
+                            "yDecimals": null,
+                            "decimalPlaces": null,
+                            "x_decimals": null,
+                            "y_decimals": null,
+                            "tt_decimals": null,
+                            "xmin": null,
+                            "xmax": null,
+                            "ymin": null,
+                            "ymax": null,
+                            "xFloor": null,
+                            "xCeiling": null,
+                            "yFloor": null,
+                            "yCeiling": null,
+                            "x_clipmin": null,
+                            "x_clipmax": null,
+                            "y_clipmin": null,
+                            "y_clipmax": null,
+                            "save_data_file": true,
+                            "showlegend": null,
+                            "xMinRange": null,
+                            "yMinRange": null,
+                            "x_minrange": null,
+                            "y_minrange": null,
+                            "xPlotBands": null,
+                            "yPlotBands": null,
+                            "xPlotLines": null,
+                            "yPlotLines": null,
+                            "x_bands": null,
+                            "y_bands": null,
+                            "x_lines": null,
+                            "y_lines": null,
+                            "series_label": "samples",
+                            "flat_if_very_large": false,
+                            "namespace": "",
+                            "save_file": true,
+                            "raw_data_fn": "multiqc_general_stats",
+                            "defaultsort": null,
+                            "sortRows": true,
+                            "sort_rows": true,
+                            "only_defined_headers": true,
+                            "col1_header": "Sample Name",
+                            "no_beeswarm": false,
+                            "no_violin": false,
+                            "scale": "GnBu",
+                            "min": null,
+                            "parse_numeric": true,
+                            "rows_are_samples": true
+                        },
+                        "section_by_id": {
+                            "featurecounts": {
+                                "column_by_key": {
+                                    "Assigned": {
+                                        "rid": "featurecounts-Assigned",
+                                        "clean_rid": "featurecounts-Assigned",
+                                        "title": "Assigned",
+                                        "description": "Assigned reads (millions)",
+                                        "scale": "PuBu",
+                                        "hidden": true,
+                                        "placement": 1000.0,
+                                        "namespace": "featureCounts",
+                                        "colour": null,
+                                        "color": null,
+                                        "max": null,
+                                        "dmax": 0.357226,
+                                        "min": 0.0,
+                                        "dmin": 0.0,
+                                        "ceiling": null,
+                                        "floor": null,
+                                        "minRange": null,
+                                        "minrange": null,
+                                        "shared_key": "read_count",
+                                        "tt_decimals": null,
+                                        "suffix": " M",
+                                        "cond_formatting_colours": [
+                                            {
+                                                "blue": "#337ab7"
+                                            },
+                                            {
+                                                "lbue": "#5bc0de"
+                                            },
+                                            {
+                                                "pass": "#5cb85c"
+                                            },
+                                            {
+                                                "warn": "#f0ad4e"
+                                            },
+                                            {
+                                                "fail": "#d9534f"
+                                            },
+                                            {
+                                                "male": "#5bc0de"
+                                            },
+                                            {
+                                                "female": "#d9534f"
+                                            }
+                                        ],
+                                        "cond_formatting_rules": {},
+                                        "bgcols": {},
+                                        "bars_zero_centrepoint": false,
+                                        "modify": null,
+                                        "format": null
+                                    },
+                                    "percent_assigned": {
+                                        "rid": "featurecounts-percent_assigned",
+                                        "clean_rid": "featurecounts-percent_assigned",
+                                        "title": "Assigned",
+                                        "description": "% Assigned reads",
+                                        "scale": "RdYlGn",
+                                        "hidden": false,
+                                        "placement": 1000.0,
+                                        "namespace": "featureCounts",
+                                        "colour": null,
+                                        "color": null,
+                                        "max": 100.0,
+                                        "dmax": 100.0,
+                                        "min": 0.0,
+                                        "dmin": 0.0,
+                                        "ceiling": null,
+                                        "floor": null,
+                                        "minRange": null,
+                                        "minrange": null,
+                                        "shared_key": null,
+                                        "tt_decimals": null,
+                                        "suffix": "%",
+                                        "cond_formatting_colours": [
+                                            {
+                                                "blue": "#337ab7"
+                                            },
+                                            {
+                                                "lbue": "#5bc0de"
+                                            },
+                                            {
+                                                "pass": "#5cb85c"
+                                            },
+                                            {
+                                                "warn": "#f0ad4e"
+                                            },
+                                            {
+                                                "fail": "#d9534f"
+                                            },
+                                            {
+                                                "male": "#5bc0de"
+                                            },
+                                            {
+                                                "female": "#d9534f"
+                                            }
+                                        ],
+                                        "cond_formatting_rules": {},
+                                        "bgcols": {},
+                                        "bars_zero_centrepoint": false,
+                                        "modify": null,
+                                        "format": null
+                                    }
+                                },
+                                "rows_by_sgroup": {
+                                    "SNF2KO_01": [
+                                        {
+                                            "sample": "SNF2KO_01",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 357226,
+                                                    "mod": 0.357226,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 64.04929931006784,
+                                                    "mod": 64.04929931006784,
+                                                    "fmt": "64.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_02": [
+                                        {
+                                            "sample": "SNF2KO_02",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 324036,
+                                                    "mod": 0.324036,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 54.523519068491765,
+                                                    "mod": 54.523519068491765,
+                                                    "fmt": "54.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_03": [
+                                        {
+                                            "sample": "SNF2KO_03",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 355820,
+                                                    "mod": 0.35581999999999997,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 64.00653340816532,
+                                                    "mod": 64.00653340816532,
+                                                    "fmt": "64.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_04": [
+                                        {
+                                            "sample": "SNF2KO_04",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 307279,
+                                                    "mod": 0.30727899999999997,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 48.69166860781117,
+                                                    "mod": 48.69166860781117,
+                                                    "fmt": "48.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_05": [
+                                        {
+                                            "sample": "SNF2KO_05",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 349345,
+                                                    "mod": 0.34934499999999996,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 61.73983889267877,
+                                                    "mod": 61.73983889267877,
+                                                    "fmt": "61.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_06": [
+                                        {
+                                            "sample": "SNF2KO_06",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 350435,
+                                                    "mod": 0.350435,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 62.61010165978811,
+                                                    "mod": 62.61010165978811,
+                                                    "fmt": "62.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_07": [
+                                        {
+                                            "sample": "SNF2KO_07",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 348792,
+                                                    "mod": 0.348792,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 62.18357053843151,
+                                                    "mod": 62.18357053843151,
+                                                    "fmt": "62.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_08": [
+                                        {
+                                            "sample": "SNF2KO_08",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 335479,
+                                                    "mod": 0.33547899999999997,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 57.87713063280657,
+                                                    "mod": 57.87713063280657,
+                                                    "fmt": "57.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_09": [
+                                        {
+                                            "sample": "SNF2KO_09",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 351956,
+                                                    "mod": 0.351956,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 62.81563448152775,
+                                                    "mod": 62.81563448152775,
+                                                    "fmt": "62.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_10": [
+                                        {
+                                            "sample": "SNF2KO_10",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 351466,
+                                                    "mod": 0.351466,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 62.911650252565934,
+                                                    "mod": 62.911650252565934,
+                                                    "fmt": "62.9"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_11": [
+                                        {
+                                            "sample": "SNF2KO_11",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 349699,
+                                                    "mod": 0.349699,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 62.51244621536735,
+                                                    "mod": 62.51244621536735,
+                                                    "fmt": "62.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SNF2KO_12": [
+                                        {
+                                            "sample": "SNF2KO_12",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 356967,
+                                                    "mod": 0.356967,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 64.31594480208857,
+                                                    "mod": 64.31594480208857,
+                                                    "fmt": "64.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_01": [
+                                        {
+                                            "sample": "WT_01",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 340049,
+                                                    "mod": 0.340049,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 58.72705009904444,
+                                                    "mod": 58.72705009904444,
+                                                    "fmt": "58.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_02": [
+                                        {
+                                            "sample": "WT_02",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 336952,
+                                                    "mod": 0.336952,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 57.65895261367447,
+                                                    "mod": 57.65895261367447,
+                                                    "fmt": "57.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_03": [
+                                        {
+                                            "sample": "WT_03",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 335188,
+                                                    "mod": 0.335188,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 57.76374609236326,
+                                                    "mod": 57.76374609236326,
+                                                    "fmt": "57.8"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_04": [
+                                        {
+                                            "sample": "WT_04",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 344945,
+                                                    "mod": 0.344945,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 59.61656118325769,
+                                                    "mod": 59.61656118325769,
+                                                    "fmt": "59.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_05": [
+                                        {
+                                            "sample": "WT_05",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 341878,
+                                                    "mod": 0.34187799999999996,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 58.66129032258065,
+                                                    "mod": 58.66129032258065,
+                                                    "fmt": "58.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_06": [
+                                        {
+                                            "sample": "WT_06",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 350133,
+                                                    "mod": 0.35013299999999997,
+                                                    "fmt": "0.4"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 61.17334833549397,
+                                                    "mod": 61.17334833549397,
+                                                    "fmt": "61.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_07": [
+                                        {
+                                            "sample": "WT_07",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 341958,
+                                                    "mod": 0.341958,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 59.16320496339908,
+                                                    "mod": 59.16320496339908,
+                                                    "fmt": "59.2"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_08": [
+                                        {
+                                            "sample": "WT_08",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 332950,
+                                                    "mod": 0.33294999999999997,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 57.022140929206564,
+                                                    "mod": 57.022140929206564,
+                                                    "fmt": "57.0"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_09": [
+                                        {
+                                            "sample": "WT_09",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 333643,
+                                                    "mod": 0.33364299999999997,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 57.49184517111786,
+                                                    "mod": 57.49184517111786,
+                                                    "fmt": "57.5"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_10": [
+                                        {
+                                            "sample": "WT_10",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 316373,
+                                                    "mod": 0.31637299999999996,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 51.69577934279972,
+                                                    "mod": 51.69577934279972,
+                                                    "fmt": "51.7"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_11": [
+                                        {
+                                            "sample": "WT_11",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 325432,
+                                                    "mod": 0.325432,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 54.33601870017114,
+                                                    "mod": 54.33601870017114,
+                                                    "fmt": "54.3"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "WT_12": [
+                                        {
+                                            "sample": "WT_12",
+                                            "data": {
+                                                "Assigned": {
+                                                    "raw": 337204,
+                                                    "mod": 0.337204,
+                                                    "fmt": "0.3"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 58.01279294220467,
+                                                    "mod": 58.01279294220467,
+                                                    "fmt": "58.0"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "headers_in_order": {
+                            "1000.0": [
+                                [
+                                    0,
+                                    "Assigned"
+                                ],
+                                [
+                                    0,
+                                    "percent_assigned"
+                                ]
+                            ]
+                        }
+                    },
+                    "show_table_by_default": true,
+                    "is_downsampled": false
+                }
+            ],
+            "pconfig": {
+                "id": "general_stats_table",
+                "title": "General Statistics",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": null,
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "flat_if_very_large": false,
+                "namespace": "",
+                "save_file": true,
+                "raw_data_fn": "multiqc_general_stats",
+                "defaultsort": null,
+                "sortRows": true,
+                "sort_rows": true,
+                "only_defined_headers": true,
+                "col1_header": "Sample Name",
+                "no_beeswarm": false,
+                "no_violin": false,
+                "scale": "GnBu",
+                "min": null,
+                "parse_numeric": true,
+                "rows_are_samples": true
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "violin_height": 70,
+            "extra_height": 63,
+            "no_violin": false,
+            "show_table": true,
+            "show_table_by_default": true,
+            "n_samples": 24,
+            "table_anchor": "general_stats_table_table"
+        }
+    },
+    "config_analysis_dir": [
+        "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count"
+    ],
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/usr/local/lib/python3.11/site-packages/multiqc",
+    "config_short_version": "1.35",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.35",
+    "config_output_dir": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports",
+    "config_sample_names_rename": [],
+    "config_sample_names_rename_buttons": [],
+    "config_analysis_dir_abs": [
+        "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count"
+    ],
+    "report_saved_raw_data": {
+        "multiqc_featurecounts": {
+            "SNF2KO_01": {
+                "Total": 557736,
+                "Assigned": 357226,
+                "Unassigned_Unmapped": 13811,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 97939,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 4373,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84387,
+                "percent_assigned": 64.04929931006784
+            },
+            "SNF2KO_02": {
+                "Total": 594305,
+                "Assigned": 324036,
+                "Unassigned_Unmapped": 16592,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 169483,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3564,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 80630,
+                "percent_assigned": 54.523519068491765
+            },
+            "SNF2KO_03": {
+                "Total": 555912,
+                "Assigned": 355820,
+                "Unassigned_Unmapped": 16279,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 95940,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3549,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84324,
+                "percent_assigned": 64.00653340816532
+            },
+            "SNF2KO_04": {
+                "Total": 631071,
+                "Assigned": 307279,
+                "Unassigned_Unmapped": 8850,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 240457,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3465,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 71020,
+                "percent_assigned": 48.69166860781117
+            },
+            "SNF2KO_05": {
+                "Total": 565834,
+                "Assigned": 349345,
+                "Unassigned_Unmapped": 17156,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 114206,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3813,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 81314,
+                "percent_assigned": 61.73983889267877
+            },
+            "SNF2KO_06": {
+                "Total": 559710,
+                "Assigned": 350435,
+                "Unassigned_Unmapped": 17484,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 103019,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3908,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84864,
+                "percent_assigned": 62.61010165978811
+            },
+            "SNF2KO_07": {
+                "Total": 560907,
+                "Assigned": 348792,
+                "Unassigned_Unmapped": 18113,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 103508,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 4032,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 86462,
+                "percent_assigned": 62.18357053843151
+            },
+            "SNF2KO_08": {
+                "Total": 579640,
+                "Assigned": 335479,
+                "Unassigned_Unmapped": 18747,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 140851,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3573,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 80990,
+                "percent_assigned": 57.87713063280657
+            },
+            "SNF2KO_09": {
+                "Total": 560300,
+                "Assigned": 351956,
+                "Unassigned_Unmapped": 16151,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 103627,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3510,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85056,
+                "percent_assigned": 62.81563448152775
+            },
+            "SNF2KO_10": {
+                "Total": 558666,
+                "Assigned": 351466,
+                "Unassigned_Unmapped": 16148,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 101156,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3159,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 86737,
+                "percent_assigned": 62.911650252565934
+            },
+            "SNF2KO_11": {
+                "Total": 559407,
+                "Assigned": 349699,
+                "Unassigned_Unmapped": 19663,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 101584,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3372,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85089,
+                "percent_assigned": 62.51244621536735
+            },
+            "SNF2KO_12": {
+                "Total": 555021,
+                "Assigned": 356967,
+                "Unassigned_Unmapped": 15111,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 93965,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3750,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85228,
+                "percent_assigned": 64.31594480208857
+            },
+            "WT_01": {
+                "Total": 579033,
+                "Assigned": 340049,
+                "Unassigned_Unmapped": 18093,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 133511,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2090,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85290,
+                "percent_assigned": 58.72705009904444
+            },
+            "WT_02": {
+                "Total": 584388,
+                "Assigned": 336952,
+                "Unassigned_Unmapped": 15070,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 144412,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2915,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85039,
+                "percent_assigned": 57.65895261367447
+            },
+            "WT_03": {
+                "Total": 580274,
+                "Assigned": 335188,
+                "Unassigned_Unmapped": 20297,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 138625,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2303,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 83861,
+                "percent_assigned": 57.76374609236326
+            },
+            "WT_04": {
+                "Total": 578606,
+                "Assigned": 344945,
+                "Unassigned_Unmapped": 14186,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 132498,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2807,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84170,
+                "percent_assigned": 59.61656118325769
+            },
+            "WT_05": {
+                "Total": 582800,
+                "Assigned": 341878,
+                "Unassigned_Unmapped": 15492,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 139442,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3233,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 82755,
+                "percent_assigned": 58.66129032258065
+            },
+            "WT_06": {
+                "Total": 572362,
+                "Assigned": 350133,
+                "Unassigned_Unmapped": 12518,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 121594,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 3228,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84889,
+                "percent_assigned": 61.17334833549397
+            },
+            "WT_07": {
+                "Total": 577991,
+                "Assigned": 341958,
+                "Unassigned_Unmapped": 15004,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 132274,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2863,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85892,
+                "percent_assigned": 59.16320496339908
+            },
+            "WT_08": {
+                "Total": 583896,
+                "Assigned": 332950,
+                "Unassigned_Unmapped": 15366,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 142936,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2590,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 90054,
+                "percent_assigned": 57.022140929206564
+            },
+            "WT_09": {
+                "Total": 580331,
+                "Assigned": 333643,
+                "Unassigned_Unmapped": 13761,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 138350,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 1751,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 92826,
+                "percent_assigned": 57.49184517111786
+            },
+            "WT_10": {
+                "Total": 611990,
+                "Assigned": 316373,
+                "Unassigned_Unmapped": 17407,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 195767,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2418,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 80025,
+                "percent_assigned": 51.69577934279972
+            },
+            "WT_11": {
+                "Total": 598925,
+                "Assigned": 325432,
+                "Unassigned_Unmapped": 15131,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 171698,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 1762,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 84902,
+                "percent_assigned": 54.33601870017114
+            },
+            "WT_12": {
+                "Total": 581258,
+                "Assigned": 337204,
+                "Unassigned_Unmapped": 17352,
+                "Unassigned_Read_Type": 0,
+                "Unassigned_Singleton": 0,
+                "Unassigned_MappingQuality": 0,
+                "Unassigned_Chimera": 0,
+                "Unassigned_FragmentLength": 0,
+                "Unassigned_Duplicate": 0,
+                "Unassigned_MultiMapping": 138605,
+                "Unassigned_Secondary": 0,
+                "Unassigned_NonSplit": 0,
+                "Unassigned_NoFeatures": 2646,
+                "Unassigned_Overlapping_Length": 0,
+                "Unassigned_Ambiguity": 85451,
+                "percent_assigned": 58.01279294220467
+            }
+        },
+        "multiqc_general_stats": {
+            "SNF2KO_01": {
+                "featurecounts-Assigned": 0.357226,
+                "featurecounts-percent_assigned": 64.04929931006784
+            },
+            "SNF2KO_02": {
+                "featurecounts-Assigned": 0.324036,
+                "featurecounts-percent_assigned": 54.523519068491765
+            },
+            "SNF2KO_03": {
+                "featurecounts-Assigned": 0.35581999999999997,
+                "featurecounts-percent_assigned": 64.00653340816532
+            },
+            "SNF2KO_04": {
+                "featurecounts-Assigned": 0.30727899999999997,
+                "featurecounts-percent_assigned": 48.69166860781117
+            },
+            "SNF2KO_05": {
+                "featurecounts-Assigned": 0.34934499999999996,
+                "featurecounts-percent_assigned": 61.73983889267877
+            },
+            "SNF2KO_06": {
+                "featurecounts-Assigned": 0.350435,
+                "featurecounts-percent_assigned": 62.61010165978811
+            },
+            "SNF2KO_07": {
+                "featurecounts-Assigned": 0.348792,
+                "featurecounts-percent_assigned": 62.18357053843151
+            },
+            "SNF2KO_08": {
+                "featurecounts-Assigned": 0.33547899999999997,
+                "featurecounts-percent_assigned": 57.87713063280657
+            },
+            "SNF2KO_09": {
+                "featurecounts-Assigned": 0.351956,
+                "featurecounts-percent_assigned": 62.81563448152775
+            },
+            "SNF2KO_10": {
+                "featurecounts-Assigned": 0.351466,
+                "featurecounts-percent_assigned": 62.911650252565934
+            },
+            "SNF2KO_11": {
+                "featurecounts-Assigned": 0.349699,
+                "featurecounts-percent_assigned": 62.51244621536735
+            },
+            "SNF2KO_12": {
+                "featurecounts-Assigned": 0.356967,
+                "featurecounts-percent_assigned": 64.31594480208857
+            },
+            "WT_01": {
+                "featurecounts-Assigned": 0.340049,
+                "featurecounts-percent_assigned": 58.72705009904444
+            },
+            "WT_02": {
+                "featurecounts-Assigned": 0.336952,
+                "featurecounts-percent_assigned": 57.65895261367447
+            },
+            "WT_03": {
+                "featurecounts-Assigned": 0.335188,
+                "featurecounts-percent_assigned": 57.76374609236326
+            },
+            "WT_04": {
+                "featurecounts-Assigned": 0.344945,
+                "featurecounts-percent_assigned": 59.61656118325769
+            },
+            "WT_05": {
+                "featurecounts-Assigned": 0.34187799999999996,
+                "featurecounts-percent_assigned": 58.66129032258065
+            },
+            "WT_06": {
+                "featurecounts-Assigned": 0.35013299999999997,
+                "featurecounts-percent_assigned": 61.17334833549397
+            },
+            "WT_07": {
+                "featurecounts-Assigned": 0.341958,
+                "featurecounts-percent_assigned": 59.16320496339908
+            },
+            "WT_08": {
+                "featurecounts-Assigned": 0.33294999999999997,
+                "featurecounts-percent_assigned": 57.022140929206564
+            },
+            "WT_09": {
+                "featurecounts-Assigned": 0.33364299999999997,
+                "featurecounts-percent_assigned": 57.49184517111786
+            },
+            "WT_10": {
+                "featurecounts-Assigned": 0.31637299999999996,
+                "featurecounts-percent_assigned": 51.69577934279972
+            },
+            "WT_11": {
+                "featurecounts-Assigned": 0.325432,
+                "featurecounts-percent_assigned": 54.33601870017114
+            },
+            "WT_12": {
+                "featurecounts-Assigned": 0.337204,
+                "featurecounts-percent_assigned": 58.01279294220467
+            }
+        }
+    }
+}

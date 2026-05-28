@@ -1,0 +1,14 @@
+metric	value
+project_name	RNA-seq project
+flow	rnaseq-report-flow
+version	0.1.0-r4
+started_at	2026-05-28T02:51:15Z
+finished_at	2026-05-28T02:51:17Z
+standard_out	/home/kyhan/test/rna-seq/yeast-standard-out
+provided_modules	8
+collected_files	136
+collected_tables	56
+collected_plots	28
+collected_html_reports	52
+plot_groups	14
+html_report_links	52

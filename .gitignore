@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+
+# Local preview and editor noise
+*.log
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Optional local tooling
+node_modules/
+.cache/
+.pytest_cache/
+
+# Keep generated example reports only when intentionally curated for the site.
+tmp/
+scratch/

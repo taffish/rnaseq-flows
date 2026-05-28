@@ -1,0 +1,10 @@
+metric	value
+sample_count	24
+gene_count	7099
+assigned_reads	8175205
+strand	0
+paired	false
+feature_type	exon
+attribute	gene_id
+min_mapq	0
+filled_missing_attribute	10

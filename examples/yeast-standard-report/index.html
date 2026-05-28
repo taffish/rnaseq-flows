@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yeast SNF2 Report | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../../assets/css/site.css">
+  <link rel="icon" href="../../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../../index.html"><img class="brand-logo" src="../../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="../../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="../../docs/quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="../index.html" aria-current="page"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <a href="04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow"><span data-lang="en">Live Example</span><span data-lang="zh">在线示例</span></p>
+        <h1><span data-lang="en">Yeast SNF2 RNA-seq standard report</span><span data-lang="zh">Yeast SNF2 RNA-seq 标准流程报告</span></h1>
+        <p class="lead" data-lang="en">A complete public example produced by the TAFFISH RNA-seq standard flow. It includes the main project report, long-form interpretation guide, plots, tables, QC HTML bundles, logs, and provenance.</p>
+        <p class="lead" data-lang="zh">这是由 TAFFISH RNA-seq 标准流程生成的完整公开示例，包含主项目报告、长文解读指南、图表、表格、QC HTML 子报告、日志和溯源文件。</p>
+        <div class="actions">
+          <a class="button primary" href="04_reports/rnaseq_report.html" data-lang="en">Open main report</a>
+          <a class="button primary" href="04_reports/rnaseq_report.html" data-lang="zh">打开主报告</a>
+          <a class="button" href="04_reports/report_interpretation.html" data-lang="en">Open interpretation guide</a>
+          <a class="button" href="04_reports/report_interpretation.html" data-lang="zh">打开解读指南</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="stat-grid" style="grid-template-columns:1fr 1fr">
+          <div class="stat"><strong>24</strong><span data-lang="en">samples</span><span data-lang="zh">样本</span></div>
+          <div class="stat"><strong>5780</strong><span data-lang="en">tested genes</span><span data-lang="zh">测试基因</span></div>
+          <div class="stat"><strong>366</strong><span data-lang="en">significant genes</span><span data-lang="zh">显著基因</span></div>
+          <div class="stat"><strong>1428</strong><span data-lang="en">GSEA terms</span><span data-lang="zh">GSEA 条目</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="plot-strip">
+        <article class="plot-card"><img src="03_results/collected_plots/de.sample_correlation_heatmap.png" alt="Sample correlation heatmap"><p><span data-lang="en">Sample correlation</span><span data-lang="zh">样本相关性</span></p></article>
+        <article class="plot-card"><img src="03_results/collected_plots/de.deg_counts_barplot.png" alt="DEG counts barplot"><p><span data-lang="en">DEG counts</span><span data-lang="zh">差异基因数量</span></p></article>
+        <article class="plot-card"><img src="03_results/collected_plots/enrichment.gsea_nes_plot.png" alt="GSEA NES plot"><p>GSEA NES</p></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid two">
+        <article class="card">
+          <h2 data-lang="en">What is included</h2>
+          <h2 data-lang="zh">包含内容</h2>
+          <ul>
+            <li>04_reports/rnaseq_report.html</li>
+            <li>04_reports/report_interpretation.html</li>
+            <li>03_results/collected_plots/</li>
+            <li>03_results/collected_tables/</li>
+            <li>03_results/collected_html/</li>
+            <li>run.manifest.json</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h2 data-lang="en">Run summary</h2>
+          <h2 data-lang="zh">运行摘要</h2>
+          <p data-lang="en">The report collector found 8 modules, 136 collected files, 28 plot files, 56 collected tables, and 52 linked HTML reports.</p>
+          <p data-lang="zh">报告收集器发现 8 个模块、136 个收集文件、28 个图文件、56 个表格和 52 个 HTML 子报告链接。</p>
+          <div class="actions">
+            <a class="button" href="04_reports/project_summary.tsv"><span data-lang="en">Project summary</span><span data-lang="zh">项目摘要</span></a>
+            <a class="button" href="04_reports/plot_files.tsv"><span data-lang="en">Plot index</span><span data-lang="zh">图表索引</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">Yeast SNF2 RNA-seq example</span><span data-lang="zh">Yeast SNF2 RNA-seq 示例</span></span><span><a href="../index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a></span></div></footer>
+  <script src="../../assets/js/site.js"></script>
+</body>
+</html>

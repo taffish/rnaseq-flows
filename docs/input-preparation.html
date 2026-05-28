@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Input Preparation | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="icon" href="../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
+      </div>
+    </nav>
+  </header>
+  <main class="page-layout">
+    <aside class="side-nav"><a href="#samples"><span data-lang="en">Samples</span><span data-lang="zh">样本</span></a><a href="#metadata"><span data-lang="en">Metadata</span><span data-lang="zh">元数据</span></a><a href="#reference"><span data-lang="en">Reference</span><span data-lang="zh">参考</span></a><a href="#genesets"><span data-lang="en">Gene sets</span><span data-lang="zh">基因集</span></a></aside>
+    <div class="content">
+      <section id="samples" class="article">
+        <p class="eyebrow"><span data-lang="en">Inputs</span><span data-lang="zh">输入</span></p>
+        <h1 data-lang="en">Prepare analysis-ready inputs</h1>
+        <h1 data-lang="zh">准备可分析输入</h1>
+        <p data-lang="en">The sample table names biological samples and points to local FASTQ files. Relative paths are resolved from the sample table location.</p>
+        <p data-lang="zh">样本表给出生物学样本名并指向本地 FASTQ 文件。相对路径按样本表所在目录解释。</p>
+        <pre class="code-block"><code>sample_id	read1	read2	condition
+WT_01	reads/WT_01_R1.fq.gz	reads/WT_01_R2.fq.gz	WT
+KO_01	reads/KO_01_R1.fq.gz	reads/KO_01_R2.fq.gz	treated</code></pre>
+      </section>
+      <section id="metadata" class="article">
+        <h2><span data-lang="en">Metadata</span><span data-lang="zh">元数据</span></h2>
+        <p data-lang="en">Metadata drives the statistical design. Keep sample IDs identical to the expression matrix sample names and make the contrast explicit.</p>
+        <p data-lang="zh">样本元数据决定统计设计。样本 ID 需要和表达矩阵中的样本名一致，并明确写出比较组。</p>
+        <pre class="code-block"><code>sample	condition
+WT_01	WT
+KO_01	treated</code></pre>
+      </section>
+      <section id="reference" class="article">
+        <h2 data-lang="en">Reference genome and annotation</h2>
+        <h2 data-lang="zh">参考基因组和注释</h2>
+        <p data-lang="en">Use genome FASTA and annotation from the same release. Sequence IDs in the annotation must match the FASTA headers used by the index flow.</p>
+        <p data-lang="zh">基因组 FASTA 和注释文件应来自同一个数据库版本。注释中的序列 ID 必须和参考流程读取的 FASTA header 对齐。</p>
+      </section>
+      <section id="genesets" class="article">
+        <h2 data-lang="en">Gene sets and background</h2>
+        <h2 data-lang="zh">Gene sets 和背景基因</h2>
+        <p data-lang="en">Enrichment uses offline GMT files. A background gene list is recommended for ORA so the tested universe matches the experiment and annotation space.</p>
+        <p data-lang="zh">富集分析使用离线 GMT 文件。ORA 推荐提供背景基因列表，让被测试背景和实验/注释空间一致。</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a></span></div></footer>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

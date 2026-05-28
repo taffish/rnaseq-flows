@@ -1,0 +1,4 @@
+rnaseq-index-flow prepared a reference bundle for TAFFISH RNA-seq flows.
+The run used mode=genome_annotation, indexer=salmon, and genome_indexer=hisat2. The genome FASTA and annotation were supplied by the user; AGAT normalized the annotation, gffread wrote GTF and transcript FASTA, and a strict tx2gene.tsv table was derived from transcript features.
+A HISAT2 genome index was built from the same genome FASTA for downstream splice-aware alignment.
+The output directory contains recorded commands, tool versions, logs, a manifest, summary tables, and the requested transcriptome and genome index files.

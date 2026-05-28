@@ -1,0 +1,15 @@
+{
+    "MultiQC": [
+        "10.1093/bioinformatics/btw354"
+    ],
+    "qualimap": [
+        "10.1093/bioinformatics/btv566",
+        "10.1093/bioinformatics/bts503"
+    ],
+    "rseqc": [
+        "10.1093/bioinformatics/bts356"
+    ],
+    "samtools": [
+        "10.1093/bioinformatics/btp352"
+    ]
+}

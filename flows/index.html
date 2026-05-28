@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flow Map | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="icon" href="../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="../flows/index.html" aria-current="page"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="../docs/quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <a href="../examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-layout flow-page">
+    <aside class="side-nav" aria-label="Section navigation">
+      <a href="#overview"><span data-lang="en">Overview</span><span data-lang="zh">总览</span></a>
+      <a href="#route-map"><span data-lang="en">Route diagram</span><span data-lang="zh">路线图</span></a>
+      <a href="#standard"><span data-lang="en">Standard umbrella</span><span data-lang="zh">总入口</span></a>
+      <a href="#details"><span data-lang="en">Flow details</span><span data-lang="zh">流程详情</span></a>
+      <a href="#choose"><span data-lang="en">Route choice</span><span data-lang="zh">路线选择</span></a>
+    </aside>
+    <div class="content">
+      <section id="overview" class="article">
+        <p class="eyebrow"><span data-lang="en">Flow Map</span><span data-lang="zh">流程地图</span></p>
+        <h1 data-lang="en">RNA-seq flow family</h1>
+        <h1 data-lang="zh">RNA-seq 流程家族</h1>
+        <p data-lang="en">The TAFFISH RNA-seq suite is organized as a family of small, versioned, auditable flow apps. Each subflow has its own stable biological responsibility, test data route, command provenance, logs, and output contract. <code>rnaseq-standard-flow</code> is the umbrella command that connects those subflows into one end-to-end run; it does not hide a second analysis implementation behind the scenes.</p>
+        <p data-lang="zh">TAFFISH RNA-seq 套件由一组小而清楚、可版本化、可审计的流程应用组成。每个子流程都有稳定的生物学职责、测试数据路线、命令溯源、日志和输出契约。<code>rnaseq-standard-flow</code> 是把这些子流程串起来的一站式总入口；它不是在内部重新写一套隐藏分析逻辑，而是显式组合已经发布和验证的子流程。</p>
+        <div class="actions"><a class="button" href="../docs/flows/index.html"><span data-lang="en">Open all usage manuals</span><span data-lang="zh">打开全部使用手册</span></a></div>
+      </section>
+
+      <section id="route-map" class="article">
+        <h2 data-lang="en">How the flows connect</h2>
+        <h2 data-lang="zh">这些流程如何连接</h2>
+        <p data-lang="en">The first lane is the default Salmon-first expression route. The second lane is optional and adds genome-aware alignment, BAM-level QC, and featureCounts evidence when users need alignment evidence in addition to transcript quantification.</p>
+        <p data-lang="zh">第一条线是默认 Salmon-first 表达定量路线。第二条线是可选证据路线，用于在转录本定量之外补充基因组比对、BAM 层面 QC 和 featureCounts 计数证据。</p>
+        <div class="flow-map" aria-label="RNA-seq flow route diagram">
+          <div class="flow-lane umbrella-lane">
+            <div class="flow-lane-head">
+              <strong>rnaseq-standard-flow</strong>
+              <span data-lang="en">one command that orchestrates the selected route</span>
+              <span data-lang="zh">根据参数选择并编排下方路线的一站式入口</span>
+            </div>
+            <div class="flow-node umbrella">
+              <a href="../docs/flows/rnaseq-standard-flow.html">rnaseq-standard-flow</a>
+              <small>0.1.0-r2</small>
+            </div>
+          </div>
+
+          <div class="flow-lane">
+            <div class="flow-lane-head">
+              <strong data-lang="en">Default expression route</strong>
+              <strong data-lang="zh">默认表达路线</strong>
+              <span data-lang="en">FASTQ and reference inputs to expression, DE, enrichment, and report</span>
+              <span data-lang="zh">从 FASTQ 和参考输入到表达、差异、富集和报告</span>
+            </div>
+            <div class="flow-track">
+              <div class="flow-node main"><a href="../docs/flows/rnaseq-index-flow.html">rnaseq-index-flow</a><small><span data-lang="en">reference package</span><span data-lang="zh">参考资源包</span></small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node main"><a href="../docs/flows/rnaseq-expression-flow.html">rnaseq-expression-flow</a><small>Salmon + tximport</small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node main"><a href="../docs/flows/rnaseq-de-flow.html">rnaseq-de-flow</a><small>DESeq2</small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node main"><a href="../docs/flows/rnaseq-enrichment-flow.html">rnaseq-enrichment-flow</a><small>ORA / GSEA</small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node result"><a href="../docs/flows/rnaseq-report-flow.html">rnaseq-report-flow</a><small><span data-lang="en">HTML report</span><span data-lang="zh">HTML 报告</span></small></div>
+            </div>
+          </div>
+
+          <div class="flow-lane">
+            <div class="flow-lane-head">
+              <strong data-lang="en">Optional alignment and count evidence route</strong>
+              <strong data-lang="zh">可选比对和计数证据路线</strong>
+              <span data-lang="en">enabled by <code>--route both</code>; DE can switch to featureCounts with <code>--de-source featurecounts</code></span>
+              <span data-lang="zh">通过 <code>--route both</code> 启用；差异分析可用 <code>--de-source featurecounts</code> 切换到 featureCounts</span>
+            </div>
+            <div class="flow-track evidence-track">
+              <div class="flow-node optional"><a href="../docs/flows/rnaseq-index-flow.html">rnaseq-index-flow</a><small>HISAT2 index</small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node optional"><a href="../docs/flows/rnaseq-alignment-flow.html">rnaseq-alignment-flow</a><small><span data-lang="en">sorted BAM</span><span data-lang="zh">排序 BAM</span></small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node optional"><a href="../docs/flows/rnaseq-count-flow.html">rnaseq-count-flow</a><small>featureCounts</small></div>
+              <span class="flow-arrow split">+</span>
+              <div class="flow-node optional"><a href="../docs/flows/rnaseq-alignment-qc-flow.html">rnaseq-alignment-qc-flow</a><small><span data-lang="en">BAM/RNA-seq QC</span><span data-lang="zh">BAM/RNA-seq 质控</span></small></div>
+              <span class="flow-arrow">-></span>
+              <div class="flow-node result"><a href="../docs/flows/rnaseq-report-flow.html">rnaseq-report-flow</a><small><span data-lang="en">collected evidence</span><span data-lang="zh">证据汇总</span></small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="standard" class="article">
+        <h2 data-lang="en">The standard flow is an umbrella, not a black box</h2>
+        <h2 data-lang="zh">standard-flow 是总入口，不是黑盒</h2>
+        <p data-lang="en"><code>rnaseq-standard-flow</code> is designed for users who want to start from ordinary local FASTQ files, a genome FASTA, a matching annotation file, sample metadata, and optional offline gene sets, then receive a coherent analysis directory and a bilingual HTML report. Its default behavior keeps the analysis lightweight: it builds a reference package, quantifies reads with Salmon, imports gene-level counts through tximport, runs differential expression with DESeq2, runs enrichment when gene sets are provided, and finally collects all major outputs into a report.</p>
+        <p data-lang="zh"><code>rnaseq-standard-flow</code> 面向希望从普通本地 FASTQ、基因组 FASTA、配套注释、样本元数据和可选离线基因集直接开始分析的用户。默认行为保持轻量和实用：先构建参考包，再用 Salmon 完成表达定量，通过 tximport 汇总到基因层面，使用 DESeq2 做差异表达，提供基因集时继续做富集分析，最后把主要结果、图、表、QC 子报告、日志和溯源统一收集成双语 HTML 报告。</p>
+        <p data-lang="en">When <code>--route both</code> is selected, the umbrella also asks the index flow to build a HISAT2 genome index, runs genome-aware alignment, produces sorted BAM files, derives featureCounts matrices, and runs alignment-level QC. Those outputs do not replace the default expression route unless the user explicitly asks DESeq2 to use featureCounts with <code>--de-source featurecounts</code>. This preserves a fast default while still giving advanced users a genome-evidence branch.</p>
+        <p data-lang="zh">当选择 <code>--route both</code> 时，总流程还会要求参考流程构建 HISAT2 基因组索引，继续运行基因组比对，生成排序 BAM，基于 BAM 产生 featureCounts 矩阵，并执行比对层面 QC。这些输出默认不会替代表达定量路线；只有用户显式指定 <code>--de-source featurecounts</code> 时，DESeq2 才会改用 featureCounts 计数。这样既保留快速默认路线，也给高级用户提供可审查的基因组证据分支。</p>
+      </section>
+
+      <section id="details" class="article">
+        <h2 data-lang="en">Flow responsibilities</h2>
+        <h2 data-lang="zh">每个流程的职责</h2>
+        <div class="flow-detail-grid">
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-index-flow.html">rnaseq-index-flow</a></h3>
+              <span class="version-badge">0.1.0-r1</span>
+            </header>
+            <p data-lang="en">This flow turns a genome and annotation release into the reusable reference contract consumed by downstream RNA-seq flows. It validates sequence IDs, standardizes the annotation, produces GTF/GFF3-derived files, extracts transcript FASTA, writes <code>tx2gene.tsv</code>, and builds Salmon and Kallisto transcriptome indexes. When requested, it also builds a HISAT2 genome index so alignment-based evidence can join the same analysis family.</p>
+            <p data-lang="zh">这个流程把基因组和注释版本整理成后续 RNA-seq 流程可复用的参考契约。它会检查 FASTA 与注释中的序列 ID 是否一致，标准化注释，生成下游需要的 GTF/GFF3 衍生文件，提取转录本 FASTA，写出 <code>tx2gene.tsv</code>，并构建 Salmon 和 Kallisto 的转录组索引。如果用户需要比对证据，它还可以额外构建 HISAT2 基因组索引，使表达定量和基因组比对共享同一套参考来源。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-index-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-index-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-expression-flow.html">rnaseq-expression-flow</a></h3>
+              <span class="version-badge">0.1.0-r1</span>
+            </header>
+            <p data-lang="en">This is the default abundance route. It reads the sample table, runs read-level QC and trimming, quantifies each sample against the Salmon index, collects quantification files, imports transcript evidence to gene-level matrices with tximport, and summarizes QC through MultiQC. Its biological job is not to call genes significant; it measures how much transcript-derived signal each sample carries so later statistical steps can compare groups.</p>
+            <p data-lang="zh">这是默认表达丰度路线。它读取样本表，对测序 reads 做基础 QC 和修剪，将每个样本定量到 Salmon 索引，收集定量文件，再通过 tximport 把转录本层面的证据汇总成基因层面矩阵，并用 MultiQC 汇总 QC 信息。它的生物学职责不是判断基因是否显著变化，而是可靠地测量每个样本承载了多少表达信号，为后续分组比较提供矩阵基础。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-expression-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-expression-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-de-flow.html">rnaseq-de-flow</a></h3>
+              <span class="version-badge">0.1.0-r2</span>
+            </header>
+            <p data-lang="en">This flow receives a gene count matrix and sample metadata, then performs DESeq2-based differential expression under an explicit design and contrast. It produces normalized counts, statistical result tables, PCA, sample correlation, MA and volcano plots, heatmaps, differential gene count summaries, expression distributions, and top-gene visualizations. In the route, it is the point where measured expression becomes a statistical statement about biological conditions.</p>
+            <p data-lang="zh">这个流程接收基因计数矩阵和样本元数据，并在显式设计公式与比较组设定下运行 DESeq2 差异表达分析。它输出归一化计数、统计结果表、PCA、样本相关性、MA 图、火山图、热图、差异基因数量汇总、表达分布图和 top gene 可视化。在整条路线中，这是表达测量转化为“不同生物条件之间是否存在系统性变化”的统计判断节点。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-de-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-de-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-enrichment-flow.html">rnaseq-enrichment-flow</a></h3>
+              <span class="version-badge">0.1.0-r3</span>
+            </header>
+            <p data-lang="en">This flow interprets differential expression at the gene-set level. It uses offline GMT resources and an optional background list to run ORA for significant gene sets and GSEA for ranked genes, then generates coordinated dotplots, barplots, upset-style summaries, NES plots, and leading-edge style outputs. It helps turn a list of genes into biological hypotheses about pathways, processes, or compartments, while keeping the input universe explicit.</p>
+            <p data-lang="zh">这个流程把差异表达结果提升到基因集层面解释。它使用离线 GMT 资源和可选背景基因列表，对显著基因列表进行 ORA，对完整排序基因进行 GSEA，并生成风格统一的气泡图、柱状图、集合关系摘要、NES 图和 leading-edge 类结果。它的意义是把一串差异基因转化成关于通路、过程或细胞组分的生物学假设，同时保留被检验基因背景的透明性。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-enrichment-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-enrichment-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-alignment-flow.html">rnaseq-alignment-flow</a></h3>
+              <span class="version-badge">0.1.0-r1</span>
+            </header>
+            <p data-lang="en">This optional flow maps reads back to the genome with HISAT2 and produces coordinate-sorted BAM files plus indexes. It is useful when a project needs genome-aware evidence, browser inspection, splice-aware alignment context, or a BAM substrate for featureCounts and alignment QC. It is not the default quantification engine because alignment costs more time and storage, but it is valuable when users need an independent evidence layer.</p>
+            <p data-lang="zh">这是可选的基因组比对流程，使用 HISAT2 将测序 reads 比对回基因组，并生成坐标排序 BAM 及其索引。当项目需要基因组层面的证据、浏览器查看、剪接感知比对背景，或需要给 featureCounts 和比对质控提供 BAM 底物时，它非常有价值。它不是默认表达定量引擎，因为比对会增加时间和存储成本；但在需要独立证据层时，它能补足 Salmon-first 路线。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-alignment-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-alignment-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-count-flow.html">rnaseq-count-flow</a></h3>
+              <span class="version-badge">0.1.0-r1</span>
+            </header>
+            <p data-lang="en">This flow converts aligned BAM evidence into a featureCounts gene-level count matrix. It sits after alignment and before optional DE from featureCounts. The matrix it produces is especially useful for users who prefer annotation-overlap counting, need comparability with older alignment-first pipelines, or want to compare Salmon/tximport counts against a genome-alignment-derived count source.</p>
+            <p data-lang="zh">这个流程把已经比对好的 BAM 证据转换成 featureCounts 基因层面计数矩阵。它位于比对流程之后，也可以作为 featureCounts 来源差异分析的上游。它的输出适合偏好注释区间重叠计数的用户，也适合需要和传统“先比对”流程对齐，或希望把 Salmon/tximport 计数与基于基因组比对的计数进行交叉检查的项目。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-count-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-count-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-alignment-qc-flow.html">rnaseq-alignment-qc-flow</a></h3>
+              <span class="version-badge">0.1.0-r1</span>
+            </header>
+            <p data-lang="en">This optional QC flow evaluates BAM-level evidence with SAMtools, RSeQC, Qualimap, and MultiQC. It asks whether reads map consistently, whether libraries show expected RNA-seq behavior, whether coverage and assignment patterns look plausible, and whether any sample behaves like an outlier. It does not create expression matrices; it explains whether the alignment branch is technically trustworthy.</p>
+            <p data-lang="zh">这是可选的 BAM 层面 QC 流程，结合 SAMtools、RSeQC、Qualimap 和 MultiQC 评估比对证据。它关心测序 reads 是否稳定比对、文库是否呈现 RNA-seq 应有特征、覆盖和分配模式是否合理、是否存在异常样本。它不会生成表达矩阵；它的职责是说明比对分支在技术上是否可信，帮助用户判断后续基于 BAM 的解释是否稳固。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-alignment-qc-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-alignment-qc-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-report-flow.html">rnaseq-report-flow</a></h3>
+              <span class="version-badge">0.1.0-r4</span>
+            </header>
+            <p data-lang="en">This flow is the delivery and interpretation layer. It collects outputs from upstream modules, separates plots and tables, links QC HTML reports, writes project summaries, embeds provenance, and produces a bilingual HTML report plus a longer interpretation guide. It intentionally does not rerun analysis; its value is to organize results by biological question so wet-lab users, bioinformaticians, and non-specialist readers can navigate the project.</p>
+            <p data-lang="zh">这是交付和解读层。它收集上游模块输出，整理图和表，链接 QC HTML 子报告，写出项目摘要，嵌入命令、版本和 manifest 溯源，并生成双语 HTML 主报告与更长的解读指南。它有意不重新运行分析；它的价值是按生物学问题组织结果，使湿实验用户、生信用户和非专业读者都能理解项目发生了什么、应该先看哪里、哪些结论需要谨慎解释。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-report-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-report-flow">GitHub</a></div>
+          </article>
+
+          <article class="flow-detail">
+            <header>
+              <h3><a href="../docs/flows/rnaseq-standard-flow.html">rnaseq-standard-flow</a></h3>
+              <span class="version-badge">0.1.0-r2</span>
+            </header>
+            <p data-lang="en">This is the end-to-end public entrypoint. It composes the index, expression, DE, enrichment, report, and optional alignment/count/QC subflows while preserving their individual output directories and provenance. For most users it is the easiest command to run on real project data; for maintainers it remains inspectable because each major biological step is delegated to a named TAFFISH flow with its own tests and release history.</p>
+            <p data-lang="zh">这是最终面向用户的一站式入口。它组合参考构建、表达定量、差异表达、功能富集、报告生成以及可选的比对、计数、质控子流程，同时保留各子流程自己的输出目录和溯源信息。对大多数用户来说，它是直接分析真实项目数据的最方便命令；对维护者来说，它仍然保持可审计性，因为每个主要生物学步骤都委托给一个具名 TAFFISH 流程，并拥有自己的测试与发布历史。</p>
+            <div class="flow-links"><a href="../docs/flows/rnaseq-standard-flow.html"><span data-lang="en">Usage manual</span><span data-lang="zh">使用手册</span></a><a href="https://github.com/taffish/rnaseq-standard-flow">GitHub</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="choose" class="article">
+        <h2 data-lang="en">How to choose a route</h2>
+        <h2 data-lang="zh">如何选择路线</h2>
+        <div class="route-choice">
+          <div>
+            <h3 data-lang="en">Use the default route when</h3>
+            <h3 data-lang="zh">这些情况使用默认路线</h3>
+            <ul>
+              <li data-lang="en">the goal is expression matrix, DESeq2, enrichment, and final report;</li>
+              <li data-lang="zh">目标是表达矩阵、DESeq2、富集分析和最终报告；</li>
+              <li data-lang="en">the project does not require BAM inspection or alignment-level QC;</li>
+              <li data-lang="zh">项目不需要检查 BAM 或做比对层面 QC；</li>
+              <li data-lang="en">speed, simplicity, and a compact output directory matter.</li>
+              <li data-lang="zh">速度、简单性和较小输出目录更重要。</li>
+            </ul>
+          </div>
+          <div>
+            <h3 data-lang="en">Add <code>--route both</code> when</h3>
+            <h3 data-lang="zh">这些情况添加 <code>--route both</code></h3>
+            <ul>
+              <li data-lang="en">you need sorted BAM files for review, archival, or external tools;</li>
+              <li data-lang="zh">需要排序 BAM 用于人工检查、归档或外部工具；</li>
+              <li data-lang="en">you want featureCounts matrices as an alignment-derived comparison;</li>
+              <li data-lang="zh">希望得到基于比对的 featureCounts 矩阵作为对照；</li>
+              <li data-lang="en">you want RSeQC/Qualimap/MultiQC alignment evidence in the final report.</li>
+              <li data-lang="zh">希望最终报告中包含 RSeQC、Qualimap、MultiQC 等比对证据。</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted" data-lang="en">Use <code>--de-source featurecounts</code> only when the alignment/count route is enabled and the scientific decision is to base DESeq2 on featureCounts rather than Salmon/tximport counts.</p>
+        <p class="muted" data-lang="zh">只有在启用了 alignment/count 路线，并且科学上决定让 DESeq2 使用 featureCounts 而不是 Salmon/tximport counts 时，才需要 <code>--de-source featurecounts</code>。</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="../index.html"><span data-lang="en">Home</span><span data-lang="zh">首页</span></a></span></div></footer>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

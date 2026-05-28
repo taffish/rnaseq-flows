@@ -1,0 +1,127 @@
+{
+    "WT_12": {
+        "SE mapped uniquely": "425301.0",
+        "SE multimapped": "57347.0",
+        "SE not aligned": "17352.0"
+    },
+    "WT_11": {
+        "SE mapped uniquely": "412096.0",
+        "SE multimapped": "72773.0",
+        "SE not aligned": "15131.0"
+    },
+    "WT_10": {
+        "SE mapped uniquely": "398816.0",
+        "SE multimapped": "83777.0",
+        "SE not aligned": "17407.0"
+    },
+    "WT_09": {
+        "SE mapped uniquely": "428220.0",
+        "SE multimapped": "58019.0",
+        "SE not aligned": "13761.0"
+    },
+    "WT_08": {
+        "SE mapped uniquely": "425594.0",
+        "SE multimapped": "59040.0",
+        "SE not aligned": "15366.0"
+    },
+    "WT_07": {
+        "SE mapped uniquely": "430713.0",
+        "SE multimapped": "54283.0",
+        "SE not aligned": "15004.0"
+    },
+    "WT_06": {
+        "SE mapped uniquely": "438250.0",
+        "SE multimapped": "49232.0",
+        "SE not aligned": "12518.0"
+    },
+    "WT_05": {
+        "SE mapped uniquely": "427866.0",
+        "SE multimapped": "56642.0",
+        "SE not aligned": "15492.0"
+    },
+    "WT_04": {
+        "SE mapped uniquely": "431922.0",
+        "SE multimapped": "53892.0",
+        "SE not aligned": "14186.0"
+    },
+    "WT_03": {
+        "SE mapped uniquely": "421352.0",
+        "SE multimapped": "58351.0",
+        "SE not aligned": "20297.0"
+    },
+    "WT_02": {
+        "SE mapped uniquely": "424906.0",
+        "SE multimapped": "60024.0",
+        "SE not aligned": "15070.0"
+    },
+    "WT_01": {
+        "SE mapped uniquely": "427429.0",
+        "SE multimapped": "54478.0",
+        "SE not aligned": "18093.0"
+    },
+    "SNF2KO_12": {
+        "SE mapped uniquely": "445945.0",
+        "SE multimapped": "38944.0",
+        "SE not aligned": "15111.0"
+    },
+    "SNF2KO_11": {
+        "SE mapped uniquely": "438160.0",
+        "SE multimapped": "42177.0",
+        "SE not aligned": "19663.0"
+    },
+    "SNF2KO_10": {
+        "SE mapped uniquely": "441362.0",
+        "SE multimapped": "42490.0",
+        "SE not aligned": "16148.0"
+    },
+    "SNF2KO_09": {
+        "SE mapped uniquely": "440522.0",
+        "SE multimapped": "43327.0",
+        "SE not aligned": "16151.0"
+    },
+    "SNF2KO_08": {
+        "SE mapped uniquely": "420042.0",
+        "SE multimapped": "61211.0",
+        "SE not aligned": "18747.0"
+    },
+    "SNF2KO_07": {
+        "SE mapped uniquely": "439286.0",
+        "SE multimapped": "42601.0",
+        "SE not aligned": "18113.0"
+    },
+    "SNF2KO_06": {
+        "SE mapped uniquely": "439207.0",
+        "SE multimapped": "43309.0",
+        "SE not aligned": "17484.0"
+    },
+    "SNF2KO_05": {
+        "SE mapped uniquely": "434472.0",
+        "SE multimapped": "48372.0",
+        "SE not aligned": "17156.0"
+    },
+    "SNF2KO_04": {
+        "SE mapped uniquely": "381764.0",
+        "SE multimapped": "109386.0",
+        "SE not aligned": "8850.0"
+    },
+    "SNF2KO_03": {
+        "SE mapped uniquely": "443693.0",
+        "SE multimapped": "40028.0",
+        "SE not aligned": "16279.0"
+    },
+    "SNF2KO_02": {
+        "SE mapped uniquely": "408230.0",
+        "SE multimapped": "75178.0",
+        "SE not aligned": "16592.0"
+    },
+    "SNF2KO_01": {
+        "SE mapped uniquely": "445986.0",
+        "SE multimapped": "40203.0",
+        "SE not aligned": "13811.0"
+    },
+    "03_align": {
+        "SE mapped uniquely": "425301.0",
+        "SE multimapped": "57347.0",
+        "SE not aligned": "17352.0"
+    }
+}

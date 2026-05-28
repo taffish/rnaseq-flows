@@ -1,0 +1,38 @@
+{
+  "flow": "rnaseq-count-flow",
+  "version": "0.1.0-r1",
+  "started_at": "2026-05-28T02:49:44Z",
+  "finished_at": "2026-05-28T02:50:11Z",
+  "inputs": {
+    "bams": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/bam_files.tsv",
+    "annotation": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/annotation/genes.gtf"
+  },
+  "parameters": {
+    "threads": 2,
+    "strand": "0",
+    "paired": false,
+    "feature_type": "exon",
+    "attribute": "gene_id",
+    "min_mapq": 0,
+    "min_assigned_reads": 0
+  },
+  "dependencies": {
+    "taf-subread": "2.1.1-r2",
+    "taf-samtools": "1.23.1-r1",
+    "taf-multiqc": "1.35-r2"
+  },
+  "counts": {
+    "sample_count": 24,
+    "gene_count": 7099,
+    "assigned_reads": 8175205
+  },
+  "outputs": {
+    "featurecounts_annotation": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/02_intermediate/featurecounts_annotation.gtf",
+    "featurecounts": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt",
+    "featurecounts_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+    "gene_counts": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/matrices/gene_counts.tsv",
+    "assignment_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/assignment_summary.tsv",
+    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports/multiqc_report.html",
+    "flow_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports/flow_summary.tsv"
+  }
+}

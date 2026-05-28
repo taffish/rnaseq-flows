@@ -1,0 +1,13 @@
+metric	value
+flow	rnaseq-count-flow
+version	0.1.0-r1
+sample_count	24
+gene_count	7099
+assigned_reads	8175205
+strand	0
+paired	false
+threads	2
+feature_type	exon
+attribute	gene_id
+min_mapq	0
+filled_missing_attribute	10

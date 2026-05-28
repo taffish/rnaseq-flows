@@ -1,0 +1,4 @@
+rnaseq-expression-flow quantified RNA-seq FASTQ samples with Salmon and summarized transcript abundances with tximport.
+The run used Salmon library type A and countsFromAbundance=no. Reads were quantified directly without fastp trimming.
+FastQC was run on the input FASTQ files.
+The output directory contains Salmon quant.sf files, gene-level matrices, transcript-level matrices, MultiQC report files, logs, command provenance, tool versions, and a machine-readable manifest.

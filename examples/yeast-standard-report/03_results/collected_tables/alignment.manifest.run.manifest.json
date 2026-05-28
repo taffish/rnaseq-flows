@@ -1,0 +1,36 @@
+{
+  "flow": "rnaseq-alignment-flow",
+  "version": "0.1.0-r1",
+  "started_at": "2026-05-28T02:40:52Z",
+  "finished_at": "2026-05-28T02:44:22Z",
+  "inputs": {
+    "samples": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
+    "index": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/hisat2_index/genome"
+  },
+  "parameters": {
+    "aligner": "hisat2",
+    "threads": 2,
+    "trim": false,
+    "rna_strandness": "none",
+    "min_mapq": 0,
+    "keep_sam": false
+  },
+  "dependencies": {
+    "taf-hisat2": "2.2.2-r2",
+    "taf-samtools": "1.23.1-r1",
+    "taf-fastp": "1.3.3-r3",
+    "taf-multiqc": "1.35-r2"
+  },
+  "counts": {
+    "sample_count": 24,
+    "total_reads": 13850363,
+    "mapped_reads": 13466581,
+    "mapped_percent": 97.23
+  },
+  "outputs": {
+    "bam_files": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/bam_files.tsv",
+    "alignment_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/03_results/alignment_summary.tsv",
+    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/multiqc_report.html",
+    "flow_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/flow_summary.tsv"
+  }
+}

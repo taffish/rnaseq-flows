@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TAFFISH RNA-seq Flows</title>
+  <meta name="description" content="TAFFISH RNA-seq flow suite, documentation, and live yeast standard-flow report.">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="icon" href="assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html"><img class="brand-logo" src="assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="docs/quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <a href="examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <span class="lang-switch" aria-label="Language">
+          <button type="button" data-set-lang="en">EN</button>
+          <button type="button" data-set-lang="zh">中文</button>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow"><span data-lang="en">TAFFISH Flow Suite</span><span data-lang="zh">TAFFISH 流程套件</span></p>
+        <h1>
+          <span data-lang="en">RNA-seq analysis as versioned, auditable shell-native flows.</span>
+          <span data-lang="zh">把 RNA-seq 分析组织成可版本化、可审计、可直接运行的 shell-native 流程。</span>
+        </h1>
+        <p class="lead" data-lang="en">This portal explains the TAFFISH RNA-seq flow family, how the subflows connect, and how a complete yeast SNF2 example report can be inspected online.</p>
+        <p class="lead" data-lang="zh">这个门户用于解释 TAFFISH RNA-seq 流程家族、各个子流程之间的连接方式，并提供可在线查看的 yeast SNF2 示例报告。</p>
+        <div class="actions">
+          <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="en">View live report</a>
+          <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="zh">查看在线报告</a>
+          <a class="button" href="flows/index.html" data-lang="en">Explore flows</a>
+          <a class="button" href="flows/index.html" data-lang="zh">浏览流程</a>
+          <a class="button" href="docs/quickstart.html" data-lang="en">Run your data</a>
+          <a class="button" href="docs/quickstart.html" data-lang="zh">分析自己的数据</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <h2 data-lang="en">Two connected routes</h2>
+        <h2 data-lang="zh">两条可连接路线</h2>
+        <div class="route-mini">
+          <div class="route-line">
+            <div class="route-label" data-lang="en">Default</div>
+            <div class="route-label" data-lang="zh">默认路线</div>
+            <div class="route-steps">
+              <span class="pill"><span data-lang="en">index</span><span data-lang="zh">参考构建</span></span>
+              <span class="pill"><span data-lang="en">expression</span><span data-lang="zh">表达定量</span></span>
+              <span class="pill"><span data-lang="en">DE</span><span data-lang="zh">差异分析</span></span>
+              <span class="pill"><span data-lang="en">enrichment</span><span data-lang="zh">功能富集</span></span>
+              <span class="pill"><span data-lang="en">report</span><span data-lang="zh">报告</span></span>
+            </div>
+          </div>
+          <div class="route-line">
+            <div class="route-label secondary" data-lang="en">Evidence</div>
+            <div class="route-label secondary" data-lang="zh">证据分支</div>
+            <div class="route-steps">
+              <span class="pill">HISAT2</span>
+              <span class="pill"><span data-lang="en">BAM QC</span><span data-lang="zh">BAM 质控</span></span>
+              <span class="pill">featureCounts</span>
+            </div>
+          </div>
+        </div>
+        <p class="muted" data-lang="en">The default route stays lightweight with Salmon-first quantification; the optional route adds genome alignment, BAM QC, and featureCounts evidence.</p>
+        <p class="muted" data-lang="zh">默认路线使用 Salmon-first 表达定量以保持轻量；可选路线补充基因组比对、BAM 质量评估和 featureCounts 计数证据。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2 data-lang="en">What the suite provides</h2>
+        <h2 data-lang="zh">这套流程提供什么</h2>
+        <p data-lang="en">The suite is a transparent reference route for bulk RNA-seq, not a large DAG engine. Each flow is an installable TAFFISH command with explicit inputs, outputs, logs, and provenance.</p>
+        <p data-lang="zh">这套流程是 bulk RNA-seq 的透明参考路线，而不是大型 DAG 工作流引擎。每个流程都是可安装的 TAFFISH 命令，带有明确输入、输出、日志和溯源文件。</p>
+      </div>
+      <div class="grid">
+        <article class="card accent">
+          <h3 data-lang="en">Composable subflows</h3>
+          <h3 data-lang="zh">可组合子流程</h3>
+          <p data-lang="en">Reference preparation, expression quantification, differential expression, enrichment, alignment, counting, QC, and reporting remain separately testable.</p>
+          <p data-lang="zh">参考构建、表达定量、差异表达、富集、比对、计数、QC 和报告都保持独立可测试、可复用。</p>
+        </article>
+        <article class="card accent">
+          <h3 data-lang="en">One standard command</h3>
+          <h3 data-lang="zh">一个标准入口</h3>
+          <p data-lang="en"><code>rnaseq-standard-flow</code> connects the stable subflows from FASTQ and reference inputs to a final bilingual project report.</p>
+        <p data-lang="zh"><code>rnaseq-standard-flow</code> 把稳定子流程从 FASTQ 和参考输入串到最终双语项目报告。</p>
+        </article>
+        <article class="card accent">
+          <h3 data-lang="en">Live example report</h3>
+          <h3 data-lang="zh">在线示例报告</h3>
+          <p data-lang="en">The yeast SNF2 case shows the actual output layout, plots, linked QC reports, and interpretation guide produced by the current route.</p>
+          <p data-lang="zh">yeast SNF2 案例展示当前路线真实生成的目录结构、图表、QC 子报告链接和解读指南。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2 data-lang="en">Yeast SNF2 live example</h2>
+        <h2 data-lang="zh">Yeast SNF2 在线示例</h2>
+        <p data-lang="en">This public example was generated from the TAFFISH RNA-seq standard route and collected by <code>rnaseq-report-flow 0.1.0-r4</code>.</p>
+        <p data-lang="zh">这个公开示例由 TAFFISH RNA-seq 标准路线生成，并由 <code>rnaseq-report-flow 0.1.0-r4</code> 收集成报告。</p>
+      </div>
+      <div class="stat-grid">
+        <div class="stat"><strong>24</strong><span data-lang="en">samples</span><span data-lang="zh">样本</span></div>
+        <div class="stat"><strong>366</strong><span data-lang="en">significant genes</span><span data-lang="zh">显著差异基因</span></div>
+        <div class="stat"><strong>28</strong><span data-lang="en">plot files</span><span data-lang="zh">图文件</span></div>
+        <div class="stat"><strong>52</strong><span data-lang="en">linked HTML reports</span><span data-lang="zh">链接 HTML 子报告</span></div>
+      </div>
+      <div class="plot-strip" style="margin-top:18px">
+        <article class="plot-card">
+          <img src="examples/yeast-standard-report/03_results/collected_plots/de.pca_plot.png" alt="PCA plot from the yeast RNA-seq report">
+          <p><span data-lang="en">PCA plot</span><span data-lang="zh">PCA 样本结构图</span></p>
+        </article>
+        <article class="plot-card">
+          <img src="examples/yeast-standard-report/03_results/collected_plots/de.volcano_plot.png" alt="Volcano plot from the yeast RNA-seq report">
+          <p><span data-lang="en">Volcano plot</span><span data-lang="zh">火山图</span></p>
+        </article>
+        <article class="plot-card">
+          <img src="examples/yeast-standard-report/03_results/collected_plots/enrichment.dotplot.png" alt="Enrichment dotplot from the yeast RNA-seq report">
+          <p><span data-lang="en">Enrichment dotplot</span><span data-lang="zh">富集气泡图</span></p>
+        </article>
+      </div>
+      <div class="actions">
+        <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="en">Open main report</a>
+        <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="zh">打开主报告</a>
+        <a class="button" href="examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="en">Open interpretation guide</a>
+        <a class="button" href="examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="zh">打开解读指南</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span>
+      <span><a href="https://taffish.github.io/">TAFFISH Hub</a> · <a href="https://github.com/taffish">GitHub</a></span>
+    </div>
+  </footer>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

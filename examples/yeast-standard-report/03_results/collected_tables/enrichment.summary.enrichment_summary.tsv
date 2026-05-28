@@ -1,0 +1,11 @@
+metric	value
+app	enrichment-r
+version	0.1.0
+gene_sets_total	2274
+gene_list_count	354
+ranked_gene_count	5662
+background_count	7127
+background_source	background.tsv
+ora_result_count	304
+gsea_result_count	1428
+plot_source	ora

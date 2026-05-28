@@ -1,0 +1,42 @@
+tool	version	source
+rnaseq-report-flow	0.1.0-r4	taffish flow
+rnaseq-standard-flow	0.1.0-r2	standard:taffish flow
+taf-rnaseq-index-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-expression-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-alignment-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-alignment-qc-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-count-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-de-flow	0.1.0-r2	standard:taffish dependency
+taf-rnaseq-enrichment-flow	0.1.0-r3	standard:taffish dependency
+taf-rnaseq-report-flow	0.1.0-r4	standard:taffish dependency
+rnaseq-index-flow	0.1.0-r1	reference:flow wrapper
+taf-gffread	0.12.9-r1	reference:annotation conversion and transcript FASTA extraction
+taf-agat	1.7.0-r1	reference:annotation normalization
+taf-salmon	1.11.4-r1	reference:Salmon transcriptome index
+taf-kallisto	0.52.0-r1	reference:optional Kallisto transcriptome index
+taf-hisat2	2.2.2-r2	reference:optional HISAT2 genome index
+rnaseq-expression-flow	0.1.0-r1	expression:taffish flow
+taf-fastqc	0.12.1-r1	expression:taffish dependency
+taf-fastp	1.3.3-r3	expression:taffish dependency
+taf-multiqc	1.35-r2	expression:taffish dependency
+taf-salmon	1.11.4-r1	expression:taffish dependency
+taf-bioconductor-rnaseq	3.23-r1	expression:taffish dependency
+rnaseq-alignment-flow	0.1.0-r1	alignment:taffish flow
+taf-hisat2	2.2.2-r2	alignment:taffish dependency
+taf-samtools	1.23.1-r1	alignment:taffish dependency
+taf-fastp	1.3.3-r3	alignment:taffish dependency
+taf-multiqc	1.35-r2	alignment:taffish dependency
+rnaseq-count-flow	0.1.0-r1	count:taffish flow
+taf-subread	2.1.1-r2	count:taffish dependency
+taf-samtools	1.23.1-r1	count:taffish dependency
+taf-multiqc	1.35-r2	count:taffish dependency
+rnaseq-alignment-qc-flow	0.1.0-r1	alignment_qc:taffish flow
+taf-rseqc	5.0.4-r2	alignment_qc:taffish dependency
+taf-qualimap	2.3-r1	alignment_qc:taffish dependency
+taf-samtools	1.23.1-r1	alignment_qc:taffish dependency
+taf-multiqc	1.35-r2	alignment_qc:taffish dependency
+taf-gffread	0.12.9-r1	alignment_qc:taffish dependency
+rnaseq-de-flow	0.1.0-r2	de:taffish flow
+taf-bioconductor-rnaseq	3.23-r1	de:taffish dependency
+rnaseq-enrichment-flow	0.1.0-r3	enrichment:taffish flow
+taf-enrichment-r	0.1.0-r1	enrichment:taffish dependency

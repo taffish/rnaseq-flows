@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: TAFFISH Hub
+    url: https://taffish.github.io/
+    about: Browse the public TAFFISH Hub index.
+  - name: TAFFISH website
+    url: https://taffish.com/
+    about: Read the main TAFFISH project site.

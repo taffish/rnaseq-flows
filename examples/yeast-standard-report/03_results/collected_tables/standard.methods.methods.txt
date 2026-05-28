@@ -1,0 +1,5 @@
+rnaseq-standard-flow 0.1.0-r2 runs the r2 RNA-seq standard route by composing published TAFFISH RNA-seq subflows.
+
+The default route prepares a reference bundle, quantifies transcript expression with Salmon/tximport, runs DESeq2 differential expression, runs offline GMT enrichment, and renders a static project report.
+With --route both it also runs HISAT2 alignment, alignment-level QC, and featureCounts gene counting. Differential expression uses --de-source to choose Salmon/tximport or featureCounts counts.
+The flow does not download references, gene sets, or databases at runtime. It writes all generated files under the explicit output directory.

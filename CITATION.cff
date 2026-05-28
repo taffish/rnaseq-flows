@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this documentation portal or the TAFFISH RNA-seq flow family in your work, please cite the repository."
+title: "TAFFISH RNA-seq Flows"
+authors:
+  - family-names: Han
+    given-names: Kaiyuan
+repository-code: "https://github.com/taffish/rnaseq-flows"
+url: "https://taffish.github.io/rnaseq-flows/"
+date-released: "2026-05-28"
+license: "Apache-2.0 AND CC-BY-4.0"
+keywords:
+  - TAFFISH
+  - RNA-seq
+  - bioinformatics
+  - reproducibility
+  - command-level reproducibility

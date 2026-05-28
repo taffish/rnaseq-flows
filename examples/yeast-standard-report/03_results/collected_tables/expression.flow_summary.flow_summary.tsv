@@ -1,0 +1,10 @@
+metric	value
+flow	rnaseq-expression-flow
+version	0.1.0-r1
+sample_count	24
+quantifier	salmon
+library_type	A
+trim	false
+skip_fastqc	false
+gene_rows	6612
+transcript_rows	11347

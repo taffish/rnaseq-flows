@@ -1,0 +1,15 @@
+metric	value	note
+Samples	24	RNA-seq samples included in the run
+Route	.	standard-flow route when available
+DE source	.	count matrix used for differential expression
+Avg Salmon reads	462155.42	mean estimated_num_reads across samples
+Avg mapped %	97.22	mean HISAT2 mapped_percent across samples
+featureCounts assigned	8175205	assigned reads reported by count flow
+QC assigned tags	11518427	sum of RSeQC assigned_tags when available
+Tested genes	5780	genes retained for DESeq2 testing
+Significant genes	366	padj and log2FC filtered DE genes
+Up / down genes	134 / 232	direction split among significant genes
+ORA terms	304	over-representation result rows
+GSEA terms	1428	preranked enrichment result rows
+Collected plots	14	PNG/PDF plot groups in this report
+Linked HTML reports	52	copied QC/report HTML bundles linked from this report

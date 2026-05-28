@@ -1,0 +1,8 @@
+{
+    "MultiQC": [
+        "10.1093/bioinformatics/btw354"
+    ],
+    "featurecounts": [
+        "10.1093/bioinformatics/btt656"
+    ]
+}

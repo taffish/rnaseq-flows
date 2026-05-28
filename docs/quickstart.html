@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quickstart | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="icon" href="../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="quickstart.html" aria-current="page"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <a href="../examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
+      </div>
+    </nav>
+  </header>
+  <main class="page-layout">
+    <aside class="side-nav">
+      <a href="#inputs"><span data-lang="en">Inputs</span><span data-lang="zh">输入</span></a>
+      <a href="#command"><span data-lang="en">Command</span><span data-lang="zh">命令</span></a>
+      <a href="#routes"><span data-lang="en">Routes</span><span data-lang="zh">路线</span></a>
+      <a href="#outputs"><span data-lang="en">Outputs</span><span data-lang="zh">输出</span></a>
+    </aside>
+    <div class="content">
+      <section id="inputs" class="article">
+        <p class="eyebrow"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></p>
+        <h1 data-lang="en">Run the standard RNA-seq route</h1>
+        <h1 data-lang="zh">运行标准 RNA-seq 路线</h1>
+        <p data-lang="en">Prepare local FASTQ files, a genome FASTA, a matching GTF/GFF3 annotation, sample metadata, and an offline GMT gene-set file. The flow does not download reference resources during normal execution.</p>
+        <p data-lang="zh">准备本地 FASTQ、基因组 FASTA、匹配的 GTF/GFF3 注释、样本元数据和离线 GMT 基因集文件。流程正常运行时不会联网下载参考资源。</p>
+      </section>
+
+      <section id="command" class="article">
+        <h2 data-lang="en">Minimal command</h2>
+        <h2 data-lang="zh">最小命令</h2>
+        <pre class="code-block"><code>taf-rnaseq-standard-flow \
+  --samples samples.tsv \
+  --genome genome.fa \
+  --annotation genes.gff3 \
+  --metadata metadata.tsv \
+  --design '~ condition' \
+  --contrast condition:treated:control \
+  --gene-sets gene_sets.gmt \
+  --background background.tsv \
+  --outdir rnaseq-standard-out</code></pre>
+      </section>
+
+      <section id="routes" class="article">
+        <h2 data-lang="en">Route choices</h2>
+        <h2 data-lang="zh">路线选择</h2>
+        <p data-lang="en">The default route uses Salmon/tximport counts for differential expression. Add <code>--route both</code> to generate alignment/count/QC evidence. Add <code>--route both --de-source featurecounts</code> when you want DESeq2 to use featureCounts instead of Salmon counts.</p>
+        <p data-lang="zh">默认路线使用 Salmon/tximport 计数做差异表达。添加 <code>--route both</code> 可以生成比对、计数和 QC 证据；如果希望 DESeq2 使用 featureCounts 而不是 Salmon 计数，使用 <code>--route both --de-source featurecounts</code>。</p>
+      </section>
+
+      <section id="outputs" class="article">
+        <h2 data-lang="en">Primary outputs</h2>
+        <h2 data-lang="zh">主要输出</h2>
+        <ul>
+          <li><code>04_reports/rnaseq_report.html</code></li>
+          <li><code>04_reports/report_interpretation.html</code></li>
+          <li><code>03_results/expression/</code></li>
+          <li><code>03_results/de/</code></li>
+          <li><code>03_results/enrichment/</code></li>
+          <li><code>03_results/plots/png/</code> and <code>03_results/plots/pdf/</code></li>
+          <li><code>04_reports/commands.sh</code>, <code>04_reports/versions.tsv</code>, and <code>run.manifest.json</code></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="input-preparation.html"><span data-lang="en">Input preparation</span><span data-lang="zh">输入准备</span></a></span></div></footer>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

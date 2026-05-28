@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="icon" href="../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links"><a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a><a href="quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a><a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a><span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span></div>
+    </nav>
+  </header>
+  <main class="section">
+    <div class="section-head">
+      <p class="eyebrow"><span data-lang="en">FAQ</span><span data-lang="zh">常见问题</span></p>
+      <h1 data-lang="en">Common boundary questions</h1>
+      <h1 data-lang="zh">常见边界问题</h1>
+    </div>
+    <div class="grid two">
+      <article class="card">
+        <h3 data-lang="en">Can I run only expression quantification?</h3>
+        <h3 data-lang="zh">只有表达矩阵需求可以运行吗？</h3>
+        <p data-lang="en">Yes. Use the expression flow or run the standard flow until the expression outputs are available. Differential expression requires meaningful experimental groups.</p>
+        <p data-lang="zh">可以。可以单独使用表达定量流程，或运行 <code>rnaseq-standard-flow</code> 并使用其中的表达矩阵输出。差异表达需要有意义的实验分组。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">Does the flow download databases?</h3>
+        <h3 data-lang="zh">流程会下载数据库吗？</h3>
+        <p data-lang="en">No. Genome, annotation, gene sets, and background resources are explicit inputs.</p>
+        <p data-lang="zh">不会。基因组、注释、基因集和背景基因列表都是显式输入。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">Is this a Nextflow replacement?</h3>
+        <h3 data-lang="zh">这是 Nextflow 替代品吗？</h3>
+        <p data-lang="en">No. TAFFISH standardizes versioned command units and shell-native routes. Workflow engines can still orchestrate larger production DAGs.</p>
+        <p data-lang="zh">不是。TAFFISH 标准化可版本化命令单元和 shell-native 路线。大型生产 DAG 仍然可以由工作流引擎编排。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">Why separate report-flow?</h3>
+        <h3 data-lang="zh">为什么报告单独做成一个流程？</h3>
+        <p data-lang="en">Reporting is a static collection and interpretation layer. It should aggregate upstream outputs rather than rerun analysis.</p>
+        <p data-lang="zh">报告层负责静态收集和解释，应该聚合上游输出，而不是重新运行分析。</p>
+      </article>
+    </div>
+  </main>
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="../index.html"><span data-lang="en">Home</span><span data-lang="zh">首页</span></a></span></div></footer>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

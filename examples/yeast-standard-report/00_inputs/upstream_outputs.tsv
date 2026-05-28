@@ -1,0 +1,9 @@
+module	path	status
+standard	/home/kyhan/test/rna-seq/yeast-standard-out	provided
+reference	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference	provided
+expression	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression	provided
+alignment	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment	provided
+count	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count	provided
+alignment_qc	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc	provided
+de	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/de	provided
+enrichment	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/enrichment	provided

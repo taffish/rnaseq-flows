@@ -1,0 +1,21 @@
+Creative Commons Attribution 4.0 International
+
+Copyright (c) 2026 Kaiyuan Han.
+
+The original documentation, explanatory text, workflow descriptions, and
+curated example-report text in this repository are licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+The website source code, CSS, JavaScript, validation scripts, and repository
+automation files are licensed separately under the Apache License, Version 2.0.
+See LICENSE.
+
+Generated example analysis outputs are provided as demonstration artifacts for
+the TAFFISH RNA-seq flow family. They should be interpreted together with the
+project provenance files and the upstream public-data licenses or database
+terms that apply to the original biological data and annotations.
+
+Full license text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-4.0

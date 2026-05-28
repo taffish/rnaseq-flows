@@ -1,0 +1,13 @@
+metric	value
+flow	rnaseq-alignment-flow
+version	0.1.0-r1
+sample_count	24
+aligner	hisat2
+trim	false
+threads	2
+rna_strandness	none
+min_mapq	0
+keep_sam	false
+total_reads	13850363
+mapped_reads	13466581
+mapped_percent	97.23

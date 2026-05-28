@@ -1,0 +1,2 @@
+contrast	factor	numerator	denominator	design
+condition:snf2_KO:WT	condition	snf2_KO	WT	~ condition

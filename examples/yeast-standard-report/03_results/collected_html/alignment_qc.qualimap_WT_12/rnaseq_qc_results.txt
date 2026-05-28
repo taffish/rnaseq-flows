@@ -1,0 +1,56 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = /home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/03_results/bam/WT_12.sorted.bam
+    gff file = /home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/00_inputs/genes.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = non-strand-specific
+    5'-3' bias region size = 100
+    5'-3' bias number of top transcripts = 1000
+
+
+>>>>>>> Reads alignment
+
+    reads aligned  = 482,648
+    total alignments = 563,906
+    secondary alignments = 81,258
+    non-unique alignments = 138,605
+    aligned to genes  = 347,380
+    ambiguous alignments = 73,925
+    no feature assigned = 3,996
+    not aligned = 17,352
+    SSP estimation (fwd/rev) = 0.51 / 0.49
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  347,380 (98.86%)
+    intronic = 608 (0.17%)
+    intergenic = 3,388 (0.96%)
+    overlapping exon = 13,618 (3.88%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.24
+    3' bias = 0.14
+    5'-3' bias = 1.84
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 4,590
+
+    ACCT : 4.12%
+    TGCT : 3.55%
+    AAAT : 3.49%
+    CTCT : 2.88%
+    TGGC : 2.85%
+    AAGC : 2.81%
+    AGGT : 2.72%
+    ACCA : 2.61%
+    AGCC : 2.55%
+    CTGC : 2.53%
+    TCAC : 2.44%
