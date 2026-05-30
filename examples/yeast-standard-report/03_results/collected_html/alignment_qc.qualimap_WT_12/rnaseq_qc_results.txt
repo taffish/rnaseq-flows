@@ -13,23 +13,23 @@ RNA-Seq QC report
 
 >>>>>>> Reads alignment
 
-    reads aligned  = 482,648
-    total alignments = 563,906
-    secondary alignments = 81,258
-    non-unique alignments = 138,605
-    aligned to genes  = 347,380
-    ambiguous alignments = 73,925
-    no feature assigned = 3,996
-    not aligned = 17,352
+    reads aligned  = 482,629
+    total alignments = 563,952
+    secondary alignments = 81,323
+    non-unique alignments = 138,694
+    aligned to genes  = 347,304
+    ambiguous alignments = 73,933
+    no feature assigned = 4,021
+    not aligned = 17,371
     SSP estimation (fwd/rev) = 0.51 / 0.49
 
 
 >>>>>>> Reads genomic origin
 
-    exonic =  347,380 (98.86%)
-    intronic = 608 (0.17%)
-    intergenic = 3,388 (0.96%)
-    overlapping exon = 13,618 (3.88%)
+    exonic =  347,304 (98.86%)
+    intronic = 651 (0.19%)
+    intergenic = 3,370 (0.96%)
+    overlapping exon = 13,666 (3.89%)
 
 
 >>>>>>> Transcript coverage profile
@@ -41,16 +41,16 @@ RNA-Seq QC report
 
 >>>>>>> Junction analysis
 
-    reads at junctions = 4,590
+    reads at junctions = 4,340
 
-    ACCT : 4.12%
-    TGCT : 3.55%
-    AAAT : 3.49%
-    CTCT : 2.88%
-    TGGC : 2.85%
-    AAGC : 2.81%
-    AGGT : 2.72%
-    ACCA : 2.61%
-    AGCC : 2.55%
+    ACCT : 3.78%
+    TGCT : 3.71%
+    AAAT : 3.43%
+    CTCT : 2.93%
+    TGGC : 2.86%
+    AGGT : 2.83%
+    AAGC : 2.76%
+    ACCA : 2.72%
+    AGCC : 2.58%
     CTGC : 2.53%
-    TCAC : 2.44%
+    TCAC : 2.51%

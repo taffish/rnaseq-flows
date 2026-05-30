@@ -5,7 +5,8 @@ example that reproduces the question.
 
 ## Good Issue Reports Include
 
-- The flow name and version, for example `taf-rnaseq-standard-flow 0.1.0-r2`.
+- The flow name and version, for example `taf-rnaseq-standard-flow 0.2.0-r2`.
+- The analysis mode, for example reference mode or `--mode denovo`.
 - The exact command, with private paths or sample names anonymized if needed.
 - A short description of the input table shape.
 - The relevant log excerpt.

@@ -1,0 +1,22 @@
+{
+    "transcripts": {
+        "Format": "FASTA",
+        "Type": "DNA",
+        "# Seqs": 0.009609,
+        "Total Length": 8.211604,
+        "Min Length": 201.0,
+        "Avg Length": 854.6,
+        "Q1 Length": 310.0,
+        "Median Length": 589.0,
+        "Q3 Length": 1184.0,
+        "Max Length": 8200.0,
+        "Gaps": 0.0,
+        "N50": 1308.0,
+        "N50 Count": 1159.0,
+        "Q20%": 0.0,
+        "Q30%": 0.0,
+        "Avg Quality": 0.0,
+        "GC%": 39.18,
+        "# N Bases": 0.0
+    }
+}

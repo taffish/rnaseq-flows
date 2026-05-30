@@ -15,43 +15,53 @@
     </nav>
   </header>
   <main class="page-layout">
-    <aside class="side-nav"><a href="#qc"><span data-lang="en">QC</span><span data-lang="zh">质控</span></a><a href="#expression"><span data-lang="en">Expression</span><span data-lang="zh">表达</span></a><a href="#de"><span data-lang="en">DE</span><span data-lang="zh">差异</span></a><a href="#enrichment"><span data-lang="en">Enrichment</span><span data-lang="zh">富集</span></a><a href="#provenance"><span data-lang="en">Provenance</span><span data-lang="zh">溯源</span></a></aside>
+    <aside class="side-nav"><a href="#qc"><span data-lang="en">QC</span><span data-lang="zh">质控</span></a><a href="#expression"><span data-lang="en">Expression</span><span data-lang="zh">表达</span></a><a href="#denovo"><span data-lang="en">De novo</span><span data-lang="zh">无参</span></a><a href="#de"><span data-lang="en">DE</span><span data-lang="zh">差异</span></a><a href="#enrichment"><span data-lang="en">Enrichment</span><span data-lang="zh">富集</span></a><a href="#examples"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a></aside>
     <div class="content">
       <section id="qc" class="article">
         <p class="eyebrow"><span data-lang="en">Interpretation</span><span data-lang="zh">结果解读</span></p>
         <h1 data-lang="en">How to read the final report</h1>
         <h1 data-lang="zh">如何阅读最终报告</h1>
-        <p data-lang="en">Start with sample and QC sections before interpreting biological signal. Low-quality reads, inconsistent mapping, or outlier samples can change every downstream conclusion.</p>
-        <p data-lang="zh">解读生物学信号前，先看样本和 QC 部分。低质量 reads、不一致的比对情况或异常样本都会影响后续结论。</p>
+        <p data-lang="en">Start with the overview and QC sections before interpreting biological signal. Low-quality reads, outlier samples, poor assembly quality, missing annotation resources, or inconsistent mapping evidence can change downstream conclusions.</p>
+        <p data-lang="zh">解读生物学信号前，先看总览和 QC 部分。低质量 reads、异常样本、组装质量差、注释资源不足或比对证据不一致，都会影响后续结论。</p>
       </section>
       <section id="expression" class="article">
         <h2 data-lang="en">Expression matrices</h2>
         <h2 data-lang="zh">表达矩阵</h2>
-        <p data-lang="en">Gene counts are used for statistical testing; TPM-like summaries are useful for inspection and expression-level communication.</p>
-        <p data-lang="zh">gene counts 用于统计检验；TPM 类结果更适合人工检查和表达水平沟通。</p>
+        <p data-lang="en">In reference mode, gene counts are used for statistical testing and TPM-like values support inspection. In de novo mode, the default matrix is transcript-level unless a trusted tx2gene or cluster mapping was supplied.</p>
+        <p data-lang="zh">有参模式中，gene counts 用于统计检验，TPM 类结果适合人工检查。无参模式中，默认矩阵是转录本层面，除非提供可信 tx2gene 或 cluster 映射。</p>
+      </section>
+      <section id="denovo" class="article">
+        <h2 data-lang="en">De novo-specific sections</h2>
+        <h2 data-lang="zh">无参特有章节</h2>
+        <p data-lang="en">Read assembly statistics, N50, filtered transcript count, BUSCO status, annotation coverage, and matrix semantics before comparing DE and enrichment. A strong de novo report should make clear which features were assembled, which were quantified, which were annotated, and which ID space was used for enrichment.</p>
+        <p data-lang="zh">比较差异和富集之前，应先阅读组装统计、N50、过滤后转录本数量、BUSCO 状态、注释覆盖度和矩阵语义。好的无参报告需要清楚说明哪些特征被组装、哪些被定量、哪些获得注释，以及富集分析使用了哪个 ID 空间。</p>
       </section>
       <section id="de" class="article">
         <h2 data-lang="en">Differential expression</h2>
         <h2 data-lang="zh">差异表达</h2>
-        <p data-lang="en">Read PCA and correlation plots first, then MA/volcano plots, then gene tables and heatmaps. Effect size and adjusted P value answer different questions.</p>
-        <p data-lang="zh">先看 PCA 和相关性图，再看 MA/volcano 图，最后看 gene table 和 heatmap。效应量和校正 P 值回答的是不同问题。</p>
+        <p data-lang="en">Read PCA and correlation plots first, then MA/volcano plots, then feature tables and heatmaps. Effect size and adjusted P value answer different questions. In de novo mode, “significant features” may be transcripts rather than known genes.</p>
+        <p data-lang="zh">先看 PCA 和相关性图，再看 MA/volcano 图，最后看 feature table 和 heatmap。效应量和校正 P 值回答的是不同问题。无参模式中，“显著特征”可能是转录本，而不是已知基因。</p>
       </section>
       <section id="enrichment" class="article">
         <h2 data-lang="en">Enrichment</h2>
         <h2 data-lang="zh">功能富集</h2>
-        <p data-lang="en">ORA summarizes significant-gene lists, while GSEA reads the full ranked list. Treat enrichment as a biological hypothesis generator, not as proof that a pathway is active.</p>
-        <p data-lang="zh">ORA 汇总显著基因列表，GSEA 读取完整排序基因列表。富集结果更像生物学假设生成器，不应直接等同于通路被证明激活。</p>
+        <p data-lang="en">ORA summarizes significant-feature lists, while GSEA reads the full ranked list. Reference enrichment depends on known gene-set resources; de novo enrichment depends on homology annotation and GO transfer. Treat enrichment as a biological hypothesis generator, not proof that a pathway is active.</p>
+        <p data-lang="zh">ORA 汇总显著特征列表，GSEA 读取完整排序列表。有参富集依赖已知基因集资源；无参富集依赖同源注释和 GO 转移。富集结果更像生物学假设生成器，不应直接等同于通路被证明激活。</p>
       </section>
-      <section id="provenance" class="article">
-        <h2><span data-lang="en">Provenance</span><span data-lang="zh">溯源</span></h2>
-        <p data-lang="en">Use commands, versions, logs, and manifests to determine exactly how the report was produced.</p>
-        <p data-lang="zh">通过 commands、versions、logs 和 manifest 可以确认报告到底如何生成。</p>
-        <a class="button primary" href="../examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="en">Read the full example guide</a>
-        <a class="button primary" href="../examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="zh">阅读完整示例解读指南</a>
+      <section id="examples" class="article">
+        <h2><span data-lang="en">Example guides</span><span data-lang="zh">示例解读指南</span></h2>
+        <p data-lang="en">Use the public yeast reports to learn the report structure before reading your own project output.</p>
+        <p data-lang="zh">可以先通过公开 yeast 报告熟悉报告结构，再阅读自己的项目输出。</p>
+        <div class="actions">
+          <a class="button primary" href="../examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="en">Reference example guide</a>
+          <a class="button primary" href="../examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="zh">有参示例解读</a>
+          <a class="button" href="../examples/yeast-denovo-standard-report/04_reports/report_interpretation.html" data-lang="en">De novo example guide</a>
+          <a class="button" href="../examples/yeast-denovo-standard-report/04_reports/report_interpretation.html" data-lang="zh">无参示例解读</a>
+        </div>
       </section>
     </div>
   </main>
-  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="../examples/yeast-standard-report/index.html"><span data-lang="en">Yeast example</span><span data-lang="zh">酵母示例</span></a></span></div></footer>
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a></span></div></footer>
   <script src="../assets/js/site.js"></script>
 </body>
 </html>

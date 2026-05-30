@@ -345,6 +345,10 @@ h3 {
   background: var(--copper);
 }
 
+.route-label.denovo {
+  background: var(--teal-dark);
+}
+
 .route-steps {
   display: flex;
   align-items: center;
@@ -586,6 +590,11 @@ h3 {
 .flow-node.optional {
   border-color: rgba(166, 111, 76, 0.36);
   background: var(--copper-soft);
+}
+
+.flow-node.denovo {
+  border-color: rgba(39, 122, 120, 0.38);
+  background: #e7f5ef;
 }
 
 .flow-node.result,

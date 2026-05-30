@@ -15,7 +15,7 @@
         <a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
         <a href="quickstart.html" aria-current="page"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
         <a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
-        <a href="../examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <a href="../examples/yeast-denovo-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Latest report</span><span data-lang="zh">最新报告</span></a>
         <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
       </div>
     </nav>
@@ -23,22 +23,27 @@
   <main class="page-layout">
     <aside class="side-nav">
       <a href="#inputs"><span data-lang="en">Inputs</span><span data-lang="zh">输入</span></a>
-      <a href="#command"><span data-lang="en">Command</span><span data-lang="zh">命令</span></a>
-      <a href="#routes"><span data-lang="en">Routes</span><span data-lang="zh">路线</span></a>
+      <a href="#reference"><span data-lang="en">Reference</span><span data-lang="zh">有参</span></a>
+      <a href="#denovo"><span data-lang="en">De novo</span><span data-lang="zh">无参</span></a>
+      <a href="#routes"><span data-lang="en">Route choices</span><span data-lang="zh">路线选择</span></a>
       <a href="#outputs"><span data-lang="en">Outputs</span><span data-lang="zh">输出</span></a>
     </aside>
     <div class="content">
       <section id="inputs" class="article">
         <p class="eyebrow"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></p>
-        <h1 data-lang="en">Run the standard RNA-seq route</h1>
-        <h1 data-lang="zh">运行标准 RNA-seq 路线</h1>
-        <p data-lang="en">Prepare local FASTQ files, a genome FASTA, a matching GTF/GFF3 annotation, sample metadata, and an offline GMT gene-set file. The flow does not download reference resources during normal execution.</p>
-        <p data-lang="zh">准备本地 FASTQ、基因组 FASTA、匹配的 GTF/GFF3 注释、样本元数据和离线 GMT 基因集文件。流程正常运行时不会联网下载参考资源。</p>
+        <h1 data-lang="en">Run the RNA-seq standard flow</h1>
+        <h1 data-lang="zh">运行 RNA-seq 标准流程</h1>
+        <p data-lang="en">Prepare local FASTQ files and metadata. For reference mode, also provide a genome FASTA, matching annotation, and optional offline GMT/background resources. For de novo mode, provide a protein FASTA database and optional protein-to-GO map for annotation-derived enrichment.</p>
+        <p data-lang="zh">先准备本地 FASTQ 和样本元数据。有参模式还需要基因组 FASTA、匹配注释，以及可选离线 GMT/background 资源。无参模式需要蛋白 FASTA 数据库，以及可选 protein-to-GO 映射表，用于注释派生富集。</p>
+        <div class="manual-note">
+          <p data-lang="en">This page is the short route guide. For production runs and every option in <code>taf-rnaseq-standard-flow</code>, read the <a href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer">official GitHub docs</a>.</p>
+          <p data-lang="zh">本页是快速路线说明。正式分析和 <code>taf-rnaseq-standard-flow</code> 的完整参数解释，请阅读 <a href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer">GitHub 上的正式手册</a>。</p>
+        </div>
       </section>
 
-      <section id="command" class="article">
-        <h2 data-lang="en">Minimal command</h2>
-        <h2 data-lang="zh">最小命令</h2>
+      <section id="reference" class="article">
+        <h2 data-lang="en">Reference mode</h2>
+        <h2 data-lang="zh">有参模式</h2>
         <pre class="code-block"><code>taf-rnaseq-standard-flow \
   --samples samples.tsv \
   --genome genome.fa \
@@ -48,14 +53,33 @@
   --contrast condition:treated:control \
   --gene-sets gene_sets.gmt \
   --background background.tsv \
-  --outdir rnaseq-standard-out</code></pre>
+  --outdir rnaseq-standard-out \
+  --threads 8</code></pre>
+      </section>
+
+      <section id="denovo" class="article">
+        <h2 data-lang="en">De novo mode</h2>
+        <h2 data-lang="zh">无参模式</h2>
+        <pre class="code-block"><code>taf-rnaseq-standard-flow \
+  --mode denovo \
+  --samples samples.tsv \
+  --metadata metadata.tsv \
+  --design '~ condition' \
+  --contrast condition:treated:control \
+  --protein-db proteins.faa \
+  --go-map protein_go_map.tsv \
+  --outdir rnaseq-denovo-standard-out \
+  --threads 16 \
+  --max-memory 64G</code></pre>
+        <p data-lang="en"><code>--protein-db</code> and <code>--go-map</code> are not produced by the sequencer. They are biological annotation resources selected by the analyst, often from a related organism, curated proteome, or project-approved database.</p>
+        <p data-lang="zh"><code>--protein-db</code> 和 <code>--go-map</code> 不是测序仪下机数据，而是分析者选择的生物学注释资源，通常来自近缘物种、curated proteome 或项目认可数据库。</p>
       </section>
 
       <section id="routes" class="article">
         <h2 data-lang="en">Route choices</h2>
         <h2 data-lang="zh">路线选择</h2>
-        <p data-lang="en">The default route uses Salmon/tximport counts for differential expression. Add <code>--route both</code> to generate alignment/count/QC evidence. Add <code>--route both --de-source featurecounts</code> when you want DESeq2 to use featureCounts instead of Salmon counts.</p>
-        <p data-lang="zh">默认路线使用 Salmon/tximport 计数做差异表达。添加 <code>--route both</code> 可以生成比对、计数和 QC 证据；如果希望 DESeq2 使用 featureCounts 而不是 Salmon 计数，使用 <code>--route both --de-source featurecounts</code>。</p>
+        <p data-lang="en">The default reference route uses Salmon/tximport counts for differential expression. Add <code>--route both</code> to generate alignment/count/QC evidence. Add <code>--route both --de-source featurecounts</code> only when DESeq2 should use featureCounts instead of Salmon counts. De novo mode is selected with <code>--mode denovo</code> and is incompatible with the reference alignment/count branch.</p>
+        <p data-lang="zh">默认有参路线使用 Salmon/tximport 计数做差异表达。添加 <code>--route both</code> 可以生成比对、计数和 QC 证据；如果希望 DESeq2 使用 featureCounts 而不是 Salmon 计数，使用 <code>--route both --de-source featurecounts</code>。无参模式通过 <code>--mode denovo</code> 选择，不能与有参比对/计数分支混用。</p>
       </section>
 
       <section id="outputs" class="article">
@@ -64,9 +88,8 @@
         <ul>
           <li><code>04_reports/rnaseq_report.html</code></li>
           <li><code>04_reports/report_interpretation.html</code></li>
-          <li><code>03_results/expression/</code></li>
-          <li><code>03_results/de/</code></li>
-          <li><code>03_results/enrichment/</code></li>
+          <li><code>03_results/expression/</code> or <code>03_results/denovo_expression/</code></li>
+          <li><code>03_results/de/</code> and optional <code>03_results/enrichment/</code></li>
           <li><code>03_results/plots/png/</code> and <code>03_results/plots/pdf/</code></li>
           <li><code>04_reports/commands.sh</code>, <code>04_reports/versions.tsv</code>, and <code>run.manifest.json</code></li>
         </ul>

@@ -1,7 +1,7 @@
 {
     "WT_12": {
-        "Sense": "44.72",
-        "Antisense": "42.08",
+        "Sense": "44.71",
+        "Antisense": "42.089999999999996",
         "Undetermined": "13.200000000000001"
     },
     "WT_11": {
@@ -10,7 +10,7 @@
         "Undetermined": "13.07"
     },
     "WT_10": {
-        "Sense": "44.269999999999996",
+        "Sense": "44.26",
         "Antisense": "42.54",
         "Undetermined": "13.19"
     },
@@ -20,8 +20,8 @@
         "Undetermined": "13.76"
     },
     "WT_08": {
-        "Sense": "44.7",
-        "Antisense": "41.89",
+        "Sense": "44.690000000000005",
+        "Antisense": "41.9",
         "Undetermined": "13.41"
     },
     "WT_07": {
@@ -41,12 +41,12 @@
     },
     "WT_04": {
         "Sense": "44.37",
-        "Antisense": "42.3",
+        "Antisense": "42.309999999999995",
         "Undetermined": "13.320000000000002"
     },
     "WT_03": {
         "Sense": "43.8",
-        "Antisense": "43.28",
+        "Antisense": "43.269999999999996",
         "Undetermined": "12.920000000000002"
     },
     "WT_02": {
@@ -55,8 +55,8 @@
         "Undetermined": "13.26"
     },
     "WT_01": {
-        "Sense": "44.529999999999994",
-        "Antisense": "42.17",
+        "Sense": "44.519999999999996",
+        "Antisense": "42.18",
         "Undetermined": "13.3"
     },
     "SNF2KO_12": {
@@ -66,7 +66,7 @@
     },
     "SNF2KO_11": {
         "Sense": "44.25",
-        "Antisense": "41.78",
+        "Antisense": "41.77",
         "Undetermined": "13.969999999999999"
     },
     "SNF2KO_10": {
@@ -100,8 +100,8 @@
         "Undetermined": "13.36"
     },
     "SNF2KO_04": {
-        "Sense": "44.57",
-        "Antisense": "42.54",
+        "Sense": "44.56",
+        "Antisense": "42.55",
         "Undetermined": "12.889999999999999"
     },
     "SNF2KO_03": {
@@ -111,12 +111,12 @@
     },
     "SNF2KO_02": {
         "Sense": "44.49",
-        "Antisense": "41.97",
-        "Undetermined": "13.530000000000001"
+        "Antisense": "41.980000000000004",
+        "Undetermined": "13.54"
     },
     "SNF2KO_01": {
         "Sense": "44.58",
         "Antisense": "42.120000000000005",
-        "Undetermined": "13.3"
+        "Undetermined": "13.309999999999999"
     }
 }

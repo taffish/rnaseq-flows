@@ -1,0 +1,24 @@
+metric	value	note
+Analysis mode	denovo / no-reference	reference-guided or de novo RNA-seq analysis mode
+Samples	24	RNA-seq samples included in the run
+Route	de novo salmon (assembled transcriptome)	no-reference route: assembly plus Salmon quantification against assembled transcripts
+DE source	de novo transcript counts	count-like matrix built from assembled transcript quantification
+Avg Salmon reads	457133.12	mean estimated_num_reads across samples; in de novo mode these reads are quantified against the assembled transcriptome
+Avg mapped %	N/A (de novo)	not applicable without reference genome alignment
+featureCounts assigned	N/A (de novo)	not applicable without reference genome feature counting
+QC assigned tags	N/A (de novo)	not applicable without reference genome alignment QC
+Tested genes	9592	genes retained for DESeq2 testing
+Significant genes	713	padj and log2FC filtered DE genes
+Up / down genes	221 / 492	direction split among significant genes
+ORA terms	1427	over-representation result rows
+GSEA terms	4369	preranked enrichment result rows
+De novo filtered transcripts	9609	assembled transcriptome after length filtering
+De novo N50	1308	filtered de novo transcript N50
+De novo BUSCO	skipped	BUSCO completeness step status when available
+De novo matrix semantics	transcript-level only; no tx2gene/cluster aggregation	transcript-level only unless explicit tx2gene or cluster mapping was supplied
+De novo transcript rows	9609	transcript-level expression feature rows
+Pseudo-gene rows	0	gene or cluster rows from optional mapping
+Annotated transcripts	8285	transcripts with homology annotation evidence
+GO gene sets	5705	annotation-derived GMT gene sets available for enrichment
+Collected plots	14	PNG/PDF plot groups in this report
+Linked HTML reports	26	copied QC/report HTML bundles linked from this report

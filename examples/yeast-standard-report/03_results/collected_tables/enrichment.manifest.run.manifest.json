@@ -1,8 +1,8 @@
 {
   "flow": "rnaseq-enrichment-flow",
   "version": "0.1.0-r3",
-  "started_at": "2026-05-28T02:50:58Z",
-  "finished_at": "2026-05-28T02:51:15Z",
+  "started_at": "2026-05-30T18:53:58Z",
+  "finished_at": "2026-05-30T18:54:18Z",
   "inputs": {
     "gene_list": "/home/kyhan/test/rna-seq/yeast-standard-out/02_intermediate/enrichment_inputs/significant_genes.background.tsv",
     "ranked_genes": "/home/kyhan/test/rna-seq/yeast-standard-out/02_intermediate/enrichment_inputs/ranked_genes.background.tsv",
@@ -25,7 +25,7 @@
   "counts": {
     "gene_sets": 2274,
     "gene_list_genes": 354,
-    "ranked_genes": 5662,
+    "ranked_genes": 5660,
     "background_genes": 7127,
     "ora_result_count": 304,
     "gsea_result_count": 1428,

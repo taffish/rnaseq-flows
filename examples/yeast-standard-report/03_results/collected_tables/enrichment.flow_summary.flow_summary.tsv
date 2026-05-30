@@ -4,7 +4,7 @@ version	0.1.0-r3
 gene_sets	2274
 gmt_unique_genes	4820
 gene_list_genes	354
-ranked_genes	5662
+ranked_genes	5660
 background_genes	7127
 gene_list_gmt_overlap	262
 ranked_gmt_overlap	4582

@@ -1,15 +1,15 @@
 {
   "flow": "rnaseq-alignment-qc-flow",
   "version": "0.1.0-r1",
-  "started_at": "2026-05-28T02:44:22Z",
-  "finished_at": "2026-05-28T02:49:44Z",
+  "started_at": "2026-05-30T18:46:57Z",
+  "finished_at": "2026-05-30T18:52:42Z",
   "inputs": {
     "bams": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/bam_files.tsv",
     "gtf": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/annotation/genes.gtf",
     "annotation_bed": null
   },
   "parameters": {
-    "threads": 2,
+    "threads": 64,
     "java_mem_size": "4G",
     "mapq": 30,
     "infer_sample_size": 200000,

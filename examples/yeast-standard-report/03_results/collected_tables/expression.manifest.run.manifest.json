@@ -1,14 +1,14 @@
 {
   "flow": "rnaseq-expression-flow",
   "version": "0.1.0-r1",
-  "started_at": "2026-05-28T02:36:32Z",
-  "finished_at": "2026-05-28T02:40:52Z",
+  "started_at": "2026-05-30T18:39:03Z",
+  "finished_at": "2026-05-30T18:42:53Z",
   "parameters": {
     "samples": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
     "index": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/salmon_index",
     "tx2gene": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/tx2gene.tsv",
     "outdir": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression",
-    "threads": "2",
+    "threads": "64",
     "library_type": "A",
     "quantifier": "salmon",
     "trim": "false",

@@ -24,14 +24,38 @@
       <article class="card">
         <h3 data-lang="en">Can I run only expression quantification?</h3>
         <h3 data-lang="zh">只有表达矩阵需求可以运行吗？</h3>
-        <p data-lang="en">Yes. Use the expression flow or run the standard flow until the expression outputs are available. Differential expression requires meaningful experimental groups.</p>
-        <p data-lang="zh">可以。可以单独使用表达定量流程，或运行 <code>rnaseq-standard-flow</code> 并使用其中的表达矩阵输出。差异表达需要有意义的实验分组。</p>
+        <p data-lang="en">Yes. Use the expression flow, the de novo expression flow, or run standard-flow and use the expression outputs. Differential expression requires meaningful experimental groups.</p>
+        <p data-lang="zh">可以。可以单独使用有参 expression flow、无参 expression flow，或运行 standard-flow 后只使用表达矩阵输出。差异表达需要有意义的实验分组。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">Is the workflow reference-only?</h3>
+        <h3 data-lang="zh">流程只能做有参吗？</h3>
+        <p data-lang="en">No. The default is reference mode, but <code>rnaseq-standard-flow 0.2.0-r2</code> also supports explicit <code>--mode denovo</code> for no-reference analysis.</p>
+        <p data-lang="zh">不是。默认是有参模式，但 <code>rnaseq-standard-flow 0.2.0-r2</code> 也支持显式 <code>--mode denovo</code> 进行无参分析。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">What are protein-db and GO map?</h3>
+        <h3 data-lang="zh">protein-db 和 GO map 是什么？</h3>
+        <p data-lang="en">They are external annotation resources for de novo analysis, not sequencer outputs. The protein FASTA supports homology annotation; the GO map allows annotation-derived enrichment.</p>
+        <p data-lang="zh">它们是无参分析用的外部注释资源，不是测序下机文件。蛋白 FASTA 支持同源注释；GO map 支持注释派生富集。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">Does de novo mode produce gene-level results?</h3>
+        <h3 data-lang="zh">无参模式会产生基因层面结果吗？</h3>
+        <p data-lang="en">By default, no. The safe default is transcript-level. Gene or cluster-level matrices require an explicit tx2gene or cluster mapping.</p>
+        <p data-lang="zh">默认不会。安全默认是转录本层面。只有显式提供 tx2gene 或 cluster mapping 时，才生成 gene 或 cluster 层面矩阵。</p>
       </article>
       <article class="card">
         <h3 data-lang="en">Does the flow download databases?</h3>
         <h3 data-lang="zh">流程会下载数据库吗？</h3>
-        <p data-lang="en">No. Genome, annotation, gene sets, and background resources are explicit inputs.</p>
-        <p data-lang="zh">不会。基因组、注释、基因集和背景基因列表都是显式输入。</p>
+        <p data-lang="en">No. Genome, annotation, gene sets, background lists, protein databases, GO maps, and BUSCO lineage data are explicit inputs.</p>
+        <p data-lang="zh">不会。基因组、注释、基因集、背景列表、蛋白数据库、GO map 和 BUSCO lineage 都是显式输入。</p>
+      </article>
+      <article class="card">
+        <h3 data-lang="en">Why can BUSCO be skipped?</h3>
+        <h3 data-lang="zh">为什么 BUSCO 可能被跳过？</h3>
+        <p data-lang="en">BUSCO needs a lineage dataset. If no local lineage is supplied, de novo assembly still runs and the report records BUSCO as skipped rather than downloading data.</p>
+        <p data-lang="zh">BUSCO 需要 lineage 数据集。如果未提供本地 lineage，无参组装仍会运行，报告会记录 BUSCO 为 skipped，而不会联网下载数据。</p>
       </article>
       <article class="card">
         <h3 data-lang="en">Is this a Nextflow replacement?</h3>

@@ -1,15 +1,15 @@
 {
   "flow": "rnaseq-alignment-flow",
   "version": "0.1.0-r1",
-  "started_at": "2026-05-28T02:40:52Z",
-  "finished_at": "2026-05-28T02:44:22Z",
+  "started_at": "2026-05-30T18:42:53Z",
+  "finished_at": "2026-05-30T18:46:57Z",
   "inputs": {
     "samples": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
     "index": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/hisat2_index/genome"
   },
   "parameters": {
     "aligner": "hisat2",
-    "threads": 2,
+    "threads": 64,
     "trim": false,
     "rna_strandness": "none",
     "min_mapq": 0,
@@ -23,8 +23,8 @@
   },
   "counts": {
     "sample_count": 24,
-    "total_reads": 13850363,
-    "mapped_reads": 13466581,
+    "total_reads": 13851577,
+    "mapped_reads": 13467386,
     "mapped_percent": 97.23
   },
   "outputs": {

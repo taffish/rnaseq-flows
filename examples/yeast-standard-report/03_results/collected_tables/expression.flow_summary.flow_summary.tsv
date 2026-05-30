@@ -7,4 +7,4 @@ library_type	A
 trim	false
 skip_fastqc	false
 gene_rows	6612
-transcript_rows	11347
+transcript_rows	11343

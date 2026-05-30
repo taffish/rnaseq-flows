@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TAFFISH RNA-seq Flows</title>
-  <meta name="description" content="TAFFISH RNA-seq flow suite, documentation, and live yeast standard-flow report.">
+  <meta name="description" content="TAFFISH RNA-seq flow suite, documentation, and live reference and de novo yeast example reports.">
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="icon" href="assets/img/taffish-logo.webp">
 </head>
@@ -16,7 +16,7 @@
         <a href="flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
         <a href="docs/quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
         <a href="examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
-        <a href="examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <a href="examples/index.html"><span data-lang="en">Reports</span><span data-lang="zh">报告</span></a>
         <span class="lang-switch" aria-label="Language">
           <button type="button" data-set-lang="en">EN</button>
           <button type="button" data-set-lang="zh">中文</button>
@@ -33,29 +33,31 @@
           <span data-lang="en">RNA-seq analysis as versioned, auditable shell-native flows.</span>
           <span data-lang="zh">把 RNA-seq 分析组织成可版本化、可审计、可直接运行的 shell-native 流程。</span>
         </h1>
-        <p class="lead" data-lang="en">This portal explains the TAFFISH RNA-seq flow family, how the subflows connect, and how a complete yeast SNF2 example report can be inspected online.</p>
-        <p class="lead" data-lang="zh">这个门户用于解释 TAFFISH RNA-seq 流程家族、各个子流程之间的连接方式，并提供可在线查看的 yeast SNF2 示例报告。</p>
+        <p class="lead" data-lang="en">This portal explains the TAFFISH RNA-seq flow family, including the reference route, the optional alignment evidence branch, and the explicit de novo route for projects without a reliable reference genome.</p>
+        <p class="lead" data-lang="zh">这个门户用于解释 TAFFISH RNA-seq 流程家族，包括有参标准路线、可选比对证据分支，以及面向缺少可靠参考基因组项目的显式无参路线。</p>
         <div class="actions">
-          <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="en">View live report</a>
-          <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="zh">查看在线报告</a>
+          <a class="button primary" href="examples/index.html" data-lang="en">View example reports</a>
+          <a class="button primary" href="examples/index.html" data-lang="zh">查看示例报告</a>
           <a class="button" href="flows/index.html" data-lang="en">Explore flows</a>
           <a class="button" href="flows/index.html" data-lang="zh">浏览流程</a>
           <a class="button" href="docs/quickstart.html" data-lang="en">Run your data</a>
           <a class="button" href="docs/quickstart.html" data-lang="zh">分析自己的数据</a>
+          <a class="button" href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer" data-lang="en">Official run docs</a>
+          <a class="button" href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer" data-lang="zh">正式运行手册</a>
         </div>
       </div>
       <div class="hero-panel">
-        <h2 data-lang="en">Two connected routes</h2>
-        <h2 data-lang="zh">两条可连接路线</h2>
+        <h2 data-lang="en">Three connected routes</h2>
+        <h2 data-lang="zh">三条可连接路线</h2>
         <div class="route-mini">
           <div class="route-line">
-            <div class="route-label" data-lang="en">Default</div>
-            <div class="route-label" data-lang="zh">默认路线</div>
+            <div class="route-label" data-lang="en">Reference</div>
+            <div class="route-label" data-lang="zh">有参路线</div>
             <div class="route-steps">
               <span class="pill"><span data-lang="en">index</span><span data-lang="zh">参考构建</span></span>
               <span class="pill"><span data-lang="en">expression</span><span data-lang="zh">表达定量</span></span>
-              <span class="pill"><span data-lang="en">DE</span><span data-lang="zh">差异分析</span></span>
-              <span class="pill"><span data-lang="en">enrichment</span><span data-lang="zh">功能富集</span></span>
+              <span class="pill">DE</span>
+              <span class="pill"><span data-lang="en">enrichment</span><span data-lang="zh">富集</span></span>
               <span class="pill"><span data-lang="en">report</span><span data-lang="zh">报告</span></span>
             </div>
           </div>
@@ -68,9 +70,20 @@
               <span class="pill">featureCounts</span>
             </div>
           </div>
+          <div class="route-line">
+            <div class="route-label denovo" data-lang="en">De novo</div>
+            <div class="route-label denovo" data-lang="zh">无参路线</div>
+            <div class="route-steps">
+              <span class="pill"><span data-lang="en">assembly</span><span data-lang="zh">组装</span></span>
+              <span class="pill"><span data-lang="en">denovo expression</span><span data-lang="zh">无参定量</span></span>
+              <span class="pill"><span data-lang="en">annotation</span><span data-lang="zh">注释</span></span>
+              <span class="pill">DE</span>
+              <span class="pill"><span data-lang="en">report</span><span data-lang="zh">报告</span></span>
+            </div>
+          </div>
         </div>
-        <p class="muted" data-lang="en">The default route stays lightweight with Salmon-first quantification; the optional route adds genome alignment, BAM QC, and featureCounts evidence.</p>
-        <p class="muted" data-lang="zh">默认路线使用 Salmon-first 表达定量以保持轻量；可选路线补充基因组比对、BAM 质量评估和 featureCounts 计数证据。</p>
+        <p class="muted" data-lang="en">Reference mode remains the default. De novo analysis is enabled only with an explicit <code>--mode denovo</code> and requires user-provided protein and GO resources for annotation-derived enrichment.</p>
+        <p class="muted" data-lang="zh">有参模式仍是默认路线。无参分析必须显式使用 <code>--mode denovo</code> 开启，并需要用户提供蛋白数据库和 GO 映射资源，才能进行注释派生富集。</p>
       </div>
     </section>
 
@@ -78,63 +91,76 @@
       <div class="section-head">
         <h2 data-lang="en">What the suite provides</h2>
         <h2 data-lang="zh">这套流程提供什么</h2>
-        <p data-lang="en">The suite is a transparent reference route for bulk RNA-seq, not a large DAG engine. Each flow is an installable TAFFISH command with explicit inputs, outputs, logs, and provenance.</p>
-        <p data-lang="zh">这套流程是 bulk RNA-seq 的透明参考路线，而不是大型 DAG 工作流引擎。每个流程都是可安装的 TAFFISH 命令，带有明确输入、输出、日志和溯源文件。</p>
+        <p data-lang="en">The suite is a transparent route family for bulk RNA-seq, not a large DAG engine. Each flow is an installable TAFFISH command with explicit inputs, outputs, logs, and provenance.</p>
+        <p data-lang="zh">这套流程是 bulk RNA-seq 的透明路线家族，而不是大型 DAG 工作流引擎。每个流程都是可安装的 TAFFISH 命令，带有明确输入、输出、日志和溯源文件。</p>
       </div>
       <div class="grid">
         <article class="card accent">
           <h3 data-lang="en">Composable subflows</h3>
           <h3 data-lang="zh">可组合子流程</h3>
-          <p data-lang="en">Reference preparation, expression quantification, differential expression, enrichment, alignment, counting, QC, and reporting remain separately testable.</p>
-          <p data-lang="zh">参考构建、表达定量、差异表达、富集、比对、计数、QC 和报告都保持独立可测试、可复用。</p>
+          <p data-lang="en">Reference preparation, de novo assembly, expression quantification, differential expression, enrichment, alignment, counting, QC, and reporting remain separately testable.</p>
+          <p data-lang="zh">参考构建、无参组装、表达定量、差异表达、富集、比对、计数、QC 和报告都保持独立可测试、可复用。</p>
         </article>
         <article class="card accent">
           <h3 data-lang="en">One standard command</h3>
           <h3 data-lang="zh">一个标准入口</h3>
-          <p data-lang="en"><code>rnaseq-standard-flow</code> connects the stable subflows from FASTQ and reference inputs to a final bilingual project report.</p>
-        <p data-lang="zh"><code>rnaseq-standard-flow</code> 把稳定子流程从 FASTQ 和参考输入串到最终双语项目报告。</p>
+          <p data-lang="en"><code>rnaseq-standard-flow 0.2.0-r2</code> connects the stable subflows from FASTQ inputs to a final bilingual project report in reference or de novo mode.</p>
+          <p data-lang="zh"><code>rnaseq-standard-flow 0.2.0-r2</code> 可以在有参或无参模式下，把稳定子流程从 FASTQ 输入串到最终双语项目报告。</p>
+          <div class="actions">
+            <a class="button" href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer"><span data-lang="en">Read official docs</span><span data-lang="zh">阅读正式手册</span></a>
+          </div>
         </article>
         <article class="card accent">
-          <h3 data-lang="en">Live example report</h3>
+          <h3 data-lang="en">Live example reports</h3>
           <h3 data-lang="zh">在线示例报告</h3>
-          <p data-lang="en">The yeast SNF2 case shows the actual output layout, plots, linked QC reports, and interpretation guide produced by the current route.</p>
-          <p data-lang="zh">yeast SNF2 案例展示当前路线真实生成的目录结构、图表、QC 子报告链接和解读指南。</p>
+          <p data-lang="en">The yeast SNF2 cases show the actual output layout, plots, linked QC reports, interpretation guides, and provenance produced by both routes.</p>
+          <p data-lang="zh">yeast SNF2 案例展示两条路线真实生成的目录结构、图表、QC 子报告链接、解读指南和溯源记录。</p>
         </article>
       </div>
     </section>
 
     <section class="section">
       <div class="section-head">
-        <h2 data-lang="en">Yeast SNF2 live example</h2>
-        <h2 data-lang="zh">Yeast SNF2 在线示例</h2>
-        <p data-lang="en">This public example was generated from the TAFFISH RNA-seq standard route and collected by <code>rnaseq-report-flow 0.1.0-r4</code>.</p>
-        <p data-lang="zh">这个公开示例由 TAFFISH RNA-seq 标准路线生成，并由 <code>rnaseq-report-flow 0.1.0-r4</code> 收集成报告。</p>
+        <h2 data-lang="en">Yeast SNF2 example reports</h2>
+        <h2 data-lang="zh">Yeast SNF2 示例报告</h2>
+        <p data-lang="en">Two public reports use the same biological project to demonstrate the reference and no-reference routes. This makes the differences in feature space, QC evidence, and interpretation boundaries easier to inspect.</p>
+        <p data-lang="zh">两个公开报告使用同一生物学项目分别展示有参与无参路线，便于比较两者在特征空间、QC 证据和结果解释边界上的差异。</p>
       </div>
-      <div class="stat-grid">
-        <div class="stat"><strong>24</strong><span data-lang="en">samples</span><span data-lang="zh">样本</span></div>
-        <div class="stat"><strong>366</strong><span data-lang="en">significant genes</span><span data-lang="zh">显著差异基因</span></div>
-        <div class="stat"><strong>28</strong><span data-lang="en">plot files</span><span data-lang="zh">图文件</span></div>
-        <div class="stat"><strong>52</strong><span data-lang="en">linked HTML reports</span><span data-lang="zh">链接 HTML 子报告</span></div>
+      <div class="grid two">
+        <article class="card accent">
+          <h3 data-lang="en">Reference standard report</h3>
+          <h3 data-lang="zh">有参标准报告</h3>
+          <p data-lang="en">Genome and annotation driven route with Salmon/tximport expression, DESeq2, enrichment, optional alignment evidence, and a bilingual report.</p>
+          <p data-lang="zh">基于基因组和注释的路线，包含 Salmon/tximport 表达定量、DESeq2、富集分析、可选比对证据和双语报告。</p>
+          <div class="actions">
+            <a class="button primary" href="examples/yeast-standard-report/index.html"><span data-lang="en">Overview</span><span data-lang="zh">概览</span></a>
+            <a class="button" href="examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Main report</span><span data-lang="zh">主报告</span></a>
+          </div>
+        </article>
+        <article class="card accent">
+          <h3 data-lang="en">De novo standard report</h3>
+          <h3 data-lang="zh">无参标准报告</h3>
+          <p data-lang="en">No-reference route with transcriptome assembly, transcript-level quantification, homology annotation, annotation-derived enrichment, and final reporting.</p>
+          <p data-lang="zh">无参路线，包含转录组组装、转录本层面表达定量、同源注释、注释派生富集分析和最终报告。</p>
+          <div class="actions">
+            <a class="button primary" href="examples/yeast-denovo-standard-report/index.html"><span data-lang="en">Overview</span><span data-lang="zh">概览</span></a>
+            <a class="button" href="examples/yeast-denovo-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Main report</span><span data-lang="zh">主报告</span></a>
+          </div>
+        </article>
       </div>
       <div class="plot-strip" style="margin-top:18px">
         <article class="plot-card">
-          <img src="examples/yeast-standard-report/03_results/collected_plots/de.pca_plot.png" alt="PCA plot from the yeast RNA-seq report">
-          <p><span data-lang="en">PCA plot</span><span data-lang="zh">PCA 样本结构图</span></p>
+          <img src="examples/yeast-standard-report/03_results/collected_plots/de.pca_plot.png" alt="PCA plot from the yeast reference RNA-seq report">
+          <p><span data-lang="en">Reference PCA</span><span data-lang="zh">有参 PCA</span></p>
         </article>
         <article class="plot-card">
-          <img src="examples/yeast-standard-report/03_results/collected_plots/de.volcano_plot.png" alt="Volcano plot from the yeast RNA-seq report">
-          <p><span data-lang="en">Volcano plot</span><span data-lang="zh">火山图</span></p>
+          <img src="examples/yeast-denovo-standard-report/03_results/collected_plots/de.sample_correlation_heatmap.png" alt="Sample correlation heatmap from the yeast de novo RNA-seq report">
+          <p><span data-lang="en">De novo sample correlation</span><span data-lang="zh">无参样本相关性</span></p>
         </article>
         <article class="plot-card">
-          <img src="examples/yeast-standard-report/03_results/collected_plots/enrichment.dotplot.png" alt="Enrichment dotplot from the yeast RNA-seq report">
-          <p><span data-lang="en">Enrichment dotplot</span><span data-lang="zh">富集气泡图</span></p>
+          <img src="examples/yeast-denovo-standard-report/03_results/collected_plots/enrichment.gsea_nes_plot.png" alt="GSEA NES plot from the yeast de novo RNA-seq report">
+          <p><span data-lang="en">De novo GSEA NES</span><span data-lang="zh">无参 GSEA NES</span></p>
         </article>
-      </div>
-      <div class="actions">
-        <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="en">Open main report</a>
-        <a class="button primary" href="examples/yeast-standard-report/04_reports/rnaseq_report.html" data-lang="zh">打开主报告</a>
-        <a class="button" href="examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="en">Open interpretation guide</a>
-        <a class="button" href="examples/yeast-standard-report/04_reports/report_interpretation.html" data-lang="zh">打开解读指南</a>
       </div>
     </section>
   </main>

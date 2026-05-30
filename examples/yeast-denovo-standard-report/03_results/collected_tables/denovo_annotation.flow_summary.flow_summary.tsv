@@ -1,0 +1,13 @@
+flow	rnaseq-denovo-annotation-flow
+version	0.1.0-r1
+transcript_count	9609
+predicted_protein_count	8522
+best_hit_count	8285
+annotated_transcript_count	8285
+go_annotated_transcript_count	8254
+gene_set_count	5705
+background_count	8522
+search_engine	diamond
+min_orf_aa	50
+protein_db_provided	yes
+go_map_provided	yes

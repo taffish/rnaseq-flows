@@ -1,0 +1,63 @@
+{
+    "SeqKit": {
+        "stats": {
+            "transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/04_reports/transcript_stats.tsv"
+        }
+    },
+    "Salmon": {
+        "all_sections": {
+            "WT_05": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_05/libParams/flenDist.txt",
+            "WT_12": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_12/libParams/flenDist.txt",
+            "WT_07": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_07/libParams/flenDist.txt",
+            "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_08/libParams/flenDist.txt",
+            "WT_04": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_04/libParams/flenDist.txt",
+            "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_01/libParams/flenDist.txt",
+            "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_11/libParams/flenDist.txt",
+            "WT_09": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_09/libParams/flenDist.txt",
+            "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_07/libParams/flenDist.txt",
+            "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_10/libParams/flenDist.txt",
+            "WT_10": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_10/libParams/flenDist.txt",
+            "WT_03": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_03/libParams/flenDist.txt",
+            "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_04/libParams/flenDist.txt",
+            "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_05/libParams/flenDist.txt",
+            "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_09/libParams/flenDist.txt",
+            "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_12/libParams/flenDist.txt",
+            "WT_11": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_11/libParams/flenDist.txt",
+            "WT_06": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_06/libParams/flenDist.txt",
+            "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_02/libParams/flenDist.txt",
+            "WT_02": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_02/libParams/flenDist.txt",
+            "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_06/libParams/flenDist.txt",
+            "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/SNF2KO_03/libParams/flenDist.txt",
+            "WT_08": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_08/libParams/flenDist.txt",
+            "WT_01": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/salmon/WT_01/libParams/flenDist.txt"
+        }
+    },
+    "FastQC": {
+        "all_sections": {
+            "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_01/SNF2KO_01_fastqc.zip",
+            "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_02/SNF2KO_02_fastqc.zip",
+            "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_03/SNF2KO_03_fastqc.zip",
+            "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_04/SNF2KO_04_fastqc.zip",
+            "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_05/SNF2KO_05_fastqc.zip",
+            "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_06/SNF2KO_06_fastqc.zip",
+            "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_07/SNF2KO_07_fastqc.zip",
+            "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_08/SNF2KO_08_fastqc.zip",
+            "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_09/SNF2KO_09_fastqc.zip",
+            "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_10/SNF2KO_10_fastqc.zip",
+            "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_11/SNF2KO_11_fastqc.zip",
+            "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/SNF2KO_12/SNF2KO_12_fastqc.zip",
+            "WT_01": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_01/WT_01_fastqc.zip",
+            "WT_02": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_02/WT_02_fastqc.zip",
+            "WT_03": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_03/WT_03_fastqc.zip",
+            "WT_04": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_04/WT_04_fastqc.zip",
+            "WT_05": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_05/WT_05_fastqc.zip",
+            "WT_06": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_06/WT_06_fastqc.zip",
+            "WT_07": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_07/WT_07_fastqc.zip",
+            "WT_08": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_08/WT_08_fastqc.zip",
+            "WT_09": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_09/WT_09_fastqc.zip",
+            "WT_10": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_10/WT_10_fastqc.zip",
+            "WT_11": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_11/WT_11_fastqc.zip",
+            "WT_12": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/fastqc/WT_12/WT_12_fastqc.zip"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "flow": "rnaseq-denovo-annotation-flow",
+  "version": "0.1.0-r1",
+  "started_at": "2026-05-30T09:12:02Z",
+  "completed_at": "2026-05-30T09:13:23Z",
+  "inputs": {
+    "transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
+    "protein_db": "/home/kyhan/test/rna-seq/yeast-denovo-24sample-resources/resources/yeast_orf_trans_all_R64-4-1.protein.faa",
+    "go_map": "/home/kyhan/test/rna-seq/yeast-denovo-24sample-resources/resources/yeast_sgd_go_map.tsv"
+  },
+  "parameters": {
+    "threads": 64,
+    "search_engine": "diamond",
+    "evalue": "1e-5",
+    "max_target_seqs": 1,
+    "min_orf_aa": 50,
+    "id_prefix": "denovo"
+  },
+  "outputs": {
+    "proteins": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/coding/proteins.fa",
+    "cds": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/coding/cds.fa",
+    "protein_hits": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/annotation/protein_hits.tsv",
+    "transcript_annotation": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/annotation/transcript_annotation.tsv",
+    "id_mapping": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/annotation/id_mapping.tsv",
+    "denovo_go_gmt": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/gene_sets/denovo_go.gmt",
+    "denovo_background": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/gene_sets/denovo_background.tsv",
+    "annotation_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/04_reports/annotation_summary.tsv"
+  },
+  "metrics": {
+    "transcript_count": 9609,
+    "predicted_protein_count": 8522,
+    "best_hit_count": 8285,
+    "go_annotated_transcript_count": 8254,
+    "gene_set_count": 5705
+  },
+  "dependencies": {
+    "taf-diamond": "2.2.1-r1",
+    "taf-seqkit": "2.13.0-r2",
+    "taf-transdecoder": "6.0.0-r1"
+  }
+}

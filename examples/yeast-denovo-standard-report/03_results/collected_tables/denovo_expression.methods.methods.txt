@@ -1,0 +1,6 @@
+rnaseq-denovo-expression-flow quantified RNA-seq FASTQ samples against an assembled de novo transcriptome with Salmon.
+The flow built a local Salmon index from the provided assembled transcript FASTA and used Salmon library type A.
+The primary matrices are transcript-level: transcript_counts.tsv and transcript_tpm.tsv. These features are assembled transcript IDs, not known reference genes.
+No tx2gene or cluster map was provided, so gene-level matrices were not generated.
+Reads were quantified directly without fastp trimming.
+FastQC was run on the input FASTQ files.

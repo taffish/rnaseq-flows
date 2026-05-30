@@ -1,218 +1,218 @@
 {
     "WT_12": {
-        "CDS_Exons": "453838.0",
-        "5'UTR_Exons": "5447.0",
+        "CDS_Exons": "453422.0",
+        "5'UTR_Exons": "5405.0",
         "3'UTR_Exons": "19116.0",
-        "Introns": "320.0",
+        "Introns": "319.0",
         "TSS_up_1kb": "1.0",
         "TES_down_1kb": "7.0",
-        "Other_intergenic": "9117.0"
+        "Other_intergenic": "9300.0"
     },
     "WT_11": {
-        "CDS_Exons": "466381.0",
-        "5'UTR_Exons": "3651.0",
+        "CDS_Exons": "466047.0",
+        "5'UTR_Exons": "3636.0",
         "3'UTR_Exons": "11334.0",
         "Introns": "195.0",
         "TSS_up_1kb": "0.0",
         "TES_down_1kb": "6.0",
-        "Other_intergenic": "7562.0"
+        "Other_intergenic": "7729.0"
     },
     "WT_10": {
-        "CDS_Exons": "452196.0",
-        "5'UTR_Exons": "4806.0",
+        "CDS_Exons": "451802.0",
+        "5'UTR_Exons": "4783.0",
         "3'UTR_Exons": "19667.0",
-        "Introns": "276.0",
+        "Introns": "275.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "9.0",
-        "Other_intergenic": "10059.0"
+        "Other_intergenic": "10248.0"
     },
     "WT_09": {
-        "CDS_Exons": "469733.0",
-        "5'UTR_Exons": "5230.0",
+        "CDS_Exons": "469338.0",
+        "5'UTR_Exons": "5201.0",
         "3'UTR_Exons": "10314.0",
-        "Introns": "235.0",
+        "Introns": "233.0",
         "TSS_up_1kb": "1.0",
         "TES_down_1kb": "5.0",
-        "Other_intergenic": "6891.0"
+        "Other_intergenic": "7041.0"
     },
     "WT_08": {
-        "CDS_Exons": "455544.0",
-        "5'UTR_Exons": "6742.0",
+        "CDS_Exons": "455157.0",
+        "5'UTR_Exons": "6705.0",
         "3'UTR_Exons": "19044.0",
-        "Introns": "300.0",
+        "Introns": "296.0",
         "TSS_up_1kb": "0.0",
         "TES_down_1kb": "15.0",
-        "Other_intergenic": "9573.0"
+        "Other_intergenic": "9711.0"
     },
     "WT_07": {
-        "CDS_Exons": "454681.0",
-        "5'UTR_Exons": "5639.0",
+        "CDS_Exons": "454356.0",
+        "5'UTR_Exons": "5610.0",
         "3'UTR_Exons": "19999.0",
-        "Introns": "490.0",
+        "Introns": "487.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "11.0",
-        "Other_intergenic": "9338.0"
+        "Other_intergenic": "9519.0"
     },
     "WT_06": {
-        "CDS_Exons": "453430.0",
-        "5'UTR_Exons": "6622.0",
+        "CDS_Exons": "453025.0",
+        "5'UTR_Exons": "6590.0",
         "3'UTR_Exons": "22569.0",
-        "Introns": "537.0",
+        "Introns": "534.0",
         "TSS_up_1kb": "1.0",
         "TES_down_1kb": "12.0",
-        "Other_intergenic": "10005.0"
+        "Other_intergenic": "10219.0"
     },
     "WT_05": {
-        "CDS_Exons": "450760.0",
-        "5'UTR_Exons": "6890.0",
+        "CDS_Exons": "450384.0",
+        "5'UTR_Exons": "6866.0",
         "3'UTR_Exons": "20550.0",
         "Introns": "387.0",
         "TSS_up_1kb": "1.0",
         "TES_down_1kb": "17.0",
-        "Other_intergenic": "10273.0"
+        "Other_intergenic": "10485.0"
     },
     "WT_04": {
-        "CDS_Exons": "451053.0",
-        "5'UTR_Exons": "5343.0",
+        "CDS_Exons": "450631.0",
+        "5'UTR_Exons": "5315.0",
         "3'UTR_Exons": "23817.0",
-        "Introns": "378.0",
+        "Introns": "372.0",
         "TSS_up_1kb": "3.0",
         "TES_down_1kb": "11.0",
-        "Other_intergenic": "9896.0"
+        "Other_intergenic": "10142.0"
     },
     "WT_03": {
-        "CDS_Exons": "456473.0",
-        "5'UTR_Exons": "5840.0",
+        "CDS_Exons": "456056.0",
+        "5'UTR_Exons": "5806.0",
         "3'UTR_Exons": "15002.0",
-        "Introns": "358.0",
+        "Introns": "353.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "6.0",
-        "Other_intergenic": "8082.0"
+        "Other_intergenic": "8258.0"
     },
     "WT_02": {
-        "CDS_Exons": "451290.0",
-        "5'UTR_Exons": "6801.0",
+        "CDS_Exons": "450855.0",
+        "5'UTR_Exons": "6770.0",
         "3'UTR_Exons": "22630.0",
-        "Introns": "531.0",
+        "Introns": "530.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "8.0",
-        "Other_intergenic": "10180.0"
+        "Other_intergenic": "10401.0"
     },
     "WT_01": {
-        "CDS_Exons": "458077.0",
-        "5'UTR_Exons": "4545.0",
+        "CDS_Exons": "457682.0",
+        "5'UTR_Exons": "4526.0",
         "3'UTR_Exons": "15326.0",
-        "Introns": "214.0",
+        "Introns": "212.0",
         "TSS_up_1kb": "0.0",
         "TES_down_1kb": "6.0",
-        "Other_intergenic": "8136.0"
+        "Other_intergenic": "8344.0"
     },
     "SNF2KO_12": {
-        "CDS_Exons": "444517.0",
-        "5'UTR_Exons": "5614.0",
-        "3'UTR_Exons": "29186.0",
-        "Introns": "401.0",
+        "CDS_Exons": "444287.0",
+        "5'UTR_Exons": "5599.0",
+        "3'UTR_Exons": "29184.0",
+        "Introns": "400.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "25.0",
-        "Other_intergenic": "9415.0"
+        "Other_intergenic": "9503.0"
     },
     "SNF2KO_11": {
-        "CDS_Exons": "448302.0",
-        "5'UTR_Exons": "4457.0",
+        "CDS_Exons": "448085.0",
+        "5'UTR_Exons": "4444.0",
         "3'UTR_Exons": "22780.0",
-        "Introns": "308.0",
+        "Introns": "307.0",
         "TSS_up_1kb": "3.0",
         "TES_down_1kb": "18.0",
-        "Other_intergenic": "8456.0"
+        "Other_intergenic": "8536.0"
     },
     "SNF2KO_10": {
-        "CDS_Exons": "456296.0",
-        "5'UTR_Exons": "7564.0",
+        "CDS_Exons": "456010.0",
+        "5'UTR_Exons": "7523.0",
         "3'UTR_Exons": "18283.0",
-        "Introns": "409.0",
+        "Introns": "405.0",
         "TSS_up_1kb": "7.0",
         "TES_down_1kb": "8.0",
-        "Other_intergenic": "8093.0"
+        "Other_intergenic": "8142.0"
     },
     "SNF2KO_09": {
-        "CDS_Exons": "450720.0",
-        "5'UTR_Exons": "7216.0",
+        "CDS_Exons": "450420.0",
+        "5'UTR_Exons": "7180.0",
         "3'UTR_Exons": "22476.0",
-        "Introns": "398.0",
+        "Introns": "396.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "21.0",
-        "Other_intergenic": "8843.0"
+        "Other_intergenic": "8905.0"
     },
     "SNF2KO_08": {
-        "CDS_Exons": "447185.0",
-        "5'UTR_Exons": "6450.0",
+        "CDS_Exons": "446954.0",
+        "5'UTR_Exons": "6404.0",
         "3'UTR_Exons": "22730.0",
-        "Introns": "394.0",
+        "Introns": "391.0",
         "TSS_up_1kb": "4.0",
         "TES_down_1kb": "16.0",
-        "Other_intergenic": "9410.0"
+        "Other_intergenic": "9479.0"
     },
     "SNF2KO_07": {
-        "CDS_Exons": "445468.0",
-        "5'UTR_Exons": "5885.0",
+        "CDS_Exons": "445272.0",
+        "5'UTR_Exons": "5859.0",
         "3'UTR_Exons": "24635.0",
         "Introns": "394.0",
         "TSS_up_1kb": "0.0",
         "TES_down_1kb": "13.0",
-        "Other_intergenic": "9621.0"
+        "Other_intergenic": "9694.0"
     },
     "SNF2KO_06": {
-        "CDS_Exons": "444687.0",
-        "5'UTR_Exons": "7182.0",
+        "CDS_Exons": "444410.0",
+        "5'UTR_Exons": "7141.0",
         "3'UTR_Exons": "26040.0",
-        "Introns": "528.0",
+        "Introns": "526.0",
         "TSS_up_1kb": "6.0",
         "TES_down_1kb": "14.0",
-        "Other_intergenic": "9712.0"
+        "Other_intergenic": "9776.0"
     },
     "SNF2KO_05": {
-        "CDS_Exons": "447234.0",
-        "5'UTR_Exons": "5617.0",
-        "3'UTR_Exons": "24414.0",
-        "Introns": "369.0",
+        "CDS_Exons": "447023.0",
+        "5'UTR_Exons": "5605.0",
+        "3'UTR_Exons": "24413.0",
+        "Introns": "368.0",
         "TSS_up_1kb": "4.0",
         "TES_down_1kb": "18.0",
-        "Other_intergenic": "9247.0"
+        "Other_intergenic": "9329.0"
     },
     "SNF2KO_04": {
-        "CDS_Exons": "457768.0",
-        "5'UTR_Exons": "4647.0",
+        "CDS_Exons": "457577.0",
+        "5'UTR_Exons": "4623.0",
         "3'UTR_Exons": "21760.0",
-        "Introns": "342.0",
+        "Introns": "340.0",
         "TSS_up_1kb": "2.0",
         "TES_down_1kb": "15.0",
-        "Other_intergenic": "9958.0"
+        "Other_intergenic": "10020.0"
     },
     "SNF2KO_03": {
-        "CDS_Exons": "450318.0",
-        "5'UTR_Exons": "7853.0",
+        "CDS_Exons": "450016.0",
+        "5'UTR_Exons": "7809.0",
         "3'UTR_Exons": "22657.0",
-        "Introns": "475.0",
+        "Introns": "469.0",
         "TSS_up_1kb": "0.0",
         "TES_down_1kb": "17.0",
-        "Other_intergenic": "8845.0"
+        "Other_intergenic": "8930.0"
     },
     "SNF2KO_02": {
-        "CDS_Exons": "450421.0",
-        "5'UTR_Exons": "5589.0",
+        "CDS_Exons": "450172.0",
+        "5'UTR_Exons": "5551.0",
         "3'UTR_Exons": "22228.0",
-        "Introns": "353.0",
+        "Introns": "352.0",
         "TSS_up_1kb": "1.0",
         "TES_down_1kb": "11.0",
-        "Other_intergenic": "9663.0"
+        "Other_intergenic": "9727.0"
     },
     "SNF2KO_01": {
-        "CDS_Exons": "446759.0",
-        "5'UTR_Exons": "6634.0",
-        "3'UTR_Exons": "27048.0",
-        "Introns": "477.0",
+        "CDS_Exons": "446513.0",
+        "5'UTR_Exons": "6605.0",
+        "3'UTR_Exons": "27047.0",
+        "Introns": "476.0",
         "TSS_up_1kb": "3.0",
         "TES_down_1kb": "20.0",
-        "Other_intergenic": "10019.0"
+        "Other_intergenic": "10086.0"
     }
 }

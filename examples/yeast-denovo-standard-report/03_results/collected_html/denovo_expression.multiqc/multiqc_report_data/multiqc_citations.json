@@ -1,0 +1,11 @@
+{
+    "MultiQC": [
+        "10.1093/bioinformatics/btw354"
+    ],
+    "seqkit": [
+        "10.1371/journal.pone.0163962"
+    ],
+    "salmon": [
+        "10.1038/nmeth.4197"
+    ]
+}

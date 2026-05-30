@@ -1,0 +1,7 @@
+metric	value
+assembled_transcripts	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa
+filtered_transcripts	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa
+seqkit_stats	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/seqkit_stats.tsv
+assembly_stats	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/assembly_stats.tsv
+busco_summary	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/busco_summary.tsv
+multiqc_report	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/04_reports/multiqc_report.html

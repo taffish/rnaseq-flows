@@ -11,23 +11,18 @@
   <header class="site-header">
     <nav class="nav" aria-label="Primary navigation">
       <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
-      <div class="nav-links">
-        <a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
-        <a href="quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
-        <a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
-        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
-      </div>
+      <div class="nav-links"><a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a><a href="quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a><a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a><span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span></div>
     </nav>
   </header>
   <main class="page-layout">
-    <aside class="side-nav"><a href="#samples"><span data-lang="en">Samples</span><span data-lang="zh">样本</span></a><a href="#metadata"><span data-lang="en">Metadata</span><span data-lang="zh">元数据</span></a><a href="#reference"><span data-lang="en">Reference</span><span data-lang="zh">参考</span></a><a href="#genesets"><span data-lang="en">Gene sets</span><span data-lang="zh">基因集</span></a></aside>
+    <aside class="side-nav"><a href="#samples"><span data-lang="en">Samples</span><span data-lang="zh">样本</span></a><a href="#metadata"><span data-lang="en">Metadata</span><span data-lang="zh">元数据</span></a><a href="#reference"><span data-lang="en">Reference</span><span data-lang="zh">参考</span></a><a href="#genesets"><span data-lang="en">Gene sets</span><span data-lang="zh">基因集</span></a><a href="#denovo"><span data-lang="en">De novo resources</span><span data-lang="zh">无参资源</span></a></aside>
     <div class="content">
       <section id="samples" class="article">
         <p class="eyebrow"><span data-lang="en">Inputs</span><span data-lang="zh">输入</span></p>
         <h1 data-lang="en">Prepare analysis-ready inputs</h1>
         <h1 data-lang="zh">准备可分析输入</h1>
-        <p data-lang="en">The sample table names biological samples and points to local FASTQ files. Relative paths are resolved from the sample table location.</p>
-        <p data-lang="zh">样本表给出生物学样本名并指向本地 FASTQ 文件。相对路径按样本表所在目录解释。</p>
+        <p data-lang="en">The sample table names biological samples and points to local FASTQ files. The same table feeds reference expression, reference alignment, and de novo assembly/expression routes.</p>
+        <p data-lang="zh">样本表给出生物学样本名并指向本地 FASTQ 文件。同一张表可以用于有参表达、有参比对，以及无参组装/表达路线。</p>
         <pre class="code-block"><code>sample_id	read1	read2	condition
 WT_01	reads/WT_01_R1.fq.gz	reads/WT_01_R2.fq.gz	WT
 KO_01	reads/KO_01_R1.fq.gz	reads/KO_01_R2.fq.gz	treated</code></pre>
@@ -36,21 +31,36 @@ KO_01	reads/KO_01_R1.fq.gz	reads/KO_01_R2.fq.gz	treated</code></pre>
         <h2><span data-lang="en">Metadata</span><span data-lang="zh">元数据</span></h2>
         <p data-lang="en">Metadata drives the statistical design. Keep sample IDs identical to the expression matrix sample names and make the contrast explicit.</p>
         <p data-lang="zh">样本元数据决定统计设计。样本 ID 需要和表达矩阵中的样本名一致，并明确写出比较组。</p>
-        <pre class="code-block"><code>sample	condition
-WT_01	WT
-KO_01	treated</code></pre>
+        <pre class="code-block"><code>sample	condition	batch
+WT_01	control	A
+KO_01	treated	A</code></pre>
       </section>
       <section id="reference" class="article">
         <h2 data-lang="en">Reference genome and annotation</h2>
         <h2 data-lang="zh">参考基因组和注释</h2>
-        <p data-lang="en">Use genome FASTA and annotation from the same release. Sequence IDs in the annotation must match the FASTA headers used by the index flow.</p>
-        <p data-lang="zh">基因组 FASTA 和注释文件应来自同一个数据库版本。注释中的序列 ID 必须和参考流程读取的 FASTA header 对齐。</p>
+        <p data-lang="en">Use genome FASTA and annotation from the same release. Sequence IDs in the annotation must match the FASTA headers used by the index flow. These files are used only in reference mode.</p>
+        <p data-lang="zh">基因组 FASTA 和注释文件应来自同一个数据库版本。注释中的序列 ID 必须和参考流程读取的 FASTA header 对齐。这些文件只用于有参模式。</p>
       </section>
       <section id="genesets" class="article">
         <h2 data-lang="en">Gene sets and background</h2>
         <h2 data-lang="zh">Gene sets 和背景基因</h2>
-        <p data-lang="en">Enrichment uses offline GMT files. A background gene list is recommended for ORA so the tested universe matches the experiment and annotation space.</p>
-        <p data-lang="zh">富集分析使用离线 GMT 文件。ORA 推荐提供背景基因列表，让被测试背景和实验/注释空间一致。</p>
+        <p data-lang="en">Reference-mode enrichment uses offline GMT files. A background gene list is recommended for ORA so the tested universe matches the experiment and annotation space.</p>
+        <p data-lang="zh">有参模式富集分析使用离线 GMT 文件。ORA 推荐提供背景基因列表，让被测试背景和实验/注释空间一致。</p>
+      </section>
+      <section id="denovo" class="article">
+        <h2 data-lang="en">De novo protein database and GO map</h2>
+        <h2 data-lang="zh">无参蛋白数据库和 GO 映射</h2>
+        <p data-lang="en">De novo analysis does not receive known gene models from a genome annotation. Functional interpretation therefore depends on homology resources selected by the analyst. <code>--protein-db</code> should be a local protein FASTA. <code>--go-map</code> is a two-column or tabular mapping from protein IDs to GO IDs, used to build transcript-space GMT and background files after best-hit annotation.</p>
+        <p data-lang="zh">无参分析没有来自基因组注释的已知 gene model，因此功能解释依赖分析者选择的同源资源。<code>--protein-db</code> 应是本地蛋白 FASTA。<code>--go-map</code> 是 protein ID 到 GO ID 的两列或表格映射，用于在 best-hit 注释之后构建转录本空间 GMT 和 background。</p>
+        <div class="mini-code-grid">
+          <div><h3 data-lang="en">Protein FASTA</h3><h3 data-lang="zh">蛋白 FASTA</h3><pre class="code-block"><code>&gt;P12345
+MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPR...</code></pre></div>
+          <div><h3 data-lang="en">GO map</h3><h3 data-lang="zh">GO 映射</h3><pre class="code-block"><code>protein_id	go_id
+P12345	GO:0006412
+P12345	GO:0005737</code></pre></div>
+        </div>
+        <p data-lang="en">These files are not raw sequencing outputs. They are biological reference resources, so their species, database version, license, and provenance should be recorded in the project notes.</p>
+        <p data-lang="zh">这些文件不是测序下机输出，而是生物学参考资源。因此它们的物种、数据库版本、许可和来源应记录在项目说明中。</p>
       </section>
     </div>
   </main>

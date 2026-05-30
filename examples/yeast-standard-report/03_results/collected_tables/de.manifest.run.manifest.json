@@ -1,8 +1,8 @@
 {
   "flow": "rnaseq-de-flow",
   "version": "0.1.0-r2",
-  "started_at": "2026-05-28T02:50:11Z",
-  "finished_at": "2026-05-28T02:50:57Z",
+  "started_at": "2026-05-30T18:53:12Z",
+  "finished_at": "2026-05-30T18:53:58Z",
   "parameters": {
     "counts": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/matrices/gene_counts.tsv",
     "metadata": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/metadata.tsv",

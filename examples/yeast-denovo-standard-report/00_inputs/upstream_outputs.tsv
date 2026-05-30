@@ -1,0 +1,7 @@
+module	path	status
+standard	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out	provided
+de	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/de	provided
+enrichment	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment	provided
+denovo_assembly	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly	provided
+denovo_expression	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression	provided
+denovo_annotation	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation	provided

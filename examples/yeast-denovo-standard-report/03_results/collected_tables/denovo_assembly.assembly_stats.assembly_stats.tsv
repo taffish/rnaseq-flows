@@ -1,0 +1,14 @@
+set	metric	value
+run	min_contig_len	200
+raw	transcript_count	9609
+raw	total_length	8211604
+raw	min_length	201
+raw	mean_length	854.57
+raw	max_length	8200
+raw	n50	1308
+filtered	transcript_count	9609
+filtered	total_length	8211604
+filtered	min_length	201
+filtered	mean_length	854.57
+filtered	max_length	8200
+filtered	n50	1308

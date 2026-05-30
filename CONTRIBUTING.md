@@ -53,14 +53,19 @@ third-party report internals such as MultiQC or Qualimap HTML.
   limitations together.
 - Prefer stable links and avoid local machine paths.
 
-## Updating the Yeast Example Report
+## Updating the Yeast Example Reports
 
 1. Regenerate the report with the intended `taf-rnaseq-standard-flow` release.
-2. Replace `examples/yeast-standard-report/` with the curated static output.
+2. Replace the matching curated static output directory:
+   - `examples/yeast-standard-report/`
+   - `examples/yeast-denovo-standard-report/`
 3. Keep these entry points present:
    - `examples/yeast-standard-report/index.html`
    - `examples/yeast-standard-report/04_reports/rnaseq_report.html`
    - `examples/yeast-standard-report/04_reports/report_interpretation.html`
+   - `examples/yeast-denovo-standard-report/index.html`
+   - `examples/yeast-denovo-standard-report/04_reports/rnaseq_report.html`
+   - `examples/yeast-denovo-standard-report/04_reports/report_interpretation.html`
 4. Re-run `node scripts/check-links.js`.
 5. Check the report manually in a browser.
 

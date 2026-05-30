@@ -4,9 +4,9 @@ version	0.1.0-r1
 mode	genome_annotation
 indexer	salmon
 genome_indexer	hisat2
-threads	2
+threads	64
 kmer	31
-transcript_count	11611
+transcript_count	11607
 tx2gene_rows	11169
 salmon_index	yes
 kallisto_index	no

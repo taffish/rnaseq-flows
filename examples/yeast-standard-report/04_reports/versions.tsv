@@ -1,6 +1,6 @@
 tool	version	source
-rnaseq-report-flow	0.1.0-r4	taffish flow
-rnaseq-standard-flow	0.1.0-r2	standard:taffish flow
+rnaseq-report-flow	0.2.0-r2	taffish flow
+rnaseq-standard-flow	0.2.0-r2	standard:taffish flow
 taf-rnaseq-index-flow	0.1.0-r1	standard:taffish dependency
 taf-rnaseq-expression-flow	0.1.0-r1	standard:taffish dependency
 taf-rnaseq-alignment-flow	0.1.0-r1	standard:taffish dependency
@@ -8,7 +8,10 @@ taf-rnaseq-alignment-qc-flow	0.1.0-r1	standard:taffish dependency
 taf-rnaseq-count-flow	0.1.0-r1	standard:taffish dependency
 taf-rnaseq-de-flow	0.1.0-r2	standard:taffish dependency
 taf-rnaseq-enrichment-flow	0.1.0-r3	standard:taffish dependency
-taf-rnaseq-report-flow	0.1.0-r4	standard:taffish dependency
+taf-rnaseq-report-flow	0.2.0-r2	standard:taffish dependency
+taf-rnaseq-denovo-assembly-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-denovo-expression-flow	0.1.0-r1	standard:taffish dependency
+taf-rnaseq-denovo-annotation-flow	0.1.0-r1	standard:taffish dependency
 rnaseq-index-flow	0.1.0-r1	reference:flow wrapper
 taf-gffread	0.12.9-r1	reference:annotation conversion and transcript FASTA extraction
 taf-agat	1.7.0-r1	reference:annotation normalization

@@ -1,127 +1,127 @@
 {
     "WT_12": {
-        "SE mapped uniquely": "425301.0",
-        "SE multimapped": "57347.0",
-        "SE not aligned": "17352.0"
+        "SE mapped uniquely": "425258.0",
+        "SE multimapped": "57371.0",
+        "SE not aligned": "17371.0"
     },
     "WT_11": {
-        "SE mapped uniquely": "412096.0",
-        "SE multimapped": "72773.0",
-        "SE not aligned": "15131.0"
+        "SE mapped uniquely": "412064.0",
+        "SE multimapped": "72797.0",
+        "SE not aligned": "15139.0"
     },
     "WT_10": {
-        "SE mapped uniquely": "398816.0",
-        "SE multimapped": "83777.0",
-        "SE not aligned": "17407.0"
+        "SE mapped uniquely": "398762.0",
+        "SE multimapped": "83815.0",
+        "SE not aligned": "17423.0"
     },
     "WT_09": {
-        "SE mapped uniquely": "428220.0",
-        "SE multimapped": "58019.0",
-        "SE not aligned": "13761.0"
+        "SE mapped uniquely": "428174.0",
+        "SE multimapped": "58048.0",
+        "SE not aligned": "13778.0"
     },
     "WT_08": {
-        "SE mapped uniquely": "425594.0",
-        "SE multimapped": "59040.0",
-        "SE not aligned": "15366.0"
+        "SE mapped uniquely": "425546.0",
+        "SE multimapped": "59065.0",
+        "SE not aligned": "15389.0"
     },
     "WT_07": {
-        "SE mapped uniquely": "430713.0",
-        "SE multimapped": "54283.0",
-        "SE not aligned": "15004.0"
+        "SE mapped uniquely": "430697.0",
+        "SE multimapped": "54292.0",
+        "SE not aligned": "15011.0"
     },
     "WT_06": {
-        "SE mapped uniquely": "438250.0",
-        "SE multimapped": "49232.0",
-        "SE not aligned": "12518.0"
+        "SE mapped uniquely": "438216.0",
+        "SE multimapped": "49241.0",
+        "SE not aligned": "12543.0"
     },
     "WT_05": {
-        "SE mapped uniquely": "427866.0",
-        "SE multimapped": "56642.0",
-        "SE not aligned": "15492.0"
+        "SE mapped uniquely": "427842.0",
+        "SE multimapped": "56653.0",
+        "SE not aligned": "15505.0"
     },
     "WT_04": {
-        "SE mapped uniquely": "431922.0",
-        "SE multimapped": "53892.0",
-        "SE not aligned": "14186.0"
+        "SE mapped uniquely": "431882.0",
+        "SE multimapped": "53919.0",
+        "SE not aligned": "14199.0"
     },
     "WT_03": {
-        "SE mapped uniquely": "421352.0",
-        "SE multimapped": "58351.0",
-        "SE not aligned": "20297.0"
+        "SE mapped uniquely": "421308.0",
+        "SE multimapped": "58371.0",
+        "SE not aligned": "20321.0"
     },
     "WT_02": {
-        "SE mapped uniquely": "424906.0",
-        "SE multimapped": "60024.0",
-        "SE not aligned": "15070.0"
+        "SE mapped uniquely": "424866.0",
+        "SE multimapped": "60047.0",
+        "SE not aligned": "15087.0"
     },
     "WT_01": {
-        "SE mapped uniquely": "427429.0",
-        "SE multimapped": "54478.0",
-        "SE not aligned": "18093.0"
+        "SE mapped uniquely": "427390.0",
+        "SE multimapped": "54498.0",
+        "SE not aligned": "18112.0"
     },
     "SNF2KO_12": {
-        "SE mapped uniquely": "445945.0",
-        "SE multimapped": "38944.0",
-        "SE not aligned": "15111.0"
+        "SE mapped uniquely": "445931.0",
+        "SE multimapped": "38946.0",
+        "SE not aligned": "15123.0"
     },
     "SNF2KO_11": {
-        "SE mapped uniquely": "438160.0",
-        "SE multimapped": "42177.0",
-        "SE not aligned": "19663.0"
+        "SE mapped uniquely": "438146.0",
+        "SE multimapped": "42182.0",
+        "SE not aligned": "19672.0"
     },
     "SNF2KO_10": {
-        "SE mapped uniquely": "441362.0",
-        "SE multimapped": "42490.0",
-        "SE not aligned": "16148.0"
+        "SE mapped uniquely": "441313.0",
+        "SE multimapped": "42515.0",
+        "SE not aligned": "16172.0"
     },
     "SNF2KO_09": {
-        "SE mapped uniquely": "440522.0",
-        "SE multimapped": "43327.0",
-        "SE not aligned": "16151.0"
+        "SE mapped uniquely": "440491.0",
+        "SE multimapped": "43332.0",
+        "SE not aligned": "16177.0"
     },
     "SNF2KO_08": {
-        "SE mapped uniquely": "420042.0",
-        "SE multimapped": "61211.0",
-        "SE not aligned": "18747.0"
+        "SE mapped uniquely": "420022.0",
+        "SE multimapped": "61217.0",
+        "SE not aligned": "18761.0"
     },
     "SNF2KO_07": {
-        "SE mapped uniquely": "439286.0",
-        "SE multimapped": "42601.0",
-        "SE not aligned": "18113.0"
+        "SE mapped uniquely": "439271.0",
+        "SE multimapped": "42603.0",
+        "SE not aligned": "18126.0"
     },
     "SNF2KO_06": {
-        "SE mapped uniquely": "439207.0",
-        "SE multimapped": "43309.0",
-        "SE not aligned": "17484.0"
+        "SE mapped uniquely": "439172.0",
+        "SE multimapped": "43322.0",
+        "SE not aligned": "17506.0"
     },
     "SNF2KO_05": {
-        "SE mapped uniquely": "434472.0",
-        "SE multimapped": "48372.0",
-        "SE not aligned": "17156.0"
+        "SE mapped uniquely": "434438.0",
+        "SE multimapped": "48390.0",
+        "SE not aligned": "17172.0"
     },
     "SNF2KO_04": {
-        "SE mapped uniquely": "381764.0",
-        "SE multimapped": "109386.0",
-        "SE not aligned": "8850.0"
+        "SE mapped uniquely": "381733.0",
+        "SE multimapped": "109401.0",
+        "SE not aligned": "8866.0"
     },
     "SNF2KO_03": {
-        "SE mapped uniquely": "443693.0",
-        "SE multimapped": "40028.0",
-        "SE not aligned": "16279.0"
+        "SE mapped uniquely": "443652.0",
+        "SE multimapped": "40045.0",
+        "SE not aligned": "16303.0"
     },
     "SNF2KO_02": {
-        "SE mapped uniquely": "408230.0",
-        "SE multimapped": "75178.0",
-        "SE not aligned": "16592.0"
+        "SE mapped uniquely": "408190.0",
+        "SE multimapped": "75202.0",
+        "SE not aligned": "16608.0"
     },
     "SNF2KO_01": {
-        "SE mapped uniquely": "445986.0",
-        "SE multimapped": "40203.0",
-        "SE not aligned": "13811.0"
+        "SE mapped uniquely": "445961.0",
+        "SE multimapped": "40212.0",
+        "SE not aligned": "13827.0"
     },
     "03_align": {
-        "SE mapped uniquely": "425301.0",
-        "SE multimapped": "57347.0",
-        "SE not aligned": "17352.0"
+        "SE mapped uniquely": "425258.0",
+        "SE multimapped": "57371.0",
+        "SE not aligned": "17371.0"
     }
 }

@@ -1,0 +1,54 @@
+rnaseq-report-flow 0.2.0-r2 collects existing RNA-seq flow outputs into an enhanced static project report.
+
+It also writes an offline companion interpretation guide for report reading order, plot roles, and common interpretation boundaries.
+
+When supplied, it also collects de novo assembly, de novo expression, and de novo annotation outputs while preserving transcript-level feature semantics.
+
+It does not rerun expression quantification, assembly, annotation, alignment, counting, QC, differential expression, or enrichment. Biological interpretation remains the user responsibility.
+
+## Upstream module: standard
+
+rnaseq-standard-flow 0.2.0-r2 runs the RNA-seq standard route by composing published TAFFISH RNA-seq subflows.
+
+The default --mode reference route is compatible with r2: it prepares a reference bundle, quantifies transcript expression with Salmon/tximport, runs DESeq2 differential expression, runs offline GMT enrichment, and renders a static project report.
+With --route both in reference mode it also runs HISAT2 alignment, alignment-level QC, and featureCounts gene counting. Differential expression uses --de-source to choose Salmon/tximport or featureCounts counts.
+The explicit --mode denovo route replaces reference indexing and reference-guided quantification with de novo transcriptome assembly, transcript-level Salmon quantification, and homology-derived annotation/gene sets before DE/enrichment/report.
+The flow does not download references, gene sets, or databases at runtime. It writes all generated files under the explicit output directory.
+
+
+## Upstream module: de
+
+rnaseq-de-flow ran a DESeq2 differential expression analysis from a gene count matrix and sample metadata.
+The design formula was ~ condition, and the primary contrast was snf2_KO versus WT for factor condition. Genes were reported as significant when adjusted p-value was at or below 0.05 and absolute log2 fold change >= 1. Log2 fold-change shrinkage was not requested; results_shrunken.tsv is a stable contract copy of results.tsv.
+The output directory contains differential expression tables, normalized and VST matrices, unified PCA/MA/volcano/heatmap plots, sample correlation and expression distribution QC plots, DE count and top-gene expression plots, downstream gene lists, step logs, command provenance, tool versions, and a machine-readable manifest.
+
+
+## Upstream module: enrichment
+
+rnaseq-enrichment-flow 0.1.0-r3 ran offline GMT-based enrichment analysis. ORA used 571 query genes against an explicit background of 8522 genes. Preranked GSEA used 8505 ranked genes. Gene sets were read from a user-supplied GMT file; gene identifiers were treated as exact strings with no ID conversion, organism inference, online lookup, or gene-set download. The primary dotplot was re-rendered by the flow with wrapped term labels for readability. The dotplot.original.pdf/png files are an optimized classic/original-style re-rendering with wider labels; the raw dependency plot remains in 02_intermediate/enrichment-r/dotplot.pdf/png for audit. The flow also rendered an ORA adjusted-p-value barplot, a GSEA normalized-enrichment-score plot, GSEA running enrichment score curves, and plot_summary.tsv. Parameters were min_size=2, max_size=500, pvalue_cutoff=1, padj_method=BH, top_n=20, seed=1.
+
+
+## Upstream module: denovo_assembly
+
+rnaseq-denovo-assembly-flow 0.1.0-r1 assembled RNA-seq FASTQ samples without using a reference genome or gene annotation. The run used trinity as the assembler, with 64 thread(s), max_memory=256G, and min_contig_len=200. Reads were assembled without fastp preprocessing. BUSCO was skipped because no local lineage dataset was provided. The output directory contains raw and filtered assembled transcript FASTA files, assembly statistics, read-support summaries, MultiQC report files, logs, command provenance, tool versions, and a machine-readable manifest. Denovo transcript IDs should be interpreted as assembled transcript features, not known reference gene identifiers.
+
+
+## Upstream module: denovo_expression
+
+rnaseq-denovo-expression-flow quantified RNA-seq FASTQ samples against an assembled de novo transcriptome with Salmon.
+The flow built a local Salmon index from the provided assembled transcript FASTA and used Salmon library type A.
+The primary matrices are transcript-level: transcript_counts.tsv and transcript_tpm.tsv. These features are assembled transcript IDs, not known reference genes.
+No tx2gene or cluster map was provided, so gene-level matrices were not generated.
+Reads were quantified directly without fastp trimming.
+FastQC was run on the input FASTQ files.
+
+
+## Upstream module: denovo_annotation
+
+rnaseq-denovo-annotation-flow 0.1.0-r1 annotates assembled de novo transcript sequences.
+Input transcript FASTA records were copied into the output directory without modification.
+TransDecoder 6.0.0-r1 was used to predict candidate protein-coding ORFs with --single_best_only and --no_refine_starts.
+When --protein-db was provided, DIAMOND 2.2.1-r1 built a local database from the supplied protein FASTA and searched predicted proteins with blastp.
+The resulting annotation tables report homology evidence and transferred GO terms, not manually curated gene functions.
+No biological database was downloaded at runtime; protein and GO resources were supplied explicitly by the user.
+

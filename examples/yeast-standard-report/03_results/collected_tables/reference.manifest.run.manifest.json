@@ -1,12 +1,12 @@
 {
   "flow": "rnaseq-index-flow",
   "version": "0.1.0-r1",
-  "started_at": "2026-05-28T02:36:06Z",
-  "finished_at": "2026-05-28T02:36:32Z",
+  "started_at": "2026-05-30T18:38:33Z",
+  "finished_at": "2026-05-30T18:39:03Z",
   "mode": "genome_annotation",
   "parameters": {
     "outdir": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference",
-    "threads": "2",
+    "threads": "64",
     "indexer": "salmon",
     "genome_indexer": "hisat2",
     "kmer": "31"

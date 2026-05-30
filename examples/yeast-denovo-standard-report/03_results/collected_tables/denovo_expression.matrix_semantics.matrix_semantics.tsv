@@ -1,0 +1,3 @@
+matrix	feature_space	feature_id_column	path	mapping_source
+transcript_counts	denovo_transcript	transcript_id	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/matrices/transcript_counts.tsv	none
+transcript_tpm	denovo_transcript	transcript_id	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/matrices/transcript_tpm.tsv	none

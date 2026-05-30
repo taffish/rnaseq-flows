@@ -2,10 +2,10 @@ metric	value
 flow	rnaseq-de-flow
 version	0.1.0-r2
 samples	24
-input_genes	7099
+input_genes	7095
 tested_genes	5780
-significant_genes	366
-up_genes	134
+significant_genes	367
+up_genes	135
 down_genes	232
 padj_cutoff	0.05
 lfc_cutoff	1

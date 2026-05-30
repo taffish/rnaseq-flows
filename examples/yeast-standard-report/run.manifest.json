@@ -1,9 +1,10 @@
 {
   "flow": "rnaseq-report-flow",
-  "version": "0.1.0-r4",
+  "version": "0.2.0-r2",
   "project_name": "RNA-seq project",
-  "started_at": "2026-05-28T02:51:15Z",
-  "finished_at": "2026-05-28T02:51:17Z",
+  "started_at": "2026-05-30T18:54:18Z",
+  "finished_at": "2026-05-30T18:54:20Z",
+  "denovo_present": "no",
   "provided_modules": 8,
   "collected_files": 136,
   "collected_tables": 56,

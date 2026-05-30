@@ -21,6 +21,7 @@ const curatedPages = [
     .map((name) => path.join("docs", "flows", name)),
   "examples/index.html",
   "examples/yeast-standard-report/index.html",
+  "examples/yeast-denovo-standard-report/index.html",
 ];
 
 const htmlCache = new Map();

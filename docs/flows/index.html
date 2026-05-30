@@ -15,7 +15,7 @@
         <a href="../../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
         <a href="../quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
         <a href="../../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
-        <a href="../../examples/yeast-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Live report</span><span data-lang="zh">在线报告</span></a>
+        <a href="../../examples/yeast-denovo-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Latest report</span><span data-lang="zh">最新报告</span></a>
         <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
       </div>
     </nav>
@@ -26,14 +26,17 @@
       <p class="eyebrow"><span data-lang="en">Flow Manuals</span><span data-lang="zh">流程手册</span></p>
       <h1 data-lang="en">Use each RNA-seq flow alone or as part of the route</h1>
       <h1 data-lang="zh">单独使用或串联使用每个 RNA-seq 流程</h1>
-      <p data-lang="en">These manuals explain how each flow is used, how its inputs are prepared, which parameters matter, and how its outputs connect to the next flow.</p>
-      <p data-lang="zh">这些手册说明每个流程如何使用、输入如何准备、关键参数如何选择，以及输出如何接到下一个流程。</p>
+      <p data-lang="en">These manuals explain how each flow is used, how its inputs are prepared, which parameters matter, and how its outputs connect to the next flow. Reference and de novo routes are documented side by side.</p>
+      <p data-lang="zh">这些手册说明每个流程如何使用、输入如何准备、关键参数如何选择，以及输出如何接到下一个流程。有参和无参路线并列维护。</p>
     </div>
     <div class="manual-grid">
-      <article class="manual-card"><h3><a href="rnaseq-standard-flow.html">rnaseq-standard-flow</a></h3><p data-lang="en">End-to-end umbrella route from FASTQ/reference inputs to the final report.</p><p data-lang="zh">从 FASTQ 和参考输入到最终报告的一站式总流程。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-standard-flow.html">rnaseq-standard-flow</a></h3><p data-lang="en">End-to-end umbrella route for reference or explicit de novo mode.</p><p data-lang="zh">有参或显式无参模式的一站式总流程。</p></article>
       <article class="manual-card"><h3><a href="rnaseq-index-flow.html">rnaseq-index-flow</a></h3><p data-lang="en">Reference preparation, transcript extraction, and index construction.</p><p data-lang="zh">参考整理、转录本提取和索引构建。</p></article>
-      <article class="manual-card"><h3><a href="rnaseq-expression-flow.html">rnaseq-expression-flow</a></h3><p data-lang="en">FASTQ QC, Salmon quantification, tximport, and expression matrices.</p><p data-lang="zh">FASTQ 质控、Salmon 定量、tximport 和表达矩阵。</p></article>
-      <article class="manual-card"><h3><a href="rnaseq-de-flow.html">rnaseq-de-flow</a></h3><p data-lang="en">DESeq2 differential expression and publication-ready diagnostic plots.</p><p data-lang="zh">DESeq2 差异表达和统一风格诊断图。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-expression-flow.html">rnaseq-expression-flow</a></h3><p data-lang="en">Reference FASTQ QC, Salmon quantification, tximport, and expression matrices.</p><p data-lang="zh">有参 FASTQ 质控、Salmon 定量、tximport 和表达矩阵。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-denovo-assembly-flow.html">rnaseq-denovo-assembly-flow</a></h3><p data-lang="en">FASTQ QC, Trinity-first assembly, transcript filtering, assembly stats, and optional BUSCO.</p><p data-lang="zh">FASTQ 质控、Trinity-first 组装、转录本过滤、组装统计和可选 BUSCO。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-denovo-expression-flow.html">rnaseq-denovo-expression-flow</a></h3><p data-lang="en">Salmon quantification against assembled transcripts and transcript-level matrices.</p><p data-lang="zh">基于组装转录本的 Salmon 定量和转录本层面矩阵。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-denovo-annotation-flow.html">rnaseq-denovo-annotation-flow</a></h3><p data-lang="en">ORF prediction, DIAMOND homology annotation, and optional GO-derived GMT/background.</p><p data-lang="zh">ORF 预测、DIAMOND 同源注释，以及可选 GO 派生 GMT/background。</p></article>
+      <article class="manual-card"><h3><a href="rnaseq-de-flow.html">rnaseq-de-flow</a></h3><p data-lang="en">DESeq2 differential expression and diagnostic plots for gene or transcript count matrices.</p><p data-lang="zh">针对基因或转录本计数矩阵的 DESeq2 差异表达和诊断图。</p></article>
       <article class="manual-card"><h3><a href="rnaseq-enrichment-flow.html">rnaseq-enrichment-flow</a></h3><p data-lang="en">Offline GMT-based ORA/GSEA enrichment and pathway-level summaries.</p><p data-lang="zh">基于离线 GMT 的 ORA/GSEA 富集和通路层面摘要。</p></article>
       <article class="manual-card"><h3><a href="rnaseq-alignment-flow.html">rnaseq-alignment-flow</a></h3><p data-lang="en">Optional HISAT2 genome alignment and sorted BAM delivery.</p><p data-lang="zh">可选 HISAT2 基因组比对和排序 BAM 输出。</p></article>
       <article class="manual-card"><h3><a href="rnaseq-count-flow.html">rnaseq-count-flow</a></h3><p data-lang="en">featureCounts gene count matrix from alignment BAM files.</p><p data-lang="zh">从比对 BAM 生成 featureCounts 基因计数矩阵。</p></article>

@@ -1,122 +1,122 @@
 {
     "WT_12": {
-        "Exonic": "347380.0",
-        "Intronic": "608.0",
-        "Intergenic": "3388.0"
+        "Exonic": "347304.0",
+        "Intronic": "651.0",
+        "Intergenic": "3370.0"
     },
     "WT_11": {
-        "Exonic": "334766.0",
-        "Intronic": "420.0",
-        "Intergenic": "2384.0"
+        "Exonic": "334693.0",
+        "Intronic": "465.0",
+        "Intergenic": "2364.0"
     },
     "WT_10": {
-        "Exonic": "325994.0",
-        "Intronic": "486.0",
-        "Intergenic": "3214.0"
+        "Exonic": "325953.0",
+        "Intronic": "509.0",
+        "Intergenic": "3174.0"
     },
     "WT_09": {
-        "Exonic": "344181.0",
-        "Intronic": "557.0",
-        "Intergenic": "2494.0"
+        "Exonic": "344122.0",
+        "Intronic": "591.0",
+        "Intergenic": "2464.0"
     },
     "WT_08": {
-        "Exonic": "343871.0",
-        "Intronic": "593.0",
-        "Intergenic": "3521.0"
+        "Exonic": "343818.0",
+        "Intronic": "609.0",
+        "Intergenic": "3487.0"
     },
     "WT_07": {
-        "Exonic": "352258.0",
-        "Intronic": "806.0",
-        "Intergenic": "3518.0"
+        "Exonic": "352216.0",
+        "Intronic": "831.0",
+        "Intergenic": "3509.0"
     },
     "WT_06": {
-        "Exonic": "360633.0",
-        "Intronic": "826.0",
-        "Intergenic": "3912.0"
+        "Exonic": "360570.0",
+        "Intronic": "854.0",
+        "Intergenic": "3907.0"
     },
     "WT_05": {
-        "Exonic": "351361.0",
-        "Intronic": "642.0",
-        "Intergenic": "4082.0"
+        "Exonic": "351319.0",
+        "Intronic": "667.0",
+        "Intergenic": "4071.0"
     },
     "WT_04": {
-        "Exonic": "355413.0",
-        "Intronic": "626.0",
-        "Intergenic": "3573.0"
+        "Exonic": "355369.0",
+        "Intronic": "643.0",
+        "Intergenic": "3549.0"
     },
     "WT_03": {
-        "Exonic": "344668.0",
-        "Intronic": "698.0",
-        "Intergenic": "2950.0"
+        "Exonic": "344583.0",
+        "Intronic": "733.0",
+        "Intergenic": "2932.0"
     },
     "WT_02": {
-        "Exonic": "347611.0",
-        "Intronic": "902.0",
-        "Intergenic": "3685.0"
+        "Exonic": "347527.0",
+        "Intronic": "932.0",
+        "Intergenic": "3676.0"
     },
     "WT_01": {
-        "Exonic": "349667.0",
-        "Intronic": "466.0",
-        "Intergenic": "2824.0"
+        "Exonic": "349617.0",
+        "Intronic": "492.0",
+        "Intergenic": "2797.0"
     },
     "SNF2KO_12": {
-        "Exonic": "368078.0",
-        "Intronic": "671.0",
+        "Exonic": "368051.0",
+        "Intronic": "682.0",
         "Intergenic": "4769.0"
     },
     "SNF2KO_11": {
-        "Exonic": "360189.0",
-        "Intronic": "538.0",
-        "Intergenic": "4344.0"
+        "Exonic": "360148.0",
+        "Intronic": "554.0",
+        "Intergenic": "4336.0"
     },
     "SNF2KO_10": {
-        "Exonic": "362220.0",
-        "Intronic": "763.0",
-        "Intergenic": "4172.0"
+        "Exonic": "362139.0",
+        "Intronic": "804.0",
+        "Intergenic": "4152.0"
     },
     "SNF2KO_09": {
-        "Exonic": "362944.0",
-        "Intronic": "723.0",
-        "Intergenic": "4482.0"
+        "Exonic": "362874.0",
+        "Intronic": "762.0",
+        "Intergenic": "4480.0"
     },
     "SNF2KO_08": {
-        "Exonic": "345883.0",
-        "Intronic": "671.0",
-        "Intergenic": "4555.0"
+        "Exonic": "345833.0",
+        "Intronic": "694.0",
+        "Intergenic": "4552.0"
     },
     "SNF2KO_07": {
-        "Exonic": "359332.0",
-        "Intronic": "670.0",
-        "Intergenic": "5124.0"
+        "Exonic": "359287.0",
+        "Intronic": "699.0",
+        "Intergenic": "5122.0"
     },
     "SNF2KO_06": {
-        "Exonic": "361313.0",
-        "Intronic": "859.0",
-        "Intergenic": "4864.0"
+        "Exonic": "361250.0",
+        "Intronic": "887.0",
+        "Intergenic": "4850.0"
     },
     "SNF2KO_05": {
-        "Exonic": "359443.0",
-        "Intronic": "590.0",
-        "Intergenic": "4895.0"
+        "Exonic": "359401.0",
+        "Intronic": "607.0",
+        "Intergenic": "4877.0"
     },
     "SNF2KO_04": {
-        "Exonic": "316424.0",
-        "Intronic": "528.0",
-        "Intergenic": "4366.0"
+        "Exonic": "316393.0",
+        "Intronic": "543.0",
+        "Intergenic": "4353.0"
     },
     "SNF2KO_03": {
-        "Exonic": "366796.0",
-        "Intronic": "816.0",
-        "Intergenic": "4524.0"
+        "Exonic": "366740.0",
+        "Intronic": "835.0",
+        "Intergenic": "4507.0"
     },
     "SNF2KO_02": {
-        "Exonic": "334139.0",
-        "Intronic": "640.0",
-        "Intergenic": "4571.0"
+        "Exonic": "334082.0",
+        "Intronic": "667.0",
+        "Intergenic": "4559.0"
     },
     "SNF2KO_01": {
-        "Exonic": "367835.0",
-        "Intronic": "736.0",
-        "Intergenic": "5485.0"
+        "Exonic": "367778.0",
+        "Intronic": "763.0",
+        "Intergenic": "5476.0"
     }
 }

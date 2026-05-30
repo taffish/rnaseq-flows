@@ -1,9 +1,9 @@
 {
     "SNF2KO_01": {
-        "Total Reads": 0.557736,
-        "Total Passed QC": 0.557736,
-        "Mapped": 0.543925,
-        "Secondary Alignments": 0.057735999999999996,
+        "Total Reads": 0.557797,
+        "Total Passed QC": 0.557797,
+        "Mapped": 0.54397,
+        "Secondary Alignments": 0.057796999999999994,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -13,10 +13,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_02": {
-        "Total Reads": 0.594305,
-        "Total Passed QC": 0.594305,
-        "Mapped": 0.5777129999999999,
-        "Secondary Alignments": 0.094305,
+        "Total Reads": 0.59438,
+        "Total Passed QC": 0.59438,
+        "Mapped": 0.577772,
+        "Secondary Alignments": 0.09437999999999999,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -26,10 +26,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_03": {
-        "Total Reads": 0.555912,
-        "Total Passed QC": 0.555912,
-        "Mapped": 0.539633,
-        "Secondary Alignments": 0.055911999999999996,
+        "Total Reads": 0.555987,
+        "Total Passed QC": 0.555987,
+        "Mapped": 0.5396839999999999,
+        "Secondary Alignments": 0.055986999999999995,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -39,10 +39,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_04": {
-        "Total Reads": 0.6310709999999999,
-        "Total Passed QC": 0.6310709999999999,
-        "Mapped": 0.622221,
-        "Secondary Alignments": 0.131071,
+        "Total Reads": 0.631104,
+        "Total Passed QC": 0.631104,
+        "Mapped": 0.622238,
+        "Secondary Alignments": 0.131104,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -52,10 +52,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_05": {
-        "Total Reads": 0.565834,
-        "Total Passed QC": 0.565834,
-        "Mapped": 0.548678,
-        "Secondary Alignments": 0.065834,
+        "Total Reads": 0.5659029999999999,
+        "Total Passed QC": 0.5659029999999999,
+        "Mapped": 0.548731,
+        "Secondary Alignments": 0.065903,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -65,10 +65,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_06": {
-        "Total Reads": 0.5597099999999999,
-        "Total Passed QC": 0.5597099999999999,
-        "Mapped": 0.542226,
-        "Secondary Alignments": 0.05971,
+        "Total Reads": 0.559767,
+        "Total Passed QC": 0.559767,
+        "Mapped": 0.542261,
+        "Secondary Alignments": 0.059767,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -78,10 +78,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_07": {
-        "Total Reads": 0.5609069999999999,
-        "Total Passed QC": 0.5609069999999999,
-        "Mapped": 0.542794,
-        "Secondary Alignments": 0.060906999999999996,
+        "Total Reads": 0.560921,
+        "Total Passed QC": 0.560921,
+        "Mapped": 0.542795,
+        "Secondary Alignments": 0.060920999999999996,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -91,10 +91,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_08": {
-        "Total Reads": 0.5796399999999999,
-        "Total Passed QC": 0.5796399999999999,
-        "Mapped": 0.560893,
-        "Secondary Alignments": 0.07964,
+        "Total Reads": 0.579664,
+        "Total Passed QC": 0.579664,
+        "Mapped": 0.5609029999999999,
+        "Secondary Alignments": 0.079664,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -104,10 +104,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_09": {
-        "Total Reads": 0.5603,
-        "Total Passed QC": 0.5603,
-        "Mapped": 0.544149,
-        "Secondary Alignments": 0.0603,
+        "Total Reads": 0.5603509999999999,
+        "Total Passed QC": 0.5603509999999999,
+        "Mapped": 0.5441739999999999,
+        "Secondary Alignments": 0.060350999999999995,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -117,10 +117,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_10": {
-        "Total Reads": 0.558666,
-        "Total Passed QC": 0.558666,
-        "Mapped": 0.542518,
-        "Secondary Alignments": 0.058665999999999996,
+        "Total Reads": 0.558763,
+        "Total Passed QC": 0.558763,
+        "Mapped": 0.5425909999999999,
+        "Secondary Alignments": 0.058762999999999996,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -130,10 +130,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_11": {
-        "Total Reads": 0.559407,
-        "Total Passed QC": 0.559407,
-        "Mapped": 0.539744,
-        "Secondary Alignments": 0.059406999999999995,
+        "Total Reads": 0.559476,
+        "Total Passed QC": 0.559476,
+        "Mapped": 0.539804,
+        "Secondary Alignments": 0.059475999999999994,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -143,10 +143,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "SNF2KO_12": {
-        "Total Reads": 0.555021,
-        "Total Passed QC": 0.555021,
-        "Mapped": 0.53991,
-        "Secondary Alignments": 0.055021,
+        "Total Reads": 0.555036,
+        "Total Passed QC": 0.555036,
+        "Mapped": 0.539913,
+        "Secondary Alignments": 0.055035999999999995,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -156,10 +156,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_01": {
-        "Total Reads": 0.579033,
-        "Total Passed QC": 0.579033,
-        "Mapped": 0.56094,
-        "Secondary Alignments": 0.07903299999999999,
+        "Total Reads": 0.57907,
+        "Total Passed QC": 0.57907,
+        "Mapped": 0.560958,
+        "Secondary Alignments": 0.07907,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -169,10 +169,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_02": {
-        "Total Reads": 0.584388,
-        "Total Passed QC": 0.584388,
-        "Mapped": 0.569318,
-        "Secondary Alignments": 0.08438799999999999,
+        "Total Reads": 0.584415,
+        "Total Passed QC": 0.584415,
+        "Mapped": 0.569328,
+        "Secondary Alignments": 0.08441499999999999,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -182,10 +182,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_03": {
-        "Total Reads": 0.580274,
-        "Total Passed QC": 0.580274,
+        "Total Reads": 0.580298,
+        "Total Passed QC": 0.580298,
         "Mapped": 0.559977,
-        "Secondary Alignments": 0.080274,
+        "Secondary Alignments": 0.080298,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -195,10 +195,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_04": {
-        "Total Reads": 0.578606,
-        "Total Passed QC": 0.578606,
-        "Mapped": 0.5644199999999999,
-        "Secondary Alignments": 0.078606,
+        "Total Reads": 0.578664,
+        "Total Passed QC": 0.578664,
+        "Mapped": 0.564465,
+        "Secondary Alignments": 0.078664,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -208,10 +208,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_05": {
-        "Total Reads": 0.5828,
-        "Total Passed QC": 0.5828,
-        "Mapped": 0.5673079999999999,
-        "Secondary Alignments": 0.0828,
+        "Total Reads": 0.5828289999999999,
+        "Total Passed QC": 0.5828289999999999,
+        "Mapped": 0.5673239999999999,
+        "Secondary Alignments": 0.082829,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -221,10 +221,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_06": {
-        "Total Reads": 0.5723619999999999,
-        "Total Passed QC": 0.5723619999999999,
-        "Mapped": 0.559844,
-        "Secondary Alignments": 0.072362,
+        "Total Reads": 0.572391,
+        "Total Passed QC": 0.572391,
+        "Mapped": 0.559848,
+        "Secondary Alignments": 0.072391,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -234,10 +234,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_07": {
-        "Total Reads": 0.5779909999999999,
-        "Total Passed QC": 0.5779909999999999,
-        "Mapped": 0.562987,
-        "Secondary Alignments": 0.07799099999999999,
+        "Total Reads": 0.5780179999999999,
+        "Total Passed QC": 0.5780179999999999,
+        "Mapped": 0.5630069999999999,
+        "Secondary Alignments": 0.07801799999999999,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -247,10 +247,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_08": {
-        "Total Reads": 0.583896,
-        "Total Passed QC": 0.583896,
-        "Mapped": 0.56853,
-        "Secondary Alignments": 0.083896,
+        "Total Reads": 0.5839449999999999,
+        "Total Passed QC": 0.5839449999999999,
+        "Mapped": 0.568556,
+        "Secondary Alignments": 0.08394499999999999,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -260,10 +260,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_09": {
-        "Total Reads": 0.5803309999999999,
-        "Total Passed QC": 0.5803309999999999,
-        "Mapped": 0.56657,
-        "Secondary Alignments": 0.080331,
+        "Total Reads": 0.580427,
+        "Total Passed QC": 0.580427,
+        "Mapped": 0.566649,
+        "Secondary Alignments": 0.080427,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -273,10 +273,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_10": {
-        "Total Reads": 0.6119899999999999,
-        "Total Passed QC": 0.6119899999999999,
-        "Mapped": 0.594583,
-        "Secondary Alignments": 0.11198999999999999,
+        "Total Reads": 0.612081,
+        "Total Passed QC": 0.612081,
+        "Mapped": 0.594658,
+        "Secondary Alignments": 0.112081,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -286,10 +286,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_11": {
-        "Total Reads": 0.5989249999999999,
-        "Total Passed QC": 0.5989249999999999,
-        "Mapped": 0.5837939999999999,
-        "Secondary Alignments": 0.098925,
+        "Total Reads": 0.598967,
+        "Total Passed QC": 0.598967,
+        "Mapped": 0.583828,
+        "Secondary Alignments": 0.098967,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,
@@ -299,10 +299,10 @@
         "Diff chr (mapQ >= 5)": 0.0
     },
     "WT_12": {
-        "Total Reads": 0.5812579999999999,
-        "Total Passed QC": 0.5812579999999999,
-        "Mapped": 0.563906,
-        "Secondary Alignments": 0.081258,
+        "Total Reads": 0.5813229999999999,
+        "Total Passed QC": 0.5813229999999999,
+        "Mapped": 0.563952,
+        "Secondary Alignments": 0.08132299999999999,
         "Duplicates": 0.0,
         "Paired in Sequencing": 0.0,
         "Properly Paired": 0.0,

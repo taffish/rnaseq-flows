@@ -1,0 +1,6 @@
+rnaseq-denovo-annotation-flow 0.1.0-r1 annotates assembled de novo transcript sequences.
+Input transcript FASTA records were copied into the output directory without modification.
+TransDecoder 6.0.0-r1 was used to predict candidate protein-coding ORFs with --single_best_only and --no_refine_starts.
+When --protein-db was provided, DIAMOND 2.2.1-r1 built a local database from the supplied protein FASTA and searched predicted proteins with blastp.
+The resulting annotation tables report homology evidence and transferred GO terms, not manually curated gene functions.
+No biological database was downloaded at runtime; protein and GO resources were supplied explicitly by the user.

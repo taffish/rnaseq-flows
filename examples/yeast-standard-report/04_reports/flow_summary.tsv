@@ -1,10 +1,15 @@
 metric	value
 project_name	RNA-seq project
 flow	rnaseq-report-flow
-version	0.1.0-r4
-started_at	2026-05-28T02:51:15Z
-finished_at	2026-05-28T02:51:17Z
+version	0.2.0-r2
+started_at	2026-05-30T18:54:18Z
+finished_at	2026-05-30T18:54:20Z
+analysis_mode	reference
 standard_out	/home/kyhan/test/rna-seq/yeast-standard-out
+denovo_present	no
+denovo_assembly_out	.
+denovo_expression_out	.
+denovo_annotation_out	.
 provided_modules	8
 collected_files	136
 collected_tables	56
