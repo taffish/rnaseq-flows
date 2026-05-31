@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Example Data Sources | TAFFISH RNA-seq Flows</title>
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <link rel="icon" href="../assets/img/taffish-logo.webp">
+</head>
+<body data-language="en">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html"><img class="brand-logo" src="../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a>
+      <div class="nav-links">
+        <a href="../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a>
+        <a href="quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a>
+        <a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a>
+        <a href="data-sources.html" aria-current="page"><span data-lang="en">Data sources</span><span data-lang="zh">数据来源</span></a>
+        <span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span>
+      </div>
+    </nav>
+  </header>
+  <main class="page-layout">
+    <aside class="side-nav">
+      <a href="#overview"><span data-lang="en">Overview</span><span data-lang="zh">概览</span></a>
+      <a href="#sources"><span data-lang="en">Source table</span><span data-lang="zh">来源表</span></a>
+      <a href="#derivatives"><span data-lang="en">Derivatives</span><span data-lang="zh">派生产物</span></a>
+      <a href="#reports"><span data-lang="en">Reports</span><span data-lang="zh">报告</span></a>
+    </aside>
+    <div class="content">
+      <section id="overview" class="article">
+        <p class="eyebrow"><span data-lang="en">Example provenance</span><span data-lang="zh">示例溯源</span></p>
+        <h1 data-lang="en">Yeast SNF2 example data sources</h1>
+        <h1 data-lang="zh">Yeast SNF2 示例数据来源</h1>
+        <p data-lang="en">The reference and de novo example reports use the same public yeast WT versus <code>snf2</code> knockout RNA-seq project. TAFFISH does not host the full raw sequencing archive on this site; the example data are prepared by the maintainer data app <a href="https://github.com/taffish/rnaseq-yeast-get-data" target="_blank" rel="noopener noreferrer"><code>rnaseq-yeast-get-data</code></a>, which records source URLs, checksums, accessions, fallback downloads, commands and manifests.</p>
+        <p data-lang="zh">有参和无参示例报告使用同一个公开 yeast WT vs <code>snf2</code> knockout RNA-seq 项目。TAFFISH 不在本站托管完整原始测序归档；示例数据由维护者数据 app <a href="https://github.com/taffish/rnaseq-yeast-get-data" target="_blank" rel="noopener noreferrer"><code>rnaseq-yeast-get-data</code></a> 准备，并记录来源 URL、checksum、accession、fallback 下载、命令和 manifest。</p>
+        <div class="manual-note">
+          <p data-lang="en">This page is a public reader summary. The canonical preparation details live in the <a href="https://github.com/taffish/rnaseq-yeast-get-data" target="_blank" rel="noopener noreferrer">data-preparation repository</a> and in the provenance files shipped with each generated output tree.</p>
+          <p data-lang="zh">本页是面向公开读者的摘要。权威准备细节以 <a href="https://github.com/taffish/rnaseq-yeast-get-data" target="_blank" rel="noopener noreferrer">数据准备仓库</a> 以及每个生成输出目录中的溯源文件为准。</p>
+        </div>
+      </section>
+
+      <section id="sources" class="article">
+        <h2 data-lang="en">Primary source resources</h2>
+        <h2 data-lang="zh">主要来源资源</h2>
+        <div class="field-table">
+          <table class="flow-table">
+            <thead>
+              <tr>
+                <th><span data-lang="en">Component</span><span data-lang="zh">组成部分</span></th>
+                <th><span data-lang="en">Role in the examples</span><span data-lang="zh">在示例中的作用</span></th>
+                <th><span data-lang="en">Source and identifier</span><span data-lang="zh">来源和标识</span></th>
+                <th><span data-lang="en">Attribution note</span><span data-lang="zh">引用与归属说明</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span data-lang="en">Raw RNA-seq reads</span><span data-lang="zh">原始 RNA-seq reads</span></td>
+                <td><span data-lang="en">FASTQ input for the reference and de novo demonstration routes.</span><span data-lang="zh">有参和无参演示路线的 FASTQ 输入。</span></td>
+                <td><a href="https://www.ebi.ac.uk/ena/browser/view/PRJEB5348" target="_blank" rel="noopener noreferrer">ENA PRJEB5348</a> / <a href="https://www.ncbi.nlm.nih.gov/bioproject/PRJEB5348" target="_blank" rel="noopener noreferrer">NCBI BioProject PRJEB5348</a></td>
+                <td><span data-lang="en">Cite accession <code>PRJEB5348</code> and Gierlinski et al. 2015, DOI <a href="https://doi.org/10.1093/bioinformatics/btv425" target="_blank" rel="noopener noreferrer">10.1093/bioinformatics/btv425</a>.</span><span data-lang="zh">引用 accession <code>PRJEB5348</code> 和 Gierlinski et al. 2015，DOI <a href="https://doi.org/10.1093/bioinformatics/btv425" target="_blank" rel="noopener noreferrer">10.1093/bioinformatics/btv425</a>。</span></td>
+              </tr>
+              <tr>
+                <td><span data-lang="en">Author metadata and counts</span><span data-lang="zh">作者元数据和计数</span></td>
+                <td><span data-lang="en">Sample mapping, excluded replicate list and author-derived WT/Snf2 count matrix.</span><span data-lang="zh">样本映射、排除重复列表和作者派生 WT/Snf2 count matrix。</span></td>
+                <td><a href="https://github.com/bartongroup/profDGE48" target="_blank" rel="noopener noreferrer">bartongroup/profDGE48</a>, commit <code>375dc0d57d9d1fa96a4245a6530e0fda34305891</code></td>
+                <td><span data-lang="en">Cite the upstream repository/commit together with the associated yeast RNA-seq study; check the repository for current reuse notes.</span><span data-lang="zh">同时引用上游仓库/commit 和对应 yeast RNA-seq 研究；再次分发前检查该仓库当前复用说明。</span></td>
+              </tr>
+              <tr>
+                <td><span data-lang="en">Reference genome and annotation</span><span data-lang="zh">参考基因组和注释</span></td>
+                <td><span data-lang="en">Reference-mode genome FASTA, feature-only GFF3, transcript extraction and index preparation.</span><span data-lang="zh">有参模式的 genome FASTA、feature-only GFF3、转录本提取和索引构建。</span></td>
+                <td><a href="https://www.yeastgenome.org/" target="_blank" rel="noopener noreferrer">Saccharomyces Genome Database</a>, S288C <code>R64.4.1</code></td>
+                <td><span data-lang="en">Attribute SGD / yeastgenome.org and follow the current SGD license and citation guidance.</span><span data-lang="zh">归属 SGD / yeastgenome.org，并遵循 SGD 当前许可和引用说明。</span></td>
+              </tr>
+              <tr>
+                <td><span data-lang="en">Gene Ontology terms</span><span data-lang="zh">Gene Ontology 术语</span></td>
+                <td><span data-lang="en">GO term names and namespaces used while building yeast GMT files.</span><span data-lang="zh">构建 yeast GMT 文件时使用的 GO term 名称和命名空间。</span></td>
+                <td><a href="https://current.geneontology.org/ontology/go-basic.obo" target="_blank" rel="noopener noreferrer">Gene Ontology go-basic.obo</a></td>
+                <td><span data-lang="en">Attribute the Gene Ontology Consortium and follow current GO resource terms.</span><span data-lang="zh">归属 Gene Ontology Consortium，并遵循 GO 资源当前条款。</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="derivatives" class="article">
+        <h2 data-lang="en">TAFFISH-derived example packages</h2>
+        <h2 data-lang="zh">TAFFISH 派生示例数据包</h2>
+        <p data-lang="en"><code>rnaseq-yeast-get-data</code> prepares a 24-sample real-mini package from the public project: 12 WT and 12 <code>snf2_KO</code> biological samples, 500k single-end reads per sample, a selected 12-vs-12 gene count matrix, SGD reference files and SGD/GO-derived GMT/background resources. It records the selected biological replicates, all lane accessions, actual download source, fallback status, file checksums and generated package manifests.</p>
+        <p data-lang="zh"><code>rnaseq-yeast-get-data</code> 从该公开项目准备 24 样本 real-mini 数据包：12 个 WT 和 12 个 <code>snf2_KO</code> 生物学样本、每样本 500k single-end reads、选定 12-vs-12 gene count matrix、SGD 参考文件，以及 SGD/GO 派生 GMT/background 资源。它会记录选定生物学重复、全部 lane accession、实际下载来源、fallback 状态、文件 checksum 和生成数据包 manifest。</p>
+        <ul>
+          <li><code>yeast-snf2-fastq-mini-v1</code>: <span data-lang="en">sampled FASTQs and sample metadata.</span><span data-lang="zh">抽样 FASTQ 和样本元数据。</span></li>
+          <li><code>yeast-snf2-counts-medium-v1</code>: <span data-lang="en">selected 12-vs-12 author-derived gene count matrix.</span><span data-lang="zh">选定 12-vs-12 作者派生基因计数矩阵。</span></li>
+          <li><code>yeast-reference-sgd-r64.4.1-v1</code>: <span data-lang="en">SGD genome FASTA and matching feature-only annotation.</span><span data-lang="zh">SGD genome FASTA 和匹配 feature-only 注释。</span></li>
+          <li><code>yeast-sgd-go-gene-sets-r64.4.1-v1</code>: <span data-lang="en">SGD/GO-derived GMT files and background genes.</span><span data-lang="zh">SGD/GO 派生 GMT 文件和背景基因。</span></li>
+        </ul>
+      </section>
+
+      <section id="reports" class="article">
+        <h2 data-lang="en">How this relates to the reports</h2>
+        <h2 data-lang="zh">这和报告是什么关系</h2>
+        <p data-lang="en">The HTML reports are generated by <code>taf-rnaseq-standard-flow</code> and are intended to stay data-agnostic enough for ordinary user projects. Therefore the detailed public-data statement lives here and in the data-preparation repository, while each report links its own methods, commands, versions, manifest and output files.</p>
+        <p data-lang="zh">HTML 报告由 <code>taf-rnaseq-standard-flow</code> 自动生成，需要保持对普通用户项目也适用的通用形态。因此详细公开数据声明放在本页和数据准备仓库中；每份报告本身则链接自己的 methods、commands、versions、manifest 和输出文件。</p>
+        <div class="actions">
+          <a class="button primary" href="../examples/yeast-standard-report/"><span data-lang="en">Reference example</span><span data-lang="zh">有参示例</span></a>
+          <a class="button" href="../examples/yeast-denovo-standard-report/"><span data-lang="en">De novo example</span><span data-lang="zh">无参示例</span></a>
+          <a class="button" href="https://github.com/taffish/rnaseq-yeast-get-data" target="_blank" rel="noopener noreferrer"><span data-lang="en">Data-preparation repository</span><span data-lang="zh">数据准备仓库</span></a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer"><div class="footer-inner"><span><span data-lang="en">TAFFISH RNA-seq Flows</span><span data-lang="zh">TAFFISH RNA-seq 流程</span></span><span><a href="../examples/index.html"><span data-lang="en">Examples</span><span data-lang="zh">示例</span></a></span></div></footer>
+  <script src="../assets/js/site.js"></script>
+</body>
+</html>

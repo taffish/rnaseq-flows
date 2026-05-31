@@ -11,6 +11,7 @@ const curatedPages = [
   "flows/index.html",
   "docs/quickstart.html",
   "docs/input-preparation.html",
+  "docs/data-sources.html",
   "docs/report-interpretation.html",
   "docs/faq.html",
   "docs/flows/index.html",

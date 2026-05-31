@@ -32,6 +32,7 @@ The site keeps the tool logic and the public demonstration separate:
 - `docs/flows/`: per-flow usage manuals with inputs, parameters, outputs, and connection notes.
 - `docs/quickstart.html`: standard-flow quick start and common run modes.
 - `docs/input-preparation.html`: FASTQ, samples table, reference resources, gene-set inputs, and de novo annotation resources.
+- `docs/data-sources.html`: public data-source, attribution, and provenance summary for the yeast examples.
 - `docs/report-interpretation.html`: guide for reading the final HTML report.
 - `docs/faq.html`: practical questions and boundary notes.
 - `examples/yeast-standard-report/`: static reference-route yeast example report and linked report artifacts.
@@ -80,6 +81,27 @@ third-party report internals such as MultiQC and Qualimap HTML.
    - `examples/yeast-denovo-standard-report/04_reports/rnaseq_report.html`
    - `examples/yeast-denovo-standard-report/04_reports/report_interpretation.html`
 4. Re-run a local static link check before publishing.
+
+## Yeast Example Data Sources
+
+The public yeast example reports are generated from the same source project:
+ENA / NCBI BioProject [`PRJEB5348`](https://www.ebi.ac.uk/ena/browser/view/PRJEB5348),
+a *Saccharomyces cerevisiae* WT versus `snf2` knockout RNA-seq experiment.
+The example packages are prepared by
+[`taffish/rnaseq-yeast-get-data`](https://github.com/taffish/rnaseq-yeast-get-data),
+not by this static website repository.
+
+The preparation app records selected biological replicates, lane accessions,
+actual download source, fallback use, checksums, commands and manifests. It
+also prepares author-derived count resources from
+[`bartongroup/profDGE48`](https://github.com/bartongroup/profDGE48), SGD S288C
+`R64.4.1` reference files, and SGD/GO-derived gene-set resources. The public
+site summary is available at
+<https://taffish.github.io/rnaseq-flows/docs/data-sources.html>.
+
+When reusing the example data or reports, cite the original yeast RNA-seq study
+and the relevant database/resource accessions, and follow the current terms of
+ENA/EMBL-EBI, NCBI, SGD, Gene Ontology and the upstream author repository.
 
 ## GitHub Pages
 
