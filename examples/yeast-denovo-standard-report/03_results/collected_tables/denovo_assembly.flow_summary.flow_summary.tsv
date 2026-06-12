@@ -1,6 +1,6 @@
 metric	value
 flow	rnaseq-denovo-assembly-flow
-version	0.1.0-r1
+version	0.2.0-r1
 sample_count	24
 layout	single-end
 assembler	trinity
@@ -12,7 +12,7 @@ no_normalize	false
 ss_lib_type	none
 min_contig_len	200
 total_read_records	12000000
-raw_transcripts	9609
-filtered_transcripts	9609
-filtered_n50	1308
+raw_transcripts	9625
+filtered_transcripts	9625
+filtered_n50	1285
 busco_status	skipped

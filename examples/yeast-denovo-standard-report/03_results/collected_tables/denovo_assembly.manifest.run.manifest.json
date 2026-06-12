@@ -1,10 +1,10 @@
 {
   "flow": "rnaseq-denovo-assembly-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T08:50:42Z",
-  "finished_at": "2026-05-30T09:08:49Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:14:55Z",
+  "finished_at": "2026-06-12T14:32:08Z",
   "inputs": {
-    "samples": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/samples.tsv"
+    "samples": "TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/samples.tsv"
   },
   "parameters": {
     "assembler": "trinity",
@@ -29,17 +29,17 @@
   "counts": {
     "sample_count": 24,
     "total_read_records": 12000000,
-    "raw_transcripts": 9609,
-    "filtered_transcripts": 9609,
-    "filtered_n50": 1308
+    "raw_transcripts": 9625,
+    "filtered_transcripts": 9625,
+    "filtered_n50": 1285
   },
   "outputs": {
-    "assembled_transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa",
-    "filtered_transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
-    "assembly_stats": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/assembly_stats.tsv",
-    "read_support": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/read_support.tsv",
-    "busco_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/busco_summary.tsv",
-    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/04_reports/multiqc_report.html",
-    "flow_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/04_reports/flow_summary.tsv"
+    "assembled_transcripts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa",
+    "filtered_transcripts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
+    "assembly_stats": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/assembly_qc/assembly_stats.tsv",
+    "read_support": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/assembly_qc/read_support.tsv",
+    "busco_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/assembly_qc/busco_summary.tsv",
+    "multiqc_report": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/04_reports/multiqc_report.html",
+    "flow_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/04_reports/flow_summary.tsv"
   }
 }

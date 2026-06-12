@@ -1,2 +1,2 @@
 indexer	type	status	prefix
-hisat2	genome	built	/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/hisat2_index/genome
+hisat2	genome	built	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/hisat2_index/genome

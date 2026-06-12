@@ -4,8 +4,8 @@ step	flow	outdir	status
 04_rnaseq_alignment	rnaseq-alignment-flow		skipped
 05_rnaseq_alignment_qc	rnaseq-alignment-qc-flow		skipped
 06_rnaseq_count	rnaseq-count-flow		skipped
-02_rnaseq_denovo_assembly	rnaseq-denovo-assembly-flow	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly	done
-03_rnaseq_denovo_expression	rnaseq-denovo-expression-flow	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression	done
-04_rnaseq_denovo_annotation	rnaseq-denovo-annotation-flow	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation	done
-07_rnaseq_de	rnaseq-de-flow	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/de	done
-08_rnaseq_enrichment	rnaseq-enrichment-flow	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment	done
+02_rnaseq_denovo_assembly	rnaseq-denovo-assembly-flow	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly	done
+03_rnaseq_denovo_expression	rnaseq-denovo-expression-flow	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression	done
+04_rnaseq_denovo_annotation	rnaseq-denovo-annotation-flow	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation	done
+07_rnaseq_de	rnaseq-de-flow	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/de	done
+08_rnaseq_enrichment	rnaseq-enrichment-flow	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment	done

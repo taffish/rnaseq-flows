@@ -1,0 +1,14 @@
+de	deg_counts_barplot
+de	expression_distribution
+de	heatmap
+de	ma_plot
+de	normalized_count_distribution
+de	pca_plot
+de	sample_correlation_heatmap
+de	top_genes_expression
+de	volcano_plot
+enrichment	dotplot
+enrichment	dotplot_original
+enrichment	gsea_enrichment_curves
+enrichment	gsea_nes_plot
+enrichment	ora_barplot

@@ -26,6 +26,7 @@
       <a href="#reference"><span data-lang="en">Reference</span><span data-lang="zh">有参</span></a>
       <a href="#denovo"><span data-lang="en">De novo</span><span data-lang="zh">无参</span></a>
       <a href="#routes"><span data-lang="en">Route choices</span><span data-lang="zh">路线选择</span></a>
+      <a href="#profiles"><span data-lang="en">Formal profiles</span><span data-lang="zh">正式参数</span></a>
       <a href="#outputs"><span data-lang="en">Outputs</span><span data-lang="zh">输出</span></a>
     </aside>
     <div class="content">
@@ -80,6 +81,34 @@
         <h2 data-lang="zh">路线选择</h2>
         <p data-lang="en">The default reference route uses Salmon/tximport counts for differential expression. Add <code>--route both</code> to generate alignment/count/QC evidence. Add <code>--route both --de-source featurecounts</code> only when DESeq2 should use featureCounts instead of Salmon counts. De novo mode is selected with <code>--mode denovo</code> and is incompatible with the reference alignment/count branch.</p>
         <p data-lang="zh">默认有参路线使用 Salmon/tximport 计数做差异表达。添加 <code>--route both</code> 可以生成比对、计数和 QC 证据；如果希望 DESeq2 使用 featureCounts 而不是 Salmon 计数，使用 <code>--route both --de-source featurecounts</code>。无参模式通过 <code>--mode denovo</code> 选择，不能与有参比对/计数分支混用。</p>
+      </section>
+
+      <section id="profiles" class="article">
+        <h2 data-lang="en">Formal example profiles</h2>
+        <h2 data-lang="zh">正式示例参数</h2>
+        <p data-lang="en">The public yeast reports use full-analysis settings rather than toy speed settings. The reference report uses the alignment/count evidence branch as the DE source and applies stricter low-count filtering.</p>
+        <p data-lang="zh">公开 yeast 报告使用完整分析参数，而不是为了快速演示压缩过的玩具参数。有参报告使用比对/计数证据分支作为 DE 来源，并采用更严格的低计数过滤。</p>
+        <pre class="code-block"><code>taf-rnaseq-standard-flow \
+  --route both \
+  --de-source featurecounts \
+  --fit-type parametric \
+  --min-count 10 \
+  --min-samples 4 \
+  --qc-mapq 30 \
+  --infer-sample-size 200000 \
+  --java-mem-size 128G \
+  ...</code></pre>
+        <p data-lang="en">The de novo report uses a larger Trinity memory budget and passes a Trinity-native normalization control through the standard-flow advanced step bridge.</p>
+        <p data-lang="zh">无参报告使用更大的 Trinity 内存预算，并通过 standard-flow 的高级 step 桥接传入 Trinity 原生 normalization 控制参数。</p>
+        <pre class="code-block"><code>taf-rnaseq-standard-flow \
+  --mode denovo \
+  --max-memory 256G \
+  --min-contig-len 200 \
+  --denovo-min-orf-aa 50 \
+  --denovo-evalue 1e-5 \
+  --denovo-max-target-seqs 1 \
+  @denovo-assembly-trinity-assembly-step: --normalize_max_read_cov 50 @: \
+  ...</code></pre>
       </section>
 
       <section id="outputs" class="article">

@@ -1,60 +1,60 @@
 {
-    "report_multiqc_command": "/usr/local/bin/multiqc /home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression --outdir /home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/04_reports --filename multiqc_report.html --data-format json --force --quiet",
+    "report_multiqc_command": "/usr/local/bin/multiqc TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression --outdir TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/04_reports --filename multiqc_report.html --data-format json --force --quiet",
     "report_data_sources": {
         "Salmon": {
             "all_sections": {
-                "WT_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_05/libParams/flenDist.txt",
-                "WT_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_12/libParams/flenDist.txt",
-                "WT_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_07/libParams/flenDist.txt",
-                "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_08/libParams/flenDist.txt",
-                "WT_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_04/libParams/flenDist.txt",
-                "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_01/libParams/flenDist.txt",
-                "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_11/libParams/flenDist.txt",
-                "WT_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_09/libParams/flenDist.txt",
-                "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_07/libParams/flenDist.txt",
-                "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_10/libParams/flenDist.txt",
-                "WT_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_10/libParams/flenDist.txt",
-                "WT_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_03/libParams/flenDist.txt",
-                "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_04/libParams/flenDist.txt",
-                "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_05/libParams/flenDist.txt",
-                "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_09/libParams/flenDist.txt",
-                "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_12/libParams/flenDist.txt",
-                "WT_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_11/libParams/flenDist.txt",
-                "WT_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_06/libParams/flenDist.txt",
-                "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_02/libParams/flenDist.txt",
-                "WT_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_02/libParams/flenDist.txt",
-                "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_06/libParams/flenDist.txt",
-                "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/SNF2KO_03/libParams/flenDist.txt",
-                "WT_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_08/libParams/flenDist.txt",
-                "WT_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/salmon/WT_01/libParams/flenDist.txt"
+                "WT_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_05/libParams/flenDist.txt",
+                "WT_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_12/libParams/flenDist.txt",
+                "WT_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_07/libParams/flenDist.txt",
+                "SNF2KO_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_08/libParams/flenDist.txt",
+                "WT_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_04/libParams/flenDist.txt",
+                "SNF2KO_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_01/libParams/flenDist.txt",
+                "SNF2KO_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_11/libParams/flenDist.txt",
+                "WT_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_09/libParams/flenDist.txt",
+                "SNF2KO_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_07/libParams/flenDist.txt",
+                "SNF2KO_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_10/libParams/flenDist.txt",
+                "WT_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_10/libParams/flenDist.txt",
+                "WT_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_03/libParams/flenDist.txt",
+                "SNF2KO_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_04/libParams/flenDist.txt",
+                "SNF2KO_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_05/libParams/flenDist.txt",
+                "SNF2KO_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_09/libParams/flenDist.txt",
+                "SNF2KO_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_12/libParams/flenDist.txt",
+                "WT_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_11/libParams/flenDist.txt",
+                "WT_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_06/libParams/flenDist.txt",
+                "SNF2KO_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_02/libParams/flenDist.txt",
+                "WT_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_02/libParams/flenDist.txt",
+                "SNF2KO_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_06/libParams/flenDist.txt",
+                "SNF2KO_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/SNF2KO_03/libParams/flenDist.txt",
+                "WT_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_08/libParams/flenDist.txt",
+                "WT_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/salmon/WT_01/libParams/flenDist.txt"
             }
         },
         "FastQC": {
             "all_sections": {
-                "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_01/SNF2KO_01_fastqc.zip",
-                "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_02/SNF2KO_02_fastqc.zip",
-                "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_03/SNF2KO_03_fastqc.zip",
-                "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_04/SNF2KO_04_fastqc.zip",
-                "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_05/SNF2KO_05_fastqc.zip",
-                "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_06/SNF2KO_06_fastqc.zip",
-                "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_07/SNF2KO_07_fastqc.zip",
-                "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_08/SNF2KO_08_fastqc.zip",
-                "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_09/SNF2KO_09_fastqc.zip",
-                "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_10/SNF2KO_10_fastqc.zip",
-                "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_11/SNF2KO_11_fastqc.zip",
-                "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/SNF2KO_12/SNF2KO_12_fastqc.zip",
-                "WT_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_01/WT_01_fastqc.zip",
-                "WT_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_02/WT_02_fastqc.zip",
-                "WT_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_03/WT_03_fastqc.zip",
-                "WT_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_04/WT_04_fastqc.zip",
-                "WT_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_05/WT_05_fastqc.zip",
-                "WT_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_06/WT_06_fastqc.zip",
-                "WT_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_07/WT_07_fastqc.zip",
-                "WT_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_08/WT_08_fastqc.zip",
-                "WT_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_09/WT_09_fastqc.zip",
-                "WT_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_10/WT_10_fastqc.zip",
-                "WT_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_11/WT_11_fastqc.zip",
-                "WT_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/03_results/fastqc/WT_12/WT_12_fastqc.zip"
+                "SNF2KO_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_01/SNF2KO_01_fastqc.zip",
+                "SNF2KO_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_02/SNF2KO_02_fastqc.zip",
+                "SNF2KO_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_03/SNF2KO_03_fastqc.zip",
+                "SNF2KO_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_04/SNF2KO_04_fastqc.zip",
+                "SNF2KO_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_05/SNF2KO_05_fastqc.zip",
+                "SNF2KO_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_06/SNF2KO_06_fastqc.zip",
+                "SNF2KO_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_07/SNF2KO_07_fastqc.zip",
+                "SNF2KO_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_08/SNF2KO_08_fastqc.zip",
+                "SNF2KO_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_09/SNF2KO_09_fastqc.zip",
+                "SNF2KO_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_10/SNF2KO_10_fastqc.zip",
+                "SNF2KO_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_11/SNF2KO_11_fastqc.zip",
+                "SNF2KO_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/SNF2KO_12/SNF2KO_12_fastqc.zip",
+                "WT_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_01/WT_01_fastqc.zip",
+                "WT_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_02/WT_02_fastqc.zip",
+                "WT_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_03/WT_03_fastqc.zip",
+                "WT_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_04/WT_04_fastqc.zip",
+                "WT_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_05/WT_05_fastqc.zip",
+                "WT_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_06/WT_06_fastqc.zip",
+                "WT_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_07/WT_07_fastqc.zip",
+                "WT_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_08/WT_08_fastqc.zip",
+                "WT_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_09/WT_09_fastqc.zip",
+                "WT_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_10/WT_10_fastqc.zip",
+                "WT_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_11/WT_11_fastqc.zip",
+                "WT_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/03_results/fastqc/WT_12/WT_12_fastqc.zip"
             }
         }
     },
@@ -93,8 +93,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 741213,
                 "percent_mapped": 92.337,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:08 2026",
-                "end_time": "Sun May 31 02:42:10 2026"
+                "start_time": "Fri Jun 12 22:18:21 2026",
+                "end_time": "Fri Jun 12 22:18:22 2026"
             },
             "WT_12": {
                 "salmon_version": "1.11.4",
@@ -129,8 +129,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 722643,
                 "percent_mapped": 92.28020000000001,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:22 2026",
-                "end_time": "Sun May 31 02:42:24 2026"
+                "start_time": "Fri Jun 12 22:18:33 2026",
+                "end_time": "Fri Jun 12 22:18:34 2026"
             },
             "WT_07": {
                 "salmon_version": "1.11.4",
@@ -165,8 +165,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 702837,
                 "percent_mapped": 92.7384,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:12 2026",
-                "end_time": "Sun May 31 02:42:14 2026"
+                "start_time": "Fri Jun 12 22:18:25 2026",
+                "end_time": "Fri Jun 12 22:18:26 2026"
             },
             "SNF2KO_08": {
                 "salmon_version": "1.11.4",
@@ -201,8 +201,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 666884,
                 "percent_mapped": 91.69,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:49 2026",
-                "end_time": "Sun May 31 02:41:51 2026"
+                "start_time": "Fri Jun 12 22:18:06 2026",
+                "end_time": "Fri Jun 12 22:18:07 2026"
             },
             "WT_04": {
                 "salmon_version": "1.11.4",
@@ -237,8 +237,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 691693,
                 "percent_mapped": 92.872,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:06 2026",
-                "end_time": "Sun May 31 02:42:08 2026"
+                "start_time": "Fri Jun 12 22:18:19 2026",
+                "end_time": "Fri Jun 12 22:18:21 2026"
             },
             "SNF2KO_01": {
                 "salmon_version": "1.11.4",
@@ -273,8 +273,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 681425,
                 "percent_mapped": 92.471,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:36 2026",
-                "end_time": "Sun May 31 02:41:37 2026"
+                "start_time": "Fri Jun 12 22:17:53 2026",
+                "end_time": "Fri Jun 12 22:17:55 2026"
             },
             "SNF2KO_11": {
                 "salmon_version": "1.11.4",
@@ -309,8 +309,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 660873,
                 "percent_mapped": 91.7366,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:55 2026",
-                "end_time": "Sun May 31 02:41:57 2026"
+                "start_time": "Fri Jun 12 22:18:11 2026",
+                "end_time": "Fri Jun 12 22:18:13 2026"
             },
             "WT_09": {
                 "salmon_version": "1.11.4",
@@ -345,8 +345,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 727384,
                 "percent_mapped": 93.2954,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:17 2026",
-                "end_time": "Sun May 31 02:42:18 2026"
+                "start_time": "Fri Jun 12 22:18:28 2026",
+                "end_time": "Fri Jun 12 22:18:29 2026"
             },
             "SNF2KO_07": {
                 "salmon_version": "1.11.4",
@@ -381,8 +381,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 680301,
                 "percent_mapped": 91.7586,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:47 2026",
-                "end_time": "Sun May 31 02:41:49 2026"
+                "start_time": "Fri Jun 12 22:18:04 2026",
+                "end_time": "Fri Jun 12 22:18:06 2026"
             },
             "SNF2KO_10": {
                 "salmon_version": "1.11.4",
@@ -417,8 +417,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 686751,
                 "percent_mapped": 92.3926,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:53 2026",
-                "end_time": "Sun May 31 02:41:55 2026"
+                "start_time": "Fri Jun 12 22:18:09 2026",
+                "end_time": "Fri Jun 12 22:18:11 2026"
             },
             "WT_10": {
                 "salmon_version": "1.11.4",
@@ -453,8 +453,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 696823,
                 "percent_mapped": 92.322,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:18 2026",
-                "end_time": "Sun May 31 02:42:20 2026"
+                "start_time": "Fri Jun 12 22:18:29 2026",
+                "end_time": "Fri Jun 12 22:18:31 2026"
             },
             "WT_03": {
                 "salmon_version": "1.11.4",
@@ -489,8 +489,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 704065,
                 "percent_mapped": 91.7872,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:04 2026",
-                "end_time": "Sun May 31 02:42:05 2026"
+                "start_time": "Fri Jun 12 22:18:18 2026",
+                "end_time": "Fri Jun 12 22:18:19 2026"
             },
             "SNF2KO_04": {
                 "salmon_version": "1.11.4",
@@ -525,8 +525,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 671264,
                 "percent_mapped": 93.7126,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:42 2026",
-                "end_time": "Sun May 31 02:41:43 2026"
+                "start_time": "Fri Jun 12 22:17:59 2026",
+                "end_time": "Fri Jun 12 22:18:00 2026"
             },
             "SNF2KO_05": {
                 "salmon_version": "1.11.4",
@@ -561,8 +561,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 662350,
                 "percent_mapped": 92.033,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:43 2026",
-                "end_time": "Sun May 31 02:41:45 2026"
+                "start_time": "Fri Jun 12 22:18:01 2026",
+                "end_time": "Fri Jun 12 22:18:02 2026"
             },
             "SNF2KO_09": {
                 "salmon_version": "1.11.4",
@@ -597,8 +597,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 681752,
                 "percent_mapped": 92.2814,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:51 2026",
-                "end_time": "Sun May 31 02:41:53 2026"
+                "start_time": "Fri Jun 12 22:18:08 2026",
+                "end_time": "Fri Jun 12 22:18:09 2026"
             },
             "SNF2KO_12": {
                 "salmon_version": "1.11.4",
@@ -633,8 +633,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 668897,
                 "percent_mapped": 92.4184,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:58 2026",
-                "end_time": "Sun May 31 02:41:59 2026"
+                "start_time": "Fri Jun 12 22:18:13 2026",
+                "end_time": "Fri Jun 12 22:18:14 2026"
             },
             "WT_11": {
                 "salmon_version": "1.11.4",
@@ -669,8 +669,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 729120,
                 "percent_mapped": 93.07039999999999,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:20 2026",
-                "end_time": "Sun May 31 02:42:22 2026"
+                "start_time": "Fri Jun 12 22:18:31 2026",
+                "end_time": "Fri Jun 12 22:18:32 2026"
             },
             "WT_06": {
                 "salmon_version": "1.11.4",
@@ -705,8 +705,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 702815,
                 "percent_mapped": 93.11779999999999,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:10 2026",
-                "end_time": "Sun May 31 02:42:12 2026"
+                "start_time": "Fri Jun 12 22:18:23 2026",
+                "end_time": "Fri Jun 12 22:18:24 2026"
             },
             "SNF2KO_02": {
                 "salmon_version": "1.11.4",
@@ -741,8 +741,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 675462,
                 "percent_mapped": 92.1848,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:38 2026",
-                "end_time": "Sun May 31 02:41:39 2026"
+                "start_time": "Fri Jun 12 22:17:55 2026",
+                "end_time": "Fri Jun 12 22:17:57 2026"
             },
             "WT_02": {
                 "salmon_version": "1.11.4",
@@ -777,8 +777,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 692857,
                 "percent_mapped": 92.6542,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:02 2026",
-                "end_time": "Sun May 31 02:42:04 2026"
+                "start_time": "Fri Jun 12 22:18:16 2026",
+                "end_time": "Fri Jun 12 22:18:18 2026"
             },
             "SNF2KO_06": {
                 "salmon_version": "1.11.4",
@@ -813,8 +813,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 674669,
                 "percent_mapped": 91.78359999999999,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:45 2026",
-                "end_time": "Sun May 31 02:41:47 2026"
+                "start_time": "Fri Jun 12 22:18:02 2026",
+                "end_time": "Fri Jun 12 22:18:04 2026"
             },
             "SNF2KO_03": {
                 "salmon_version": "1.11.4",
@@ -849,8 +849,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 673235,
                 "percent_mapped": 92.1882,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:40 2026",
-                "end_time": "Sun May 31 02:41:41 2026"
+                "start_time": "Fri Jun 12 22:17:57 2026",
+                "end_time": "Fri Jun 12 22:17:58 2026"
             },
             "WT_08": {
                 "salmon_version": "1.11.4",
@@ -885,8 +885,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 703187,
                 "percent_mapped": 92.7864,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:14 2026",
-                "end_time": "Sun May 31 02:42:16 2026"
+                "start_time": "Fri Jun 12 22:18:26 2026",
+                "end_time": "Fri Jun 12 22:18:28 2026"
             },
             "WT_01": {
                 "salmon_version": "1.11.4",
@@ -921,13 +921,13 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 696501,
                 "percent_mapped": 92.4162,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:00 2026",
-                "end_time": "Sun May 31 02:42:02 2026"
+                "start_time": "Fri Jun 12 22:18:15 2026",
+                "end_time": "Fri Jun 12 22:18:16 2026"
             }
         },
         "salmon_3": {
             "WT_05": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_05.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_05.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 461685,
@@ -949,7 +949,7 @@
                 "U": 0
             },
             "WT_12": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_12.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_12.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 461401,
@@ -971,7 +971,7 @@
                 "U": 0
             },
             "WT_07": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_07.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_07.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 463692,
@@ -993,7 +993,7 @@
                 "U": 0
             },
             "SNF2KO_08": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_08.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_08.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 458450,
@@ -1015,7 +1015,7 @@
                 "U": 0
             },
             "WT_04": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_04.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_04.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 464360,
@@ -1037,7 +1037,7 @@
                 "U": 0
             },
             "SNF2KO_01": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_01.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_01.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 462355,
@@ -1059,7 +1059,7 @@
                 "U": 0
             },
             "SNF2KO_11": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_11.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_11.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 458683,
@@ -1081,7 +1081,7 @@
                 "U": 0
             },
             "WT_09": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_09.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_09.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 466477,
@@ -1103,7 +1103,7 @@
                 "U": 0
             },
             "SNF2KO_07": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_07.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_07.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 458793,
@@ -1125,7 +1125,7 @@
                 "U": 0
             },
             "SNF2KO_10": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_10.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_10.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 461963,
@@ -1147,7 +1147,7 @@
                 "U": 0
             },
             "WT_10": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_10.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_10.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 461610,
@@ -1169,7 +1169,7 @@
                 "U": 0
             },
             "WT_03": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_03.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_03.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 458936,
@@ -1191,7 +1191,7 @@
                 "U": 0
             },
             "SNF2KO_04": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_04.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_04.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 468563,
@@ -1213,7 +1213,7 @@
                 "U": 0
             },
             "SNF2KO_05": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_05.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_05.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 460165,
@@ -1235,7 +1235,7 @@
                 "U": 0
             },
             "SNF2KO_09": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_09.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_09.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 461407,
@@ -1257,7 +1257,7 @@
                 "U": 0
             },
             "SNF2KO_12": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_12.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_12.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 462092,
@@ -1279,7 +1279,7 @@
                 "U": 0
             },
             "WT_11": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_11.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_11.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 465352,
@@ -1301,7 +1301,7 @@
                 "U": 0
             },
             "WT_06": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_06.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_06.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 465589,
@@ -1323,7 +1323,7 @@
                 "U": 0
             },
             "SNF2KO_02": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_02.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_02.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 460924,
@@ -1345,7 +1345,7 @@
                 "U": 0
             },
             "WT_02": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_02.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_02.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 463271,
@@ -1367,7 +1367,7 @@
                 "U": 0
             },
             "SNF2KO_06": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_06.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_06.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 458918,
@@ -1389,7 +1389,7 @@
                 "U": 0
             },
             "SNF2KO_03": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_03.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/SNF2KO_03.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 460941,
@@ -1411,7 +1411,7 @@
                 "U": 0
             },
             "WT_08": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_08.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_08.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 463932,
@@ -1433,7 +1433,7 @@
                 "U": 0
             },
             "WT_01": {
-                "read_files": "[ /home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/reads/WT_01.fq.gz ]",
+                "read_files": "[ TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/reads/WT_01.fq.gz ]",
                 "expected_format": "U",
                 "compatible_fragment_ratio": 1.0,
                 "num_compatible_fragments": 462081,
@@ -1796,7 +1796,7 @@
             }
         }
     },
-    "report_creation_date": "2026-05-31, 02:42 CST",
+    "report_creation_date": "2026-06-12, 22:18 CST",
     "report_plot_data": {
         "salmon_plot": {
             "id": "salmon_plot",
@@ -95320,7 +95320,7 @@
         }
     },
     "config_analysis_dir": [
-        "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression"
+        "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression"
     ],
     "config_git_hash": null,
     "config_intro_text": null,
@@ -95331,11 +95331,11 @@
     "config_subtitle": null,
     "config_title": null,
     "config_version": "1.35",
-    "config_output_dir": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression/04_reports",
+    "config_output_dir": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression/04_reports",
     "config_sample_names_rename": [],
     "config_sample_names_rename_buttons": [],
     "config_analysis_dir_abs": [
-        "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/expression"
+        "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/expression"
     ],
     "report_saved_raw_data": {
         "multiqc_salmon": {
@@ -95386,8 +95386,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 741213,
                 "percent_mapped": 92.337,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:08 2026",
-                "end_time": "Sun May 31 02:42:10 2026"
+                "start_time": "Fri Jun 12 22:18:21 2026",
+                "end_time": "Fri Jun 12 22:18:22 2026"
             },
             "WT_12": {
                 "salmon_version": "1.11.4",
@@ -95436,8 +95436,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 722643,
                 "percent_mapped": 92.28020000000001,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:22 2026",
-                "end_time": "Sun May 31 02:42:24 2026"
+                "start_time": "Fri Jun 12 22:18:33 2026",
+                "end_time": "Fri Jun 12 22:18:34 2026"
             },
             "WT_07": {
                 "salmon_version": "1.11.4",
@@ -95486,8 +95486,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 702837,
                 "percent_mapped": 92.7384,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:12 2026",
-                "end_time": "Sun May 31 02:42:14 2026"
+                "start_time": "Fri Jun 12 22:18:25 2026",
+                "end_time": "Fri Jun 12 22:18:26 2026"
             },
             "SNF2KO_08": {
                 "salmon_version": "1.11.4",
@@ -95536,8 +95536,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 666884,
                 "percent_mapped": 91.69,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:49 2026",
-                "end_time": "Sun May 31 02:41:51 2026"
+                "start_time": "Fri Jun 12 22:18:06 2026",
+                "end_time": "Fri Jun 12 22:18:07 2026"
             },
             "WT_04": {
                 "salmon_version": "1.11.4",
@@ -95586,8 +95586,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 691693,
                 "percent_mapped": 92.872,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:06 2026",
-                "end_time": "Sun May 31 02:42:08 2026"
+                "start_time": "Fri Jun 12 22:18:19 2026",
+                "end_time": "Fri Jun 12 22:18:21 2026"
             },
             "SNF2KO_01": {
                 "salmon_version": "1.11.4",
@@ -95636,8 +95636,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 681425,
                 "percent_mapped": 92.471,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:36 2026",
-                "end_time": "Sun May 31 02:41:37 2026"
+                "start_time": "Fri Jun 12 22:17:53 2026",
+                "end_time": "Fri Jun 12 22:17:55 2026"
             },
             "SNF2KO_11": {
                 "salmon_version": "1.11.4",
@@ -95686,8 +95686,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 660873,
                 "percent_mapped": 91.7366,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:55 2026",
-                "end_time": "Sun May 31 02:41:57 2026"
+                "start_time": "Fri Jun 12 22:18:11 2026",
+                "end_time": "Fri Jun 12 22:18:13 2026"
             },
             "WT_09": {
                 "salmon_version": "1.11.4",
@@ -95736,8 +95736,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 727384,
                 "percent_mapped": 93.2954,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:17 2026",
-                "end_time": "Sun May 31 02:42:18 2026"
+                "start_time": "Fri Jun 12 22:18:28 2026",
+                "end_time": "Fri Jun 12 22:18:29 2026"
             },
             "SNF2KO_07": {
                 "salmon_version": "1.11.4",
@@ -95786,8 +95786,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 680301,
                 "percent_mapped": 91.7586,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:47 2026",
-                "end_time": "Sun May 31 02:41:49 2026"
+                "start_time": "Fri Jun 12 22:18:04 2026",
+                "end_time": "Fri Jun 12 22:18:06 2026"
             },
             "SNF2KO_10": {
                 "salmon_version": "1.11.4",
@@ -95836,8 +95836,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 686751,
                 "percent_mapped": 92.3926,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:53 2026",
-                "end_time": "Sun May 31 02:41:55 2026"
+                "start_time": "Fri Jun 12 22:18:09 2026",
+                "end_time": "Fri Jun 12 22:18:11 2026"
             },
             "WT_10": {
                 "salmon_version": "1.11.4",
@@ -95886,8 +95886,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 696823,
                 "percent_mapped": 92.322,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:18 2026",
-                "end_time": "Sun May 31 02:42:20 2026"
+                "start_time": "Fri Jun 12 22:18:29 2026",
+                "end_time": "Fri Jun 12 22:18:31 2026"
             },
             "WT_03": {
                 "salmon_version": "1.11.4",
@@ -95936,8 +95936,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 704065,
                 "percent_mapped": 91.7872,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:04 2026",
-                "end_time": "Sun May 31 02:42:05 2026"
+                "start_time": "Fri Jun 12 22:18:18 2026",
+                "end_time": "Fri Jun 12 22:18:19 2026"
             },
             "SNF2KO_04": {
                 "salmon_version": "1.11.4",
@@ -95986,8 +95986,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 671264,
                 "percent_mapped": 93.7126,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:42 2026",
-                "end_time": "Sun May 31 02:41:43 2026"
+                "start_time": "Fri Jun 12 22:17:59 2026",
+                "end_time": "Fri Jun 12 22:18:00 2026"
             },
             "SNF2KO_05": {
                 "salmon_version": "1.11.4",
@@ -96036,8 +96036,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 662350,
                 "percent_mapped": 92.033,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:43 2026",
-                "end_time": "Sun May 31 02:41:45 2026"
+                "start_time": "Fri Jun 12 22:18:01 2026",
+                "end_time": "Fri Jun 12 22:18:02 2026"
             },
             "SNF2KO_09": {
                 "salmon_version": "1.11.4",
@@ -96086,8 +96086,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 681752,
                 "percent_mapped": 92.2814,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:51 2026",
-                "end_time": "Sun May 31 02:41:53 2026"
+                "start_time": "Fri Jun 12 22:18:08 2026",
+                "end_time": "Fri Jun 12 22:18:09 2026"
             },
             "SNF2KO_12": {
                 "salmon_version": "1.11.4",
@@ -96136,8 +96136,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 668897,
                 "percent_mapped": 92.4184,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:58 2026",
-                "end_time": "Sun May 31 02:41:59 2026"
+                "start_time": "Fri Jun 12 22:18:13 2026",
+                "end_time": "Fri Jun 12 22:18:14 2026"
             },
             "WT_11": {
                 "salmon_version": "1.11.4",
@@ -96186,8 +96186,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 729120,
                 "percent_mapped": 93.07039999999999,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:20 2026",
-                "end_time": "Sun May 31 02:42:22 2026"
+                "start_time": "Fri Jun 12 22:18:31 2026",
+                "end_time": "Fri Jun 12 22:18:32 2026"
             },
             "WT_06": {
                 "salmon_version": "1.11.4",
@@ -96236,8 +96236,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 702815,
                 "percent_mapped": 93.11779999999999,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:10 2026",
-                "end_time": "Sun May 31 02:42:12 2026"
+                "start_time": "Fri Jun 12 22:18:23 2026",
+                "end_time": "Fri Jun 12 22:18:24 2026"
             },
             "SNF2KO_02": {
                 "salmon_version": "1.11.4",
@@ -96286,8 +96286,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 675462,
                 "percent_mapped": 92.1848,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:38 2026",
-                "end_time": "Sun May 31 02:41:39 2026"
+                "start_time": "Fri Jun 12 22:17:55 2026",
+                "end_time": "Fri Jun 12 22:17:57 2026"
             },
             "WT_02": {
                 "salmon_version": "1.11.4",
@@ -96336,8 +96336,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 692857,
                 "percent_mapped": 92.6542,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:02 2026",
-                "end_time": "Sun May 31 02:42:04 2026"
+                "start_time": "Fri Jun 12 22:18:16 2026",
+                "end_time": "Fri Jun 12 22:18:18 2026"
             },
             "SNF2KO_06": {
                 "salmon_version": "1.11.4",
@@ -96386,8 +96386,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 674669,
                 "percent_mapped": 91.78359999999999,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:45 2026",
-                "end_time": "Sun May 31 02:41:47 2026"
+                "start_time": "Fri Jun 12 22:18:02 2026",
+                "end_time": "Fri Jun 12 22:18:04 2026"
             },
             "SNF2KO_03": {
                 "salmon_version": "1.11.4",
@@ -96436,8 +96436,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 673235,
                 "percent_mapped": 92.1882,
                 "call": "quant",
-                "start_time": "Sun May 31 02:41:40 2026",
-                "end_time": "Sun May 31 02:41:41 2026"
+                "start_time": "Fri Jun 12 22:17:57 2026",
+                "end_time": "Fri Jun 12 22:17:58 2026"
             },
             "WT_08": {
                 "salmon_version": "1.11.4",
@@ -96486,8 +96486,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 703187,
                 "percent_mapped": 92.7864,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:14 2026",
-                "end_time": "Sun May 31 02:42:16 2026"
+                "start_time": "Fri Jun 12 22:18:26 2026",
+                "end_time": "Fri Jun 12 22:18:28 2026"
             },
             "WT_01": {
                 "salmon_version": "1.11.4",
@@ -96536,8 +96536,8 @@
                 "num_alignments_below_threshold_for_mapped_fragments_vm": 696501,
                 "percent_mapped": 92.4162,
                 "call": "quant",
-                "start_time": "Sun May 31 02:42:00 2026",
-                "end_time": "Sun May 31 02:42:02 2026"
+                "start_time": "Fri Jun 12 22:18:15 2026",
+                "end_time": "Fri Jun 12 22:18:16 2026"
             }
         },
         "multiqc_fastqc": {

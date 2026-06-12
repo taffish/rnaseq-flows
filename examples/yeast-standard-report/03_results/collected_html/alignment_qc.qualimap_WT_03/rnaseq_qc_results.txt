@@ -3,8 +3,8 @@ RNA-Seq QC report
 
 >>>>>>> Input
 
-    bam file = /home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/03_results/bam/WT_03.sorted.bam
-    gff file = /home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/00_inputs/genes.gtf
+    bam file = TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/03_results/bam/WT_03.sorted.bam
+    gff file = TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/00_inputs/genes.gtf
     counting algorithm = uniquely-mapped-reads
     protocol = non-strand-specific
     5'-3' bias region size = 100
@@ -13,44 +13,44 @@ RNA-Seq QC report
 
 >>>>>>> Reads alignment
 
-    reads aligned  = 479,679
-    total alignments = 559,977
-    secondary alignments = 80,298
-    non-unique alignments = 138,669
-    aligned to genes  = 344,583
-    ambiguous alignments = 73,060
-    no feature assigned = 3,665
-    not aligned = 20,321
+    reads aligned  = 479,688
+    total alignments = 559,975
+    secondary alignments = 80,287
+    non-unique alignments = 138,651
+    aligned to genes  = 344,621
+    ambiguous alignments = 73,049
+    no feature assigned = 3,654
+    not aligned = 20,312
     SSP estimation (fwd/rev) = 0.5 / 0.5
 
 
 >>>>>>> Reads genomic origin
 
-    exonic =  344,583 (98.95%)
-    intronic = 733 (0.21%)
-    intergenic = 2,932 (0.84%)
-    overlapping exon = 12,521 (3.6%)
+    exonic =  344,621 (98.95%)
+    intronic = 711 (0.2%)
+    intergenic = 2,943 (0.85%)
+    overlapping exon = 12,498 (3.59%)
 
 
 >>>>>>> Transcript coverage profile
 
     5' bias = 0.33
     3' bias = 0.09
-    5'-3' bias = 3.63
+    5'-3' bias = 3.66
 
 
 >>>>>>> Junction analysis
 
-    reads at junctions = 5,152
+    reads at junctions = 5,258
 
-    TGCT : 4.23%
-    AGGT : 3.82%
-    TCAC : 3.24%
-    AAAT : 3.14%
-    TGGC : 2.97%
-    CTCT : 2.91%
-    ACGT : 2.41%
-    ACGA : 2.37%
-    TAGT : 2.33%
-    CTGC : 2.33%
-    AGAA : 2.29%
+    TGCT : 4.17%
+    AGGT : 3.88%
+    TCAC : 3.25%
+    AAAT : 3.18%
+    CTCT : 2.97%
+    TGGC : 2.93%
+    ACGT : 2.36%
+    ACGA : 2.36%
+    CTGC : 2.34%
+    TAGT : 2.32%
+    AGAA : 2.26%

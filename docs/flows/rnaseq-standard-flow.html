@@ -10,14 +10,14 @@
 <body data-language="en">
   <header class="site-header"><nav class="nav" aria-label="Primary navigation"><a class="brand" href="../../index.html"><img class="brand-logo" src="../../assets/img/taffish-logo.webp" alt="" width="46" height="46"><span>TAFFISH RNA-seq</span></a><div class="nav-links"><a href="../../flows/index.html"><span data-lang="en">Flows</span><span data-lang="zh">流程</span></a><a href="../quickstart.html"><span data-lang="en">Quickstart</span><span data-lang="zh">快速开始</span></a><a href="index.html" aria-current="page"><span data-lang="en">Manuals</span><span data-lang="zh">手册</span></a><a href="../../examples/yeast-denovo-standard-report/04_reports/rnaseq_report.html"><span data-lang="en">Latest report</span><span data-lang="zh">最新报告</span></a><span class="lang-switch" aria-label="Language"><button type="button" data-set-lang="en">EN</button><button type="button" data-set-lang="zh">中文</button></span></div></nav></header>
   <main class="page-layout">
-    <aside class="side-nav"><a href="#overview"><span data-lang="en">Overview</span><span data-lang="zh">概览</span></a><a href="#reference"><span data-lang="en">Reference command</span><span data-lang="zh">有参命令</span></a><a href="#denovo"><span data-lang="en">De novo command</span><span data-lang="zh">无参命令</span></a><a href="#inputs"><span data-lang="en">Inputs</span><span data-lang="zh">输入</span></a><a href="#parameters"><span data-lang="en">Parameters</span><span data-lang="zh">参数</span></a><a href="#outputs"><span data-lang="en">Outputs</span><span data-lang="zh">输出</span></a><a href="#limits"><span data-lang="en">Limits</span><span data-lang="zh">边界</span></a></aside>
+    <aside class="side-nav"><a href="#overview"><span data-lang="en">Overview</span><span data-lang="zh">概览</span></a><a href="#reference"><span data-lang="en">Reference command</span><span data-lang="zh">有参命令</span></a><a href="#denovo"><span data-lang="en">De novo command</span><span data-lang="zh">无参命令</span></a><a href="#inputs"><span data-lang="en">Inputs</span><span data-lang="zh">输入</span></a><a href="#parameters"><span data-lang="en">Parameters</span><span data-lang="zh">参数</span></a><a href="#advanced"><span data-lang="en">Advanced slots</span><span data-lang="zh">高级槽位</span></a><a href="#outputs"><span data-lang="en">Outputs</span><span data-lang="zh">输出</span></a><a href="#limits"><span data-lang="en">Limits</span><span data-lang="zh">边界</span></a></aside>
     <div class="content">
       <section id="overview" class="article manual-hero">
         <p class="eyebrow"><span data-lang="en">Usage Manual</span><span data-lang="zh">使用手册</span></p>
         <h1>rnaseq-standard-flow</h1>
-        <p data-lang="en">The standard flow is the public umbrella command for bulk RNA-seq. Version <code>0.2.0-r2</code> supports the original reference route and an explicit no-reference route. It composes stable subflows rather than reimplementing them, preserves each output block, collects split PNG/PDF plots, and renders the final bilingual project report.</p>
-        <p data-lang="zh"><code>rnaseq-standard-flow 0.2.0-r2</code> 是 bulk RNA-seq 的公开总入口，支持原有有参路线和显式无参路线。它组合稳定子流程，而不是重新实现全部逻辑；运行后保留每个输出块，收集拆分的 PNG/PDF 图，并生成最终双语项目报告。</p>
-        <div class="manual-meta"><span>0.2.0-r2</span><span data-lang="en">Reference and explicit de novo umbrella</span><span data-lang="zh">有参和显式无参总流程</span><span><a href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer"><span data-lang="en">Official docs</span><span data-lang="zh">正式手册</span></a></span><span><a href="https://github.com/taffish/rnaseq-standard-flow">GitHub</a></span></div>
+        <p data-lang="en">The standard flow is the public umbrella command for bulk RNA-seq. Version <code>0.3.0-r1</code> supports the original reference route and an explicit no-reference route. It composes stable subflows, bridges their internal tool-level advanced step parameters, preserves each output block, collects split PNG/PDF plots, and renders the final standalone bilingual project report.</p>
+        <p data-lang="zh"><code>rnaseq-standard-flow 0.3.0-r1</code> 是 bulk RNA-seq 的公开总入口，支持原有有参路线和显式无参路线。它组合稳定子流程，而不是重新实现全部逻辑；同时桥接子流程内部 tool-level 高级 step 参数，保留每个输出块，收集拆分的 PNG/PDF 图，并生成最终 standalone 双语项目报告。</p>
+        <div class="manual-meta"><span>0.3.0-r1</span><span data-lang="en">Reference and explicit de novo umbrella</span><span data-lang="zh">有参和显式无参总流程</span><span><a href="https://github.com/taffish/rnaseq-standard-flow/tree/main/docs" target="_blank" rel="noopener noreferrer"><span data-lang="en">Official docs</span><span data-lang="zh">正式手册</span></a></span><span><a href="https://github.com/taffish/rnaseq-standard-flow">GitHub</a></span></div>
       </section>
 
       <section id="reference" class="article">
@@ -76,7 +76,7 @@ KO_01	treated	A</code></pre></div>
 gene_id
 GENE1
 GENE2</code></pre></div>
-          <div><h3 data-lang="en">Protein-to-GO map</h3><h3 data-lang="zh">蛋白到 GO 映射</h3><pre class="code-block"><code>protein_id	go_id
+          <div><h3 data-lang="en">Protein-to-GO map</h3><h3 data-lang="zh">蛋白到 GO 映射</h3><pre class="code-block"><code>subject_id	go_id
 P12345	GO:0006412
 P12345	GO:0005737</code></pre></div>
         </div>
@@ -92,11 +92,32 @@ P12345	GO:0005737</code></pre></div>
           <tr><td class="param-name"><code>--route</code></td><td class="param-kind">reference</td><td class="param-default"><code>salmon</code></td><td><span data-lang="en"><code>salmon</code> runs the lightweight expression route. <code>both</code> adds HISAT2 alignment, alignment QC, and featureCounts.</span><span data-lang="zh"><code>salmon</code> 运行轻量表达路线；<code>both</code> 额外运行 HISAT2 比对、比对 QC 和 featureCounts。</span></td></tr>
           <tr><td class="param-name"><code>--de-source</code></td><td class="param-kind">reference</td><td class="param-default"><code>salmon</code></td><td><span data-lang="en">DESeq2 count source. <code>featurecounts</code> requires <code>--route both</code>. De novo mode uses de novo transcript counts.</span><span data-lang="zh">DESeq2 计数来源。<code>featurecounts</code> 需要 <code>--route both</code>。无参模式使用无参转录本计数。</span></td></tr>
           <tr><td class="param-name"><code>--protein-db</code>, <code>--go-map</code></td><td class="param-kind">denovo</td><td class="param-default">none</td><td><span data-lang="en">Protein FASTA and protein-to-GO map for de novo annotation and enrichment.</span><span data-lang="zh">无关注释和富集使用的蛋白 FASTA 与蛋白到 GO 映射。</span></td></tr>
-          <tr><td class="param-name"><code>--assembler</code>, <code>--max-memory</code>, <code>--min-contig-len</code>, <code>--ss-lib-type</code></td><td class="param-kind">denovo</td><td class="param-default">trinity / 16G / 200 / auto</td><td><span data-lang="en">Assembly controls passed to <code>rnaseq-denovo-assembly-flow</code>.</span><span data-lang="zh">传给 <code>rnaseq-denovo-assembly-flow</code> 的组装控制参数。</span></td></tr>
-          <tr><td class="param-name"><code>--denovo-min-orf-aa</code>, <code>--denovo-evalue</code>, <code>--denovo-max-target-seqs</code></td><td class="param-kind">denovo</td><td class="param-default">100 / 1e-5 / 1</td><td><span data-lang="en">Annotation controls passed to the de novo annotation flow.</span><span data-lang="zh">传给无关注释流程的 ORF 和同源搜索参数。</span></td></tr>
+          <tr><td class="param-name"><code>--assembler</code>, <code>--max-memory</code>, <code>--min-contig-len</code>, <code>--ss-lib-type</code></td><td class="param-kind">denovo</td><td class="param-default">trinity / 4G / 200 / none</td><td><span data-lang="en">Assembly controls passed to <code>rnaseq-denovo-assembly-flow</code>. Production de novo runs commonly raise <code>--max-memory</code> and may pass Trinity-native options through advanced step slots.</span><span data-lang="zh">传给 <code>rnaseq-denovo-assembly-flow</code> 的组装控制参数。正式无参运行通常会提高 <code>--max-memory</code>，也可以通过高级 step 槽传入 Trinity 原生参数。</span></td></tr>
+          <tr><td class="param-name"><code>--denovo-min-orf-aa</code>, <code>--denovo-evalue</code>, <code>--denovo-max-target-seqs</code></td><td class="param-kind">denovo</td><td class="param-default">50 / 1e-5 / 1</td><td><span data-lang="en">Annotation controls passed to the de novo annotation flow.</span><span data-lang="zh">传给无关注释流程的 ORF 和同源搜索参数。</span></td></tr>
           <tr><td class="param-name"><code>--threads</code></td><td class="param-kind">all</td><td class="param-default">2</td><td><span data-lang="en">Threads for subflows. De novo assembly usually needs more CPU, memory, and disk than reference expression.</span><span data-lang="zh">传给子流程的线程数。无参组装通常比有参表达需要更多 CPU、内存和磁盘。</span></td></tr>
           <tr><td class="param-name"><code>--project-name</code>, <code>--force</code></td><td class="param-kind">all</td><td class="param-default">RNA-seq project / off</td><td><span data-lang="en">Report title and output replacement switch.</span><span data-lang="zh">报告标题和输出覆盖开关。</span></td></tr>
         </tbody></table></div>
+      </section>
+
+      <section id="advanced" class="article">
+        <h2 data-lang="en">Advanced internal-tool slots</h2>
+        <h2 data-lang="zh">高级内部工具参数槽</h2>
+        <p data-lang="en">Most analyses should use only the documented top-level parameters above. For unusual resource or tool-tuning needs, <code>rnaseq-standard-flow 0.3.0-r1</code> also bridges selected internal subflow tool slots with the TAFFISH <code>@step-name: ... @:</code> syntax. These slots are empty by default and do not change normal results unless the user explicitly supplies extra native options.</p>
+        <p data-lang="zh">绝大多数分析只需要使用上面这些文档化的顶层参数。对于特殊资源压力或底层工具调参需求，<code>rnaseq-standard-flow 0.3.0-r1</code> 还通过 TAFFISH <code>@step-name: ... @:</code> 语法桥接部分子流程内部工具参数槽。这些槽位默认为空；只有用户显式传入额外原生参数时才会改变运行方式。</p>
+        <pre class="code-block"><code>taf-rnaseq-standard-flow \
+  --mode denovo \
+  --samples samples.tsv \
+  --metadata metadata.tsv \
+  --design '~ condition' \
+  --contrast condition:treated:control \
+  --protein-db proteins.faa \
+  --go-map protein_go_map.tsv \
+  --outdir rnaseq-denovo-standard-out \
+  --threads 32 \
+  --max-memory 256G \
+  @denovo-assembly-trinity-assembly-step: --normalize_max_read_cov 50 @:</code></pre>
+        <p data-lang="en">The example passes Trinity's normalization coverage control through the de novo assembly subflow. The full list of bridge slots belongs in the executable standard-flow manual because it tracks the exact released command interface.</p>
+        <p data-lang="zh">这个例子把 Trinity 的 normalization coverage 控制参数传递给无参组装子流程。完整桥接槽位列表以可执行 standard-flow 仓库中的正式手册为准，因为那里和实际发布命令接口同步。</p>
       </section>
 
       <section id="outputs" class="article">

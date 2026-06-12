@@ -1,16 +1,16 @@
 {
   "flow": "rnaseq-alignment-qc-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T18:46:57Z",
-  "finished_at": "2026-05-30T18:52:42Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:21:56Z",
+  "finished_at": "2026-06-12T14:26:47Z",
   "inputs": {
-    "bams": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/bam_files.tsv",
-    "gtf": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/annotation/genes.gtf",
+    "bams": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/04_reports/bam_files.tsv",
+    "gtf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/annotation/genes.gtf",
     "annotation_bed": null
   },
   "parameters": {
-    "threads": 64,
-    "java_mem_size": "4G",
+    "threads": 32,
+    "java_mem_size": "128G",
     "mapq": 30,
     "infer_sample_size": 200000,
     "sequencing_protocol": "non-strand-specific",
@@ -24,14 +24,14 @@
     "taf-gffread": "0.12.9-r1"
   },
   "outputs": {
-    "bam_files": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/00_inputs/bam_files.tsv",
-    "gtf": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/00_inputs/genes.gtf",
-    "annotation_bed": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/00_inputs/genes.bed",
-    "samtools": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/03_results/samtools",
-    "rseqc": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/03_results/rseqc",
-    "qualimap": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/03_results/qualimap",
-    "rnaseq_qc_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/03_results/rnaseq_qc_summary.tsv",
-    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/04_reports/multiqc_report.html",
-    "flow_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment_qc/04_reports/flow_summary.tsv"
+    "bam_files": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/00_inputs/bam_files.tsv",
+    "gtf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/00_inputs/genes.gtf",
+    "annotation_bed": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/00_inputs/genes.bed",
+    "samtools": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/03_results/samtools",
+    "rseqc": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/03_results/rseqc",
+    "qualimap": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/03_results/qualimap",
+    "rnaseq_qc_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/03_results/rnaseq_qc_summary.tsv",
+    "multiqc_report": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/04_reports/multiqc_report.html",
+    "flow_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment_qc/04_reports/flow_summary.tsv"
   }
 }

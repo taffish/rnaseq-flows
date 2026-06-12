@@ -1,6 +1,6 @@
 metric	value
 flow	rnaseq-expression-flow
-version	0.1.0-r1
+version	0.2.0-r1
 sample_count	24
 quantifier	salmon
 library_type	A

@@ -87,7 +87,7 @@ GC% - GC content percentage
 
 |Sample Name|Format|Type|# Seqs|Total Length|Min Length|Avg Length|Q1 Length|Median Length|Q3 Length|Max Length|Gaps|N50|N50 Count|Q20%|Q30%|Avg Quality|GC%|# N Bases|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|transcripts|FASTA|DNA|0.01|8.21|201|854.60|310|589|1,184|8,200|0.0|1,308|1,159|0.0|0.0|0.0|39.18|0.0|
+|transcripts|FASTA|DNA|0.01|8.17|201|849.00|310|588|1,172|8,200|0.0|1,285|1,176|0.0|0.0|0.0|39.19|0.0|
 
 ----------------------
 
@@ -101,7 +101,7 @@ Values: Number of Sequences
 
 |Sample|Sequences|
 |---|---|
-|transcripts|9,609|
+|transcripts|9,625|
 
 ----------------------
 

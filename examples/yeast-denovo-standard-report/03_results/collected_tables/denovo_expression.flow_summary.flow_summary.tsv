@@ -1,12 +1,12 @@
 metric	value
 flow	rnaseq-denovo-expression-flow
-version	0.1.0-r1
+version	0.2.0-r1
 sample_count	24
 quantifier	salmon
 library_type	A
 kmer	31
 trim	false
 skip_fastqc	false
-transcript_rows	9609
+transcript_rows	9625
 mapping_mode	none
 gene_rows	0

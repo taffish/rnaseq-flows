@@ -1,4 +1,4 @@
 role	path	checksum
-transcripts	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa	3693484629:8829581
-protein_db	/home/kyhan/test/rna-seq/yeast-denovo-24sample-resources/resources/yeast_orf_trans_all_R64-4-1.protein.faa	1966436280:5492252
-go_map	/home/kyhan/test/rna-seq/yeast-denovo-24sample-resources/resources/yeast_sgd_go_map.tsv	819926006:4640400
+transcripts	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa	1629816061:8786415
+protein_db	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-inputs/resources/yeast_orf_trans_all_R64-4-1.protein.faa	1966436280:5492252
+go_map	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-inputs/resources/yeast_sgd_go_map.tsv	819926006:4640400

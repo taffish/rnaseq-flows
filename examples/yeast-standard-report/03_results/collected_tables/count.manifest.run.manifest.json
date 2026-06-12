@@ -1,14 +1,14 @@
 {
   "flow": "rnaseq-count-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T18:52:42Z",
-  "finished_at": "2026-05-30T18:53:12Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:26:47Z",
+  "finished_at": "2026-06-12T14:27:09Z",
   "inputs": {
-    "bams": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/bam_files.tsv",
-    "annotation": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/annotation/genes.gtf"
+    "bams": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/04_reports/bam_files.tsv",
+    "annotation": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/annotation/genes.gtf"
   },
   "parameters": {
-    "threads": 64,
+    "threads": 32,
     "strand": "0",
     "paired": false,
     "feature_type": "exon",
@@ -24,15 +24,15 @@
   "counts": {
     "sample_count": 24,
     "gene_count": 7095,
-    "assigned_reads": 8175143
+    "assigned_reads": 8175156
   },
   "outputs": {
-    "featurecounts_annotation": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/02_intermediate/featurecounts_annotation.gtf",
-    "featurecounts": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt",
-    "featurecounts_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-    "gene_counts": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/matrices/gene_counts.tsv",
-    "assignment_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/assignment_summary.tsv",
-    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports/multiqc_report.html",
-    "flow_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports/flow_summary.tsv"
+    "featurecounts_annotation": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/02_intermediate/featurecounts_annotation.gtf",
+    "featurecounts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt",
+    "featurecounts_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+    "gene_counts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/matrices/gene_counts.tsv",
+    "assignment_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/assignment_summary.tsv",
+    "multiqc_report": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/04_reports/multiqc_report.html",
+    "flow_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/04_reports/flow_summary.tsv"
   }
 }

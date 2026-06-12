@@ -6,7 +6,7 @@ plot_label_wrap_width	48
 plot_width_inches	12.5
 plot_height_inches	12.6
 plot_png_dpi	200
-plot_family_version	0.1.0-r3
+plot_family_version	0.2.0-r1
 classic_plot_source	ora
 classic_plot_terms	20
 classic_label_wrap_width	72

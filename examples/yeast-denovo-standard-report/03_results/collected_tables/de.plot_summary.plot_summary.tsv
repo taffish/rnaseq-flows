@@ -1,10 +1,10 @@
 metric	value
 plot_renderer	rnaseq-de-flow
 plotted_heatmap_genes	50
-significant_for_volcano	713
-up_for_volcano	221
-down_for_volcano	492
-not_significant_for_volcano	8879
+significant_for_volcano	711
+up_for_volcano	218
+down_for_volcano	493
+not_significant_for_volcano	8899
 pca_samples	24
 sample_correlation_samples	24
 top_expression_genes	12

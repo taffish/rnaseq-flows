@@ -1,6 +1,12 @@
-rnaseq-report-flow 0.2.0-r2 collects existing RNA-seq flow outputs into an enhanced static project report.
+rnaseq-report-flow 0.3.0-r2 collects existing RNA-seq flow outputs into an enhanced standalone static project report rendered against the TAFFISH flow-report template contract 0.1.0.
 
 It also writes an offline companion interpretation guide for report reading order, plot roles, and common interpretation boundaries.
+
+Displayed PNG plot figures are embedded into the main HTML as data URIs, while copied PNG/PDF plot files are retained for download, audit, and fallback.
+
+When upstream QC/report HTML bundles are available, the main report embeds child-page payloads and opens them in a separate local browser page without using blob, iframe, or srcdoc transport.
+
+Collected TSV/text tables are also embedded into the main report as base64 payloads so a copied single HTML can still expose report-level table contents.
 
 When supplied, it also collects de novo assembly, de novo expression, and de novo annotation outputs while preserving transcript-level feature semantics.
 
@@ -8,9 +14,9 @@ It does not rerun expression quantification, assembly, annotation, alignment, co
 
 ## Upstream module: standard
 
-rnaseq-standard-flow 0.2.0-r2 runs the RNA-seq standard route by composing published TAFFISH RNA-seq subflows.
+rnaseq-standard-flow 0.3.0-r1 runs the RNA-seq standard route by composing published TAFFISH RNA-seq subflows.
 
-The default --mode reference route is compatible with r2: it prepares a reference bundle, quantifies transcript expression with Salmon/tximport, runs DESeq2 differential expression, runs offline GMT enrichment, and renders a static project report.
+The default --mode reference route remains compatible with r2 user commands: it prepares a reference bundle, quantifies transcript expression with Salmon/tximport, runs DESeq2 differential expression, runs offline GMT enrichment, and renders a static project report.
 With --route both in reference mode it also runs HISAT2 alignment, alignment-level QC, and featureCounts gene counting. Differential expression uses --de-source to choose Salmon/tximport or featureCounts counts.
 The explicit --mode denovo route replaces reference indexing and reference-guided quantification with de novo transcriptome assembly, transcript-level Salmon quantification, and homology-derived annotation/gene sets before DE/enrichment/report.
 The flow does not download references, gene sets, or databases at runtime. It writes all generated files under the explicit output directory.
@@ -34,19 +40,19 @@ The output directory contains Salmon quant.sf files, gene-level matrices, transc
 
 ## Upstream module: alignment
 
-rnaseq-alignment-flow 0.1.0-r1 aligned RNA-seq FASTQ samples to a user-supplied HISAT2 genome index and produced coordinate-sorted BAM files. Reads were aligned without fastp preprocessing. SAM files were sorted and indexed with SAMtools; per-sample flagstat and idxstats summaries were written for downstream QC. The flow records commands, dependency versions, methods, logs, BAM paths, and a machine-readable manifest. r1 supports HISAT2; STAR, featureCounts, and RSeQC/Qualimap are intentionally left to later or downstream flows.
+rnaseq-alignment-flow 0.2.0-r1 aligned RNA-seq FASTQ samples to a user-supplied HISAT2 genome index and produced coordinate-sorted BAM files. Reads were aligned without fastp preprocessing. SAM files were sorted and indexed with SAMtools; per-sample flagstat and idxstats summaries were written for downstream QC. The flow records commands, dependency versions, methods, logs, BAM paths, and a machine-readable manifest. r1 supports HISAT2; STAR, featureCounts, and RSeQC/Qualimap are intentionally left to later or downstream flows.
 
 
 ## Upstream module: count
 
-rnaseq-count-flow 0.1.0-r1 counted reads from coordinate-sorted BAM files with featureCounts and produced a gene-level count matrix.
+rnaseq-count-flow 0.2.0-r1 counted reads from coordinate-sorted BAM files with featureCounts and produced a gene-level count matrix.
 The run used strand=0, paired=false, feature_type=exon, attribute=gene_id, and min_mapq=0. BAM inputs were validated with samtools quickcheck and were not modified. The featureCounts annotation was prepared as a local copy so missing target attributes could be filled from transcript metadata when needed. featureCounts raw output, assignment summaries, the downstream gene_counts.tsv matrix, MultiQC, step logs, commands, versions, methods, and a manifest were written under the output directory.
 
 
 ## Upstream module: alignment_qc
 
-rnaseq-alignment-qc-flow 0.1.0-r1 evaluated coordinate-sorted RNA-seq BAM files with SAMtools, RSeQC, Qualimap, and MultiQC.
-The run used mapq=30, infer_sample_size=200000, sequencing_protocol=non-strand-specific, paired=false, threads=64, and java_mem_size=4G. BAM files and indexes were validated and were not modified. The GTF was copied locally, and a BED gene model was either copied from --annotation-bed or generated locally with gffread for RSeQC. Per-sample SAMtools, RSeQC, Qualimap, MultiQC, summary, commands, versions, methods, and manifest files were written under the output directory.
+rnaseq-alignment-qc-flow 0.2.0-r1 evaluated coordinate-sorted RNA-seq BAM files with SAMtools, RSeQC, Qualimap, and MultiQC.
+The run used mapq=30, infer_sample_size=200000, sequencing_protocol=non-strand-specific, paired=false, threads=32, and java_mem_size=128G. BAM files and indexes were validated and were not modified. The GTF was copied locally, and a BED gene model was either copied from --annotation-bed or generated locally with gffread for RSeQC. Per-sample SAMtools, RSeQC, Qualimap, MultiQC, summary, commands, versions, methods, and manifest files were written under the output directory.
 
 
 ## Upstream module: de
@@ -58,5 +64,5 @@ The output directory contains differential expression tables, normalized and VST
 
 ## Upstream module: enrichment
 
-rnaseq-enrichment-flow 0.1.0-r3 ran offline GMT-based enrichment analysis. ORA used 354 query genes against an explicit background of 7127 genes. Preranked GSEA used 5660 ranked genes. Gene sets were read from a user-supplied GMT file; gene identifiers were treated as exact strings with no ID conversion, organism inference, online lookup, or gene-set download. The primary dotplot was re-rendered by the flow with wrapped term labels for readability. The dotplot.original.pdf/png files are an optimized classic/original-style re-rendering with wider labels; the raw dependency plot remains in 02_intermediate/enrichment-r/dotplot.pdf/png for audit. The flow also rendered an ORA adjusted-p-value barplot, a GSEA normalized-enrichment-score plot, GSEA running enrichment score curves, and plot_summary.tsv. Parameters were min_size=2, max_size=500, pvalue_cutoff=1, padj_method=BH, top_n=20, seed=1.
+rnaseq-enrichment-flow 0.2.0-r1 ran offline GMT-based enrichment analysis. ORA used 255 query genes against an explicit background of 7127 genes. Preranked GSEA used 4670 ranked genes. Gene sets were read from a user-supplied GMT file; gene identifiers were treated as exact strings with no ID conversion, organism inference, online lookup, or gene-set download. The primary dotplot was re-rendered by the flow with wrapped term labels for readability. The dotplot.original.pdf/png files are an optimized classic/original-style re-rendering with wider labels; the raw dependency plot remains in 02_intermediate/enrichment-r/dotplot.pdf/png for audit. The flow also rendered an ORA adjusted-p-value barplot, a GSEA normalized-enrichment-score plot, GSEA running enrichment score curves, and plot_summary.tsv. Parameters were min_size=2, max_size=500, pvalue_cutoff=1, padj_method=BH, top_n=20, seed=1.
 

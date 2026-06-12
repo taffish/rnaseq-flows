@@ -1,83 +1,83 @@
 {
-    "report_multiqc_command": "/usr/local/bin/multiqc /home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly --outdir /home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/04_reports --filename multiqc_report.html --data-format json --force --quiet",
+    "report_multiqc_command": "/usr/local/bin/multiqc TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly --outdir TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/04_reports --filename multiqc_report.html --data-format json --force --quiet",
     "report_data_sources": {
         "SeqKit": {
             "stats": {
-                "assembled_transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/seqkit_stats.tsv",
-                "assembled_transcripts.filtered": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/assembly_qc/seqkit_stats.tsv"
+                "assembled_transcripts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/assembly_qc/seqkit_stats.tsv",
+                "assembled_transcripts.filtered": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/assembly_qc/seqkit_stats.tsv"
             }
         },
         "FastQC": {
             "all_sections": {
-                "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_01/SNF2KO_01_fastqc.zip",
-                "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_02/SNF2KO_02_fastqc.zip",
-                "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_03/SNF2KO_03_fastqc.zip",
-                "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_04/SNF2KO_04_fastqc.zip",
-                "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_05/SNF2KO_05_fastqc.zip",
-                "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_06/SNF2KO_06_fastqc.zip",
-                "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_07/SNF2KO_07_fastqc.zip",
-                "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_08/SNF2KO_08_fastqc.zip",
-                "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_09/SNF2KO_09_fastqc.zip",
-                "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_10/SNF2KO_10_fastqc.zip",
-                "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_11/SNF2KO_11_fastqc.zip",
-                "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_12/SNF2KO_12_fastqc.zip",
-                "WT_01": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_01/WT_01_fastqc.zip",
-                "WT_02": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_02/WT_02_fastqc.zip",
-                "WT_03": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_03/WT_03_fastqc.zip",
-                "WT_04": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_04/WT_04_fastqc.zip",
-                "WT_05": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_05/WT_05_fastqc.zip",
-                "WT_06": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_06/WT_06_fastqc.zip",
-                "WT_07": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_07/WT_07_fastqc.zip",
-                "WT_08": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_08/WT_08_fastqc.zip",
-                "WT_09": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_09/WT_09_fastqc.zip",
-                "WT_10": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_10/WT_10_fastqc.zip",
-                "WT_11": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_11/WT_11_fastqc.zip",
-                "WT_12": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/fastqc/WT_12/WT_12_fastqc.zip"
+                "SNF2KO_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_01/SNF2KO_01_fastqc.zip",
+                "SNF2KO_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_02/SNF2KO_02_fastqc.zip",
+                "SNF2KO_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_03/SNF2KO_03_fastqc.zip",
+                "SNF2KO_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_04/SNF2KO_04_fastqc.zip",
+                "SNF2KO_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_05/SNF2KO_05_fastqc.zip",
+                "SNF2KO_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_06/SNF2KO_06_fastqc.zip",
+                "SNF2KO_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_07/SNF2KO_07_fastqc.zip",
+                "SNF2KO_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_08/SNF2KO_08_fastqc.zip",
+                "SNF2KO_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_09/SNF2KO_09_fastqc.zip",
+                "SNF2KO_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_10/SNF2KO_10_fastqc.zip",
+                "SNF2KO_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_11/SNF2KO_11_fastqc.zip",
+                "SNF2KO_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/SNF2KO_12/SNF2KO_12_fastqc.zip",
+                "WT_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_01/WT_01_fastqc.zip",
+                "WT_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_02/WT_02_fastqc.zip",
+                "WT_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_03/WT_03_fastqc.zip",
+                "WT_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_04/WT_04_fastqc.zip",
+                "WT_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_05/WT_05_fastqc.zip",
+                "WT_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_06/WT_06_fastqc.zip",
+                "WT_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_07/WT_07_fastqc.zip",
+                "WT_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_08/WT_08_fastqc.zip",
+                "WT_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_09/WT_09_fastqc.zip",
+                "WT_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_10/WT_10_fastqc.zip",
+                "WT_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_11/WT_11_fastqc.zip",
+                "WT_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/fastqc/WT_12/WT_12_fastqc.zip"
             }
         }
     },
     "report_general_stats_data": {
         "seqkit": {
             "assembled_transcripts": {
-                "file": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa",
+                "file": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa",
                 "format": "FASTA",
                 "type": "DNA",
-                "num_seqs": 9609.0,
-                "sum_len": 8211604.0,
+                "num_seqs": 9625.0,
+                "sum_len": 8171601.0,
                 "min_len": 201.0,
-                "avg_len": 854.6,
+                "avg_len": 849.0,
                 "max_len": 8200.0,
                 "Q1": 310.0,
-                "Q2": 589.0,
-                "Q3": 1184.0,
+                "Q2": 588.0,
+                "Q3": 1172.0,
                 "sum_gap": 0.0,
-                "N50": 1308.0,
-                "N50_num": 1159.0,
+                "N50": 1285.0,
+                "N50_num": 1176.0,
                 "Q20_pct": 0.0,
                 "Q30_pct": 0.0,
                 "AvgQual": 0.0,
-                "GC_pct": 39.18,
+                "GC_pct": 39.19,
                 "sum_n": 0.0
             },
             "assembled_transcripts.filtered": {
-                "file": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
+                "file": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
                 "format": "FASTA",
                 "type": "DNA",
-                "num_seqs": 9609.0,
-                "sum_len": 8211604.0,
+                "num_seqs": 9625.0,
+                "sum_len": 8171601.0,
                 "min_len": 201.0,
-                "avg_len": 854.6,
+                "avg_len": 849.0,
                 "max_len": 8200.0,
                 "Q1": 310.0,
-                "Q2": 589.0,
-                "Q3": 1184.0,
+                "Q2": 588.0,
+                "Q3": 1172.0,
                 "sum_gap": 0.0,
-                "N50": 1308.0,
-                "N50_num": 1159.0,
+                "N50": 1285.0,
+                "N50_num": 1176.0,
                 "Q20_pct": 0.0,
                 "Q30_pct": 0.0,
                 "AvgQual": 0.0,
-                "GC_pct": 39.18,
+                "GC_pct": 39.19,
                 "sum_n": 0.0
             }
         },
@@ -450,7 +450,7 @@
             }
         }
     },
-    "report_creation_date": "2026-05-30, 17:08 CST",
+    "report_creation_date": "2026-06-12, 22:31 CST",
     "report_plot_data": {
         "seqkit-stats-table": {
             "id": "seqkit-stats-table",
@@ -693,14 +693,14 @@
                             "description": "Number of sequences (millions)",
                             "suffix": " M",
                             "dmin": 0.0,
-                            "dmax": 0.009609,
+                            "dmax": 0.009625,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": " M",
                                 "tickvals": null,
                                 "range": [
-                                    -4.8045e-05,
-                                    0.009657285225
+                                    -4.8125e-05,
+                                    0.009673365625
                                 ]
                             },
                             "show_only_outliers": false,
@@ -714,14 +714,14 @@
                             "description": "Total number of bases/residues (millions)",
                             "suffix": " Mb",
                             "dmin": 0.0,
-                            "dmax": 8.211604,
+                            "dmax": 8.171600999999999,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": " Mb",
                                 "tickvals": null,
                                 "range": [
-                                    -0.04105802,
-                                    8.2528673101
+                                    -0.040858004999999996,
+                                    8.212663295025
                                 ]
                             },
                             "show_only_outliers": false,
@@ -756,14 +756,14 @@
                             "description": "Average sequence length",
                             "suffix": "",
                             "dmin": 0,
-                            "dmax": 854.6,
+                            "dmax": 849.0,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": null,
                                 "tickvals": null,
                                 "range": [
-                                    -4.273000000000001,
-                                    858.894365
+                                    -4.245,
+                                    853.266225
                                 ]
                             },
                             "show_only_outliers": false,
@@ -798,14 +798,14 @@
                             "description": "Second quartile (Median) sequence length",
                             "suffix": "",
                             "dmin": 0,
-                            "dmax": 589.0,
+                            "dmax": 588.0,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": null,
                                 "tickvals": null,
                                 "range": [
-                                    -2.945,
-                                    591.959725
+                                    -2.94,
+                                    590.9547
                                 ]
                             },
                             "show_only_outliers": false,
@@ -819,14 +819,14 @@
                             "description": "Third quartile of sequence length",
                             "suffix": "",
                             "dmin": 0,
-                            "dmax": 1184.0,
+                            "dmax": 1172.0,
                             "hidden": true,
                             "xaxis": {
                                 "ticksuffix": null,
                                 "tickvals": null,
                                 "range": [
-                                    -5.92,
-                                    1189.9496
+                                    -5.86,
+                                    1177.8893
                                 ]
                             },
                             "show_only_outliers": false,
@@ -884,14 +884,14 @@
                             "description": "N50 sequence length",
                             "suffix": "",
                             "dmin": 0,
-                            "dmax": 1308.0,
+                            "dmax": 1285.0,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": null,
                                 "tickvals": null,
                                 "range": [
-                                    -6.54,
-                                    1314.5727
+                                    -6.425,
+                                    1291.457125
                                 ]
                             },
                             "show_only_outliers": false,
@@ -905,14 +905,14 @@
                             "description": "Number of sequences >= N50",
                             "suffix": "",
                             "dmin": 0,
-                            "dmax": 1159.0,
+                            "dmax": 1176.0,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": null,
                                 "tickvals": null,
                                 "range": [
-                                    -5.795,
-                                    1164.823975
+                                    -5.88,
+                                    1181.9094
                                 ]
                             },
                             "show_only_outliers": false,
@@ -1041,32 +1041,32 @@
                             "assembled_transcripts.filtered": "DNA"
                         },
                         "seqkit-num_seqs": {
-                            "assembled_transcripts": 0.009609,
-                            "assembled_transcripts.filtered": 0.009609
+                            "assembled_transcripts": 0.009625,
+                            "assembled_transcripts.filtered": 0.009625
                         },
                         "seqkit-sum_len": {
-                            "assembled_transcripts": 8.211604,
-                            "assembled_transcripts.filtered": 8.211604
+                            "assembled_transcripts": 8.171600999999999,
+                            "assembled_transcripts.filtered": 8.171600999999999
                         },
                         "seqkit-min_len": {
                             "assembled_transcripts": 201.0,
                             "assembled_transcripts.filtered": 201.0
                         },
                         "seqkit-avg_len": {
-                            "assembled_transcripts": 854.6,
-                            "assembled_transcripts.filtered": 854.6
+                            "assembled_transcripts": 849.0,
+                            "assembled_transcripts.filtered": 849.0
                         },
                         "seqkit-Q1": {
                             "assembled_transcripts": 310.0,
                             "assembled_transcripts.filtered": 310.0
                         },
                         "seqkit-Q2": {
-                            "assembled_transcripts": 589.0,
-                            "assembled_transcripts.filtered": 589.0
+                            "assembled_transcripts": 588.0,
+                            "assembled_transcripts.filtered": 588.0
                         },
                         "seqkit-Q3": {
-                            "assembled_transcripts": 1184.0,
-                            "assembled_transcripts.filtered": 1184.0
+                            "assembled_transcripts": 1172.0,
+                            "assembled_transcripts.filtered": 1172.0
                         },
                         "seqkit-max_len": {
                             "assembled_transcripts": 8200.0,
@@ -1077,12 +1077,12 @@
                             "assembled_transcripts.filtered": 0.0
                         },
                         "seqkit-N50": {
-                            "assembled_transcripts": 1308.0,
-                            "assembled_transcripts.filtered": 1308.0
+                            "assembled_transcripts": 1285.0,
+                            "assembled_transcripts.filtered": 1285.0
                         },
                         "seqkit-N50_num": {
-                            "assembled_transcripts": 1159.0,
-                            "assembled_transcripts.filtered": 1159.0
+                            "assembled_transcripts": 1176.0,
+                            "assembled_transcripts.filtered": 1176.0
                         },
                         "seqkit-Q20_pct": {
                             "assembled_transcripts": 0.0,
@@ -1097,8 +1097,8 @@
                             "assembled_transcripts.filtered": 0.0
                         },
                         "seqkit-GC_pct": {
-                            "assembled_transcripts": 39.18,
-                            "assembled_transcripts.filtered": 39.18
+                            "assembled_transcripts": 39.19,
+                            "assembled_transcripts.filtered": 39.19
                         },
                         "seqkit-sum_n": {
                             "assembled_transcripts": 0.0,
@@ -1349,7 +1349,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 0.009609,
+                                        "dmax": 0.009625,
                                         "min": 0.0,
                                         "dmin": 0.0,
                                         "ceiling": null,
@@ -1400,7 +1400,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 8.211604,
+                                        "dmax": 8.171600999999999,
                                         "min": 0.0,
                                         "dmin": 0.0,
                                         "ceiling": null,
@@ -1502,7 +1502,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 854.6,
+                                        "dmax": 849.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -1604,7 +1604,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 589.0,
+                                        "dmax": 588.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -1655,7 +1655,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 1184.0,
+                                        "dmax": 1172.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -1808,7 +1808,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 1308.0,
+                                        "dmax": 1285.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -1859,7 +1859,7 @@
                                         "colour": null,
                                         "color": null,
                                         "max": null,
-                                        "dmax": 1159.0,
+                                        "dmax": 1176.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -2170,13 +2170,13 @@
                                                     "fmt": "DNA"
                                                 },
                                                 "num_seqs": {
-                                                    "raw": 9609.0,
-                                                    "mod": 0.009609,
+                                                    "raw": 9625.0,
+                                                    "mod": 0.009625,
                                                     "fmt": "0.0"
                                                 },
                                                 "sum_len": {
-                                                    "raw": 8211604.0,
-                                                    "mod": 8.211604,
+                                                    "raw": 8171601.0,
+                                                    "mod": 8.171600999999999,
                                                     "fmt": "8.2"
                                                 },
                                                 "min_len": {
@@ -2185,9 +2185,9 @@
                                                     "fmt": "201"
                                                 },
                                                 "avg_len": {
-                                                    "raw": 854.6,
-                                                    "mod": 854.6,
-                                                    "fmt": "854.6"
+                                                    "raw": 849.0,
+                                                    "mod": 849.0,
+                                                    "fmt": "849.0"
                                                 },
                                                 "max_len": {
                                                     "raw": 8200.0,
@@ -2200,14 +2200,14 @@
                                                     "fmt": "310"
                                                 },
                                                 "Q2": {
-                                                    "raw": 589.0,
-                                                    "mod": 589.0,
-                                                    "fmt": "589"
+                                                    "raw": 588.0,
+                                                    "mod": 588.0,
+                                                    "fmt": "588"
                                                 },
                                                 "Q3": {
-                                                    "raw": 1184.0,
-                                                    "mod": 1184.0,
-                                                    "fmt": "1,184"
+                                                    "raw": 1172.0,
+                                                    "mod": 1172.0,
+                                                    "fmt": "1,172"
                                                 },
                                                 "sum_gap": {
                                                     "raw": 0.0,
@@ -2215,14 +2215,14 @@
                                                     "fmt": "0"
                                                 },
                                                 "N50": {
-                                                    "raw": 1308.0,
-                                                    "mod": 1308.0,
-                                                    "fmt": "1,308"
+                                                    "raw": 1285.0,
+                                                    "mod": 1285.0,
+                                                    "fmt": "1,285"
                                                 },
                                                 "N50_num": {
-                                                    "raw": 1159.0,
-                                                    "mod": 1159.0,
-                                                    "fmt": "1,159"
+                                                    "raw": 1176.0,
+                                                    "mod": 1176.0,
+                                                    "fmt": "1,176"
                                                 },
                                                 "Q20_pct": {
                                                     "raw": 0.0,
@@ -2240,8 +2240,8 @@
                                                     "fmt": "0.0"
                                                 },
                                                 "GC_pct": {
-                                                    "raw": 39.18,
-                                                    "mod": 39.18,
+                                                    "raw": 39.19,
+                                                    "mod": 39.19,
                                                     "fmt": "39.2"
                                                 },
                                                 "sum_n": {
@@ -2267,13 +2267,13 @@
                                                     "fmt": "DNA"
                                                 },
                                                 "num_seqs": {
-                                                    "raw": 9609.0,
-                                                    "mod": 0.009609,
+                                                    "raw": 9625.0,
+                                                    "mod": 0.009625,
                                                     "fmt": "0.0"
                                                 },
                                                 "sum_len": {
-                                                    "raw": 8211604.0,
-                                                    "mod": 8.211604,
+                                                    "raw": 8171601.0,
+                                                    "mod": 8.171600999999999,
                                                     "fmt": "8.2"
                                                 },
                                                 "min_len": {
@@ -2282,9 +2282,9 @@
                                                     "fmt": "201"
                                                 },
                                                 "avg_len": {
-                                                    "raw": 854.6,
-                                                    "mod": 854.6,
-                                                    "fmt": "854.6"
+                                                    "raw": 849.0,
+                                                    "mod": 849.0,
+                                                    "fmt": "849.0"
                                                 },
                                                 "max_len": {
                                                     "raw": 8200.0,
@@ -2297,14 +2297,14 @@
                                                     "fmt": "310"
                                                 },
                                                 "Q2": {
-                                                    "raw": 589.0,
-                                                    "mod": 589.0,
-                                                    "fmt": "589"
+                                                    "raw": 588.0,
+                                                    "mod": 588.0,
+                                                    "fmt": "588"
                                                 },
                                                 "Q3": {
-                                                    "raw": 1184.0,
-                                                    "mod": 1184.0,
-                                                    "fmt": "1,184"
+                                                    "raw": 1172.0,
+                                                    "mod": 1172.0,
+                                                    "fmt": "1,172"
                                                 },
                                                 "sum_gap": {
                                                     "raw": 0.0,
@@ -2312,14 +2312,14 @@
                                                     "fmt": "0"
                                                 },
                                                 "N50": {
-                                                    "raw": 1308.0,
-                                                    "mod": 1308.0,
-                                                    "fmt": "1,308"
+                                                    "raw": 1285.0,
+                                                    "mod": 1285.0,
+                                                    "fmt": "1,285"
                                                 },
                                                 "N50_num": {
-                                                    "raw": 1159.0,
-                                                    "mod": 1159.0,
-                                                    "fmt": "1,159"
+                                                    "raw": 1176.0,
+                                                    "mod": 1176.0,
+                                                    "fmt": "1,176"
                                                 },
                                                 "Q20_pct": {
                                                     "raw": 0.0,
@@ -2337,8 +2337,8 @@
                                                     "fmt": "0.0"
                                                 },
                                                 "GC_pct": {
-                                                    "raw": 39.18,
-                                                    "mod": 39.18,
+                                                    "raw": 39.19,
+                                                    "mod": 39.19,
                                                     "fmt": "39.2"
                                                 },
                                                 "sum_n": {
@@ -2667,7 +2667,7 @@
                                 "clipmin": null,
                                 "clipmax": null,
                                 "minallowed": 0,
-                                "maxallowed": 9609.0
+                                "maxallowed": 9625.0
                             }
                         },
                         "yaxis": {
@@ -2710,8 +2710,8 @@
                             "name": "Sequences",
                             "color": "rgba(124,181,236,1)",
                             "data": [
-                                9609.0,
-                                9609.0
+                                9625.0,
+                                9625.0
                             ],
                             "data_pct": []
                         }
@@ -44608,14 +44608,14 @@
                             "description": "Total number of bases (millions)",
                             "suffix": " Mb",
                             "dmin": 0.0,
-                            "dmax": 8.211604,
+                            "dmax": 8.171600999999999,
                             "hidden": true,
                             "xaxis": {
                                 "ticksuffix": " Mb",
                                 "tickvals": null,
                                 "range": [
-                                    -0.04105802,
-                                    8.2528673101
+                                    -0.040858004999999996,
+                                    8.212663295025
                                 ]
                             },
                             "show_only_outliers": false,
@@ -44629,14 +44629,14 @@
                             "description": "Average sequence length",
                             "suffix": " bp",
                             "dmin": 0,
-                            "dmax": 854.6,
+                            "dmax": 849.0,
                             "hidden": false,
                             "xaxis": {
                                 "ticksuffix": " bp",
                                 "tickvals": null,
                                 "range": [
-                                    -4.273000000000001,
-                                    858.894365
+                                    -4.245,
+                                    853.266225
                                 ]
                             },
                             "show_only_outliers": false,
@@ -44715,14 +44715,14 @@
                             "description": "N50 sequence length",
                             "suffix": " bp",
                             "dmin": 0,
-                            "dmax": 1308.0,
+                            "dmax": 1285.0,
                             "hidden": true,
                             "xaxis": {
                                 "ticksuffix": " bp",
                                 "tickvals": null,
                                 "range": [
-                                    -6.54,
-                                    1314.5727
+                                    -6.425,
+                                    1291.457125
                                 ]
                             },
                             "show_only_outliers": false,
@@ -44860,20 +44860,20 @@
                     },
                     "violin_value_by_sample_by_metric": {
                         "seqkit_seqkit-num_seqs": {
-                            "assembled_transcripts": 0.009609,
-                            "assembled_transcripts.filtered": 0.009609
+                            "assembled_transcripts": 0.009625,
+                            "assembled_transcripts.filtered": 0.009625
                         },
                         "seqkit_seqkit-sum_len": {
-                            "assembled_transcripts": 8.211604,
-                            "assembled_transcripts.filtered": 8.211604
+                            "assembled_transcripts": 8.171600999999999,
+                            "assembled_transcripts.filtered": 8.171600999999999
                         },
                         "seqkit_seqkit-avg_len": {
-                            "assembled_transcripts": 854.6,
-                            "assembled_transcripts.filtered": 854.6
+                            "assembled_transcripts": 849.0,
+                            "assembled_transcripts.filtered": 849.0
                         },
                         "seqkit_seqkit-GC_pct": {
-                            "assembled_transcripts": 39.18,
-                            "assembled_transcripts.filtered": 39.18
+                            "assembled_transcripts": 39.19,
+                            "assembled_transcripts.filtered": 39.19
                         },
                         "seqkit_seqkit-Q30_pct": {
                             "assembled_transcripts": 0.0,
@@ -44884,8 +44884,8 @@
                             "assembled_transcripts.filtered": 0.0
                         },
                         "seqkit_seqkit-N50": {
-                            "assembled_transcripts": 1308.0,
-                            "assembled_transcripts.filtered": 1308.0
+                            "assembled_transcripts": 1285.0,
+                            "assembled_transcripts.filtered": 1285.0
                         },
                         "fastqc-percent_duplicates": {
                             "SNF2KO_01": 18.382502521805648,
@@ -45256,7 +45256,7 @@
                                         "colour": null,
                                         "color": "55,126,184",
                                         "max": null,
-                                        "dmax": 8.211604,
+                                        "dmax": 8.171600999999999,
                                         "min": 0.0,
                                         "dmin": 0.0,
                                         "ceiling": null,
@@ -45307,7 +45307,7 @@
                                         "colour": null,
                                         "color": "55,126,184",
                                         "max": null,
-                                        "dmax": 854.6,
+                                        "dmax": 849.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -45511,7 +45511,7 @@
                                         "colour": null,
                                         "color": "55,126,184",
                                         "max": null,
-                                        "dmax": 1308.0,
+                                        "dmax": 1285.0,
                                         "min": null,
                                         "dmin": 0,
                                         "ceiling": null,
@@ -45557,24 +45557,24 @@
                                             "sample": "assembled_transcripts",
                                             "data": {
                                                 "num_seqs": {
-                                                    "raw": 9609.0,
-                                                    "mod": 0.009609,
+                                                    "raw": 9625.0,
+                                                    "mod": 0.009625,
                                                     "fmt": "0.0"
                                                 },
                                                 "sum_len": {
-                                                    "raw": 8211604.0,
-                                                    "mod": 8.211604,
+                                                    "raw": 8171601.0,
+                                                    "mod": 8.171600999999999,
                                                     "fmt": "8.2"
                                                 },
                                                 "avg_len": {
-                                                    "raw": 854.6,
-                                                    "mod": 854.6,
-                                                    "fmt": "854.6"
+                                                    "raw": 849.0,
+                                                    "mod": 849.0,
+                                                    "fmt": "849.0"
                                                 },
                                                 "N50": {
-                                                    "raw": 1308.0,
-                                                    "mod": 1308.0,
-                                                    "fmt": "1,308"
+                                                    "raw": 1285.0,
+                                                    "mod": 1285.0,
+                                                    "fmt": "1,285"
                                                 },
                                                 "Q30_pct": {
                                                     "raw": 0.0,
@@ -45587,8 +45587,8 @@
                                                     "fmt": "0.0"
                                                 },
                                                 "GC_pct": {
-                                                    "raw": 39.18,
-                                                    "mod": 39.18,
+                                                    "raw": 39.19,
+                                                    "mod": 39.19,
                                                     "fmt": "39.2"
                                                 }
                                             }
@@ -45599,24 +45599,24 @@
                                             "sample": "assembled_transcripts.filtered",
                                             "data": {
                                                 "num_seqs": {
-                                                    "raw": 9609.0,
-                                                    "mod": 0.009609,
+                                                    "raw": 9625.0,
+                                                    "mod": 0.009625,
                                                     "fmt": "0.0"
                                                 },
                                                 "sum_len": {
-                                                    "raw": 8211604.0,
-                                                    "mod": 8.211604,
+                                                    "raw": 8171601.0,
+                                                    "mod": 8.171600999999999,
                                                     "fmt": "8.2"
                                                 },
                                                 "avg_len": {
-                                                    "raw": 854.6,
-                                                    "mod": 854.6,
-                                                    "fmt": "854.6"
+                                                    "raw": 849.0,
+                                                    "mod": 849.0,
+                                                    "fmt": "849.0"
                                                 },
                                                 "N50": {
-                                                    "raw": 1308.0,
-                                                    "mod": 1308.0,
-                                                    "fmt": "1,308"
+                                                    "raw": 1285.0,
+                                                    "mod": 1285.0,
+                                                    "fmt": "1,285"
                                                 },
                                                 "Q30_pct": {
                                                     "raw": 0.0,
@@ -45629,8 +45629,8 @@
                                                     "fmt": "0.0"
                                                 },
                                                 "GC_pct": {
-                                                    "raw": 39.18,
-                                                    "mod": 39.18,
+                                                    "raw": 39.19,
+                                                    "mod": 39.19,
                                                     "fmt": "39.2"
                                                 }
                                             }
@@ -47008,7 +47008,7 @@
         }
     },
     "config_analysis_dir": [
-        "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly"
+        "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly"
     ],
     "config_git_hash": null,
     "config_intro_text": null,
@@ -47019,54 +47019,54 @@
     "config_subtitle": null,
     "config_title": null,
     "config_version": "1.35",
-    "config_output_dir": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/04_reports",
+    "config_output_dir": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/04_reports",
     "config_sample_names_rename": [],
     "config_sample_names_rename_buttons": [],
     "config_analysis_dir_abs": [
-        "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly"
+        "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly"
     ],
     "report_saved_raw_data": {
         "multiqc_seqkit_stats": {
             "assembled_transcripts": {
-                "file": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa",
+                "file": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.fa",
                 "format": "FASTA",
                 "type": "DNA",
-                "num_seqs": 9609.0,
-                "sum_len": 8211604.0,
+                "num_seqs": 9625.0,
+                "sum_len": 8171601.0,
                 "min_len": 201.0,
-                "avg_len": 854.6,
+                "avg_len": 849.0,
                 "max_len": 8200.0,
                 "Q1": 310.0,
-                "Q2": 589.0,
-                "Q3": 1184.0,
+                "Q2": 588.0,
+                "Q3": 1172.0,
                 "sum_gap": 0.0,
-                "N50": 1308.0,
-                "N50_num": 1159.0,
+                "N50": 1285.0,
+                "N50_num": 1176.0,
                 "Q20_pct": 0.0,
                 "Q30_pct": 0.0,
                 "AvgQual": 0.0,
-                "GC_pct": 39.18,
+                "GC_pct": 39.19,
                 "sum_n": 0.0
             },
             "assembled_transcripts.filtered": {
-                "file": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
+                "file": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
                 "format": "FASTA",
                 "type": "DNA",
-                "num_seqs": 9609.0,
-                "sum_len": 8211604.0,
+                "num_seqs": 9625.0,
+                "sum_len": 8171601.0,
                 "min_len": 201.0,
-                "avg_len": 854.6,
+                "avg_len": 849.0,
                 "max_len": 8200.0,
                 "Q1": 310.0,
-                "Q2": 589.0,
-                "Q3": 1184.0,
+                "Q2": 588.0,
+                "Q3": 1172.0,
                 "sum_gap": 0.0,
-                "N50": 1308.0,
-                "N50_num": 1159.0,
+                "N50": 1285.0,
+                "N50_num": 1176.0,
                 "Q20_pct": 0.0,
                 "Q30_pct": 0.0,
                 "AvgQual": 0.0,
-                "GC_pct": 39.18,
+                "GC_pct": 39.19,
                 "sum_n": 0.0
             }
         },
@@ -47650,22 +47650,22 @@
         },
         "multiqc_general_stats": {
             "assembled_transcripts": {
-                "seqkit_seqkit-num_seqs": 0.009609,
-                "seqkit_seqkit-sum_len": 8.211604,
-                "seqkit_seqkit-avg_len": 854.6,
-                "seqkit_seqkit-GC_pct": 39.18,
+                "seqkit_seqkit-num_seqs": 0.009625,
+                "seqkit_seqkit-sum_len": 8.171600999999999,
+                "seqkit_seqkit-avg_len": 849.0,
+                "seqkit_seqkit-GC_pct": 39.19,
                 "seqkit_seqkit-Q30_pct": 0.0,
                 "seqkit_seqkit-AvgQual": 0.0,
-                "seqkit_seqkit-N50": 1308.0
+                "seqkit_seqkit-N50": 1285.0
             },
             "assembled_transcripts.filtered": {
-                "seqkit_seqkit-num_seqs": 0.009609,
-                "seqkit_seqkit-sum_len": 8.211604,
-                "seqkit_seqkit-avg_len": 854.6,
-                "seqkit_seqkit-GC_pct": 39.18,
+                "seqkit_seqkit-num_seqs": 0.009625,
+                "seqkit_seqkit-sum_len": 8.171600999999999,
+                "seqkit_seqkit-avg_len": 849.0,
+                "seqkit_seqkit-GC_pct": 39.19,
                 "seqkit_seqkit-Q30_pct": 0.0,
                 "seqkit_seqkit-AvgQual": 0.0,
-                "seqkit_seqkit-N50": 1308.0
+                "seqkit_seqkit-N50": 1285.0
             },
             "SNF2KO_01": {
                 "fastqc-percent_duplicates": 18.382502521805648,

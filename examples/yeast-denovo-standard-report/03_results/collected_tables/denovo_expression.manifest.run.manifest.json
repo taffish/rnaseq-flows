@@ -1,13 +1,13 @@
 {
   "flow": "rnaseq-denovo-expression-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T09:08:49Z",
-  "finished_at": "2026-05-30T09:12:02Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:32:08Z",
+  "finished_at": "2026-06-12T14:35:20Z",
   "parameters": {
-    "samples": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
-    "transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
-    "transcripts_cksum": "3693484629:8829581",
-    "outdir": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression",
+    "samples": "TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
+    "transcripts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
+    "transcripts_cksum": "1629816061:8786415",
+    "outdir": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression",
     "threads": "64",
     "library_type": "A",
     "quantifier": "salmon",
@@ -19,13 +19,13 @@
     "mapping_source": "none"
   },
   "outputs": {
-    "quant_files": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/04_reports/quant_files.tsv",
-    "transcript_counts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/matrices/transcript_counts.tsv",
-    "transcript_tpm": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/03_results/matrices/transcript_tpm.tsv",
+    "quant_files": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression/04_reports/quant_files.tsv",
+    "transcript_counts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression/03_results/matrices/transcript_counts.tsv",
+    "transcript_tpm": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression/03_results/matrices/transcript_tpm.tsv",
     "gene_counts": null,
     "gene_tpm": null,
-    "matrix_semantics": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/04_reports/matrix_semantics.tsv",
-    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression/04_reports/multiqc_report.html"
+    "matrix_semantics": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression/04_reports/matrix_semantics.tsv",
+    "multiqc_report": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression/04_reports/multiqc_report.html"
   },
   "dependencies": {
     "taf-fastqc": "0.12.1-r1",

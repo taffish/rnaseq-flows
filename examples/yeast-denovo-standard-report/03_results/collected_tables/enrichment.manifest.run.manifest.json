@@ -1,13 +1,13 @@
 {
   "flow": "rnaseq-enrichment-flow",
-  "version": "0.1.0-r3",
-  "started_at": "2026-05-30T09:14:12Z",
-  "finished_at": "2026-05-30T09:14:34Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:37:31Z",
+  "finished_at": "2026-06-12T14:37:53Z",
   "inputs": {
-    "gene_list": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/02_intermediate/enrichment_inputs/significant_genes.background.tsv",
-    "ranked_genes": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/02_intermediate/enrichment_inputs/ranked_genes.background.tsv",
-    "gene_sets": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/gene_sets/denovo_go.gmt",
-    "background": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/gene_sets/denovo_background.tsv"
+    "gene_list": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/02_intermediate/enrichment_inputs/significant_genes.background.tsv",
+    "ranked_genes": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/02_intermediate/enrichment_inputs/ranked_genes.background.tsv",
+    "gene_sets": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/gene_sets/denovo_go.gmt",
+    "background": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/gene_sets/denovo_background.tsv"
   },
   "parameters": {
     "id_column": "gene_id",
@@ -23,12 +23,12 @@
     "taf-enrichment-r": "0.1.0-r1"
   },
   "counts": {
-    "gene_sets": 5705,
-    "gene_list_genes": 571,
-    "ranked_genes": 8505,
-    "background_genes": 8522,
-    "ora_result_count": 1427,
-    "gsea_result_count": 4369,
+    "gene_sets": 5697,
+    "gene_list_genes": 573,
+    "ranked_genes": 8523,
+    "background_genes": 8538,
+    "ora_result_count": 1422,
+    "gsea_result_count": 4363,
     "plot_terms": 20,
     "classic_plot_terms": 20,
     "ora_barplot_terms": 20,
@@ -36,21 +36,21 @@
     "gsea_curve_terms": 6
   },
   "outputs": {
-    "ora_results": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/ora_results.tsv",
-    "gsea_results": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/gsea_results.tsv",
-    "enrichment_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/enrichment_summary.tsv",
-    "dotplot_pdf": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/dotplot.pdf",
-    "dotplot_png": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/dotplot.png",
-    "dotplot_original_pdf": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/dotplot.original.pdf",
-    "dotplot_original_png": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/dotplot.original.png",
-    "ora_barplot_pdf": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/ora_barplot.pdf",
-    "ora_barplot_png": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/ora_barplot.png",
-    "gsea_nes_plot_pdf": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/gsea_nes_plot.pdf",
-    "gsea_nes_plot_png": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/gsea_nes_plot.png",
-    "gsea_enrichment_curves_pdf": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/gsea_enrichment_curves.pdf",
-    "gsea_enrichment_curves_png": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/gsea_enrichment_curves.png",
-    "dotplot_source": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/dotplot_source.tsv",
-    "plot_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/03_results/enrichment/plot_summary.tsv",
-    "flow_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/enrichment/04_reports/flow_summary.tsv"
+    "ora_results": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/ora_results.tsv",
+    "gsea_results": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/gsea_results.tsv",
+    "enrichment_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/enrichment_summary.tsv",
+    "dotplot_pdf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/dotplot.pdf",
+    "dotplot_png": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/dotplot.png",
+    "dotplot_original_pdf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/dotplot.original.pdf",
+    "dotplot_original_png": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/dotplot.original.png",
+    "ora_barplot_pdf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/ora_barplot.pdf",
+    "ora_barplot_png": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/ora_barplot.png",
+    "gsea_nes_plot_pdf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/gsea_nes_plot.pdf",
+    "gsea_nes_plot_png": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/gsea_nes_plot.png",
+    "gsea_enrichment_curves_pdf": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/gsea_enrichment_curves.pdf",
+    "gsea_enrichment_curves_png": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/gsea_enrichment_curves.png",
+    "dotplot_source": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/dotplot_source.tsv",
+    "plot_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/03_results/enrichment/plot_summary.tsv",
+    "flow_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/enrichment/04_reports/flow_summary.tsv"
   }
 }

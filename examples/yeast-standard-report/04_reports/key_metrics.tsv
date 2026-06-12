@@ -1,16 +1,18 @@
 metric	value	note
 Analysis mode	reference / genome-guided	reference-guided or de novo RNA-seq analysis mode
 Samples	24	RNA-seq samples included in the run
-Route	both	standard-flow route when available
-DE source	featurecounts	count matrix used for differential expression
+Route	both (Salmon + HISAT2/featureCounts evidence)	reference route with lightweight Salmon quantification plus optional alignment/count/QC evidence
+DE source	featureCounts gene counts	DESeq2 input matrix derived from reference-genome alignment and featureCounts
 Avg Salmon reads	462151.67	mean estimated_num_reads across samples
 Avg mapped %	97.22	mean HISAT2 mapped_percent across samples
-featureCounts assigned	8175143	assigned reads reported by count flow
-QC assigned tags	11510026	sum of RSeQC assigned_tags when available
-Tested genes	5780	genes retained for DESeq2 testing
-Significant genes	367	padj and log2FC filtered DE genes
-Up / down genes	135 / 232	direction split among significant genes
-ORA terms	304	over-representation result rows
-GSEA terms	1428	preranked enrichment result rows
+featureCounts assigned	8175156	assigned reads reported by count flow
+QC assigned tags	11512467	sum of RSeQC assigned_tags when available
+Tested genes	4684	genes retained for DESeq2 testing
+Significant genes	257	padj and log2FC filtered DE genes
+Up / down genes	66 / 191	direction split among significant genes
+ORA terms	241	over-representation result rows
+GSEA terms	1356	preranked enrichment result rows
 Collected plots	14	PNG/PDF plot groups in this report
-Linked HTML reports	52	copied QC/report HTML bundles linked from this report
+Embedded tables	56	collected TSV/text table payloads embedded into the standalone main report
+Linked HTML reports	53	copied QC/report HTML bundles linked from this report
+Embedded HTML reports	53	child QC/report HTML payloads embedded into the standalone main report

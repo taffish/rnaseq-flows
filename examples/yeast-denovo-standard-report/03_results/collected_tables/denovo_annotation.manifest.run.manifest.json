@@ -1,12 +1,12 @@
 {
   "flow": "rnaseq-denovo-annotation-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T09:12:02Z",
-  "completed_at": "2026-05-30T09:13:23Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:35:21Z",
+  "completed_at": "2026-06-12T14:36:42Z",
   "inputs": {
-    "transcripts": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
-    "protein_db": "/home/kyhan/test/rna-seq/yeast-denovo-24sample-resources/resources/yeast_orf_trans_all_R64-4-1.protein.faa",
-    "go_map": "/home/kyhan/test/rna-seq/yeast-denovo-24sample-resources/resources/yeast_sgd_go_map.tsv"
+    "transcripts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly/03_results/transcripts/assembled_transcripts.filtered.fa",
+    "protein_db": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-inputs/resources/yeast_orf_trans_all_R64-4-1.protein.faa",
+    "go_map": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-inputs/resources/yeast_sgd_go_map.tsv"
   },
   "parameters": {
     "threads": 64,
@@ -17,21 +17,21 @@
     "id_prefix": "denovo"
   },
   "outputs": {
-    "proteins": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/coding/proteins.fa",
-    "cds": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/coding/cds.fa",
-    "protein_hits": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/annotation/protein_hits.tsv",
-    "transcript_annotation": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/annotation/transcript_annotation.tsv",
-    "id_mapping": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/annotation/id_mapping.tsv",
-    "denovo_go_gmt": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/gene_sets/denovo_go.gmt",
-    "denovo_background": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/03_results/gene_sets/denovo_background.tsv",
-    "annotation_summary": "/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation/04_reports/annotation_summary.tsv"
+    "proteins": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/coding/proteins.fa",
+    "cds": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/coding/cds.fa",
+    "protein_hits": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/annotation/protein_hits.tsv",
+    "transcript_annotation": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/annotation/transcript_annotation.tsv",
+    "id_mapping": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/annotation/id_mapping.tsv",
+    "denovo_go_gmt": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/gene_sets/denovo_go.gmt",
+    "denovo_background": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/03_results/gene_sets/denovo_background.tsv",
+    "annotation_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation/04_reports/annotation_summary.tsv"
   },
   "metrics": {
-    "transcript_count": 9609,
-    "predicted_protein_count": 8522,
-    "best_hit_count": 8285,
-    "go_annotated_transcript_count": 8254,
-    "gene_set_count": 5705
+    "transcript_count": 9625,
+    "predicted_protein_count": 8538,
+    "best_hit_count": 8289,
+    "go_annotated_transcript_count": 8257,
+    "gene_set_count": 5697
   },
   "dependencies": {
     "taf-diamond": "2.2.1-r1",

@@ -1,468 +1,468 @@
 {
-    "report_multiqc_command": "/usr/local/bin/multiqc /home/kyhan/test/rna-seq/yeast-standard-out/03_results/count --outdir /home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports --filename multiqc_report.html --data-format json --force --quiet",
+    "report_multiqc_command": "/usr/local/bin/multiqc TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count --outdir TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/04_reports --filename multiqc_report.html --data-format json --force --quiet",
     "report_data_sources": {
         "featureCounts": {
             "all_sections": {
-                "SNF2KO_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "SNF2KO_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_01": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_02": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_03": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_04": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_05": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_06": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_07": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_08": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_09": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_10": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_11": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
-                "WT_12": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary"
+                "SNF2KO_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "SNF2KO_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_01": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_02": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_03": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_04": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_05": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_06": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_07": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_08": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_09": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_10": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_11": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary",
+                "WT_12": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/03_results/featurecounts/featureCounts.txt.summary"
             }
         }
     },
     "report_general_stats_data": {
         "featurecounts": {
             "SNF2KO_01": {
-                "Total": 557797,
+                "Total": 557767,
                 "Assigned": 357226,
-                "Unassigned_Unmapped": 13827,
+                "Unassigned_Unmapped": 13818,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 98009,
+                "Unassigned_MultiMapping": 97976,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 4376,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84359,
-                "percent_assigned": 64.04229495676744
+                "Unassigned_Ambiguity": 84371,
+                "percent_assigned": 64.04573952922995
             },
             "SNF2KO_02": {
-                "Total": 594380,
-                "Assigned": 324027,
-                "Unassigned_Unmapped": 16608,
+                "Total": 594346,
+                "Assigned": 324030,
+                "Unassigned_Unmapped": 16597,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 169582,
+                "Unassigned_MultiMapping": 169538,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3564,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 80599,
-                "percent_assigned": 54.51512500420607
+                "Unassigned_Ambiguity": 80617,
+                "percent_assigned": 54.518748338509894
             },
             "SNF2KO_03": {
-                "Total": 555987,
-                "Assigned": 355814,
-                "Unassigned_Unmapped": 16303,
+                "Total": 555948,
+                "Assigned": 355819,
+                "Unassigned_Unmapped": 16289,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 96032,
+                "Unassigned_MultiMapping": 95984,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3548,
+                "Unassigned_NoFeatures": 3549,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84290,
-                "percent_assigned": 63.996820069533996
+                "Unassigned_Ambiguity": 84307,
+                "percent_assigned": 64.00220883967566
             },
             "SNF2KO_04": {
-                "Total": 631104,
-                "Assigned": 307275,
-                "Unassigned_Unmapped": 8866,
+                "Total": 631087,
+                "Assigned": 307279,
+                "Unassigned_Unmapped": 8856,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 240505,
+                "Unassigned_MultiMapping": 240480,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3468,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 70990,
-                "percent_assigned": 48.68848874353514
+                "Unassigned_Ambiguity": 71004,
+                "percent_assigned": 48.690434123979735
             },
             "SNF2KO_05": {
-                "Total": 565903,
-                "Assigned": 349341,
-                "Unassigned_Unmapped": 17172,
+                "Total": 565863,
+                "Assigned": 349344,
+                "Unassigned_Unmapped": 17162,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 114293,
+                "Unassigned_MultiMapping": 114243,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3814,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 81283,
-                "percent_assigned": 61.73160417951487
+                "Unassigned_Ambiguity": 81300,
+                "percent_assigned": 61.73649805695018
             },
             "SNF2KO_06": {
-                "Total": 559767,
-                "Assigned": 350432,
-                "Unassigned_Unmapped": 17506,
+                "Total": 559742,
+                "Assigned": 350429,
+                "Unassigned_Unmapped": 17498,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 103089,
+                "Unassigned_MultiMapping": 103060,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3907,
+                "Unassigned_NoFeatures": 3909,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84833,
-                "percent_assigned": 62.603190255945776
+                "Unassigned_Ambiguity": 84846,
+                "percent_assigned": 62.605450368205354
             },
             "SNF2KO_07": {
-                "Total": 560921,
-                "Assigned": 348793,
-                "Unassigned_Unmapped": 18126,
+                "Total": 560913,
+                "Assigned": 348794,
+                "Unassigned_Unmapped": 18122,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 103524,
+                "Unassigned_MultiMapping": 103514,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 4033,
+                "Unassigned_NoFeatures": 4034,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 86445,
-                "percent_assigned": 62.18219677993871
+                "Unassigned_Ambiguity": 86449,
+                "percent_assigned": 62.183261931886044
             },
             "SNF2KO_08": {
-                "Total": 579664,
-                "Assigned": 335481,
-                "Unassigned_Unmapped": 18761,
+                "Total": 579654,
+                "Assigned": 335477,
+                "Unassigned_Unmapped": 18756,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 140881,
+                "Unassigned_MultiMapping": 140870,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3574,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 80967,
-                "percent_assigned": 57.87507935631676
+                "Unassigned_Ambiguity": 80977,
+                "percent_assigned": 57.87538773130178
             },
             "SNF2KO_09": {
-                "Total": 560351,
-                "Assigned": 351949,
-                "Unassigned_Unmapped": 16177,
+                "Total": 560330,
+                "Assigned": 351950,
+                "Unassigned_Unmapped": 16161,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 103683,
+                "Unassigned_MultiMapping": 103661,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3512,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85030,
-                "percent_assigned": 62.808668138363274
+                "Unassigned_Ambiguity": 85046,
+                "percent_assigned": 62.811200542537435
             },
             "SNF2KO_10": {
-                "Total": 558763,
-                "Assigned": 351458,
-                "Unassigned_Unmapped": 16172,
+                "Total": 558723,
+                "Assigned": 351457,
+                "Unassigned_Unmapped": 16163,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 101278,
+                "Unassigned_MultiMapping": 101229,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3159,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 86696,
-                "percent_assigned": 62.89929719755961
+                "Unassigned_Ambiguity": 86715,
+                "percent_assigned": 62.90362129355691
             },
             "SNF2KO_11": {
-                "Total": 559476,
-                "Assigned": 349704,
-                "Unassigned_Unmapped": 19672,
+                "Total": 559448,
+                "Assigned": 349701,
+                "Unassigned_Unmapped": 19668,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 101658,
+                "Unassigned_MultiMapping": 101627,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3374,
+                "Unassigned_NoFeatures": 3375,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85068,
-                "percent_assigned": 62.5056302683225
+                "Unassigned_Ambiguity": 85077,
+                "percent_assigned": 62.50822239064221
             },
             "SNF2KO_12": {
-                "Total": 555036,
-                "Assigned": 356963,
-                "Unassigned_Unmapped": 15123,
+                "Total": 555030,
+                "Assigned": 356962,
+                "Unassigned_Unmapped": 15115,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 93982,
+                "Unassigned_MultiMapping": 93978,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3752,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85216,
-                "percent_assigned": 64.31348597208108
+                "Unassigned_Ambiguity": 85223,
+                "percent_assigned": 64.31400104498856
             },
             "WT_01": {
-                "Total": 579070,
-                "Assigned": 340047,
-                "Unassigned_Unmapped": 18112,
+                "Total": 579051,
+                "Assigned": 340049,
+                "Unassigned_Unmapped": 18103,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 133568,
+                "Unassigned_MultiMapping": 133539,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 2089,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85254,
-                "percent_assigned": 58.72295232009947
+                "Unassigned_Ambiguity": 85271,
+                "percent_assigned": 58.72522454844219
             },
             "WT_02": {
-                "Total": 584415,
-                "Assigned": 336945,
-                "Unassigned_Unmapped": 15087,
+                "Total": 584409,
+                "Assigned": 336946,
+                "Unassigned_Unmapped": 15077,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 144462,
+                "Unassigned_MultiMapping": 144451,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 2918,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85003,
-                "percent_assigned": 57.65509098842432
+                "Unassigned_Ambiguity": 85017,
+                "percent_assigned": 57.65585403373322
             },
             "WT_03": {
-                "Total": 580298,
+                "Total": 580287,
                 "Assigned": 335174,
-                "Unassigned_Unmapped": 20321,
+                "Unassigned_Unmapped": 20312,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 138669,
+                "Unassigned_MultiMapping": 138651,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 2305,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 83829,
-                "percent_assigned": 57.7589445422869
+                "Unassigned_Ambiguity": 83845,
+                "percent_assigned": 57.76003942876542
             },
             "WT_04": {
-                "Total": 578664,
+                "Total": 578639,
                 "Assigned": 344939,
-                "Unassigned_Unmapped": 14199,
+                "Unassigned_Unmapped": 14192,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 132583,
+                "Unassigned_MultiMapping": 132547,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2803,
+                "Unassigned_NoFeatures": 2807,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84140,
-                "percent_assigned": 59.60954889193037
+                "Unassigned_Ambiguity": 84154,
+                "percent_assigned": 59.61212431239512
             },
             "WT_05": {
-                "Total": 582829,
-                "Assigned": 341881,
-                "Unassigned_Unmapped": 15505,
+                "Total": 582815,
+                "Assigned": 341884,
+                "Unassigned_Unmapped": 15499,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 139482,
+                "Unassigned_MultiMapping": 139464,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3230,
+                "Unassigned_NoFeatures": 3232,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 82731,
-                "percent_assigned": 58.658886225633935
+                "Unassigned_Ambiguity": 82736,
+                "percent_assigned": 58.66081003405883
             },
             "WT_06": {
-                "Total": 572391,
-                "Assigned": 350124,
-                "Unassigned_Unmapped": 12543,
+                "Total": 572369,
+                "Assigned": 350131,
+                "Unassigned_Unmapped": 12527,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 121632,
+                "Unassigned_MultiMapping": 121604,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3228,
+                "Unassigned_NoFeatures": 3232,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84864,
-                "percent_assigned": 61.16867665634156
+                "Unassigned_Ambiguity": 84875,
+                "percent_assigned": 61.17225076829808
             },
             "WT_07": {
-                "Total": 578018,
-                "Assigned": 341966,
-                "Unassigned_Unmapped": 15011,
+                "Total": 578004,
+                "Assigned": 341959,
+                "Unassigned_Unmapped": 15010,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 132310,
+                "Unassigned_MultiMapping": 132291,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2862,
+                "Unassigned_NoFeatures": 2863,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85869,
-                "percent_assigned": 59.161825410281345
+                "Unassigned_Ambiguity": 85881,
+                "percent_assigned": 59.162047321471825
             },
             "WT_08": {
-                "Total": 583945,
-                "Assigned": 332952,
-                "Unassigned_Unmapped": 15389,
+                "Total": 583920,
+                "Assigned": 332954,
+                "Unassigned_Unmapped": 15375,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 143010,
+                "Unassigned_MultiMapping": 142971,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2586,
+                "Unassigned_NoFeatures": 2587,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 90008,
-                "percent_assigned": 57.01769858462698
+                "Unassigned_Ambiguity": 90033,
+                "percent_assigned": 57.02048225784354
             },
             "WT_09": {
-                "Total": 580427,
-                "Assigned": 333653,
-                "Unassigned_Unmapped": 13778,
+                "Total": 580373,
+                "Assigned": 333648,
+                "Unassigned_Unmapped": 13769,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 138475,
+                "Unassigned_MultiMapping": 138402,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 1746,
+                "Unassigned_NoFeatures": 1751,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 92775,
-                "percent_assigned": 57.48405914955713
+                "Unassigned_Ambiguity": 92803,
+                "percent_assigned": 57.488546159108026
             },
             "WT_10": {
-                "Total": 612081,
-                "Assigned": 316372,
-                "Unassigned_Unmapped": 17423,
+                "Total": 612032,
+                "Assigned": 316377,
+                "Unassigned_Unmapped": 17414,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 195896,
+                "Unassigned_MultiMapping": 195827,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2409,
+                "Unassigned_NoFeatures": 2413,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 79981,
-                "percent_assigned": 51.6879301922458
+                "Unassigned_Ambiguity": 80001,
+                "percent_assigned": 51.69288533932866
             },
             "WT_11": {
-                "Total": 598967,
+                "Total": 598944,
                 "Assigned": 325430,
-                "Unassigned_Unmapped": 15139,
+                "Unassigned_Unmapped": 15135,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 171764,
+                "Unassigned_MultiMapping": 171727,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 1758,
+                "Unassigned_NoFeatures": 1761,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84876,
-                "percent_assigned": 54.331874710960705
+                "Unassigned_Ambiguity": 84891,
+                "percent_assigned": 54.333961104877915
             },
             "WT_12": {
-                "Total": 581323,
+                "Total": 581284,
                 "Assigned": 337197,
-                "Unassigned_Unmapped": 17371,
+                "Unassigned_Unmapped": 17361,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 138694,
+                "Unassigned_MultiMapping": 138641,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2639,
+                "Unassigned_NoFeatures": 2647,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85422,
-                "percent_assigned": 58.00510215491216
+                "Unassigned_Ambiguity": 85438,
+                "percent_assigned": 58.00899388250838
             }
         }
     },
@@ -496,7 +496,7 @@
             }
         }
     },
-    "report_creation_date": "2026-05-31, 02:53 CST",
+    "report_creation_date": "2026-06-12, 22:27 CST",
     "report_plot_data": {
         "featureCounts_assignment_plot": {
             "id": "featureCounts_assignment_plot",
@@ -626,7 +626,7 @@
                                 "clipmin": null,
                                 "clipmax": null,
                                 "minallowed": 0,
-                                "maxallowed": 631104.0
+                                "maxallowed": 631087.0
                             }
                         },
                         "yaxis": {
@@ -671,278 +671,278 @@
                             "data": [
                                 337197.0,
                                 325430.0,
-                                316372.0,
-                                333653.0,
-                                332952.0,
-                                341966.0,
-                                350124.0,
-                                341881.0,
+                                316377.0,
+                                333648.0,
+                                332954.0,
+                                341959.0,
+                                350131.0,
+                                341884.0,
                                 344939.0,
                                 335174.0,
-                                336945.0,
-                                340047.0,
-                                356963.0,
-                                349704.0,
-                                351458.0,
-                                351949.0,
-                                335481.0,
-                                348793.0,
-                                350432.0,
-                                349341.0,
-                                307275.0,
-                                355814.0,
-                                324027.0,
+                                336946.0,
+                                340049.0,
+                                356962.0,
+                                349701.0,
+                                351457.0,
+                                351950.0,
+                                335477.0,
+                                348794.0,
+                                350429.0,
+                                349344.0,
+                                307279.0,
+                                355819.0,
+                                324030.0,
                                 357226.0
                             ],
                             "data_pct": [
-                                58.00510215491216,
-                                54.331874710960705,
-                                51.6879301922458,
-                                57.48405914955713,
-                                57.01769858462698,
-                                59.161825410281345,
-                                61.16867665634156,
-                                58.658886225633935,
-                                59.60954889193037,
-                                57.7589445422869,
-                                57.65509098842432,
-                                58.72295232009947,
-                                64.31348597208108,
-                                62.5056302683225,
-                                62.89929719755961,
-                                62.808668138363274,
-                                57.87507935631676,
-                                62.18219677993871,
-                                62.603190255945776,
-                                61.73160417951487,
-                                48.68848874353514,
-                                63.996820069533996,
-                                54.51512500420607,
-                                64.04229495676744
+                                58.00899388250838,
+                                54.333961104877915,
+                                51.69288533932866,
+                                57.488546159108026,
+                                57.02048225784354,
+                                59.162047321471825,
+                                61.17225076829808,
+                                58.66081003405883,
+                                59.61212431239512,
+                                57.76003942876542,
+                                57.65585403373322,
+                                58.72522454844219,
+                                64.31400104498856,
+                                62.50822239064221,
+                                62.90362129355691,
+                                62.811200542537435,
+                                57.87538773130178,
+                                62.183261931886044,
+                                62.605450368205354,
+                                61.73649805695018,
+                                48.690434123979735,
+                                64.00220883967566,
+                                54.518748338509894,
+                                64.04573952922995
                             ]
                         },
                         {
                             "name": "Unassigned: Unmapped",
                             "color": "rgba(67,67,72,1)",
                             "data": [
-                                17371.0,
-                                15139.0,
-                                17423.0,
-                                13778.0,
-                                15389.0,
-                                15011.0,
-                                12543.0,
-                                15505.0,
-                                14199.0,
-                                20321.0,
-                                15087.0,
-                                18112.0,
-                                15123.0,
-                                19672.0,
-                                16172.0,
-                                16177.0,
-                                18761.0,
-                                18126.0,
-                                17506.0,
-                                17172.0,
-                                8866.0,
-                                16303.0,
-                                16608.0,
-                                13827.0
+                                17361.0,
+                                15135.0,
+                                17414.0,
+                                13769.0,
+                                15375.0,
+                                15010.0,
+                                12527.0,
+                                15499.0,
+                                14192.0,
+                                20312.0,
+                                15077.0,
+                                18103.0,
+                                15115.0,
+                                19668.0,
+                                16163.0,
+                                16161.0,
+                                18756.0,
+                                18122.0,
+                                17498.0,
+                                17162.0,
+                                8856.0,
+                                16289.0,
+                                16597.0,
+                                13818.0
                             ],
                             "data_pct": [
-                                2.988183849598244,
-                                2.5275182105191103,
-                                2.846518679717227,
-                                2.373769655787894,
-                                2.6353509320227073,
-                                2.5969779487836018,
-                                2.191334245297358,
-                                2.6603000193881914,
-                                2.4537555472605863,
-                                3.5018214779303043,
-                                2.581555914889248,
-                                3.1277738442675327,
-                                2.724688128337621,
-                                3.516147252071581,
-                                2.8942503351152458,
-                                2.886940506932262,
-                                3.2365301277981726,
-                                3.231471098425625,
-                                3.1273726389730014,
-                                3.034442298415099,
-                                1.4048397728425108,
-                                2.9322628047058656,
-                                2.79417207846832,
-                                2.4788587963004463
+                                2.9866640058904084,
+                                2.5269474274723516,
+                                2.845276063996654,
+                                2.372439793029655,
+                                2.6330661734484178,
+                                2.59686784174504,
+                                2.188623073576661,
+                                2.659334437171315,
+                                2.452651826095372,
+                                3.500336902256987,
+                                2.5798712887720754,
+                                3.1263222065068534,
+                                2.723276219303461,
+                                3.5156082424103756,
+                                2.8928467236895563,
+                                2.8841932432673603,
+                                3.2357233798093348,
+                                3.23080406408837,
+                                3.126083088279957,
+                                3.0328895863486394,
+                                1.4032930483435724,
+                                2.929950283120004,
+                                2.792481147345149,
+                                2.477378546955987
                             ]
                         },
                         {
                             "name": "Unassigned: Multi Mapping",
                             "color": "rgba(244,91,91,1)",
                             "data": [
-                                138694.0,
-                                171764.0,
-                                195896.0,
-                                138475.0,
-                                143010.0,
-                                132310.0,
-                                121632.0,
-                                139482.0,
-                                132583.0,
-                                138669.0,
-                                144462.0,
-                                133568.0,
-                                93982.0,
-                                101658.0,
-                                101278.0,
-                                103683.0,
-                                140881.0,
-                                103524.0,
-                                103089.0,
-                                114293.0,
-                                240505.0,
-                                96032.0,
-                                169582.0,
-                                98009.0
+                                138641.0,
+                                171727.0,
+                                195827.0,
+                                138402.0,
+                                142971.0,
+                                132291.0,
+                                121604.0,
+                                139464.0,
+                                132547.0,
+                                138651.0,
+                                144451.0,
+                                133539.0,
+                                93978.0,
+                                101627.0,
+                                101229.0,
+                                103661.0,
+                                140870.0,
+                                103514.0,
+                                103060.0,
+                                114243.0,
+                                240480.0,
+                                95984.0,
+                                169538.0,
+                                97976.0
                             ],
                             "data_pct": [
-                                23.85833693144775,
-                                28.676705060545903,
-                                32.004914382246795,
-                                23.857435991089318,
-                                24.490320150014128,
-                                22.890290613787116,
-                                21.249810007494876,
-                                23.931890829042484,
-                                22.91191434061908,
-                                23.89617058821502,
-                                24.719078052411387,
-                                23.065950575923463,
-                                16.93259536318365,
-                                18.170216416789998,
-                                18.12539484539957,
-                                18.503223872180115,
-                                24.303907091004444,
-                                18.45607491964109,
-                                18.416412543075957,
-                                20.196570790400475,
-                                38.10861601257479,
-                                17.27234629586663,
-                                28.530906154312056,
-                                17.57072913622698
+                                23.850819909028978,
+                                28.671628733237164,
+                                31.996202812924814,
+                                23.847077655232066,
+                                24.48468968351829,
+                                22.887557871571822,
+                                21.2457348319004,
+                                23.929377246639156,
+                                22.906682750384956,
+                                23.893521653940205,
+                                24.717449594376543,
+                                23.06169922856536,
+                                16.932057726609372,
+                                18.165584647724184,
+                                18.117922476790824,
+                                18.499991076686953,
+                                24.302428690218647,
+                                18.454555341024363,
+                                18.41205412493613,
+                                20.18916239443116,
+                                38.10568115014254,
+                                17.26492405764568,
+                                28.525135190612875,
+                                17.56575774472136
                             ]
                         },
                         {
                             "name": "Unassigned: No Features",
                             "color": "rgba(67,67,72,1)",
                             "data": [
-                                2639.0,
-                                1758.0,
-                                2409.0,
-                                1746.0,
-                                2586.0,
-                                2862.0,
-                                3228.0,
-                                3230.0,
-                                2803.0,
+                                2647.0,
+                                1761.0,
+                                2413.0,
+                                1751.0,
+                                2587.0,
+                                2863.0,
+                                3232.0,
+                                3232.0,
+                                2807.0,
                                 2305.0,
                                 2918.0,
                                 2089.0,
                                 3752.0,
-                                3374.0,
+                                3375.0,
                                 3159.0,
                                 3512.0,
                                 3574.0,
-                                4033.0,
-                                3907.0,
+                                4034.0,
+                                3909.0,
                                 3814.0,
                                 3468.0,
-                                3548.0,
+                                3549.0,
                                 3564.0,
                                 4376.0
                             ],
                             "data_pct": [
-                                0.45396449134130246,
-                                0.29350531832304616,
-                                0.39357536012390515,
-                                0.3008130221371507,
-                                0.4428499259348055,
-                                0.4951402897487621,
-                                0.5639501669313459,
-                                0.5541934255158889,
-                                0.48439163314116657,
-                                0.3972097094940875,
-                                0.49930272152494376,
-                                0.36075085913620114,
-                                0.6759921878941186,
-                                0.6030642958768562,
-                                0.5653559738207433,
-                                0.626750019184404,
-                                0.6165640785006486,
-                                0.7189960796618419,
-                                0.6979689763776714,
-                                0.6739670933004419,
-                                0.5495132339519319,
-                                0.6381444170457223,
-                                0.5996164070123491,
-                                0.784514796601631
+                                0.4553712126946553,
+                                0.2940174707485174,
+                                0.3942604308271463,
+                                0.30170252578944917,
+                                0.44304014248527196,
+                                0.49532529186649227,
+                                0.5646706932066551,
+                                0.554549900054048,
+                                0.4851038384899739,
+                                0.39721723905584655,
+                                0.49930784775730697,
+                                0.3607626962046521,
+                                0.6759994955227645,
+                                0.6032732264660879,
+                                0.5653964486874534,
+                                0.6267735084682241,
+                                0.616574715261173,
+                                0.7191846150829095,
+                                0.6983574575429394,
+                                0.6740147350153659,
+                                0.5495280365464666,
+                                0.6383690560987718,
+                                0.5996507085098579,
+                                0.7845569924359096
                             ]
                         },
                         {
                             "name": "Unassigned: Ambiguity",
                             "color": "rgba(247,163,92,1)",
                             "data": [
-                                85422.0,
-                                84876.0,
-                                79981.0,
-                                92775.0,
-                                90008.0,
-                                85869.0,
-                                84864.0,
-                                82731.0,
-                                84140.0,
-                                83829.0,
-                                85003.0,
-                                85254.0,
-                                85216.0,
-                                85068.0,
-                                86696.0,
-                                85030.0,
-                                80967.0,
-                                86445.0,
-                                84833.0,
-                                81283.0,
-                                70990.0,
-                                84290.0,
-                                80599.0,
-                                84359.0
+                                85438.0,
+                                84891.0,
+                                80001.0,
+                                92803.0,
+                                90033.0,
+                                85881.0,
+                                84875.0,
+                                82736.0,
+                                84154.0,
+                                83845.0,
+                                85017.0,
+                                85271.0,
+                                85223.0,
+                                85077.0,
+                                86715.0,
+                                85046.0,
+                                80977.0,
+                                86449.0,
+                                84846.0,
+                                81300.0,
+                                71004.0,
+                                84307.0,
+                                80617.0,
+                                84371.0
                             ],
                             "data_pct": [
-                                14.694412572700546,
-                                14.170396699651233,
-                                13.067061385666277,
-                                15.9839221814285,
-                                15.413780407401381,
-                                14.855765737399182,
-                                14.826228923934861,
-                                14.194729500419506,
-                                14.540389587048788,
-                                14.445853682073691,
-                                14.5449723227501,
-                                14.722572400573334,
-                                15.35323834850352,
-                                15.204941766939065,
-                                15.515701648104832,
-                                15.174417463339942,
-                                13.967919346379972,
-                                15.411261122332734,
-                                15.155055585627592,
-                                14.363415638369121,
-                                11.248542237095629,
-                                15.160426412847784,
-                                13.560180356001212,
-                                15.123602314103518
+                                14.69815098987758,
+                                14.17344526366405,
+                                13.071375352922724,
+                                15.990233866840809,
+                                15.41872174270448,
+                                14.858201673344821,
+                                14.82872063301821,
+                                14.195928382076644,
+                                14.543437272634579,
+                                14.44888477598154,
+                                14.547517235360852,
+                                14.725991320280944,
+                                15.354665513575844,
+                                15.207311492757148,
+                                15.520213057275251,
+                                15.177841629040028,
+                                13.969885483409067,
+                                15.412194047918303,
+                                15.158054961035619,
+                                14.367435227254655,
+                                11.251063640987692,
+                                15.164547763459893,
+                                13.563984615022227,
+                                15.126567186656795
                             ]
                         }
                     ],
@@ -1308,55 +1308,55 @@
                     "violin_value_by_sample_by_metric": {
                         "featurecounts-Assigned": {
                             "SNF2KO_01": 0.357226,
-                            "SNF2KO_02": 0.324027,
-                            "SNF2KO_03": 0.35581399999999996,
-                            "SNF2KO_04": 0.30727499999999996,
-                            "SNF2KO_05": 0.34934099999999996,
-                            "SNF2KO_06": 0.35043199999999997,
-                            "SNF2KO_07": 0.34879299999999996,
-                            "SNF2KO_08": 0.335481,
-                            "SNF2KO_09": 0.35194899999999996,
-                            "SNF2KO_10": 0.351458,
-                            "SNF2KO_11": 0.34970399999999996,
-                            "SNF2KO_12": 0.356963,
-                            "WT_01": 0.340047,
-                            "WT_02": 0.336945,
+                            "SNF2KO_02": 0.32403,
+                            "SNF2KO_03": 0.355819,
+                            "SNF2KO_04": 0.30727899999999997,
+                            "SNF2KO_05": 0.349344,
+                            "SNF2KO_06": 0.350429,
+                            "SNF2KO_07": 0.348794,
+                            "SNF2KO_08": 0.33547699999999997,
+                            "SNF2KO_09": 0.35195,
+                            "SNF2KO_10": 0.35145699999999996,
+                            "SNF2KO_11": 0.349701,
+                            "SNF2KO_12": 0.356962,
+                            "WT_01": 0.340049,
+                            "WT_02": 0.33694599999999997,
                             "WT_03": 0.33517399999999997,
                             "WT_04": 0.344939,
-                            "WT_05": 0.341881,
-                            "WT_06": 0.350124,
-                            "WT_07": 0.341966,
-                            "WT_08": 0.33295199999999997,
-                            "WT_09": 0.333653,
-                            "WT_10": 0.316372,
+                            "WT_05": 0.34188399999999997,
+                            "WT_06": 0.35013099999999997,
+                            "WT_07": 0.34195899999999996,
+                            "WT_08": 0.33295399999999997,
+                            "WT_09": 0.333648,
+                            "WT_10": 0.31637699999999996,
                             "WT_11": 0.32543,
                             "WT_12": 0.33719699999999997
                         },
                         "featurecounts-percent_assigned": {
-                            "SNF2KO_01": 64.04229495676744,
-                            "SNF2KO_02": 54.51512500420607,
-                            "SNF2KO_03": 63.996820069533996,
-                            "SNF2KO_04": 48.68848874353514,
-                            "SNF2KO_05": 61.73160417951487,
-                            "SNF2KO_06": 62.603190255945776,
-                            "SNF2KO_07": 62.18219677993871,
-                            "SNF2KO_08": 57.87507935631676,
-                            "SNF2KO_09": 62.808668138363274,
-                            "SNF2KO_10": 62.89929719755961,
-                            "SNF2KO_11": 62.5056302683225,
-                            "SNF2KO_12": 64.31348597208108,
-                            "WT_01": 58.72295232009947,
-                            "WT_02": 57.65509098842432,
-                            "WT_03": 57.7589445422869,
-                            "WT_04": 59.60954889193037,
-                            "WT_05": 58.658886225633935,
-                            "WT_06": 61.16867665634156,
-                            "WT_07": 59.161825410281345,
-                            "WT_08": 57.01769858462698,
-                            "WT_09": 57.48405914955713,
-                            "WT_10": 51.6879301922458,
-                            "WT_11": 54.331874710960705,
-                            "WT_12": 58.00510215491216
+                            "SNF2KO_01": 64.04573952922995,
+                            "SNF2KO_02": 54.518748338509894,
+                            "SNF2KO_03": 64.00220883967566,
+                            "SNF2KO_04": 48.690434123979735,
+                            "SNF2KO_05": 61.73649805695018,
+                            "SNF2KO_06": 62.605450368205354,
+                            "SNF2KO_07": 62.183261931886044,
+                            "SNF2KO_08": 57.87538773130178,
+                            "SNF2KO_09": 62.811200542537435,
+                            "SNF2KO_10": 62.90362129355691,
+                            "SNF2KO_11": 62.50822239064221,
+                            "SNF2KO_12": 64.31400104498856,
+                            "WT_01": 58.72522454844219,
+                            "WT_02": 57.65585403373322,
+                            "WT_03": 57.76003942876542,
+                            "WT_04": 59.61212431239512,
+                            "WT_05": 58.66081003405883,
+                            "WT_06": 61.17225076829808,
+                            "WT_07": 59.162047321471825,
+                            "WT_08": 57.02048225784354,
+                            "WT_09": 57.488546159108026,
+                            "WT_10": 51.69288533932866,
+                            "WT_11": 54.333961104877915,
+                            "WT_12": 58.00899388250838
                         }
                     },
                     "scatter_value_by_sample_by_metric": {
@@ -1609,8 +1609,8 @@
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 64.04229495676744,
-                                                    "mod": 64.04229495676744,
+                                                    "raw": 64.04573952922995,
+                                                    "mod": 64.04573952922995,
                                                     "fmt": "64.0"
                                                 }
                                             }
@@ -1621,13 +1621,13 @@
                                             "sample": "SNF2KO_02",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 324027,
-                                                    "mod": 0.324027,
+                                                    "raw": 324030,
+                                                    "mod": 0.32403,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 54.51512500420607,
-                                                    "mod": 54.51512500420607,
+                                                    "raw": 54.518748338509894,
+                                                    "mod": 54.518748338509894,
                                                     "fmt": "54.5"
                                                 }
                                             }
@@ -1638,13 +1638,13 @@
                                             "sample": "SNF2KO_03",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 355814,
-                                                    "mod": 0.35581399999999996,
+                                                    "raw": 355819,
+                                                    "mod": 0.355819,
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 63.996820069533996,
-                                                    "mod": 63.996820069533996,
+                                                    "raw": 64.00220883967566,
+                                                    "mod": 64.00220883967566,
                                                     "fmt": "64.0"
                                                 }
                                             }
@@ -1655,13 +1655,13 @@
                                             "sample": "SNF2KO_04",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 307275,
-                                                    "mod": 0.30727499999999996,
+                                                    "raw": 307279,
+                                                    "mod": 0.30727899999999997,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 48.68848874353514,
-                                                    "mod": 48.68848874353514,
+                                                    "raw": 48.690434123979735,
+                                                    "mod": 48.690434123979735,
                                                     "fmt": "48.7"
                                                 }
                                             }
@@ -1672,13 +1672,13 @@
                                             "sample": "SNF2KO_05",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 349341,
-                                                    "mod": 0.34934099999999996,
+                                                    "raw": 349344,
+                                                    "mod": 0.349344,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 61.73160417951487,
-                                                    "mod": 61.73160417951487,
+                                                    "raw": 61.73649805695018,
+                                                    "mod": 61.73649805695018,
                                                     "fmt": "61.7"
                                                 }
                                             }
@@ -1689,13 +1689,13 @@
                                             "sample": "SNF2KO_06",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 350432,
-                                                    "mod": 0.35043199999999997,
+                                                    "raw": 350429,
+                                                    "mod": 0.350429,
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 62.603190255945776,
-                                                    "mod": 62.603190255945776,
+                                                    "raw": 62.605450368205354,
+                                                    "mod": 62.605450368205354,
                                                     "fmt": "62.6"
                                                 }
                                             }
@@ -1706,13 +1706,13 @@
                                             "sample": "SNF2KO_07",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 348793,
-                                                    "mod": 0.34879299999999996,
+                                                    "raw": 348794,
+                                                    "mod": 0.348794,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 62.18219677993871,
-                                                    "mod": 62.18219677993871,
+                                                    "raw": 62.183261931886044,
+                                                    "mod": 62.183261931886044,
                                                     "fmt": "62.2"
                                                 }
                                             }
@@ -1723,13 +1723,13 @@
                                             "sample": "SNF2KO_08",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 335481,
-                                                    "mod": 0.335481,
+                                                    "raw": 335477,
+                                                    "mod": 0.33547699999999997,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 57.87507935631676,
-                                                    "mod": 57.87507935631676,
+                                                    "raw": 57.87538773130178,
+                                                    "mod": 57.87538773130178,
                                                     "fmt": "57.9"
                                                 }
                                             }
@@ -1740,13 +1740,13 @@
                                             "sample": "SNF2KO_09",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 351949,
-                                                    "mod": 0.35194899999999996,
+                                                    "raw": 351950,
+                                                    "mod": 0.35195,
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 62.808668138363274,
-                                                    "mod": 62.808668138363274,
+                                                    "raw": 62.811200542537435,
+                                                    "mod": 62.811200542537435,
                                                     "fmt": "62.8"
                                                 }
                                             }
@@ -1757,13 +1757,13 @@
                                             "sample": "SNF2KO_10",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 351458,
-                                                    "mod": 0.351458,
+                                                    "raw": 351457,
+                                                    "mod": 0.35145699999999996,
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 62.89929719755961,
-                                                    "mod": 62.89929719755961,
+                                                    "raw": 62.90362129355691,
+                                                    "mod": 62.90362129355691,
                                                     "fmt": "62.9"
                                                 }
                                             }
@@ -1774,13 +1774,13 @@
                                             "sample": "SNF2KO_11",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 349704,
-                                                    "mod": 0.34970399999999996,
+                                                    "raw": 349701,
+                                                    "mod": 0.349701,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 62.5056302683225,
-                                                    "mod": 62.5056302683225,
+                                                    "raw": 62.50822239064221,
+                                                    "mod": 62.50822239064221,
                                                     "fmt": "62.5"
                                                 }
                                             }
@@ -1791,13 +1791,13 @@
                                             "sample": "SNF2KO_12",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 356963,
-                                                    "mod": 0.356963,
+                                                    "raw": 356962,
+                                                    "mod": 0.356962,
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 64.31348597208108,
-                                                    "mod": 64.31348597208108,
+                                                    "raw": 64.31400104498856,
+                                                    "mod": 64.31400104498856,
                                                     "fmt": "64.3"
                                                 }
                                             }
@@ -1808,13 +1808,13 @@
                                             "sample": "WT_01",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 340047,
-                                                    "mod": 0.340047,
+                                                    "raw": 340049,
+                                                    "mod": 0.340049,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 58.72295232009947,
-                                                    "mod": 58.72295232009947,
+                                                    "raw": 58.72522454844219,
+                                                    "mod": 58.72522454844219,
                                                     "fmt": "58.7"
                                                 }
                                             }
@@ -1825,13 +1825,13 @@
                                             "sample": "WT_02",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 336945,
-                                                    "mod": 0.336945,
+                                                    "raw": 336946,
+                                                    "mod": 0.33694599999999997,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 57.65509098842432,
-                                                    "mod": 57.65509098842432,
+                                                    "raw": 57.65585403373322,
+                                                    "mod": 57.65585403373322,
                                                     "fmt": "57.7"
                                                 }
                                             }
@@ -1847,8 +1847,8 @@
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 57.7589445422869,
-                                                    "mod": 57.7589445422869,
+                                                    "raw": 57.76003942876542,
+                                                    "mod": 57.76003942876542,
                                                     "fmt": "57.8"
                                                 }
                                             }
@@ -1864,8 +1864,8 @@
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 59.60954889193037,
-                                                    "mod": 59.60954889193037,
+                                                    "raw": 59.61212431239512,
+                                                    "mod": 59.61212431239512,
                                                     "fmt": "59.6"
                                                 }
                                             }
@@ -1876,13 +1876,13 @@
                                             "sample": "WT_05",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 341881,
-                                                    "mod": 0.341881,
+                                                    "raw": 341884,
+                                                    "mod": 0.34188399999999997,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 58.658886225633935,
-                                                    "mod": 58.658886225633935,
+                                                    "raw": 58.66081003405883,
+                                                    "mod": 58.66081003405883,
                                                     "fmt": "58.7"
                                                 }
                                             }
@@ -1893,13 +1893,13 @@
                                             "sample": "WT_06",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 350124,
-                                                    "mod": 0.350124,
+                                                    "raw": 350131,
+                                                    "mod": 0.35013099999999997,
                                                     "fmt": "0.4"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 61.16867665634156,
-                                                    "mod": 61.16867665634156,
+                                                    "raw": 61.17225076829808,
+                                                    "mod": 61.17225076829808,
                                                     "fmt": "61.2"
                                                 }
                                             }
@@ -1910,13 +1910,13 @@
                                             "sample": "WT_07",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 341966,
-                                                    "mod": 0.341966,
+                                                    "raw": 341959,
+                                                    "mod": 0.34195899999999996,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 59.161825410281345,
-                                                    "mod": 59.161825410281345,
+                                                    "raw": 59.162047321471825,
+                                                    "mod": 59.162047321471825,
                                                     "fmt": "59.2"
                                                 }
                                             }
@@ -1927,13 +1927,13 @@
                                             "sample": "WT_08",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 332952,
-                                                    "mod": 0.33295199999999997,
+                                                    "raw": 332954,
+                                                    "mod": 0.33295399999999997,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 57.01769858462698,
-                                                    "mod": 57.01769858462698,
+                                                    "raw": 57.02048225784354,
+                                                    "mod": 57.02048225784354,
                                                     "fmt": "57.0"
                                                 }
                                             }
@@ -1944,13 +1944,13 @@
                                             "sample": "WT_09",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 333653,
-                                                    "mod": 0.333653,
+                                                    "raw": 333648,
+                                                    "mod": 0.333648,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 57.48405914955713,
-                                                    "mod": 57.48405914955713,
+                                                    "raw": 57.488546159108026,
+                                                    "mod": 57.488546159108026,
                                                     "fmt": "57.5"
                                                 }
                                             }
@@ -1961,13 +1961,13 @@
                                             "sample": "WT_10",
                                             "data": {
                                                 "Assigned": {
-                                                    "raw": 316372,
-                                                    "mod": 0.316372,
+                                                    "raw": 316377,
+                                                    "mod": 0.31637699999999996,
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 51.6879301922458,
-                                                    "mod": 51.6879301922458,
+                                                    "raw": 51.69288533932866,
+                                                    "mod": 51.69288533932866,
                                                     "fmt": "51.7"
                                                 }
                                             }
@@ -1983,8 +1983,8 @@
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 54.331874710960705,
-                                                    "mod": 54.331874710960705,
+                                                    "raw": 54.333961104877915,
+                                                    "mod": 54.333961104877915,
                                                     "fmt": "54.3"
                                                 }
                                             }
@@ -2000,8 +2000,8 @@
                                                     "fmt": "0.3"
                                                 },
                                                 "percent_assigned": {
-                                                    "raw": 58.00510215491216,
-                                                    "mod": 58.00510215491216,
+                                                    "raw": 58.00899388250838,
+                                                    "mod": 58.00899388250838,
                                                     "fmt": "58.0"
                                                 }
                                             }
@@ -2135,7 +2135,7 @@
         }
     },
     "config_analysis_dir": [
-        "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count"
+        "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count"
     ],
     "config_git_hash": null,
     "config_intro_text": null,
@@ -2146,543 +2146,543 @@
     "config_subtitle": null,
     "config_title": null,
     "config_version": "1.35",
-    "config_output_dir": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count/04_reports",
+    "config_output_dir": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count/04_reports",
     "config_sample_names_rename": [],
     "config_sample_names_rename_buttons": [],
     "config_analysis_dir_abs": [
-        "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/count"
+        "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/count"
     ],
     "report_saved_raw_data": {
         "multiqc_featurecounts": {
             "SNF2KO_01": {
-                "Total": 557797,
+                "Total": 557767,
                 "Assigned": 357226,
-                "Unassigned_Unmapped": 13827,
+                "Unassigned_Unmapped": 13818,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 98009,
+                "Unassigned_MultiMapping": 97976,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 4376,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84359,
-                "percent_assigned": 64.04229495676744
+                "Unassigned_Ambiguity": 84371,
+                "percent_assigned": 64.04573952922995
             },
             "SNF2KO_02": {
-                "Total": 594380,
-                "Assigned": 324027,
-                "Unassigned_Unmapped": 16608,
+                "Total": 594346,
+                "Assigned": 324030,
+                "Unassigned_Unmapped": 16597,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 169582,
+                "Unassigned_MultiMapping": 169538,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3564,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 80599,
-                "percent_assigned": 54.51512500420607
+                "Unassigned_Ambiguity": 80617,
+                "percent_assigned": 54.518748338509894
             },
             "SNF2KO_03": {
-                "Total": 555987,
-                "Assigned": 355814,
-                "Unassigned_Unmapped": 16303,
+                "Total": 555948,
+                "Assigned": 355819,
+                "Unassigned_Unmapped": 16289,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 96032,
+                "Unassigned_MultiMapping": 95984,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3548,
+                "Unassigned_NoFeatures": 3549,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84290,
-                "percent_assigned": 63.996820069533996
+                "Unassigned_Ambiguity": 84307,
+                "percent_assigned": 64.00220883967566
             },
             "SNF2KO_04": {
-                "Total": 631104,
-                "Assigned": 307275,
-                "Unassigned_Unmapped": 8866,
+                "Total": 631087,
+                "Assigned": 307279,
+                "Unassigned_Unmapped": 8856,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 240505,
+                "Unassigned_MultiMapping": 240480,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3468,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 70990,
-                "percent_assigned": 48.68848874353514
+                "Unassigned_Ambiguity": 71004,
+                "percent_assigned": 48.690434123979735
             },
             "SNF2KO_05": {
-                "Total": 565903,
-                "Assigned": 349341,
-                "Unassigned_Unmapped": 17172,
+                "Total": 565863,
+                "Assigned": 349344,
+                "Unassigned_Unmapped": 17162,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 114293,
+                "Unassigned_MultiMapping": 114243,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3814,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 81283,
-                "percent_assigned": 61.73160417951487
+                "Unassigned_Ambiguity": 81300,
+                "percent_assigned": 61.73649805695018
             },
             "SNF2KO_06": {
-                "Total": 559767,
-                "Assigned": 350432,
-                "Unassigned_Unmapped": 17506,
+                "Total": 559742,
+                "Assigned": 350429,
+                "Unassigned_Unmapped": 17498,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 103089,
+                "Unassigned_MultiMapping": 103060,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3907,
+                "Unassigned_NoFeatures": 3909,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84833,
-                "percent_assigned": 62.603190255945776
+                "Unassigned_Ambiguity": 84846,
+                "percent_assigned": 62.605450368205354
             },
             "SNF2KO_07": {
-                "Total": 560921,
-                "Assigned": 348793,
-                "Unassigned_Unmapped": 18126,
+                "Total": 560913,
+                "Assigned": 348794,
+                "Unassigned_Unmapped": 18122,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 103524,
+                "Unassigned_MultiMapping": 103514,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 4033,
+                "Unassigned_NoFeatures": 4034,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 86445,
-                "percent_assigned": 62.18219677993871
+                "Unassigned_Ambiguity": 86449,
+                "percent_assigned": 62.183261931886044
             },
             "SNF2KO_08": {
-                "Total": 579664,
-                "Assigned": 335481,
-                "Unassigned_Unmapped": 18761,
+                "Total": 579654,
+                "Assigned": 335477,
+                "Unassigned_Unmapped": 18756,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 140881,
+                "Unassigned_MultiMapping": 140870,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3574,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 80967,
-                "percent_assigned": 57.87507935631676
+                "Unassigned_Ambiguity": 80977,
+                "percent_assigned": 57.87538773130178
             },
             "SNF2KO_09": {
-                "Total": 560351,
-                "Assigned": 351949,
-                "Unassigned_Unmapped": 16177,
+                "Total": 560330,
+                "Assigned": 351950,
+                "Unassigned_Unmapped": 16161,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 103683,
+                "Unassigned_MultiMapping": 103661,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3512,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85030,
-                "percent_assigned": 62.808668138363274
+                "Unassigned_Ambiguity": 85046,
+                "percent_assigned": 62.811200542537435
             },
             "SNF2KO_10": {
-                "Total": 558763,
-                "Assigned": 351458,
-                "Unassigned_Unmapped": 16172,
+                "Total": 558723,
+                "Assigned": 351457,
+                "Unassigned_Unmapped": 16163,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 101278,
+                "Unassigned_MultiMapping": 101229,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3159,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 86696,
-                "percent_assigned": 62.89929719755961
+                "Unassigned_Ambiguity": 86715,
+                "percent_assigned": 62.90362129355691
             },
             "SNF2KO_11": {
-                "Total": 559476,
-                "Assigned": 349704,
-                "Unassigned_Unmapped": 19672,
+                "Total": 559448,
+                "Assigned": 349701,
+                "Unassigned_Unmapped": 19668,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 101658,
+                "Unassigned_MultiMapping": 101627,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3374,
+                "Unassigned_NoFeatures": 3375,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85068,
-                "percent_assigned": 62.5056302683225
+                "Unassigned_Ambiguity": 85077,
+                "percent_assigned": 62.50822239064221
             },
             "SNF2KO_12": {
-                "Total": 555036,
-                "Assigned": 356963,
-                "Unassigned_Unmapped": 15123,
+                "Total": 555030,
+                "Assigned": 356962,
+                "Unassigned_Unmapped": 15115,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 93982,
+                "Unassigned_MultiMapping": 93978,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 3752,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85216,
-                "percent_assigned": 64.31348597208108
+                "Unassigned_Ambiguity": 85223,
+                "percent_assigned": 64.31400104498856
             },
             "WT_01": {
-                "Total": 579070,
-                "Assigned": 340047,
-                "Unassigned_Unmapped": 18112,
+                "Total": 579051,
+                "Assigned": 340049,
+                "Unassigned_Unmapped": 18103,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 133568,
+                "Unassigned_MultiMapping": 133539,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 2089,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85254,
-                "percent_assigned": 58.72295232009947
+                "Unassigned_Ambiguity": 85271,
+                "percent_assigned": 58.72522454844219
             },
             "WT_02": {
-                "Total": 584415,
-                "Assigned": 336945,
-                "Unassigned_Unmapped": 15087,
+                "Total": 584409,
+                "Assigned": 336946,
+                "Unassigned_Unmapped": 15077,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 144462,
+                "Unassigned_MultiMapping": 144451,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 2918,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85003,
-                "percent_assigned": 57.65509098842432
+                "Unassigned_Ambiguity": 85017,
+                "percent_assigned": 57.65585403373322
             },
             "WT_03": {
-                "Total": 580298,
+                "Total": 580287,
                 "Assigned": 335174,
-                "Unassigned_Unmapped": 20321,
+                "Unassigned_Unmapped": 20312,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 138669,
+                "Unassigned_MultiMapping": 138651,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
                 "Unassigned_NoFeatures": 2305,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 83829,
-                "percent_assigned": 57.7589445422869
+                "Unassigned_Ambiguity": 83845,
+                "percent_assigned": 57.76003942876542
             },
             "WT_04": {
-                "Total": 578664,
+                "Total": 578639,
                 "Assigned": 344939,
-                "Unassigned_Unmapped": 14199,
+                "Unassigned_Unmapped": 14192,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 132583,
+                "Unassigned_MultiMapping": 132547,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2803,
+                "Unassigned_NoFeatures": 2807,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84140,
-                "percent_assigned": 59.60954889193037
+                "Unassigned_Ambiguity": 84154,
+                "percent_assigned": 59.61212431239512
             },
             "WT_05": {
-                "Total": 582829,
-                "Assigned": 341881,
-                "Unassigned_Unmapped": 15505,
+                "Total": 582815,
+                "Assigned": 341884,
+                "Unassigned_Unmapped": 15499,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 139482,
+                "Unassigned_MultiMapping": 139464,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3230,
+                "Unassigned_NoFeatures": 3232,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 82731,
-                "percent_assigned": 58.658886225633935
+                "Unassigned_Ambiguity": 82736,
+                "percent_assigned": 58.66081003405883
             },
             "WT_06": {
-                "Total": 572391,
-                "Assigned": 350124,
-                "Unassigned_Unmapped": 12543,
+                "Total": 572369,
+                "Assigned": 350131,
+                "Unassigned_Unmapped": 12527,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 121632,
+                "Unassigned_MultiMapping": 121604,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 3228,
+                "Unassigned_NoFeatures": 3232,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84864,
-                "percent_assigned": 61.16867665634156
+                "Unassigned_Ambiguity": 84875,
+                "percent_assigned": 61.17225076829808
             },
             "WT_07": {
-                "Total": 578018,
-                "Assigned": 341966,
-                "Unassigned_Unmapped": 15011,
+                "Total": 578004,
+                "Assigned": 341959,
+                "Unassigned_Unmapped": 15010,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 132310,
+                "Unassigned_MultiMapping": 132291,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2862,
+                "Unassigned_NoFeatures": 2863,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85869,
-                "percent_assigned": 59.161825410281345
+                "Unassigned_Ambiguity": 85881,
+                "percent_assigned": 59.162047321471825
             },
             "WT_08": {
-                "Total": 583945,
-                "Assigned": 332952,
-                "Unassigned_Unmapped": 15389,
+                "Total": 583920,
+                "Assigned": 332954,
+                "Unassigned_Unmapped": 15375,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 143010,
+                "Unassigned_MultiMapping": 142971,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2586,
+                "Unassigned_NoFeatures": 2587,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 90008,
-                "percent_assigned": 57.01769858462698
+                "Unassigned_Ambiguity": 90033,
+                "percent_assigned": 57.02048225784354
             },
             "WT_09": {
-                "Total": 580427,
-                "Assigned": 333653,
-                "Unassigned_Unmapped": 13778,
+                "Total": 580373,
+                "Assigned": 333648,
+                "Unassigned_Unmapped": 13769,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 138475,
+                "Unassigned_MultiMapping": 138402,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 1746,
+                "Unassigned_NoFeatures": 1751,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 92775,
-                "percent_assigned": 57.48405914955713
+                "Unassigned_Ambiguity": 92803,
+                "percent_assigned": 57.488546159108026
             },
             "WT_10": {
-                "Total": 612081,
-                "Assigned": 316372,
-                "Unassigned_Unmapped": 17423,
+                "Total": 612032,
+                "Assigned": 316377,
+                "Unassigned_Unmapped": 17414,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 195896,
+                "Unassigned_MultiMapping": 195827,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2409,
+                "Unassigned_NoFeatures": 2413,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 79981,
-                "percent_assigned": 51.6879301922458
+                "Unassigned_Ambiguity": 80001,
+                "percent_assigned": 51.69288533932866
             },
             "WT_11": {
-                "Total": 598967,
+                "Total": 598944,
                 "Assigned": 325430,
-                "Unassigned_Unmapped": 15139,
+                "Unassigned_Unmapped": 15135,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 171764,
+                "Unassigned_MultiMapping": 171727,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 1758,
+                "Unassigned_NoFeatures": 1761,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 84876,
-                "percent_assigned": 54.331874710960705
+                "Unassigned_Ambiguity": 84891,
+                "percent_assigned": 54.333961104877915
             },
             "WT_12": {
-                "Total": 581323,
+                "Total": 581284,
                 "Assigned": 337197,
-                "Unassigned_Unmapped": 17371,
+                "Unassigned_Unmapped": 17361,
                 "Unassigned_Read_Type": 0,
                 "Unassigned_Singleton": 0,
                 "Unassigned_MappingQuality": 0,
                 "Unassigned_Chimera": 0,
                 "Unassigned_FragmentLength": 0,
                 "Unassigned_Duplicate": 0,
-                "Unassigned_MultiMapping": 138694,
+                "Unassigned_MultiMapping": 138641,
                 "Unassigned_Secondary": 0,
                 "Unassigned_NonSplit": 0,
-                "Unassigned_NoFeatures": 2639,
+                "Unassigned_NoFeatures": 2647,
                 "Unassigned_Overlapping_Length": 0,
-                "Unassigned_Ambiguity": 85422,
-                "percent_assigned": 58.00510215491216
+                "Unassigned_Ambiguity": 85438,
+                "percent_assigned": 58.00899388250838
             }
         },
         "multiqc_general_stats": {
             "SNF2KO_01": {
                 "featurecounts-Assigned": 0.357226,
-                "featurecounts-percent_assigned": 64.04229495676744
+                "featurecounts-percent_assigned": 64.04573952922995
             },
             "SNF2KO_02": {
-                "featurecounts-Assigned": 0.324027,
-                "featurecounts-percent_assigned": 54.51512500420607
+                "featurecounts-Assigned": 0.32403,
+                "featurecounts-percent_assigned": 54.518748338509894
             },
             "SNF2KO_03": {
-                "featurecounts-Assigned": 0.35581399999999996,
-                "featurecounts-percent_assigned": 63.996820069533996
+                "featurecounts-Assigned": 0.355819,
+                "featurecounts-percent_assigned": 64.00220883967566
             },
             "SNF2KO_04": {
-                "featurecounts-Assigned": 0.30727499999999996,
-                "featurecounts-percent_assigned": 48.68848874353514
+                "featurecounts-Assigned": 0.30727899999999997,
+                "featurecounts-percent_assigned": 48.690434123979735
             },
             "SNF2KO_05": {
-                "featurecounts-Assigned": 0.34934099999999996,
-                "featurecounts-percent_assigned": 61.73160417951487
+                "featurecounts-Assigned": 0.349344,
+                "featurecounts-percent_assigned": 61.73649805695018
             },
             "SNF2KO_06": {
-                "featurecounts-Assigned": 0.35043199999999997,
-                "featurecounts-percent_assigned": 62.603190255945776
+                "featurecounts-Assigned": 0.350429,
+                "featurecounts-percent_assigned": 62.605450368205354
             },
             "SNF2KO_07": {
-                "featurecounts-Assigned": 0.34879299999999996,
-                "featurecounts-percent_assigned": 62.18219677993871
+                "featurecounts-Assigned": 0.348794,
+                "featurecounts-percent_assigned": 62.183261931886044
             },
             "SNF2KO_08": {
-                "featurecounts-Assigned": 0.335481,
-                "featurecounts-percent_assigned": 57.87507935631676
+                "featurecounts-Assigned": 0.33547699999999997,
+                "featurecounts-percent_assigned": 57.87538773130178
             },
             "SNF2KO_09": {
-                "featurecounts-Assigned": 0.35194899999999996,
-                "featurecounts-percent_assigned": 62.808668138363274
+                "featurecounts-Assigned": 0.35195,
+                "featurecounts-percent_assigned": 62.811200542537435
             },
             "SNF2KO_10": {
-                "featurecounts-Assigned": 0.351458,
-                "featurecounts-percent_assigned": 62.89929719755961
+                "featurecounts-Assigned": 0.35145699999999996,
+                "featurecounts-percent_assigned": 62.90362129355691
             },
             "SNF2KO_11": {
-                "featurecounts-Assigned": 0.34970399999999996,
-                "featurecounts-percent_assigned": 62.5056302683225
+                "featurecounts-Assigned": 0.349701,
+                "featurecounts-percent_assigned": 62.50822239064221
             },
             "SNF2KO_12": {
-                "featurecounts-Assigned": 0.356963,
-                "featurecounts-percent_assigned": 64.31348597208108
+                "featurecounts-Assigned": 0.356962,
+                "featurecounts-percent_assigned": 64.31400104498856
             },
             "WT_01": {
-                "featurecounts-Assigned": 0.340047,
-                "featurecounts-percent_assigned": 58.72295232009947
+                "featurecounts-Assigned": 0.340049,
+                "featurecounts-percent_assigned": 58.72522454844219
             },
             "WT_02": {
-                "featurecounts-Assigned": 0.336945,
-                "featurecounts-percent_assigned": 57.65509098842432
+                "featurecounts-Assigned": 0.33694599999999997,
+                "featurecounts-percent_assigned": 57.65585403373322
             },
             "WT_03": {
                 "featurecounts-Assigned": 0.33517399999999997,
-                "featurecounts-percent_assigned": 57.7589445422869
+                "featurecounts-percent_assigned": 57.76003942876542
             },
             "WT_04": {
                 "featurecounts-Assigned": 0.344939,
-                "featurecounts-percent_assigned": 59.60954889193037
+                "featurecounts-percent_assigned": 59.61212431239512
             },
             "WT_05": {
-                "featurecounts-Assigned": 0.341881,
-                "featurecounts-percent_assigned": 58.658886225633935
+                "featurecounts-Assigned": 0.34188399999999997,
+                "featurecounts-percent_assigned": 58.66081003405883
             },
             "WT_06": {
-                "featurecounts-Assigned": 0.350124,
-                "featurecounts-percent_assigned": 61.16867665634156
+                "featurecounts-Assigned": 0.35013099999999997,
+                "featurecounts-percent_assigned": 61.17225076829808
             },
             "WT_07": {
-                "featurecounts-Assigned": 0.341966,
-                "featurecounts-percent_assigned": 59.161825410281345
+                "featurecounts-Assigned": 0.34195899999999996,
+                "featurecounts-percent_assigned": 59.162047321471825
             },
             "WT_08": {
-                "featurecounts-Assigned": 0.33295199999999997,
-                "featurecounts-percent_assigned": 57.01769858462698
+                "featurecounts-Assigned": 0.33295399999999997,
+                "featurecounts-percent_assigned": 57.02048225784354
             },
             "WT_09": {
-                "featurecounts-Assigned": 0.333653,
-                "featurecounts-percent_assigned": 57.48405914955713
+                "featurecounts-Assigned": 0.333648,
+                "featurecounts-percent_assigned": 57.488546159108026
             },
             "WT_10": {
-                "featurecounts-Assigned": 0.316372,
-                "featurecounts-percent_assigned": 51.6879301922458
+                "featurecounts-Assigned": 0.31637699999999996,
+                "featurecounts-percent_assigned": 51.69288533932866
             },
             "WT_11": {
                 "featurecounts-Assigned": 0.32543,
-                "featurecounts-percent_assigned": 54.331874710960705
+                "featurecounts-percent_assigned": 54.333961104877915
             },
             "WT_12": {
                 "featurecounts-Assigned": 0.33719699999999997,
-                "featurecounts-percent_assigned": 58.00510215491216
+                "featurecounts-percent_assigned": 58.00899388250838
             }
         }
     }

@@ -1,37 +1,37 @@
 {
   "flow": "rnaseq-index-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T18:38:33Z",
-  "finished_at": "2026-05-30T18:39:03Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:15:01Z",
+  "finished_at": "2026-06-12T14:15:29Z",
   "mode": "genome_annotation",
   "parameters": {
-    "outdir": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference",
-    "threads": "64",
+    "outdir": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference",
+    "threads": "32",
     "indexer": "salmon",
     "genome_indexer": "hisat2",
     "kmer": "31"
   },
   "inputs": {
-    "genome": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-reference-sgd-r64.4.1-v1/reference/genome/yeast_s288c_reference_genome_R64-4-1.fa",
-    "annotation": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-reference-sgd-r64.4.1-v1/reference/annotation/yeast_s288c_gene_annotation_R64-4-1.gff3",
+    "genome": "TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-reference-sgd-r64.4.1-v1/reference/genome/yeast_s288c_reference_genome_R64-4-1.fa",
+    "annotation": "TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-reference-sgd-r64.4.1-v1/reference/annotation/yeast_s288c_gene_annotation_R64-4-1.gff3",
     "transcripts": "",
     "tx2gene": ""
   },
   "local_inputs": {
-    "genome": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/00_inputs/genome.fa",
-    "annotation": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/00_inputs/annotation.gxf",
+    "genome": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/00_inputs/genome.fa",
+    "annotation": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/00_inputs/annotation.gxf",
     "transcripts": "",
     "tx2gene": ""
   },
   "outputs": {
-    "transcripts": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/transcripts/transcripts.fa",
-    "tx2gene": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/tx2gene.tsv",
-    "reference_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/reference_summary.tsv",
-    "genome_index": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/genome_index.tsv",
-    "hisat2_index_prefix": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/hisat2_index/genome",
-    "commands": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/commands.sh",
-    "versions": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/versions.tsv",
-    "methods": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/04_reports/methods.txt"
+    "transcripts": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/transcripts/transcripts.fa",
+    "tx2gene": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/tx2gene.tsv",
+    "reference_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/04_reports/reference_summary.tsv",
+    "genome_index": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/04_reports/genome_index.tsv",
+    "hisat2_index_prefix": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/hisat2_index/genome",
+    "commands": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/04_reports/commands.sh",
+    "versions": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/04_reports/versions.tsv",
+    "methods": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/04_reports/methods.txt"
   },
   "dependencies": {
     "taf-gffread": "0.12.9-r1",

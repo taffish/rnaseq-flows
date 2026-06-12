@@ -1,2 +1,2 @@
-rnaseq-count-flow 0.1.0-r1 counted reads from coordinate-sorted BAM files with featureCounts and produced a gene-level count matrix.
+rnaseq-count-flow 0.2.0-r1 counted reads from coordinate-sorted BAM files with featureCounts and produced a gene-level count matrix.
 The run used strand=0, paired=false, feature_type=exon, attribute=gene_id, and min_mapq=0. BAM inputs were validated with samtools quickcheck and were not modified. The featureCounts annotation was prepared as a local copy so missing target attributes could be filled from transcript metadata when needed. featureCounts raw output, assignment summaries, the downstream gene_counts.tsv matrix, MultiQC, step logs, commands, versions, methods, and a manifest were written under the output directory.

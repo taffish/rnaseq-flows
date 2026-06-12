@@ -1,170 +1,170 @@
 {
     "WT_12": {
         "Assigned": "337197.0",
-        "Unassigned: Unmapped": "17371.0",
-        "Unassigned: Multi Mapping": "138694.0",
-        "Unassigned: No Features": "2639.0",
-        "Unassigned: Ambiguity": "85422.0"
+        "Unassigned: Unmapped": "17361.0",
+        "Unassigned: Multi Mapping": "138641.0",
+        "Unassigned: No Features": "2647.0",
+        "Unassigned: Ambiguity": "85438.0"
     },
     "WT_11": {
         "Assigned": "325430.0",
-        "Unassigned: Unmapped": "15139.0",
-        "Unassigned: Multi Mapping": "171764.0",
-        "Unassigned: No Features": "1758.0",
-        "Unassigned: Ambiguity": "84876.0"
+        "Unassigned: Unmapped": "15135.0",
+        "Unassigned: Multi Mapping": "171727.0",
+        "Unassigned: No Features": "1761.0",
+        "Unassigned: Ambiguity": "84891.0"
     },
     "WT_10": {
-        "Assigned": "316372.0",
-        "Unassigned: Unmapped": "17423.0",
-        "Unassigned: Multi Mapping": "195896.0",
-        "Unassigned: No Features": "2409.0",
-        "Unassigned: Ambiguity": "79981.0"
+        "Assigned": "316377.0",
+        "Unassigned: Unmapped": "17414.0",
+        "Unassigned: Multi Mapping": "195827.0",
+        "Unassigned: No Features": "2413.0",
+        "Unassigned: Ambiguity": "80001.0"
     },
     "WT_09": {
-        "Assigned": "333653.0",
-        "Unassigned: Unmapped": "13778.0",
-        "Unassigned: Multi Mapping": "138475.0",
-        "Unassigned: No Features": "1746.0",
-        "Unassigned: Ambiguity": "92775.0"
+        "Assigned": "333648.0",
+        "Unassigned: Unmapped": "13769.0",
+        "Unassigned: Multi Mapping": "138402.0",
+        "Unassigned: No Features": "1751.0",
+        "Unassigned: Ambiguity": "92803.0"
     },
     "WT_08": {
-        "Assigned": "332952.0",
-        "Unassigned: Unmapped": "15389.0",
-        "Unassigned: Multi Mapping": "143010.0",
-        "Unassigned: No Features": "2586.0",
-        "Unassigned: Ambiguity": "90008.0"
+        "Assigned": "332954.0",
+        "Unassigned: Unmapped": "15375.0",
+        "Unassigned: Multi Mapping": "142971.0",
+        "Unassigned: No Features": "2587.0",
+        "Unassigned: Ambiguity": "90033.0"
     },
     "WT_07": {
-        "Assigned": "341966.0",
-        "Unassigned: Unmapped": "15011.0",
-        "Unassigned: Multi Mapping": "132310.0",
-        "Unassigned: No Features": "2862.0",
-        "Unassigned: Ambiguity": "85869.0"
+        "Assigned": "341959.0",
+        "Unassigned: Unmapped": "15010.0",
+        "Unassigned: Multi Mapping": "132291.0",
+        "Unassigned: No Features": "2863.0",
+        "Unassigned: Ambiguity": "85881.0"
     },
     "WT_06": {
-        "Assigned": "350124.0",
-        "Unassigned: Unmapped": "12543.0",
-        "Unassigned: Multi Mapping": "121632.0",
-        "Unassigned: No Features": "3228.0",
-        "Unassigned: Ambiguity": "84864.0"
+        "Assigned": "350131.0",
+        "Unassigned: Unmapped": "12527.0",
+        "Unassigned: Multi Mapping": "121604.0",
+        "Unassigned: No Features": "3232.0",
+        "Unassigned: Ambiguity": "84875.0"
     },
     "WT_05": {
-        "Assigned": "341881.0",
-        "Unassigned: Unmapped": "15505.0",
-        "Unassigned: Multi Mapping": "139482.0",
-        "Unassigned: No Features": "3230.0",
-        "Unassigned: Ambiguity": "82731.0"
+        "Assigned": "341884.0",
+        "Unassigned: Unmapped": "15499.0",
+        "Unassigned: Multi Mapping": "139464.0",
+        "Unassigned: No Features": "3232.0",
+        "Unassigned: Ambiguity": "82736.0"
     },
     "WT_04": {
         "Assigned": "344939.0",
-        "Unassigned: Unmapped": "14199.0",
-        "Unassigned: Multi Mapping": "132583.0",
-        "Unassigned: No Features": "2803.0",
-        "Unassigned: Ambiguity": "84140.0"
+        "Unassigned: Unmapped": "14192.0",
+        "Unassigned: Multi Mapping": "132547.0",
+        "Unassigned: No Features": "2807.0",
+        "Unassigned: Ambiguity": "84154.0"
     },
     "WT_03": {
         "Assigned": "335174.0",
-        "Unassigned: Unmapped": "20321.0",
-        "Unassigned: Multi Mapping": "138669.0",
+        "Unassigned: Unmapped": "20312.0",
+        "Unassigned: Multi Mapping": "138651.0",
         "Unassigned: No Features": "2305.0",
-        "Unassigned: Ambiguity": "83829.0"
+        "Unassigned: Ambiguity": "83845.0"
     },
     "WT_02": {
-        "Assigned": "336945.0",
-        "Unassigned: Unmapped": "15087.0",
-        "Unassigned: Multi Mapping": "144462.0",
+        "Assigned": "336946.0",
+        "Unassigned: Unmapped": "15077.0",
+        "Unassigned: Multi Mapping": "144451.0",
         "Unassigned: No Features": "2918.0",
-        "Unassigned: Ambiguity": "85003.0"
+        "Unassigned: Ambiguity": "85017.0"
     },
     "WT_01": {
-        "Assigned": "340047.0",
-        "Unassigned: Unmapped": "18112.0",
-        "Unassigned: Multi Mapping": "133568.0",
+        "Assigned": "340049.0",
+        "Unassigned: Unmapped": "18103.0",
+        "Unassigned: Multi Mapping": "133539.0",
         "Unassigned: No Features": "2089.0",
-        "Unassigned: Ambiguity": "85254.0"
+        "Unassigned: Ambiguity": "85271.0"
     },
     "SNF2KO_12": {
-        "Assigned": "356963.0",
-        "Unassigned: Unmapped": "15123.0",
-        "Unassigned: Multi Mapping": "93982.0",
+        "Assigned": "356962.0",
+        "Unassigned: Unmapped": "15115.0",
+        "Unassigned: Multi Mapping": "93978.0",
         "Unassigned: No Features": "3752.0",
-        "Unassigned: Ambiguity": "85216.0"
+        "Unassigned: Ambiguity": "85223.0"
     },
     "SNF2KO_11": {
-        "Assigned": "349704.0",
-        "Unassigned: Unmapped": "19672.0",
-        "Unassigned: Multi Mapping": "101658.0",
-        "Unassigned: No Features": "3374.0",
-        "Unassigned: Ambiguity": "85068.0"
+        "Assigned": "349701.0",
+        "Unassigned: Unmapped": "19668.0",
+        "Unassigned: Multi Mapping": "101627.0",
+        "Unassigned: No Features": "3375.0",
+        "Unassigned: Ambiguity": "85077.0"
     },
     "SNF2KO_10": {
-        "Assigned": "351458.0",
-        "Unassigned: Unmapped": "16172.0",
-        "Unassigned: Multi Mapping": "101278.0",
+        "Assigned": "351457.0",
+        "Unassigned: Unmapped": "16163.0",
+        "Unassigned: Multi Mapping": "101229.0",
         "Unassigned: No Features": "3159.0",
-        "Unassigned: Ambiguity": "86696.0"
+        "Unassigned: Ambiguity": "86715.0"
     },
     "SNF2KO_09": {
-        "Assigned": "351949.0",
-        "Unassigned: Unmapped": "16177.0",
-        "Unassigned: Multi Mapping": "103683.0",
+        "Assigned": "351950.0",
+        "Unassigned: Unmapped": "16161.0",
+        "Unassigned: Multi Mapping": "103661.0",
         "Unassigned: No Features": "3512.0",
-        "Unassigned: Ambiguity": "85030.0"
+        "Unassigned: Ambiguity": "85046.0"
     },
     "SNF2KO_08": {
-        "Assigned": "335481.0",
-        "Unassigned: Unmapped": "18761.0",
-        "Unassigned: Multi Mapping": "140881.0",
+        "Assigned": "335477.0",
+        "Unassigned: Unmapped": "18756.0",
+        "Unassigned: Multi Mapping": "140870.0",
         "Unassigned: No Features": "3574.0",
-        "Unassigned: Ambiguity": "80967.0"
+        "Unassigned: Ambiguity": "80977.0"
     },
     "SNF2KO_07": {
-        "Assigned": "348793.0",
-        "Unassigned: Unmapped": "18126.0",
-        "Unassigned: Multi Mapping": "103524.0",
-        "Unassigned: No Features": "4033.0",
-        "Unassigned: Ambiguity": "86445.0"
+        "Assigned": "348794.0",
+        "Unassigned: Unmapped": "18122.0",
+        "Unassigned: Multi Mapping": "103514.0",
+        "Unassigned: No Features": "4034.0",
+        "Unassigned: Ambiguity": "86449.0"
     },
     "SNF2KO_06": {
-        "Assigned": "350432.0",
-        "Unassigned: Unmapped": "17506.0",
-        "Unassigned: Multi Mapping": "103089.0",
-        "Unassigned: No Features": "3907.0",
-        "Unassigned: Ambiguity": "84833.0"
+        "Assigned": "350429.0",
+        "Unassigned: Unmapped": "17498.0",
+        "Unassigned: Multi Mapping": "103060.0",
+        "Unassigned: No Features": "3909.0",
+        "Unassigned: Ambiguity": "84846.0"
     },
     "SNF2KO_05": {
-        "Assigned": "349341.0",
-        "Unassigned: Unmapped": "17172.0",
-        "Unassigned: Multi Mapping": "114293.0",
+        "Assigned": "349344.0",
+        "Unassigned: Unmapped": "17162.0",
+        "Unassigned: Multi Mapping": "114243.0",
         "Unassigned: No Features": "3814.0",
-        "Unassigned: Ambiguity": "81283.0"
+        "Unassigned: Ambiguity": "81300.0"
     },
     "SNF2KO_04": {
-        "Assigned": "307275.0",
-        "Unassigned: Unmapped": "8866.0",
-        "Unassigned: Multi Mapping": "240505.0",
+        "Assigned": "307279.0",
+        "Unassigned: Unmapped": "8856.0",
+        "Unassigned: Multi Mapping": "240480.0",
         "Unassigned: No Features": "3468.0",
-        "Unassigned: Ambiguity": "70990.0"
+        "Unassigned: Ambiguity": "71004.0"
     },
     "SNF2KO_03": {
-        "Assigned": "355814.0",
-        "Unassigned: Unmapped": "16303.0",
-        "Unassigned: Multi Mapping": "96032.0",
-        "Unassigned: No Features": "3548.0",
-        "Unassigned: Ambiguity": "84290.0"
+        "Assigned": "355819.0",
+        "Unassigned: Unmapped": "16289.0",
+        "Unassigned: Multi Mapping": "95984.0",
+        "Unassigned: No Features": "3549.0",
+        "Unassigned: Ambiguity": "84307.0"
     },
     "SNF2KO_02": {
-        "Assigned": "324027.0",
-        "Unassigned: Unmapped": "16608.0",
-        "Unassigned: Multi Mapping": "169582.0",
+        "Assigned": "324030.0",
+        "Unassigned: Unmapped": "16597.0",
+        "Unassigned: Multi Mapping": "169538.0",
         "Unassigned: No Features": "3564.0",
-        "Unassigned: Ambiguity": "80599.0"
+        "Unassigned: Ambiguity": "80617.0"
     },
     "SNF2KO_01": {
         "Assigned": "357226.0",
-        "Unassigned: Unmapped": "13827.0",
-        "Unassigned: Multi Mapping": "98009.0",
+        "Unassigned: Unmapped": "13818.0",
+        "Unassigned: Multi Mapping": "97976.0",
         "Unassigned: No Features": "4376.0",
-        "Unassigned: Ambiguity": "84359.0"
+        "Unassigned: Ambiguity": "84371.0"
     }
 }

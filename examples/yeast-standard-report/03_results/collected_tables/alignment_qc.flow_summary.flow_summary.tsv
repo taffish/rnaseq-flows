@@ -1,10 +1,10 @@
 metric	value
 flow	rnaseq-alignment-qc-flow
-version	0.1.0-r1
+version	0.2.0-r1
 sample_count	24
 mapq	30
 infer_sample_size	200000
 sequencing_protocol	non-strand-specific
 paired	false
-threads	64
-java_mem_size	4G
+threads	32
+java_mem_size	128G

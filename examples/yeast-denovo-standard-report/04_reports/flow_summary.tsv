@@ -1,19 +1,24 @@
 metric	value
-project_name	Yeast SNF2 RNA-seq de novo 24-sample standard
+project_name	Yeast SNF2 RNA-seq de novo standard
 flow	rnaseq-report-flow
-version	0.2.0-r2
-started_at	2026-05-30T09:14:34Z
-finished_at	2026-05-30T09:14:35Z
+version	0.3.0-r2
+started_at	2026-06-12T14:37:53Z
+finished_at	2026-06-12T14:37:55Z
 analysis_mode	denovo
-standard_out	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out
+standard_out	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out
+standard_report_package	no
 denovo_present	yes
-denovo_assembly_out	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_assembly
-denovo_expression_out	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_expression
-denovo_annotation_out	/home/kyhan/test/rna-seq/yeast-denovo-standard-24sample-out/03_results/denovo_annotation
+denovo_assembly_out	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_assembly
+denovo_expression_out	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_expression
+denovo_annotation_out	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-denovo-out/03_results/denovo_annotation
 provided_modules	6
-collected_files	108
+collected_files	109
 collected_tables	54
 collected_plots	28
-collected_html_reports	26
+collected_html_reports	27
+embedded_html_reports	27
+embedded_tables	54
+report_template	taffish-flow-report
+report_template_version	0.1.0
 plot_groups	14
-html_report_links	26
+html_report_links	27

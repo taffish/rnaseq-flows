@@ -1,35 +1,36 @@
 tool	version	source	url
-rnaseq-report-flow	0.2.0-r2	taffish flow	https://github.com/taffish/rnaseq-report-flow
-rnaseq-standard-flow	0.2.0-r2	standard:taffish flow	https://github.com/taffish/rnaseq-standard-flow
-taf-rnaseq-index-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-index-flow
-taf-rnaseq-expression-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-expression-flow
-taf-rnaseq-alignment-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-alignment-flow
-taf-rnaseq-alignment-qc-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-alignment-qc-flow
-taf-rnaseq-count-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-count-flow
-taf-rnaseq-de-flow	0.1.0-r2	standard:taffish dependency	https://github.com/taffish/rnaseq-de-flow
-taf-rnaseq-enrichment-flow	0.1.0-r3	standard:taffish dependency	https://github.com/taffish/rnaseq-enrichment-flow
-taf-rnaseq-report-flow	0.2.0-r2	standard:taffish dependency	https://github.com/taffish/rnaseq-report-flow
-taf-rnaseq-denovo-assembly-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-denovo-assembly-flow
-taf-rnaseq-denovo-expression-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-denovo-expression-flow
-taf-rnaseq-denovo-annotation-flow	0.1.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-denovo-annotation-flow
-rnaseq-index-flow	0.1.0-r1	reference:flow wrapper	https://github.com/taffish/rnaseq-index-flow
+rnaseq-report-flow	0.3.0-r2	taffish flow	https://github.com/taffish/rnaseq-report-flow
+flow-report-template	0.1.0	repos/apps/templates/flow-report	.
+rnaseq-standard-flow	0.3.0-r1	standard:taffish flow	https://github.com/taffish/rnaseq-standard-flow
+taf-rnaseq-index-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-index-flow
+taf-rnaseq-expression-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-expression-flow
+taf-rnaseq-alignment-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-alignment-flow
+taf-rnaseq-alignment-qc-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-alignment-qc-flow
+taf-rnaseq-count-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-count-flow
+taf-rnaseq-de-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-de-flow
+taf-rnaseq-enrichment-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-enrichment-flow
+taf-rnaseq-report-flow	0.3.0-r2	standard:taffish dependency	https://github.com/taffish/rnaseq-report-flow
+taf-rnaseq-denovo-assembly-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-denovo-assembly-flow
+taf-rnaseq-denovo-expression-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-denovo-expression-flow
+taf-rnaseq-denovo-annotation-flow	0.2.0-r1	standard:taffish dependency	https://github.com/taffish/rnaseq-denovo-annotation-flow
+rnaseq-index-flow	0.2.0-r1	reference:flow wrapper	https://github.com/taffish/rnaseq-index-flow
 taf-gffread	0.12.9-r1	reference:annotation conversion and transcript FASTA extraction	https://github.com/gpertea/gffread
 taf-agat	1.7.0-r1	reference:annotation normalization	https://github.com/NBISweden/AGAT
 taf-salmon	1.11.4-r1	reference:Salmon transcriptome index	https://github.com/COMBINE-lab/salmon
 taf-kallisto	0.52.0-r1	reference:optional Kallisto transcriptome index	https://github.com/pachterlab/kallisto
 taf-hisat2	2.2.2-r2	reference:optional HISAT2 genome index	https://github.com/DaehwanKimLab/hisat2
-rnaseq-expression-flow	0.1.0-r1	expression:taffish flow	https://github.com/taffish/rnaseq-expression-flow
+rnaseq-expression-flow	0.2.0-r1	expression:taffish flow	https://github.com/taffish/rnaseq-expression-flow
 taf-fastqc	0.12.1-r1	expression:taffish dependency	https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 taf-fastp	1.3.3-r3	expression:taffish dependency	https://github.com/OpenGene/fastp
 taf-multiqc	1.35-r2	expression:taffish dependency	https://github.com/MultiQC/MultiQC
 taf-bioconductor-rnaseq	3.23-r1	expression:taffish dependency	https://bioconductor.org/packages/DESeq2/
-rnaseq-alignment-flow	0.1.0-r1	alignment:taffish flow	https://github.com/taffish/rnaseq-alignment-flow
+rnaseq-alignment-flow	0.2.0-r1	alignment:taffish flow	https://github.com/taffish/rnaseq-alignment-flow
 taf-samtools	1.23.1-r1	alignment:taffish dependency	https://github.com/samtools/samtools
-rnaseq-count-flow	0.1.0-r1	count:taffish flow	https://github.com/taffish/rnaseq-count-flow
+rnaseq-count-flow	0.2.0-r1	count:taffish flow	https://github.com/taffish/rnaseq-count-flow
 taf-subread	2.1.1-r2	count:taffish dependency	https://subread.sourceforge.net/
-rnaseq-alignment-qc-flow	0.1.0-r1	alignment_qc:taffish flow	https://github.com/taffish/rnaseq-alignment-qc-flow
+rnaseq-alignment-qc-flow	0.2.0-r1	alignment_qc:taffish flow	https://github.com/taffish/rnaseq-alignment-qc-flow
 taf-rseqc	5.0.4-r2	alignment_qc:taffish dependency	https://rseqc.sourceforge.net/
 taf-qualimap	2.3-r1	alignment_qc:taffish dependency	http://qualimap.conesalab.org/
-rnaseq-de-flow	0.1.0-r2	de:taffish flow	https://github.com/taffish/rnaseq-de-flow
-rnaseq-enrichment-flow	0.1.0-r3	enrichment:taffish flow	https://github.com/taffish/rnaseq-enrichment-flow
+rnaseq-de-flow	0.2.0-r1	de:taffish flow	https://github.com/taffish/rnaseq-de-flow
+rnaseq-enrichment-flow	0.2.0-r1	enrichment:taffish flow	https://github.com/taffish/rnaseq-enrichment-flow
 taf-enrichment-r	0.1.0-r1	enrichment:taffish dependency	https://github.com/taffish/enrichment-r

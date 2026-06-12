@@ -50,12 +50,12 @@ KO_01	treated	A</code></pre>
       <section id="denovo" class="article">
         <h2 data-lang="en">De novo protein database and GO map</h2>
         <h2 data-lang="zh">无参蛋白数据库和 GO 映射</h2>
-        <p data-lang="en">De novo analysis does not receive known gene models from a genome annotation. Functional interpretation therefore depends on homology resources selected by the analyst. <code>--protein-db</code> should be a local protein FASTA. <code>--go-map</code> is a two-column or tabular mapping from protein IDs to GO IDs, used to build transcript-space GMT and background files after best-hit annotation.</p>
-        <p data-lang="zh">无参分析没有来自基因组注释的已知 gene model，因此功能解释依赖分析者选择的同源资源。<code>--protein-db</code> 应是本地蛋白 FASTA。<code>--go-map</code> 是 protein ID 到 GO ID 的两列或表格映射，用于在 best-hit 注释之后构建转录本空间 GMT 和 background。</p>
+        <p data-lang="en">De novo analysis does not receive known gene models from a genome annotation. Functional interpretation therefore depends on homology resources selected by the analyst. <code>--protein-db</code> should be a local protein FASTA. <code>--go-map</code> is a tabular mapping from protein subject IDs to GO IDs, used to build transcript-space GMT and background files after best-hit annotation.</p>
+        <p data-lang="zh">无参分析没有来自基因组注释的已知 gene model，因此功能解释依赖分析者选择的同源资源。<code>--protein-db</code> 应是本地蛋白 FASTA。<code>--go-map</code> 是 protein subject ID 到 GO ID 的表格映射，用于在 best-hit 注释之后构建转录本空间 GMT 和 background。</p>
         <div class="mini-code-grid">
           <div><h3 data-lang="en">Protein FASTA</h3><h3 data-lang="zh">蛋白 FASTA</h3><pre class="code-block"><code>&gt;P12345
 MSTNPKPQRKTKRNTNRRPQDVKFPGGGQIVGGVYLLPR...</code></pre></div>
-          <div><h3 data-lang="en">GO map</h3><h3 data-lang="zh">GO 映射</h3><pre class="code-block"><code>protein_id	go_id
+          <div><h3 data-lang="en">GO map</h3><h3 data-lang="zh">GO 映射</h3><pre class="code-block"><code>subject_id	go_id
 P12345	GO:0006412
 P12345	GO:0005737</code></pre></div>
         </div>

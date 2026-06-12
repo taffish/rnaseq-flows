@@ -1,19 +1,24 @@
 metric	value
-project_name	RNA-seq project
+project_name	Yeast SNF2 RNA-seq reference standard
 flow	rnaseq-report-flow
-version	0.2.0-r2
-started_at	2026-05-30T18:54:18Z
-finished_at	2026-05-30T18:54:20Z
+version	0.3.0-r2
+started_at	2026-06-12T14:28:21Z
+finished_at	2026-06-12T14:28:29Z
 analysis_mode	reference
-standard_out	/home/kyhan/test/rna-seq/yeast-standard-out
+standard_out	TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out
+standard_report_package	no
 denovo_present	no
 denovo_assembly_out	.
 denovo_expression_out	.
 denovo_annotation_out	.
 provided_modules	8
-collected_files	136
+collected_files	137
 collected_tables	56
 collected_plots	28
-collected_html_reports	52
+collected_html_reports	53
+embedded_html_reports	53
+embedded_tables	56
+report_template	taffish-flow-report
+report_template_version	0.1.0
 plot_groups	14
-html_report_links	52
+html_report_links	53

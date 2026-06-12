@@ -1,15 +1,15 @@
 {
   "flow": "rnaseq-alignment-flow",
-  "version": "0.1.0-r1",
-  "started_at": "2026-05-30T18:42:53Z",
-  "finished_at": "2026-05-30T18:46:57Z",
+  "version": "0.2.0-r1",
+  "started_at": "2026-06-12T14:19:00Z",
+  "finished_at": "2026-06-12T14:21:56Z",
   "inputs": {
-    "samples": "/home/kyhan/test/rna-seq/yeast-snf2-data-v1/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
-    "index": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/reference/03_results/hisat2_index/genome"
+    "samples": "TAFFISH_RNASEQ_EXAMPLE_ROOT/test-data/yeast/data/03_results/yeast-snf2-fastq-mini-v1/samples.tsv",
+    "index": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/reference/03_results/hisat2_index/genome"
   },
   "parameters": {
     "aligner": "hisat2",
-    "threads": 64,
+    "threads": 32,
     "trim": false,
     "rna_strandness": "none",
     "min_mapq": 0,
@@ -23,14 +23,14 @@
   },
   "counts": {
     "sample_count": 24,
-    "total_reads": 13851577,
-    "mapped_reads": 13467386,
+    "total_reads": 13850978,
+    "mapped_reads": 13466999,
     "mapped_percent": 97.23
   },
   "outputs": {
-    "bam_files": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/bam_files.tsv",
-    "alignment_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/03_results/alignment_summary.tsv",
-    "multiqc_report": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/multiqc_report.html",
-    "flow_summary": "/home/kyhan/test/rna-seq/yeast-standard-out/03_results/alignment/04_reports/flow_summary.tsv"
+    "bam_files": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/04_reports/bam_files.tsv",
+    "alignment_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/03_results/alignment_summary.tsv",
+    "multiqc_report": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/04_reports/multiqc_report.html",
+    "flow_summary": "TAFFISH_RNASEQ_EXAMPLE_ROOT/rnaseq-standard-flow/tests/test-real-reference-out/03_results/alignment/04_reports/flow_summary.tsv"
   }
 }

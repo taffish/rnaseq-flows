@@ -1,11 +1,11 @@
 metric	value
 app	enrichment-r
 version	0.1.0
-gene_sets_total	5705
-gene_list_count	571
-ranked_gene_count	8505
-background_count	8522
+gene_sets_total	5697
+gene_list_count	573
+ranked_gene_count	8523
+background_count	8538
 background_source	background.tsv
-ora_result_count	1427
-gsea_result_count	4369
+ora_result_count	1422
+gsea_result_count	4363
 plot_source	ora

@@ -28,6 +28,8 @@
       <h1 data-lang="zh">单独使用或串联使用每个 RNA-seq 流程</h1>
       <p data-lang="en">These manuals explain how each flow is used, how its inputs are prepared, which parameters matter, and how its outputs connect to the next flow. Reference and de novo routes are documented side by side.</p>
       <p data-lang="zh">这些手册说明每个流程如何使用、输入如何准备、关键参数如何选择，以及输出如何接到下一个流程。有参和无参路线并列维护。</p>
+      <p data-lang="en">The current flow family uses <code>0.2.0-r1</code> subflows, <code>rnaseq-standard-flow 0.3.0-r1</code>, and <code>rnaseq-report-flow 0.3.0-r2</code>. Normal users can keep the documented top-level parameters; expert users can pass native tool options through advanced <code>@step-name: ... @:</code> slots, and the final report is a standalone HTML file with embedded plots, tables, and QC/report child-page payloads.</p>
+      <p data-lang="zh">当前流程家族使用 <code>0.2.0-r1</code> 子流程、<code>rnaseq-standard-flow 0.3.0-r1</code> 和 <code>rnaseq-report-flow 0.3.0-r2</code>。普通用户只需要使用文档化的顶层参数；高级用户可以通过 <code>@step-name: ... @:</code> 槽位传递底层工具原生参数；最终报告是 standalone HTML，内嵌图、表和 QC/报告子页面 payload。</p>
     </div>
     <div class="manual-grid">
       <article class="manual-card"><h3><a href="rnaseq-standard-flow.html">rnaseq-standard-flow</a></h3><p data-lang="en">End-to-end umbrella route for reference or explicit de novo mode.</p><p data-lang="zh">有参或显式无参模式的一站式总流程。</p></article>
